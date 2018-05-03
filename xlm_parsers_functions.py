@@ -2,11 +2,11 @@ import xml.etree.ElementTree as ET # ElementTree Library
 
 def listEntitiesFromXML(file_root_xml):
 
-	''' (xml.root.file) -> list of str
+	''' (xml.root.file) -> list of list of str
 
 	Documentation
-
-	...
+    
+	Given an XML file root file_root_xml, this function returns a list of list of str with all the different entities inside the XML file.
 
 	Test Examples
 	...
