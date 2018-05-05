@@ -1,0 +1,5 @@
+ranitidine	drug
+cisapride	drug
+cisapride	drug
+Cimetidine	drug
+H2 Receptor Antagonists	group

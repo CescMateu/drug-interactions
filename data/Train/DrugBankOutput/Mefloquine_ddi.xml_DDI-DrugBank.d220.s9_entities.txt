@@ -1,0 +1,8 @@
+Mefloquine	drug
+anti-arrhythmic	drug
+beta-adrenergic blocking agents	group
+calcium channel blockers	group
+antihistamines	group
+H1-blocking agents	group
+tricyclic antidepressants	group
+phenothiazines	group

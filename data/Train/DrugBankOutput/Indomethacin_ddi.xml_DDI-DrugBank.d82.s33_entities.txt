@@ -1,0 +1,3 @@
+non-steroidal antiinflammatory drugs	group
+beta-adrenoceptor blocking agents	group
+INDOCIN	brand

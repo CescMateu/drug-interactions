@@ -1,0 +1,3 @@
+hydantoin	group
+sulfonamide	group
+sulfonylurea	group

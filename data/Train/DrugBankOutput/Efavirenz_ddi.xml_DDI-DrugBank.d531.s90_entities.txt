@@ -1,0 +1,12 @@
+cetirizine	drug
+famotidine	drug
+fluconazole	drug
+lamivudine	drug
+SUSTIVA	brand
+efavirenz	drug
+aluminum/magnesium hydroxide antacids	group
+azithromycin	drug
+lorazepam	drug
+nelfinavir	drug
+paroxetine	drug
+zidovudine	drug

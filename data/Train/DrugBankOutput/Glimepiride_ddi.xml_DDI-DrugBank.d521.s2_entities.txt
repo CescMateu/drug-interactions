@@ -1,0 +1,25 @@
+etodolac	drug
+Cataflam	brand
+Voltaren	brand
+diclofenac	drug
+nabumetone	drug
+Indocin	brand
+indomethacin	drug
+Lodine	brand
+oxaprozin	drug
+Relafen	brand
+Oruvail	brand
+Orudis KT	brand
+Orudis	brand
+ketoprofen	drug
+Nuprin	brand
+Advil	brand
+Motrin	brand
+ibuprofen	drug
+NSAID	group
+nonsteroidal anti-inflammatory drug	group
+Aleve	brand
+Anaprox	brand
+Naprosyn	brand
+Daypro	brand
+naproxen	drug

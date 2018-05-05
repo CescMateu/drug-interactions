@@ -1,0 +1,2 @@
+cloxacillin	drug
+probenecid	drug

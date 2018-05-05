@@ -1,0 +1,3 @@
+fluvoxamine	drug
+tolbutamide	drug
+fluvoxamine	drug

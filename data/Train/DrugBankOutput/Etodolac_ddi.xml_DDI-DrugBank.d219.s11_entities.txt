@@ -1,0 +1,3 @@
+Lodine	brand
+furosemide	drug
+thiazides	group

@@ -1,0 +1,2 @@
+arsenate	drug_n
+As(V)	drug_n

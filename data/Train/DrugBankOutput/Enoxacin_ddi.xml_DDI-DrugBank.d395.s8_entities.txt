@@ -1,0 +1,5 @@
+digoxin	drug
+digoxin	drug
+digoxin	drug
+digoxin	drug
+enoxacin	drug

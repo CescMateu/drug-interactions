@@ -1,0 +1,3 @@
+zaleplon	drug
+Sonata	brand
+paroxetine	drug

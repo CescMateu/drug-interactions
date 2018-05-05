@@ -1,0 +1,2 @@
+alprazolam	drug
+contraceptives	group

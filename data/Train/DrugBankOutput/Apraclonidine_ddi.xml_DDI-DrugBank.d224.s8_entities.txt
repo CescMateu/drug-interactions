@@ -1,0 +1,4 @@
+cardiac glycosides	group
+antihypertensives	group
+beta-blockers	group
+apraclonidine	drug

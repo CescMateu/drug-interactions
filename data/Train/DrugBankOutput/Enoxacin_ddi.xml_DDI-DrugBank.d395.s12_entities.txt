@@ -1,0 +1,3 @@
+Quinolones	group
+Sucralfate	drug
+antacids	group

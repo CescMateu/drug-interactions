@@ -1,0 +1,5 @@
+leflunomide	drug
+activated charcoal	drug
+cholestyramine	drug
+Charcoal	drug
+Cholestyramine	drug

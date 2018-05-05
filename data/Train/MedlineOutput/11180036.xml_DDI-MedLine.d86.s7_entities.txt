@@ -1,0 +1,5 @@
+diltiazem	drug
+desmethyldiltiazem	drug_n
+sirolimus	drug
+diltiazem	drug
+desacetyldiltiazem	drug_n

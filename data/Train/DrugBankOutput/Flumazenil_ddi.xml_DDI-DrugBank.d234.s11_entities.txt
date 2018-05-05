@@ -1,0 +1,4 @@
+diazepam	drug
+long-acting benzodiazepines	group
+midazolam	drug
+short-acting benzodiazepines	group

@@ -1,0 +1,5 @@
+hypoglycemic agents	group
+ketoconazole	drug
+miconazole	drug
+imidazole	group
+imidazole	group

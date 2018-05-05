@@ -1,0 +1,13 @@
+sedatives	group
+benzodiazepines	group
+anesthetics	group
+phenothiazines	group
+skeletal muscle relaxants	group
+opioids	group
+alcohol	drug
+hypnotics	group
+tranquilizers	group
+Central Nervous System Depressants	group
+DURAGESIC	brand
+fentanyl	drug
+central nervous system depressants	group

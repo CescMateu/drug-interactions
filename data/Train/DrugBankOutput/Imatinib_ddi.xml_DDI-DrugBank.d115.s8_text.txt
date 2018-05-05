@@ -1,0 +1,1 @@
+Drugs that may have their plasma concentration altered by Gleevec Gleevec increases the mean cmax and AUC of simvastatin (CYP3A4 substrate) 2- and 3.5-fold, respectively, suggesting an inhibition of the CYP3A4 by Gleevec.

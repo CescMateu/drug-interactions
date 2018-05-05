@@ -1,0 +1,4 @@
+fexofenadine hydrochloride	drug
+ketoconazole	drug
+erythromycin	drug
+fexofenadine	drug

@@ -1,0 +1,10 @@
+quinidine	drug
+antihistamines	group
+tricyclic antidepressants	group
+antiarrhythmics	group
+phenothiazines	group
+antipsychotics	group
+narcotic analgesics	group
+meperidine	drug
+anticholinergic	group
+AKINETON	brand

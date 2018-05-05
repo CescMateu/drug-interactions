@@ -1,0 +1,10 @@
+potassium sparing diuretics	group
+thiazide diuretics	group
+ACE inhibitors	group
+anticoagulants	group
+calcium channel blockers	group
+beta blockers	group
+cardiac glycosides	group
+nitrates	group
+sulphonylureas	group
+loop diuretics	group

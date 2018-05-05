@@ -1,0 +1,5 @@
+lomefloxacin	drug
+ofloxacin	drug
+enoxacin	drug
+norfloxacin	drug
+ciprofloxacin	drug

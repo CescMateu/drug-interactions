@@ -1,0 +1,2 @@
+ethacrynic acid	drug
+warfarin	drug

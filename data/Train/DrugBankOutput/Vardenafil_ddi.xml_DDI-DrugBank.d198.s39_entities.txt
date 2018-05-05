@@ -1,0 +1,3 @@
+Vardenafil	drug
+alcohol	drug
+alcohol	drug

@@ -1,0 +1,4 @@
+NaFlu	drug
+NaCMC	drug_n
+cysteine	drug
+NaCMC	drug_n

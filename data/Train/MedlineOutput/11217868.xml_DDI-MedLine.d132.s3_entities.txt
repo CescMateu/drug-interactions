@@ -1,0 +1,3 @@
+nevirapine	drug
+efavirenz	drug
+delavirdine	drug

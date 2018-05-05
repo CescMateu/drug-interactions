@@ -1,0 +1,2 @@
+chloral hydrate	drug
+methaqualone	drug

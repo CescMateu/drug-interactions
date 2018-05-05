@@ -1,0 +1,3 @@
+dopamine antagonists	group
+Factrel	brand
+phenothiazines	group

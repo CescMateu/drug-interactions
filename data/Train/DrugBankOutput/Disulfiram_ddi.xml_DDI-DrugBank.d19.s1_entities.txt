@@ -1,0 +1,2 @@
+PHENYTOIN	drug
+DISULFIRAM	drug

@@ -1,0 +1,10 @@
+azoles	group
+salicylates	group
+sulfonylureas	group
+nonsteroidal anti-inflammatory agents	group
+probenecid	drug
+coumarins	group
+sulfonamides	group
+chloramphenicol	drug
+monoamine oxidase inhibitors	group
+beta adrenergic blocking agents	group

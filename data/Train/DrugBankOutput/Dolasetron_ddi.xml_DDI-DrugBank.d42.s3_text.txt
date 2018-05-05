@@ -1,0 +1,1 @@
+As with other agents which prolong ECG intervals, caution should be exercised in patients taking drugs which prolong ECG intervals, particularly QTc.

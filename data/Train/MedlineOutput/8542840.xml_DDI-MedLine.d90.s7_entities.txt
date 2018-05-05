@@ -1,0 +1,3 @@
+gentamycin	drug
+atracurium	drug
+atracurium	drug

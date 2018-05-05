@@ -1,0 +1,3 @@
+Warfarin	drug
+Starlix	brand
+warfarin	drug

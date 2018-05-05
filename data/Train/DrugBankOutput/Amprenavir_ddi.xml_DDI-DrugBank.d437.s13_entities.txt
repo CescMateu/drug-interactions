@@ -1,0 +1,2 @@
+Amprenavir	drug
+ritonavir	drug

@@ -1,0 +1,3 @@
+ciprofloxacin	drug
+ciprofloxacin	drug
+didanosine	drug

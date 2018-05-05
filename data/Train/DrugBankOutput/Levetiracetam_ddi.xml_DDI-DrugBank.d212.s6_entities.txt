@@ -1,0 +1,6 @@
+Keppra	brand
+phenytoin	drug
+AEDs	group
+Phenytoin	drug
+Keppra	brand
+Antiepileptic Drugs	group

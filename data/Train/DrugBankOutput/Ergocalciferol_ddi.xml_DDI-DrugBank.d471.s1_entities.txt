@@ -1,0 +1,2 @@
+thiazide diuretics	group
+ergocalciferol	drug

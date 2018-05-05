@@ -1,0 +1,2 @@
+PRINIVIL	brand
+diuretic	group

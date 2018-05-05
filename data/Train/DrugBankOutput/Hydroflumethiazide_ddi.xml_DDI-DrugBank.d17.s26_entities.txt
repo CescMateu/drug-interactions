@@ -1,0 +1,3 @@
+nonsteroidal anti-inflammatory agents	group
+hydroflumethiazide	drug
+diuretic	group

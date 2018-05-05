@@ -1,0 +1,12 @@
+tetracyclines	group
+thiazides	group
+coal tar derivatives	drug_n
+griseofulvin	drug
+anthralin	drug
+coal tar	drug_n
+halogenated salicylanilides	group
+sulfonamides	drug
+phenothiazines	group
+nalidixic acid	drug
+methylene blue	drug_n
+toluidine blue	drug_n

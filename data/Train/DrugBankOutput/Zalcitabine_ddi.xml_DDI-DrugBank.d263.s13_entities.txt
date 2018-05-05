@@ -1,0 +1,16 @@
+vincristine	drug
+ribavirin	drug
+phenytoin	drug
+nitrofurantoin	drug
+metronidazole	drug
+isoniazid	drug
+iodoquinol	drug
+hydralazine	drug
+dapsone	drug
+cisplatin	drug
+chloramphenicol	drug
+antiretroviral nucleoside analogues	drug
+gold	drug
+glutethimide	drug
+ethionamide	drug
+disulfiram	drug

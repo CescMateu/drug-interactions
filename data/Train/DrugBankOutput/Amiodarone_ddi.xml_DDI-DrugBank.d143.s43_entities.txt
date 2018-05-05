@@ -1,0 +1,6 @@
+warfarin	drug
+Anticoagulants	drug
+CYP3A4	drug
+CYP2C9	drug
+amiodarone	drug
+anticoagulant	drug

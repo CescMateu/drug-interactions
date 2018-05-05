@@ -1,0 +1,12 @@
+coronary vasodilators	group
+hypnotics	group
+sedatives	group
+cardiac glycosides	group
+antigout drugs	group
+antihyperlipidemics	group
+NSAIDs	group
+hypoglycemics	group
+bronchodilators	group
+contraceptives	group
+insulin	drug
+beta blockers	group

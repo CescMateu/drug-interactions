@@ -1,0 +1,7 @@
+antipsychotics	group
+narcotic analgesics	group
+CNS depressants	group
+antianxiety agents	group
+hydrocodone	drug
+alcohol	drug
+acetaminophen	drug

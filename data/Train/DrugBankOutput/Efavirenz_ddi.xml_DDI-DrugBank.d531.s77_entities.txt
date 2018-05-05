@@ -1,0 +1,3 @@
+Ketoconazole	drug
+Itraconazole	drug
+Antifungals	group

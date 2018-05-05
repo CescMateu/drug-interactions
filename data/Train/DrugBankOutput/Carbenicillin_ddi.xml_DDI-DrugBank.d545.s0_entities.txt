@@ -1,0 +1,3 @@
+probenecid	drug
+carbenicillin indanyl sodium	drug
+Geocillin	brand

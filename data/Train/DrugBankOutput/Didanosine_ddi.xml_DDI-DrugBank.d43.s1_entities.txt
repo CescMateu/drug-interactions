@@ -1,0 +1,2 @@
+stavudine	drug
+VIDEX	brand

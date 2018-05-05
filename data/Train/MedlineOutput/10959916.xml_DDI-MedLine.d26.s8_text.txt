@@ -1,0 +1,1 @@
+Although the proposed methodology for deriving experimental designs can be applied to any nonlinear regression model, primary focus is given to the additive and nonadditive independent joint action (IJA) models for individual and combined exposures proposed by Barton, Braunberg, and Friedman (1).

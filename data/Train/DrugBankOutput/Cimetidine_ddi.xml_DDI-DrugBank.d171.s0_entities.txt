@@ -1,0 +1,11 @@
+diazepam	drug
+tricyclic antidepressants	group
+nifedipine	drug
+chlordiazepoxide	drug
+phenytoin	drug
+propranolol	drug
+Tagamet	brand
+warfarin-type anticoagulants	group
+lidocaine	drug
+theophylline	drug
+metronidazole	drug

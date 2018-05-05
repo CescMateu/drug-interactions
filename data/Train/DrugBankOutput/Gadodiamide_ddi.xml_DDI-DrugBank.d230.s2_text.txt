@@ -1,0 +1,1 @@
+Omniscan interferes with serum calcium measurements with some colorimetric (complexometric) methods commonly used in hospitals, resulting in serum calcium concentrations lower than the true values.

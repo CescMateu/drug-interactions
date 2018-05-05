@@ -1,0 +1,15 @@
+sodium colistimethate	drug
+colistin	drug
+tetracyclines	group
+aminoglycosides	group
+antibiotics	group
+NUROMAX	brand
+clindamycin	drug
+lincomycin	drug
+polymyxins	group
+bacitracin	group
+quinidine	drug
+procainamide	drug
+anesthetics	group
+lithium	drug
+magnesium	drug

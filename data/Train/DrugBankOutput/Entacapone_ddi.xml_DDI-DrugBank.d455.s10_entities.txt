@@ -1,0 +1,6 @@
+chloramphenicol	drug
+ampicillin	drug
+cholestyramine	drug
+probenecid	drug
+erythromycin	drug
+antibiotics	group

@@ -1,0 +1,9 @@
+DILAUDID	brand
+phenothiazines	group
+tranquilizers	group
+narcotic analgesic	group
+anesthetics	group
+CNS depressants	group
+alcohol	drug
+sedative-hypnotics	group
+tricyclic antidepressants	group

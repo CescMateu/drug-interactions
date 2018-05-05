@@ -1,0 +1,2 @@
+Imipramine hydrochloride	drug
+CNS depressant drugs	group

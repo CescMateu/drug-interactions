@@ -1,0 +1,4 @@
+verapamil	drug
+TAMBOCOR	brand
+TAMBOCOR	brand
+disopyramide	drug

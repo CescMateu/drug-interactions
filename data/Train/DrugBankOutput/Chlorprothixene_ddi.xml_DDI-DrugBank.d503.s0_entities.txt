@@ -1,0 +1,2 @@
+lithium	drug
+Chlorprothixene	drug

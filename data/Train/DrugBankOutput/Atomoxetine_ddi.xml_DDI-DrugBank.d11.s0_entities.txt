@@ -1,0 +1,5 @@
+albuterol	drug
+Albuterol	drug
+STRATTERA	brand
+albuterol	drug
+beta2 agonists	group

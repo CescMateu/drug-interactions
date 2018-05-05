@@ -1,0 +1,4 @@
+cholestyramine	drug
+colestipol	drug
+sucralfate	drug
+mineral oil	drug

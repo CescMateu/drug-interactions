@@ -1,0 +1,3 @@
+6-beta-naltrexol	drug_n
+naltrexone	drug
+Acamprosate	drug

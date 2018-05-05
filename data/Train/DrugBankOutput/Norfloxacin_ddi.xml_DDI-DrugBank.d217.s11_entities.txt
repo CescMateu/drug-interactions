@@ -1,0 +1,7 @@
+zinc	drug
+antacids	group
+Multivitamins	group
+iron	drug
+norfloxacin	drug
+sucralfate	drug
+norfloxacin	drug

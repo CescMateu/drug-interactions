@@ -1,0 +1,2 @@
+interferon-alfa	drug
+PROLEUKIN	brand

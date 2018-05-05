@@ -1,0 +1,4 @@
+Bepridil	drug
+Hypoglycemics	group
+hypoglycemic agents	group
+insulin	drug

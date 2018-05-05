@@ -1,0 +1,3 @@
+ganciclovir	drug
+VIDEX	brand
+ganciclovir	drug

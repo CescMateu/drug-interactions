@@ -1,0 +1,4 @@
+clozapine	drug
+N-desmethylclozapine	drug_n
+clozapine N-oxide	drug_n
+fluvoxamine	drug

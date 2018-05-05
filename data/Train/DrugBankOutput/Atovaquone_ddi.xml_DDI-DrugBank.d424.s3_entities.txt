@@ -1,0 +1,4 @@
+Rifampin	drug
+rifampin	drug
+MEPRON	brand
+atovaquone	drug

@@ -1,0 +1,3 @@
+Diltiazem	drug
+lovastatin	drug
+pravastatin	drug

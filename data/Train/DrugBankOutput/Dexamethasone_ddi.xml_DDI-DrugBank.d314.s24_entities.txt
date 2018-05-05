@@ -1,0 +1,5 @@
+corticosteroids	group
+Nonsteroidal anti-inflammatory agents	group
+NSAIDS	group
+aspirin	brand
+nonsteroidal antiinflammatory agents	group

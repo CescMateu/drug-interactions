@@ -1,0 +1,5 @@
+ketoconazole	drug
+azole antifungal	group
+astemizole	drug
+astemizole	drug
+desmethylastermizole	drug_n

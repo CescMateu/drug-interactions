@@ -1,0 +1,4 @@
+theophylline	drug
+lomefloxacin	drug
+theophylline	drug
+theophylline	drug

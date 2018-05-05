@@ -1,0 +1,2 @@
+resveratrol	drug_n
+resveratrol	drug_n

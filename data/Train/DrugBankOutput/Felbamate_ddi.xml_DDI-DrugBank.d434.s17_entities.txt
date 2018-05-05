@@ -1,0 +1,4 @@
+Felbatol	brand
+Carbamazepine	drug
+carbamazepine epoxide	drug_n
+carbamazepine	drug

@@ -1,0 +1,3 @@
+hypoglycemic agents	group
+Hypoglycemics	group
+Diclofenac	drug

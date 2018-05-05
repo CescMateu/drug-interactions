@@ -1,0 +1,2 @@
+verapamil	drug
+Verapamil	drug

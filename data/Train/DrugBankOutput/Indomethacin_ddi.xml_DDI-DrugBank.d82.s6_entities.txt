@@ -1,0 +1,2 @@
+INDOCIN	brand
+anticoagulant	group

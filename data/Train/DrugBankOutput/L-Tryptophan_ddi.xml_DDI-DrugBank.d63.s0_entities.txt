@@ -1,0 +1,12 @@
+phenelzine	drug
+Marplan	brand
+isocarboxazid	drug
+Monoamine oxidase (MAO) inhibitors	group
+selegiline	drug
+Matulane	brand
+procarbazine	drug
+Nardil	brand
+tranylcypromine	drug
+Eldepryl	brand
+L-tryptophan	drug
+Parnate	brand

@@ -1,0 +1,2 @@
+heroin	drug_n
+Cocaine	drug

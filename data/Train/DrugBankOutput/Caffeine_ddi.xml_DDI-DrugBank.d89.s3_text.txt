@@ -1,0 +1,1 @@
+Based on adult data, lower doses of caffeine may be needed following coadministration of drugs which are reported to decrease caffeine elimination (e.g., cimetidine and ketoconazole) and higher caffeine doses may be needed following coadministration of drugs that increase caffeine elimination (e.g., phenobarbital and phenytoin).

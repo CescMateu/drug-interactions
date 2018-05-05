@@ -1,0 +1,3 @@
+MAOI	group
+serotonin reuptake inhibitor drug	group
+monoamine oxidase inhibitors	group

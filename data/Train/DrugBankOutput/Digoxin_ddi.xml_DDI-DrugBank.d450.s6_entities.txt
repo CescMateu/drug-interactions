@@ -1,0 +1,7 @@
+sulfasalazine	drug
+neomycin	drug
+Antacids	group
+kaolin	drug
+digoxin	drug
+cholestyramine	drug
+metoclopramide	drug

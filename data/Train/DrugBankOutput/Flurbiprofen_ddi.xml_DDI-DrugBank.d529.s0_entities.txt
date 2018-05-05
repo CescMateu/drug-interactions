@@ -1,0 +1,4 @@
+flurbiprofen	drug
+Antacids	group
+flurbiprofen	drug
+antacid	group

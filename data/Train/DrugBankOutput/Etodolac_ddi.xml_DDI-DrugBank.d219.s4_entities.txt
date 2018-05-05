@@ -1,0 +1,4 @@
+etodolac	drug
+aspirin	brand
+Lodine	brand
+Aspirin	brand

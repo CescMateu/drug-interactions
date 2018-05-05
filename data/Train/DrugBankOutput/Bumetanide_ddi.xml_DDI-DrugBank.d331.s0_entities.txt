@@ -1,0 +1,2 @@
+bumetanide	drug
+aminoglycoside antibiotics	group

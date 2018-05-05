@@ -1,0 +1,2 @@
+NRTIs	group
+efavirenz	drug

@@ -1,0 +1,7 @@
+gabapentin	drug
+phenytoin	drug
+phenytoin	drug
+gabapentin	drug
+phenytoin	drug
+Neurontin	brand
+Phenytoin	drug

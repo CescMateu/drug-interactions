@@ -1,0 +1,8 @@
+sedative-hypnotics	group
+tranquilizers	group
+alcohol	drug
+CNS depressants	group
+narcotic analgesics	group
+Codeine	drug
+phenothiazines	group
+anesthetics	group

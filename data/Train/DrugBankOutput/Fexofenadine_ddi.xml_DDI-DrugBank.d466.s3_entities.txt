@@ -1,0 +1,3 @@
+ketoconazole	drug
+fexofenadine hydrochloride	drug
+erythromycin	drug

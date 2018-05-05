@@ -1,0 +1,2 @@
+ciclesonide	drug
+ketoconazole	drug

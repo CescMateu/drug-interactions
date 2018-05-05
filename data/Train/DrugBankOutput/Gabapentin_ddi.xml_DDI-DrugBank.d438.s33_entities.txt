@@ -1,0 +1,6 @@
+norethindrone acetate	drug
+ethinyl estradiol	drug
+norethindrone	drug
+Contraceptive	group
+gabapentin	drug
+ethinyl estradiol	drug

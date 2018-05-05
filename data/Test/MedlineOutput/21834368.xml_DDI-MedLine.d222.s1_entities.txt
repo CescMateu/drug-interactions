@@ -1,0 +1,2 @@
+Chantix	brand
+Varenicline	drug

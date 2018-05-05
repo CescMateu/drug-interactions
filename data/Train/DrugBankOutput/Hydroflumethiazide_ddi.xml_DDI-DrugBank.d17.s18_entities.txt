@@ -1,0 +1,2 @@
+hypoglycemic medications	group
+thiazide diuretic	group

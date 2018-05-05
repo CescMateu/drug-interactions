@@ -1,0 +1,4 @@
+lithium	drug
+lithium	drug
+ATACAND	brand
+lithium	drug

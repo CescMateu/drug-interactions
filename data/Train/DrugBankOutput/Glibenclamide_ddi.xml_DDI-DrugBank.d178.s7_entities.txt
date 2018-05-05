@@ -1,0 +1,4 @@
+fluoroquinolone antibiotic	group
+glyburide	drug
+glyburide	drug
+ciprofloxacin	drug

@@ -1,0 +1,2 @@
+beta2-agonist	group
+salbutamol	drug

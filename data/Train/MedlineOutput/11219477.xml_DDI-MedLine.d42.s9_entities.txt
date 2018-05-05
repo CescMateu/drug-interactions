@@ -1,0 +1,2 @@
+nitrate	group
+sildenafil	drug

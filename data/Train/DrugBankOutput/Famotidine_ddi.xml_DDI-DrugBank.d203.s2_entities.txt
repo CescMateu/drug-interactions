@@ -1,0 +1,6 @@
+warfarin	drug
+theophylline	drug
+phenytoin	drug
+diazepam	drug
+aminopyrine	drug
+antipyrine	drug

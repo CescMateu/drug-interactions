@@ -1,0 +1,4 @@
+Doxazosin mesylate	drug
+thiazide diuretics	group
+beta-blocking agent	group
+nonsteroidal anti-inflammatory drugs	group

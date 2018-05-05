@@ -1,0 +1,5 @@
+dehydro-aripiprazole	drug_n
+Carbamazepine	drug
+carbamazepine	drug
+aripiprazole	drug
+aripiprazole	drug

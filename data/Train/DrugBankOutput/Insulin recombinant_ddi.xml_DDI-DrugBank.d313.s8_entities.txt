@@ -1,0 +1,3 @@
+NovoLog	brand
+NPH human insulin	drug
+NovoLog	brand

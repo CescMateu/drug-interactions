@@ -1,0 +1,4 @@
+lithium	drug
+lithium	drug
+Valdecoxib	drug
+Lithium	drug

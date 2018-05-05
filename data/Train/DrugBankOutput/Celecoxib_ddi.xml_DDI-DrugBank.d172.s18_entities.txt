@@ -1,0 +1,2 @@
+fluconazole	drug
+CELEBREX	brand

@@ -1,0 +1,2 @@
+miconazole	drug
+hypoglycemic agents	group

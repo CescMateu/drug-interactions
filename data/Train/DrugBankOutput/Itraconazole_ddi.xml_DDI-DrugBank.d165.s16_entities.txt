@@ -1,0 +1,4 @@
+Itraconazole	drug
+digoxin	drug
+tacrolimus	drug
+Cyclosporine	drug

@@ -1,0 +1,4 @@
+Ephedrine	drug
+Ephedrine	drug
+corticosteroid	group
+corticosteroids	group

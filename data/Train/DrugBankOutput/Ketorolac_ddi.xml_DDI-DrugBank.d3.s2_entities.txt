@@ -1,0 +1,2 @@
+Ketorolac	drug
+digoxin	drug

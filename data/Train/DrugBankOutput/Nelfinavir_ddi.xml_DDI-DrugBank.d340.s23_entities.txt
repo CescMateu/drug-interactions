@@ -1,0 +1,2 @@
+ketoconazole	drug
+VIRACEPT	brand

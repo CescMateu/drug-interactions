@@ -1,0 +1,2 @@
+aminoglycosidic antibiotics	group
+aminoglycosides	group

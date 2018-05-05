@@ -1,0 +1,1 @@
+- Changes in TBg concentration should be taken into consideration in the interpretation of T4 and T3 values.

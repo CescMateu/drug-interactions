@@ -1,0 +1,5 @@
+tricyclic antidepressants	group
+anticholinergics	group
+Robinul	brand
+antiparkinson drugs	group
+phenothiazines	group

@@ -1,0 +1,3 @@
+somatostatin	drug
+glucose	drug
+insulin	drug

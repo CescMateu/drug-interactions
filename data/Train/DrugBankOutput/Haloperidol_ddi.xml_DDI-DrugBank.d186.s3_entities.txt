@@ -1,0 +1,6 @@
+HALDOL	brand
+antipsychotic agents	group
+anesthetics	group
+CNS depressants	group
+alcohol	drug
+opiates	group

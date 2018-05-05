@@ -1,0 +1,6 @@
+itraconazole	drug
+ketoconazole	drug
+Antifungals	group
+fluconazole	drug
+cisapride	drug
+cisapride	drug

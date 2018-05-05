@@ -1,0 +1,10 @@
+Saquinavir	drug
+Rifampin	drug
+Fluoxetine	drug
+Fluconazole	drug
+Didanosine	drug
+clarithromycin	drug
+Rifabutin	drug
+carbamazepine	drug
+Phenytoin	drug
+Ketoconazole	drug

@@ -1,0 +1,2 @@
+Mithracin	brand
+Plicamycin	drug

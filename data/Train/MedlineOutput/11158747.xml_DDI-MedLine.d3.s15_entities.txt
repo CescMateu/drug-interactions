@@ -1,0 +1,3 @@
+Amprenavir	drug
+rifampin	drug
+rifabutin	drug

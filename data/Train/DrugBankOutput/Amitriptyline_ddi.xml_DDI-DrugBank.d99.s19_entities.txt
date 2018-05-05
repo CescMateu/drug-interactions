@@ -1,0 +1,3 @@
+anticholinergic	drug
+amitriptyline HCl	drug
+neuroleptic	drug

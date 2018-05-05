@@ -1,0 +1,3 @@
+methadone	drug
+amprenavir	drug
+amprenavir	drug

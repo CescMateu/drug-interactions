@@ -1,0 +1,3 @@
+nonsteroidal anti-inflammatory drugs	group
+Non-steroidal Anti-inflammatory Agents	group
+enalapril	drug

@@ -1,0 +1,6 @@
+clonazepam	drug
+anticholinergic agent	group
+propantheline	drug
+clonazepam	drug
+propantheline	drug
+clonazepam	drug

@@ -1,0 +1,4 @@
+pravastatin	drug
+simvastatin	drug
+lovastatin	drug
+HMGCoA reductase inhibitors	group

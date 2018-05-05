@@ -1,0 +1,7 @@
+thiazide diuretics	group
+sulfonylurea	group
+griseofulvin	drug
+tetracyclines	group
+photosensitizing agents	group
+phenothiazines	group
+sulfonamides	group

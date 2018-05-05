@@ -1,0 +1,1 @@
+Optimal designs for the individual and joint exposure general logistic regression models.&#xa;

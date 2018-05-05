@@ -1,0 +1,3 @@
+itraconazole	drug
+SUSTIVA	brand
+ketoconazole	drug

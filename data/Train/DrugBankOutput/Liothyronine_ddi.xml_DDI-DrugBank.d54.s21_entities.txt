@@ -1,0 +1,4 @@
+Thyroxine	drug
+Vasopressor	group
+norepinephrine	drug
+epinephrine	drug

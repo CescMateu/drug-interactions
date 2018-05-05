@@ -1,0 +1,3 @@
+Fluoxetine	drug
+moclobemide	drug
+glucose	drug

@@ -1,0 +1,5 @@
+warfarin	drug
+propranolol	drug
+theophylline	drug
+antipyrine	drug
+digoxin	drug

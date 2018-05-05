@@ -1,0 +1,6 @@
+barbiturates	group
+fluoxetine	drug
+cimetidine	drug
+imipramine	drug
+imipramine	drug
+phenytoin	drug

@@ -1,0 +1,3 @@
+folic acid antagonists	group
+dapsone	drug
+pyrimethamine	drug

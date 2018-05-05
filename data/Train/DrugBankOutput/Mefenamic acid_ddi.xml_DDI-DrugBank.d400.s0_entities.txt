@@ -1,0 +1,4 @@
+aspirin	brand
+Ponstel	brand
+NSAIDs	group
+Aspirin	brand

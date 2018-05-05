@@ -1,0 +1,3 @@
+pimozide	drug
+cyclosporine	drug
+Gleevec	brand

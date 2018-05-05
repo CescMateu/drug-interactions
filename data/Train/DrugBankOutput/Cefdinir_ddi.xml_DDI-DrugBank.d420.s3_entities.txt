@@ -1,0 +1,4 @@
+antacids	group
+OMNICEF	brand
+OMNICEF	brand
+antacid	group

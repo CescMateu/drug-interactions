@@ -1,0 +1,3 @@
+diltiazem	drug
+Calcium Channel Blockers	group
+COREG	brand

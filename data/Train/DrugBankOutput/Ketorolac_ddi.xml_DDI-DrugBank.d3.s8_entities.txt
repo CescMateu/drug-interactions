@@ -1,0 +1,4 @@
+diuretic	group
+furosemide	drug
+Furosemide	drug
+TORADOL	brand

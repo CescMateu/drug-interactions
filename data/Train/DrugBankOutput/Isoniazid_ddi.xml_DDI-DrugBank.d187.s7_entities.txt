@@ -1,0 +1,7 @@
+isoniazid	drug
+carbamazepine	drug
+anticonvulsant	group
+Carbamazepine	drug
+Isoniazid	drug
+carbamazepine	drug
+Carbamazepine	drug

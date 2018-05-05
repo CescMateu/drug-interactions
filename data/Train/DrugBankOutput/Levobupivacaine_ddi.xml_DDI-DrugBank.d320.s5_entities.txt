@@ -1,0 +1,2 @@
+erythromycin	drug
+macrolide antibiotics	group

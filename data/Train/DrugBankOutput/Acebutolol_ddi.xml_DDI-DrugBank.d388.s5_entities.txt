@@ -1,0 +1,7 @@
+warfarin	drug
+tolbutamide	drug
+contraceptives	group
+sulfinpyrazone	drug
+hydralazine	drug
+hydrochlorothiazide	drug
+digoxin	drug

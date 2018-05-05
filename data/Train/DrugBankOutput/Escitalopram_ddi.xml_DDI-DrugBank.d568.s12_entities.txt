@@ -1,0 +1,4 @@
+lithium	drug
+escitalopram	drug
+LEXAPRO	brand
+lithium	drug

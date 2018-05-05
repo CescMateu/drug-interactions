@@ -1,0 +1,5 @@
+pralidoxime	drug
+atropine	drug
+pralidoxime	drug
+atropine	drug
+atropine	drug

@@ -1,0 +1,4 @@
+Ethanol	drug
+etretinate	drug
+acitretin	drug
+ethanol	drug

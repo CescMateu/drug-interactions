@@ -1,0 +1,3 @@
+quinidine	drug
+quinidine	drug
+Amiodarone	drug

@@ -1,0 +1,2 @@
+diuretic agents	group
+dopamine HCl	drug

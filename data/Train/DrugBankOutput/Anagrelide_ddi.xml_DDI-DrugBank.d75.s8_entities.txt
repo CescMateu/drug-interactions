@@ -1,0 +1,2 @@
+Anagrelide	drug
+aspirin	brand

@@ -1,0 +1,4 @@
+reserpine	drug
+guanethidine	drug
+clonidine	drug
+beta-blockers	group

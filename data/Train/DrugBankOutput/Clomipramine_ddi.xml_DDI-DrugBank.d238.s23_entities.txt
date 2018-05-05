@@ -1,0 +1,3 @@
+TCA	group
+tricyclic antidepressant class	group
+Anafranil	brand

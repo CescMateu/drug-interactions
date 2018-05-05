@@ -1,0 +1,6 @@
+protease inhibitors	group
+TAXOL	brand
+saquinavir	drug
+ritonavir	drug
+nelfinavir	drug
+indinavir	drug

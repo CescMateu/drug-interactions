@@ -1,0 +1,3 @@
+nitroglycerin	drug
+nitrates	group
+captopril	drug

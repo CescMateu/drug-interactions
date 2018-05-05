@@ -1,0 +1,16 @@
+zidovudine	drug
+theophylline	drug
+nonsteroidal anti-inflammatory	group
+furosemide	drug
+famotidine	drug
+methotrexate	drug
+acyclovir	drug
+acetaminophen	drug
+Probenecid	drug
+Probenecid	drug
+benzodiazepines	group
+barbiturates	group
+aminosalicylic acid	drug
+angiotensin-converting enzyme inhibitors	group
+clofibrate	drug
+bumetanide	drug

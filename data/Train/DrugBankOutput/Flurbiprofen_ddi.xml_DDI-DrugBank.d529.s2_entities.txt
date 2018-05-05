@@ -1,0 +1,4 @@
+anti-coagulants	group
+nonsteroidal anti-inflammatory drugs	group
+Flurbiprofen	drug
+Anticoagulants	group

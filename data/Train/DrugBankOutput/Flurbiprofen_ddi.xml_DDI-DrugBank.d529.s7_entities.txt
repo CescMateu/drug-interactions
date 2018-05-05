@@ -1,0 +1,4 @@
+Beta-adrenergic Blocking Agents	group
+flurbiprofen	drug
+propranolol	drug
+atenolol	drug

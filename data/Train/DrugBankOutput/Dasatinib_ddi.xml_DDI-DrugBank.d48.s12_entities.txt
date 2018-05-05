@@ -1,0 +1,3 @@
+SPRYCEL	brand
+H2 blockers	group
+proton pump inhibitors	group

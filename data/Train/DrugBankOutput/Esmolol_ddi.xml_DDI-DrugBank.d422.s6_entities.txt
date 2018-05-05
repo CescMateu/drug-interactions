@@ -1,0 +1,5 @@
+BREVIBLOC	brand
+morphine	drug
+BREVIBLOC	brand
+morphine	drug
+morphine	drug

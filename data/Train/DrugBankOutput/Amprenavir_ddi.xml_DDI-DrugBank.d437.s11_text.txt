@@ -1,0 +1,1 @@
+Amprenavir is an inhibitor of cytochrome P450 C.P.A. metabolism and therefore should not be administered concurrently with medications with narrow therapeutic windows that are substrates of CYP3A4.

@@ -1,0 +1,1 @@
+Patients should not be re-treated with subsequent cycles of TAXOL until neutrophils recover to a level  1500 cells/mm3 and platelets recover to a level  100,000 cells/mm3.

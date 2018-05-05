@@ -1,0 +1,4 @@
+antiretroviral medications	group
+Antiretroviral Agents	group
+antiretroviral medication	group
+enfuvirtide	drug

@@ -1,0 +1,4 @@
+amprenavir	drug
+rifabutin	drug
+rifampin	drug
+25-O-desacetyl metabolites	drug_n

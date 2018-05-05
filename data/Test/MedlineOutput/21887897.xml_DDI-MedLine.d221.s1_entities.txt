@@ -1,0 +1,4 @@
+etizolam	drug
+phenobarbital	drug
+promethazine	drug
+chlorpromazine	drug

@@ -1,0 +1,4 @@
+D.H.E. 45	brand
+dihydroergotamine mesylate	drug
+Contraceptives	group
+contraceptives	group

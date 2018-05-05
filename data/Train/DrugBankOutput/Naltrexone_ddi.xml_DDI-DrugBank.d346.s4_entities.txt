@@ -1,0 +1,3 @@
+opioid analgesics	group
+REVIA	brand
+opioid	group

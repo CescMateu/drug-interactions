@@ -1,0 +1,3 @@
+MIDAMOR	brand
+potassium-sparing diuretics	group
+indomethacin	drug

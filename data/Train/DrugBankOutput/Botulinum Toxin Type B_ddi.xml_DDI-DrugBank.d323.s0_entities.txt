@@ -1,0 +1,4 @@
+aminoglycosides	group
+MYOBLOC	brand
+toxin	drug
+curare-like compounds	group

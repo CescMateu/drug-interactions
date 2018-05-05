@@ -1,0 +1,2 @@
+terazosin	drug
+Vardenafil	drug

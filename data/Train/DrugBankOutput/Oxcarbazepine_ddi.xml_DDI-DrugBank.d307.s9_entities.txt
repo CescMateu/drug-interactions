@@ -1,0 +1,4 @@
+oxcarbazepine	drug
+MHD	drug_n
+dihydropyridine calcium antagonists	group
+contraceptives	group

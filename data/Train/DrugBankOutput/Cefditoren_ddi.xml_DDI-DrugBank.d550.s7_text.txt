@@ -1,0 +1,1 @@
+As a false-negative result may occur in the ferricyanide test, it is recommended that either the glucose oxidase or hexokinase method be used to determine blood/plasma glucose levels in patients receiving cefditoren pivoxil.

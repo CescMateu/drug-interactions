@@ -1,0 +1,2 @@
+erythromycin	drug
+lincomycin	drug

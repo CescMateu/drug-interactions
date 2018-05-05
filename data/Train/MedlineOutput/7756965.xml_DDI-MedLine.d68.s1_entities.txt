@@ -1,0 +1,2 @@
+verografine	drug
+iodamide	drug

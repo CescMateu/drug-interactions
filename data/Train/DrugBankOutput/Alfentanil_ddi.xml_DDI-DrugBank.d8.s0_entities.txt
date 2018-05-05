@@ -1,0 +1,6 @@
+CNS depressants	group
+ALFENTA	brand
+tranquilizers	group
+barbiturates	group
+anesthetics	group
+opioids	group

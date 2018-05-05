@@ -1,0 +1,2 @@
+dapsone hydroxylamine	drug_n
+dapsone	drug

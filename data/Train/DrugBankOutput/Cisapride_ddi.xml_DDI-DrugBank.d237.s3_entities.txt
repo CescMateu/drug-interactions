@@ -1,0 +1,5 @@
+cisapride	drug
+belladonna alkaloids	group
+dicyclomine	drug
+Anticholinergics	group
+anticholinergic compounds	group

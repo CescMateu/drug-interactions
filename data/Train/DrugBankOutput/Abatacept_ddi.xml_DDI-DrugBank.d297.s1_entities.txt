@@ -1,0 +1,5 @@
+abatacept	drug
+corticosteroids	group
+TNF blocking agents	group
+MTX	drug
+NSAIDs	group

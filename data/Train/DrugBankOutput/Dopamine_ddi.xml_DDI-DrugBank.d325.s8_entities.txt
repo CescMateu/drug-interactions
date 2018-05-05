@@ -1,0 +1,4 @@
+dopamine	drug
+catecholamines	group
+halogenated hydrocarbon anesthetics	group
+Cyclopropane	drug

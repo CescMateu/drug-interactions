@@ -1,0 +1,2 @@
+ERBITUX	brand
+irinotecan	drug

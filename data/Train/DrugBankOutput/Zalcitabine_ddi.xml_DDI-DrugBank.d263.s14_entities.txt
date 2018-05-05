@@ -1,0 +1,2 @@
+HIVID	drug
+didanosine	drug

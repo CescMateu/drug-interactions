@@ -1,0 +1,4 @@
+calcium channel blocker	group
+beta blocker	group
+fentanyl	drug
+Fentanyl	drug

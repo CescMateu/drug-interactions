@@ -1,0 +1,3 @@
+lung surfactant	group
+budesonide	drug
+Survanta	brand

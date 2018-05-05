@@ -1,0 +1,2 @@
+Dactinomycin	drug
+antibacterial drug	group

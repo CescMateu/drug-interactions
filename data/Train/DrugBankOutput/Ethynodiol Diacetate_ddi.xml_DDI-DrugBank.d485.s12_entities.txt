@@ -1,0 +1,8 @@
+ethinyl estradiol	drug
+progestins	group
+phenytoin	drug
+topiramate	drug
+felbamate	drug
+phenobarbital	drug
+Anticonvulsants	group
+carbamazepine	drug

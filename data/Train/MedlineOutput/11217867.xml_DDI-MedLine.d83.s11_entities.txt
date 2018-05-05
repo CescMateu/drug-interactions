@@ -1,0 +1,3 @@
+risperidone	drug
+clozapine	drug
+olanzapine	drug

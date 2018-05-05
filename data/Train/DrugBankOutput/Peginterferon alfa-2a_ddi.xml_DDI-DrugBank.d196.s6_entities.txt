@@ -1,0 +1,5 @@
+Zidovudine	drug
+Stavudine	drug
+stavudine	drug
+Ribavirin	drug
+zidovudine	drug

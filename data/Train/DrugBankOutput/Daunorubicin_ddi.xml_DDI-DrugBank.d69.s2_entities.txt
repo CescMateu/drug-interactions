@@ -1,0 +1,2 @@
+Cerubidine	brand
+Cyclophosphamide	drug

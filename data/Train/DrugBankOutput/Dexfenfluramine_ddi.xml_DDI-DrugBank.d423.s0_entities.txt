@@ -1,0 +1,9 @@
+selegiline hydrochloride	drug
+serotoninergic agents	group
+monoamine oxidase inhibitors	group
+MAOIs	group
+paroxetine	drug
+sertraline	drug
+fluoxetine	drug
+fluvoxamine	drug
+venlafaxine	drug

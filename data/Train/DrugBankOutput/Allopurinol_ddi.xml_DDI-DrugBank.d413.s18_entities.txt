@@ -1,0 +1,4 @@
+allopurinol	drug
+cytotoxic agents	group
+cyclophosphamide	drug
+Cytotoxic Agents	group

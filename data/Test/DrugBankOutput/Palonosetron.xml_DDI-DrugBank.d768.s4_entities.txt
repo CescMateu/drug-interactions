@@ -1,0 +1,7 @@
+anticholinergic agents	group
+antinauseants	group
+antispasmodics	group
+analgesics	group
+antiemetics	group
+ALOXI	brand
+corticosteroids	group

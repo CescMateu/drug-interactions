@@ -1,0 +1,4 @@
+ketoconazole	drug
+HMG-CoA reductase inhibitor	group
+cimetidine	drug
+spironolactone	drug

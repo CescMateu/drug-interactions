@@ -1,0 +1,2 @@
+somatrem	drug
+somatropin	drug

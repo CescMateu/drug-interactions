@@ -1,0 +1,4 @@
+theophylline	drug
+theophylline	drug
+Theophylline	drug
+citalopram	drug

@@ -1,0 +1,2 @@
+Loratadine	drug
+Descarboethoxyloratadine	drug

@@ -1,0 +1,4 @@
+BOTOX	brand
+aminoglycosides	group
+curare-like compounds	group
+toxin	drug

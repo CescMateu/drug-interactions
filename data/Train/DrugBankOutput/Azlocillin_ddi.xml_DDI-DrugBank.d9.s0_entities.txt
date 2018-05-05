@@ -1,0 +1,6 @@
+Azlocillin	drug
+amikacin	drug
+ciprofloxacin	drug
+gentamicin	drug
+netilmicin	drug
+tobramycin	drug

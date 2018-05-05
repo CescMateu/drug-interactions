@@ -1,0 +1,2 @@
+putrescine	drug_n
+spermidine	drug_n

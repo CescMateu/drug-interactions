@@ -1,0 +1,3 @@
+anticoagulant	group
+CASODEX	brand
+coumarin anticoagulants	group

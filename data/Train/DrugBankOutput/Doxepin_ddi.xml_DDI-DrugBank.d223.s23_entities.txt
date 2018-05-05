@@ -1,0 +1,2 @@
+tricyclic antidepressant	group
+cimetidine	drug

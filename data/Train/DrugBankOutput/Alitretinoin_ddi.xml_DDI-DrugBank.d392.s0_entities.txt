@@ -1,0 +1,3 @@
+DEET	drug
+Panretin	brand
+N-diethyl-m-toluamide	drug

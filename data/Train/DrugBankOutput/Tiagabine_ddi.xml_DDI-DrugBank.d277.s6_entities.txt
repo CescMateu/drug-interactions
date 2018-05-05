@@ -1,0 +1,3 @@
+Tiagabine	drug
+Carbamazepine	drug
+carbamazepine	drug

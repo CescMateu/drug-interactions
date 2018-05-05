@@ -1,0 +1,2 @@
+hydralazine	drug
+Propranolol	drug

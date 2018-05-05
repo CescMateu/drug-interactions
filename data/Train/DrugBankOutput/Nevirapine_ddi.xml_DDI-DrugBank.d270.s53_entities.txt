@@ -1,0 +1,3 @@
+nevirapine	drug
+rifampin	drug
+Nevirapine	drug

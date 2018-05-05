@@ -1,0 +1,6 @@
+rosuvastatin	drug
+CRIXIVAN	brand
+atorvastatin	drug
+HMG-CoA reductase inhibitors	group
+pravastatin	drug
+fluvastatin	drug

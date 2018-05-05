@@ -1,0 +1,5 @@
+Tolbutamide	drug
+Aprepitant	drug
+tolbutamide	drug
+tolbutamide	drug
+Aprepitant	drug

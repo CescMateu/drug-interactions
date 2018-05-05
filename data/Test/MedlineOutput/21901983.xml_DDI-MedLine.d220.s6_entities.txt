@@ -1,0 +1,6 @@
+luteolin	drug_n
+apigenin	drug_n
+luteolin	drug_n
+apigenin	drug_n
+luteolin	drug_n
+apigenin	drug_n

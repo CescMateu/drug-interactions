@@ -1,0 +1,5 @@
+opiate	group
+Methadone	drug
+nevirapine	drug
+Methadone	drug
+methadone	drug

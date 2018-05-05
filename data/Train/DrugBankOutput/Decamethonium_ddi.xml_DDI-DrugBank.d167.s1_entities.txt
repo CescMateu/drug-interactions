@@ -1,0 +1,5 @@
+procainamide	drug
+Anticholinesterases	group
+physostigmine	drug
+lignocaine	drug
+quinine	drug

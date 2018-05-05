@@ -1,0 +1,27 @@
+valproate	drug
+verapamil	drug
+zileuton	drug
+propoxyphene	drug
+quinine	drug
+quinupristin	drug
+troleandomycin	drug
+erythromycin	drug
+diltiazem	drug
+dalfopristin	drug
+clarithromycin	drug
+delavirdine	drug
+danazol	drug
+Acetazolamide	drug
+EQUETROTM	brand
+cimetidine	drug
+azole antifungals	group
+protease inhibitors	group
+nicotinamide	drug
+fluvoxamine	drug
+fluoxetine	drug
+itraconazole	drug
+isoniazid	drug
+loratadine	drug
+ketoconazole	drug
+niacinamide	drug
+nefazodone	drug

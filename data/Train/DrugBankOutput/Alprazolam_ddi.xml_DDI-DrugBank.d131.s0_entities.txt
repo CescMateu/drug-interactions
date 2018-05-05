@@ -1,0 +1,6 @@
+psychotropic medications	group
+anticonvulsants	group
+benzodiazepines	group
+alprazolam	drug
+antihistaminics	group
+ethanol	drug

@@ -1,0 +1,5 @@
+Insulin	drug
+Antidiabetic Agents	group
+insulin	drug
+Sulfonylureas	group
+antidiabetic agents	group

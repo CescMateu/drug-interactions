@@ -1,0 +1,1 @@
+For digoxin AUC(0-infinity), AUC(0-24), and Cmax, the geometric mean ratios (90% confidence interval) for (rofecoxib + digoxin/placebo + digoxin) were 1.04 (0.94, 1.14), 1.02 (0.94, 1.09), and 1.00 (0.91, 1.10), respectively. 

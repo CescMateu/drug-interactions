@@ -1,0 +1,1 @@
+Preliminary investigations indicate that icodextrin and its metabolites interfere with enzymatic-based amylase assays, resulting in inaccurately low values.

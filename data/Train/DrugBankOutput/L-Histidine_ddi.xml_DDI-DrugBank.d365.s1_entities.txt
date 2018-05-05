@@ -1,0 +1,5 @@
+H2 blockers	group
+H1 Blockers	group
+H2 Blockers	group
+L-histidine	drug
+H1 blockers	group

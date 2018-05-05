@@ -1,0 +1,11 @@
+temezepam	drug
+oxezepam	drug
+lorezepam	drug
+benzodiazepines	group
+Estrogens	group
+Tegretol	brand
+carbamazepine	drug
+Dilantin	brand
+phenytoin	drug
+barbiturates	group
+Rifampin	drug

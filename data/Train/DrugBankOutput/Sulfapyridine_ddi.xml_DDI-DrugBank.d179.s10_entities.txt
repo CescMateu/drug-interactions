@@ -1,0 +1,2 @@
+Daunorubicin	drug
+Cerubidine	brand

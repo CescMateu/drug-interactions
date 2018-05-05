@@ -1,0 +1,4 @@
+norgestrel	drug
+norethindrone	drug
+progestin-only oral contraceptives	group
+POC	group

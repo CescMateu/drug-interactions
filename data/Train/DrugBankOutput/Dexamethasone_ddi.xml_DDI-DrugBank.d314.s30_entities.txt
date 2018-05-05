@@ -1,0 +1,4 @@
+corticosteroid	group
+Vaccines	group
+inactivated vaccines	group
+live vaccines	group

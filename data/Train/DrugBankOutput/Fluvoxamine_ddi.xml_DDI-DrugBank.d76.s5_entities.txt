@@ -1,0 +1,2 @@
+Fluvoxamine	drug
+MAOI	group

@@ -1,0 +1,2 @@
+Propranolol	drug
+aspirins	brand

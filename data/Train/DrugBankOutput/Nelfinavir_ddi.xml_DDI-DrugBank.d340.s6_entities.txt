@@ -1,0 +1,14 @@
+Benzodiazepines	group
+midazolam	drug
+triazolam	drug
+cisapride	drug
+terfenadine	drug
+ergot derivatives	group
+Antihistamines	group
+astemizole	drug
+amiodarone	drug
+quinidine	drug
+VIRACEPT	brand
+Antiarrhythmics	group
+Antimycobacterial agents	group
+rifampin	drug

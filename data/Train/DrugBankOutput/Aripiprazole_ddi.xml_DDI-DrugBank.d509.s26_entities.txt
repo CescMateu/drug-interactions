@@ -1,0 +1,2 @@
+aripiprazole	drug
+dehydroaripiprazole	drug_n

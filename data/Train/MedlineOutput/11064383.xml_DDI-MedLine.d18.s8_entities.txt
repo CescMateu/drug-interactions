@@ -1,0 +1,3 @@
+Survanta	brand
+budesonide	drug
+budesonide	drug

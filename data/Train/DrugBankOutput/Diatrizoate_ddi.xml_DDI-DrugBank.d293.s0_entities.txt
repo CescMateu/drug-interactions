@@ -1,0 +1,9 @@
+omeprazole	drug
+iodine	drug
+levothyroxine	drug
+H2-antagonists	group
+antacids	group
+ranitidine	drug
+famotidine	drug
+lansoprazole	drug
+proton pump inhibitors	group

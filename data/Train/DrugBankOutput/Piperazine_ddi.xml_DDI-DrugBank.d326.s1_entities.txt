@@ -1,0 +1,5 @@
+piperazine	drug
+pyrantel	drug
+piperazine	drug
+Antiminth	drug
+Pyrantel	drug

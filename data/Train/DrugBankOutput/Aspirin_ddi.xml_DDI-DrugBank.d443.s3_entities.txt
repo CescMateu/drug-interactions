@@ -1,0 +1,5 @@
+aspirin	drug
+phenylbutazone	drug
+Pyrazolone Derivatives	group
+dipyrone	drug
+oxyphenbutazone	drug

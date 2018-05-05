@@ -1,0 +1,3 @@
+halothane	drug
+halothane	drug
+labetalol HCl	drug

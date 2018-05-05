@@ -1,0 +1,4 @@
+furosemide	drug
+thiazides	group
+Furosemide	drug
+ibuprofen	drug

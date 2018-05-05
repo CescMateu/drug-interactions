@@ -1,0 +1,3 @@
+benzodiazepines	group
+SUBUTEX	brand
+SUBOXONE	brand

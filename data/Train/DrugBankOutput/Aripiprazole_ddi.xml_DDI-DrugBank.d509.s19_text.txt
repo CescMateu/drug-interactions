@@ -1,0 +1,1 @@
+Carbamazepine: Coadministration of carbamazepine (200 mg BID), a potent CYP3A4 inducer, with aripiprazole (30 mg QD) resulted in an approximate 70% decrease in Cmax and AUC values of both aripiprazole and its active metabolite, dehydro-aripiprazole.

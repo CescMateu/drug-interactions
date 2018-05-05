@@ -1,0 +1,5 @@
+methyldopa	drug
+veratrum alkaloids	group
+reserpine	drug
+Sympathomimetic amines	group
+mecamylamine	drug

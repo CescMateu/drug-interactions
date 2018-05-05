@@ -1,0 +1,4 @@
+antidepressants	group
+cimetidine	drug
+flecainide	drug
+phenothiazines	group

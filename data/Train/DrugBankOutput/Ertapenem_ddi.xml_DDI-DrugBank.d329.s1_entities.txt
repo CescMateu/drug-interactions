@@ -1,0 +1,2 @@
+ertapenem	drug
+probenecid	drug

@@ -1,0 +1,4 @@
+rifampin	drug
+warfarin	drug
+rifampin	drug
+rifampin	drug

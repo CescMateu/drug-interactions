@@ -1,0 +1,3 @@
+adenosine	drug
+methylxanthines	group
+adenosine	drug

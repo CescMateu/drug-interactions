@@ -1,0 +1,3 @@
+lamotrigine	drug
+valproic acid	drug
+MHD	drug_n

@@ -1,0 +1,6 @@
+methylxanthines	group
+aminophylline	drug
+theophylline	drug
+steroids	group
+diuretics	group
+adrenergic agonists	group

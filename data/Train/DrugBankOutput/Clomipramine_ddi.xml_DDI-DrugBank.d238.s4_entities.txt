@@ -1,0 +1,5 @@
+tricyclic antidepressants	group
+tricyclic antidepressants	group
+guanethidine	drug
+clonidine	drug
+CMI	drug

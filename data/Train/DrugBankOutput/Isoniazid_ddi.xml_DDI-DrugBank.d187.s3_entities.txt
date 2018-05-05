@@ -1,0 +1,2 @@
+isoniazid	drug
+acetaminophen	drug

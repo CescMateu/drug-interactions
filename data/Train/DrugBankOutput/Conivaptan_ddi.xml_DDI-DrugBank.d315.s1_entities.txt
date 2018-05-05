@@ -1,0 +1,3 @@
+VAPRISOL	brand
+digoxin	drug
+digoxin	drug

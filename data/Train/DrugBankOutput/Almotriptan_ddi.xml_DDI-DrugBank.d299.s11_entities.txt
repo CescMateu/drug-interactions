@@ -1,0 +1,6 @@
+almotriptan	drug
+almotriptan	drug
+almotriptan	drug
+itraconazole	drug
+ritonavir	drug
+erythromycin	drug

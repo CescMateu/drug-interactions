@@ -1,0 +1,1 @@
+Internal application of InsP(3) (100 microM) increased intracellular Ca(2+) concentration ([Ca(2+)](i)) and activated the Ca(2+)-dependent K(+) current. 

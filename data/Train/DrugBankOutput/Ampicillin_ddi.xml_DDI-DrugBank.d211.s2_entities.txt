@@ -1,0 +1,6 @@
+Chloramphenicol	drug
+Bacteriostatic Antibiotics	group
+sulfonamides	group
+erythromycins	drug
+penicillins	group
+tetracyclines	group

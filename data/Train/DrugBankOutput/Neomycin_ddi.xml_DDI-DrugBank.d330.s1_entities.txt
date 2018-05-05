@@ -1,0 +1,3 @@
+neomycin sulfate	drug
+aminoglycosides	group
+polymyxins	group

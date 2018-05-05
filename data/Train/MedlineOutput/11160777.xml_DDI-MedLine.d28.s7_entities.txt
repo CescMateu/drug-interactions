@@ -1,0 +1,4 @@
+pioglitazone	drug
+antidiabetic agents	group
+thiazolidinediones	group
+rosiglitazone	drug

@@ -1,0 +1,3 @@
+cefdinir	drug
+antacid	group
+cefdinir	drug

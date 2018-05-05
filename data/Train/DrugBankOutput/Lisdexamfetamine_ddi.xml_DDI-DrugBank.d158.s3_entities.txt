@@ -1,0 +1,5 @@
+sympathomimetic agents	group
+Antidepressants	group
+tricyclic	group
+Amphetamines	group
+tricyclic antidepressants	drug

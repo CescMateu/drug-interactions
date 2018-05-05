@@ -1,0 +1,9 @@
+apigenin	drug_n
+luteolin	drug_n
+catechins	drug_n
+flavanonols	drug_n
+flavanone	drug_n
+isoflavone	drug_n
+flavones	drug_n
+flavonols	drug_n
+flavonoids	drug_n

@@ -1,0 +1,5 @@
+exemestane	drug
+phenytoin	drug
+rifampicin	drug
+phenobarbital	drug
+carbamazepine	drug

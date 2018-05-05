@@ -1,0 +1,2 @@
+cardiotrast	drug
+cimetidine	drug

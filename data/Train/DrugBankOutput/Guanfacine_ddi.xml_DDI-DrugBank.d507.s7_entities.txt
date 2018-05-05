@@ -1,0 +1,2 @@
+guafacine	drug
+cardioselective beta-blocker	group

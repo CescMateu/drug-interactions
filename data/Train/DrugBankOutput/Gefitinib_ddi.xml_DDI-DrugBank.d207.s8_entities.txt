@@ -1,0 +1,4 @@
+IRESSA	brand
+vinorelbine	drug
+IRESSA	brand
+vinorelbine	drug

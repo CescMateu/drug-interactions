@@ -1,0 +1,3 @@
+nortriptyline	drug
+antidepressants	group
+fluoxetine hydrochloride	drug

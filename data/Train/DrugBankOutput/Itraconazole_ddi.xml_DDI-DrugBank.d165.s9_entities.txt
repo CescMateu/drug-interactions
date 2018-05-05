@@ -1,0 +1,2 @@
+itraconazole	drug
+cisapride	drug

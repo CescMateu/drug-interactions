@@ -1,0 +1,4 @@
+digoxin	drug
+nicardipine HCl	drug
+Nicardipine HCl	drug
+digoxin	drug

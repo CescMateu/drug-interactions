@@ -1,0 +1,5 @@
+sertraline	drug
+Imipramine	drug
+moclobemide	drug
+clonazepam	drug
+fluoxetine	drug

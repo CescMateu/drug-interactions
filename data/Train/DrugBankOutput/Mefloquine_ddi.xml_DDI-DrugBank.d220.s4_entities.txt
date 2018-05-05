@@ -1,0 +1,2 @@
+Mefloquine	drug
+halofantrine	drug

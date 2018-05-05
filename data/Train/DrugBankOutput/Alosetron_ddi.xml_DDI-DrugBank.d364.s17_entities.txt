@@ -1,0 +1,4 @@
+contraceptive agents	group
+alosetron	drug
+levonorgestrel	drug
+ethinyl estradiol	drug

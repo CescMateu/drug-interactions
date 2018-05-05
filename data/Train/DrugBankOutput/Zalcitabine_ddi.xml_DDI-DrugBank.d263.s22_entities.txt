@@ -1,0 +1,7 @@
+zalcitabine	drug
+Antacid Products	group
+Aluminum	drug
+Magnesium	drug
+antacid products	group
+aluminum	drug
+magnesium	drug

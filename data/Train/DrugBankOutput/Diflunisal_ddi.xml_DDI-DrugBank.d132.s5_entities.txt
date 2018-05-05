@@ -1,0 +1,4 @@
+hydrochlorothiazide	drug
+hydrochlorothiazide	drug
+Hydrochlorothiazide	drug
+diflunisal	drug

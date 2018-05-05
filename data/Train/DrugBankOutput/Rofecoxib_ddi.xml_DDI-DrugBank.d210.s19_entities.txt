@@ -1,0 +1,4 @@
+methotrexate	drug
+methotrexate	drug
+VIOXX	brand
+Methotrexate	drug

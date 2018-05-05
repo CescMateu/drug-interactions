@@ -1,0 +1,2 @@
+anion exchange resin	group
+colestipol hydrochloride	drug

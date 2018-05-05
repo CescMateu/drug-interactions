@@ -1,0 +1,2 @@
+Norethindrone	drug
+Ethinyl estradiol	drug

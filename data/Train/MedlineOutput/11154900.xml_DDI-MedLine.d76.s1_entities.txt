@@ -1,0 +1,8 @@
+NaCMC	drug_n
+sodium carboxymethylcellulose	drug_n
+CMC-Cys	drug_n
+carboxymethylcellulose-cysteine	drug_n
+NaFlu	drug
+sodium fluorescein	drug
+insulin	drug
+bacitracin	drug

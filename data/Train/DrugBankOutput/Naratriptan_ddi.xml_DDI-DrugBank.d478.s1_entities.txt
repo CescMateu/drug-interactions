@@ -1,0 +1,5 @@
+ergot-type medications	group
+ergotamine	drug
+methysergide	drug
+dihydroergotamine	drug
+naratriptan	drug

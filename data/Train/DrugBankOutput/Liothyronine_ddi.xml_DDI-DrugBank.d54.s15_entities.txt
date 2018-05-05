@@ -1,0 +1,4 @@
+imipramine	drug
+tricyclic antidepressants	group
+Tricyclic Antidepressants	group
+thyroid products	group

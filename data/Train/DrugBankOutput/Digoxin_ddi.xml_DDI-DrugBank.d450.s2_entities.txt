@@ -1,0 +1,10 @@
+digoxin	drug
+digitalis	group
+alprazolam	drug
+spironolactone	drug
+indomethacin	drug
+itraconazole	drug
+amiodarone	drug
+propafenone	drug
+Quinidine	drug
+verapamil	drug

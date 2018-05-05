@@ -1,0 +1,5 @@
+dihydroergotamine	drug
+Imitrex	brand
+sumatriptan succinate	drug
+selective serotonin reuptake inhibitors	group
+SSRIs	group

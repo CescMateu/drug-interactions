@@ -1,0 +1,4 @@
+ARAVA	brand
+rifampin	drug
+ARAVA	brand
+Rifampin	drug

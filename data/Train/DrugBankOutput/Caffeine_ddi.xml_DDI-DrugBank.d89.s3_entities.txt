@@ -1,0 +1,8 @@
+phenobarbital	drug
+phenytoin	drug
+caffeine	drug
+caffeine	drug
+cimetidine	drug
+ketoconazole	drug
+caffeine	drug
+caffeine	drug

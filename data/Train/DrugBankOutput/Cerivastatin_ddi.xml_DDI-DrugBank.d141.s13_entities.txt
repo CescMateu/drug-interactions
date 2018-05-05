@@ -1,0 +1,7 @@
+betablockers	group
+calcium-channel blockers	group
+cerivastatin sodium	drug
+angiotensin- converting enzyme (ACE) inhibitors	group
+NSAIDs	group
+diuretics	group
+nonsteroidal anti-inflammatory drugs	group

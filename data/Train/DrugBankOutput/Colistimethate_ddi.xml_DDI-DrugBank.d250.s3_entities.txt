@@ -1,0 +1,2 @@
+Coly-Mycin M	brand
+Sodium cephalothin	drug

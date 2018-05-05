@@ -1,0 +1,4 @@
+NSAIDs	group
+diuretics	group
+Diuretics	group
+Diclofenac	drug

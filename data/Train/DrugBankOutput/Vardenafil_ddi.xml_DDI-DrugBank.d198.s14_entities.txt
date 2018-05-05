@@ -1,0 +1,2 @@
+vardenafil	drug
+Ritonavir	drug

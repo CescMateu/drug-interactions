@@ -1,0 +1,4 @@
+carbamazepine	drug
+mefloquine	drug
+chloroquine	drug
+anti-malarial drugs	group

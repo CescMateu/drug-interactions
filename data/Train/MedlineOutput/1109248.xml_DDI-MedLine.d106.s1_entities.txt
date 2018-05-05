@@ -1,0 +1,7 @@
+coumarin	group
+chloral hydrate	drug
+methaqualone	drug
+secobarbital	drug
+glutethimide	drug
+anticoagulant	group
+phenobarbital	drug

@@ -1,0 +1,7 @@
+tricyclic antidepressants	group
+nitrites	group
+sympathomimetic agents	group
+meperidine	drug
+nitrates	group
+MAO inhibitors	group
+narcotic analgesics	group

@@ -1,0 +1,3 @@
+dideoxyinosine	drug
+azithromycin	drug
+zidovudine	drug

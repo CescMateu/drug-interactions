@@ -1,0 +1,3 @@
+thioridazine	drug
+Duloxetine	drug
+thioridazine	drug

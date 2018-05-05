@@ -1,0 +1,4 @@
+metoprolol	drug
+beta-adrenergic blocker	group
+LEXAPRO	brand
+Metoprolol	drug

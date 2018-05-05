@@ -1,0 +1,5 @@
+norethindrone	drug
+Rifampin	drug
+Rifampin	drug
+ethinyl estradiol	drug
+progestins	group

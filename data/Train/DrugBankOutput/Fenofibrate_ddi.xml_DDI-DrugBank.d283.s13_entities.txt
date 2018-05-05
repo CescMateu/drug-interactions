@@ -1,0 +1,4 @@
+TRICOR	brand
+fenofibrate	drug
+pravastatin	drug
+pravastatin	drug

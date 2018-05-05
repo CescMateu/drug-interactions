@@ -1,0 +1,3 @@
+carbamazepine	drug
+carbamazepine	drug
+diltiazem	drug

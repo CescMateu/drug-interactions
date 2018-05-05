@@ -1,0 +1,6 @@
+paroxetine	drug
+sertraline	drug
+fluoxetine	drug
+fluvoxamine	drug
+Selective serotonin reuptake inhibitors	group
+SSRIs	group

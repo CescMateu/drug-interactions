@@ -1,0 +1,6 @@
+saquinavir	drug
+ritonavir	drug
+taxol	brand
+antiepileptic drugs	group
+human immunodeficiency virus protease inhibitors	group
+rifampicin	drug

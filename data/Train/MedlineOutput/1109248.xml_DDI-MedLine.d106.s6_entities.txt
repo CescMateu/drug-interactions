@@ -1,0 +1,3 @@
+coumarin drugs	group
+glutethimide	drug
+Barbiturates	group

@@ -1,0 +1,5 @@
+isoflurane	drug
+propofol	drug
+Remifentanil	drug
+thiopental	drug
+temazepam	drug

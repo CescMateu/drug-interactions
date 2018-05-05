@@ -1,0 +1,4 @@
+escitalopram	drug
+escitalopram	drug
+citalopram	drug
+citalopram	drug

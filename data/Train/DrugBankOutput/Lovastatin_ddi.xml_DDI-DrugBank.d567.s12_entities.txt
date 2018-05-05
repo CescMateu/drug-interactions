@@ -1,0 +1,5 @@
+Verapamil	drug
+Amiodarone	drug
+verapamil	drug
+amiodarone	drug
+HMG-CoA reductase inhibitor class	group

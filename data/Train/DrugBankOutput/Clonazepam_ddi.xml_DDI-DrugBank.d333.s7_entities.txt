@@ -1,0 +1,12 @@
+anticonvulsant drugs	group
+tricyclic antidepressants	group
+thioxanthene classes of antipsychotic agents	group
+phenothiazines classes of antipsychotic agents	group
+antianxiety agents	group
+nonbarbiturate hypnotics	group
+barbiturates	group
+narcotics	group
+alcohol	drug
+benzodiazepine class	group
+monoamine oxidase inhibitors	group
+butyrophenone classes of antipsychotic agents	group

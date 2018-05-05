@@ -1,0 +1,5 @@
+AZA	drug
+antibiotics	group
+antivirals	group
+corticosteroids	group
+6-MP	drug

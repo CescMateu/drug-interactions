@@ -1,0 +1,5 @@
+thyroid hormones	group
+Cholestyramine	drug
+Cholestyramine	drug
+T3	drug
+T4	drug

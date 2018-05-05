@@ -1,0 +1,2 @@
+adenosine	drug
+dipyridamole	drug

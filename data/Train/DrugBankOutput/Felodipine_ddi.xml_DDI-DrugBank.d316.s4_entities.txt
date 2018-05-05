@@ -1,0 +1,2 @@
+felodipine	drug
+CYP3A4	drug

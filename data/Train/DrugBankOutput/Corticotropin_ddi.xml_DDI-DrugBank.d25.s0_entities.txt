@@ -1,0 +1,2 @@
+diuretic	drug
+Corticotropin	drug

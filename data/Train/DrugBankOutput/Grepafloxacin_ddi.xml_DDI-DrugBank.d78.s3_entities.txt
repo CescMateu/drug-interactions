@@ -1,0 +1,6 @@
+Grepafloxacin	drug
+quinolones	group
+Caffeine	drug
+Theobromine	drug
+caffeine	drug
+theobromine	drug

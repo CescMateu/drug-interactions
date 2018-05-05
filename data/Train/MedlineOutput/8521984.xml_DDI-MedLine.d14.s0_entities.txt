@@ -1,0 +1,5 @@
+angiotensin 2	drug_n
+pentagastrin	drug
+angiotensin	drug_n
+angiotensin 1	drug_n
+histamine	drug

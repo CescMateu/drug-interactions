@@ -1,0 +1,2 @@
+halothane	drug
+atracurium	drug

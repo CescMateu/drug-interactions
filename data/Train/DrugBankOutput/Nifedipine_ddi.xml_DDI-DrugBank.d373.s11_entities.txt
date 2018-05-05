@@ -1,0 +1,4 @@
+nifedipine	drug
+cimetidine	drug
+nifedipine	drug
+Cimetidine	drug

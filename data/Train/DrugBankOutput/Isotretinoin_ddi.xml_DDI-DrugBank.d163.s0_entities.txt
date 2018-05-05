@@ -1,0 +1,5 @@
+vitamin A	group
+vitamin supplements	group
+vitamin A	group
+Accutane	brand
+Vitamin A	group

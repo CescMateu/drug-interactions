@@ -1,0 +1,4 @@
+alprazolam	drug
+alprazolam	drug
+paroxetine	drug
+sertraline	drug

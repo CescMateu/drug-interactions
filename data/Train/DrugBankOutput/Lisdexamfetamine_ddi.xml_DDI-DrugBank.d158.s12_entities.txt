@@ -1,0 +1,4 @@
+amphetamine	group
+amphetamines	group
+Chlorpromazine	drug
+Chlorpromazine	drug

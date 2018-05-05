@@ -1,0 +1,1 @@
+Blood samples were drawn at 0, 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 18, and 24 hours for Cmax, tmax, and AUC determinations. 

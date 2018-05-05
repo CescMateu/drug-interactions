@@ -1,0 +1,3 @@
+digoxin	drug
+BREVIBLOC	brand
+digoxin	drug

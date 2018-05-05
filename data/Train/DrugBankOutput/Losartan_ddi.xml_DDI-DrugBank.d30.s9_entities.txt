@@ -1,0 +1,4 @@
+antihypertensive agents	group
+losartan	drug
+non-steroidal anti-inflammatory drug	group
+indomethacin	drug

@@ -1,0 +1,10 @@
+isoniazid	drug
+calcium channel blocking drugs	group
+thyroid products	group
+corticosteroids	group
+diuretics	group
+thiazides	group
+nicotinic acid	drug
+phenytoin	drug
+contraceptives	group
+estrogens	group

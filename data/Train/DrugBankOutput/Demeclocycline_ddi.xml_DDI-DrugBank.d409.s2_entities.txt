@@ -1,0 +1,3 @@
+tetracyclines	group
+contraceptives	group
+contraceptives	group

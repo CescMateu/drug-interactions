@@ -1,0 +1,2 @@
+galangin	drug
+vancomycin	drug

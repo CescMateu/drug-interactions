@@ -1,0 +1,7 @@
+NSAIDs	group
+nonsteroidal anti-inflammatory agents	group
+monoamine oxidase inhibitors	group
+salicylates	group
+Starlix	brand
+non-selective beta-adrenergic-blocking agents	group
+antidiabetic drugs	group

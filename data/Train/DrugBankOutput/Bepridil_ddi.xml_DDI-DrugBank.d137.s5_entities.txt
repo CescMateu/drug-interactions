@@ -1,0 +1,2 @@
+digoxin	drug
+bepridil hydrochloride	drug

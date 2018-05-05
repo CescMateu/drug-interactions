@@ -1,0 +1,4 @@
+PCP	drug_n
+phencyclidine	drug_n
+NANM	drug_n
+N-allylnormetazocine	drug_n

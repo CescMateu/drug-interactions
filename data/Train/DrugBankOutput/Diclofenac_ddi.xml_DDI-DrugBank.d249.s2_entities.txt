@@ -1,0 +1,5 @@
+diclofenac	drug
+warfarin	drug
+NSAIDs	group
+NSAIDs	group
+anticoagulant	group

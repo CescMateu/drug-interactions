@@ -1,0 +1,2 @@
+paroxetine	drug
+BROVANA	brand

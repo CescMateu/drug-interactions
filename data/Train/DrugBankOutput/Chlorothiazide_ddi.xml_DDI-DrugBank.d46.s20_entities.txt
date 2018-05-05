@@ -1,0 +1,3 @@
+non-steroidal anti-inflammatory agents	group
+chlorothiazide	drug
+diuretic	group

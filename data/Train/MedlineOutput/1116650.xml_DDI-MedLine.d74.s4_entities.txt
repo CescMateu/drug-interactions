@@ -1,0 +1,2 @@
+Glucose	drug
+theophylline	drug

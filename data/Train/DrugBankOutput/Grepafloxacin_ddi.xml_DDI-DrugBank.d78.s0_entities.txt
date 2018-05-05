@@ -1,0 +1,4 @@
+Quinolones	group
+Multivitamins	group
+Sucralfate	drug
+Antacids	group

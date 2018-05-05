@@ -1,0 +1,1 @@
+We observed that GLIC recapitulates bimodal modulation by n-alcohols, similar to some eukaryotic pLGICs: methanol and ethanol weakly potentiated proton-activated currents in GLIC, whereas n-alcohols larger than ethanol inhibited them. 

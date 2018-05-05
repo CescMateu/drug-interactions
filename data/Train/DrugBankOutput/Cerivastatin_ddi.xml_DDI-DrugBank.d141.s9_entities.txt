@@ -1,0 +1,4 @@
+WARFARIN	drug
+warfarin	drug
+cerivastatin	drug
+warfarin	drug

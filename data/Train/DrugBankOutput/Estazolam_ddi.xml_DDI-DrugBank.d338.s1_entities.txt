@@ -1,0 +1,9 @@
+psychotropic medications	group
+antihistamines	group
+alcohol	drug
+benzodiazepines	group
+anticonvulsants	group
+narcotics	group
+phenothiazines	group
+barbiturates	group
+monoamine oxidase inhibitors	group

@@ -1,0 +1,4 @@
+methylxanthines	group
+adenosine	drug
+theophylline	drug
+caffeine	drug

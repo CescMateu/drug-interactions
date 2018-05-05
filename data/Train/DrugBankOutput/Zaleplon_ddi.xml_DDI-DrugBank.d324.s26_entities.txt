@@ -1,0 +1,2 @@
+diphenhydramine	drug
+zaleplon	drug

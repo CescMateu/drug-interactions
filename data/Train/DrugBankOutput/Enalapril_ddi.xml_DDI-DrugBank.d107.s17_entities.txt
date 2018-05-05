@@ -1,0 +1,3 @@
+lithium	drug
+enalapril	drug
+lithium	drug

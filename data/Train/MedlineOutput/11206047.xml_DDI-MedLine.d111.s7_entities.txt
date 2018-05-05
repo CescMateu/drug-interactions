@@ -1,0 +1,4 @@
+phenobarbital	drug
+quinidine	drug
+theophylline	drug
+ethanol	drug

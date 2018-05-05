@@ -1,0 +1,3 @@
+antacids	group
+Ibandronate	drug
+vitamins	group

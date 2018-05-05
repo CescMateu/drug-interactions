@@ -1,0 +1,2 @@
+antithrombin III	drug
+heparin	drug

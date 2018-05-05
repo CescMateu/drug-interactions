@@ -1,0 +1,3 @@
+MAXIPIME	brand
+aminoglycosides	group
+aminoglycoside antibiotics	group

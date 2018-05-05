@@ -1,0 +1,1 @@
+INSPRA should not be used with drugs described as strong inhibitors of CYP3A4 in their labeling.

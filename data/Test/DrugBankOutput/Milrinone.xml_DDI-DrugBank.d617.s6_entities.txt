@@ -1,0 +1,4 @@
+insulin	drug
+diazepam	drug
+warfarin	drug
+heparin	drug

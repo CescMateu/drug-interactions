@@ -1,0 +1,2 @@
+buprenorphine	drug
+benzodiazepines	drug

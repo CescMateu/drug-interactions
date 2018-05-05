@@ -1,0 +1,4 @@
+trimethoprim	drug
+sulfamethoxazole	drug
+Trimethoprim	drug
+Sulfamethoxazole	drug

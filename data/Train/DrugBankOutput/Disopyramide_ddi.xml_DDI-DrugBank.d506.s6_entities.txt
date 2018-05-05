@@ -1,0 +1,2 @@
+Norpace	brand
+digoxin	drug

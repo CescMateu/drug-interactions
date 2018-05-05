@@ -1,0 +1,1 @@
+Because eprosartan is not metabolized by the cytochrome P450 system, inhibitors of CYP450 enzyme would not be expected to affect its metabolism, and ketoconazole and fluconazole, potent inhibitors of CYP3A and 2C9, respectively, have been shown to have no effect on eprosartan pharmacokinetics.

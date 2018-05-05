@@ -1,0 +1,3 @@
+Probenecid	drug
+cephalosporins	group
+cephalosporin	group

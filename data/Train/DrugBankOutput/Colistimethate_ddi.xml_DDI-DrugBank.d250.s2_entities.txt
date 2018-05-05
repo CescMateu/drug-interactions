@@ -1,0 +1,7 @@
+Curariform muscle relaxants	brand
+tubocurarine	drug
+succinylcholine	drug
+gallamine	drug
+decamethonium	drug
+sodium citrate	drug
+Coly-Mycin M	brand

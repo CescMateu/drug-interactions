@@ -1,0 +1,3 @@
+thiazide-type diuretics	group
+enalapril	drug
+Enalapril	drug

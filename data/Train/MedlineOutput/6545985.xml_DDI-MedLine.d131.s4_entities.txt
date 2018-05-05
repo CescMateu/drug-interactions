@@ -1,0 +1,2 @@
+tuftsin	drug_n
+neurotensin	drug_n

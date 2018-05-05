@@ -1,0 +1,4 @@
+enoxacin	drug
+Non-steroidal anti-inflammatory agents	group
+fenbufen	drug
+nonsteroidal anti-inflammatory drug	group

@@ -1,0 +1,10 @@
+chlordiazepoxide	drug
+tranquilizers	group
+anesthetics	group
+alcohol	drug
+narcotic analgesic	group
+caffeine	drug
+acetaminophen	drug
+Butalbital	drug
+CNS depressants	group
+sedative-hypnotics	group

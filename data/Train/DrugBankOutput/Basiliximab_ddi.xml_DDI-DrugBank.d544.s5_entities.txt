@@ -1,0 +1,6 @@
+azathioprine	drug
+Simulect	brand
+cyclosporine	drug
+corticosteroids	group
+muromonab-CD3	drug
+mycophenolate mofetil	drug

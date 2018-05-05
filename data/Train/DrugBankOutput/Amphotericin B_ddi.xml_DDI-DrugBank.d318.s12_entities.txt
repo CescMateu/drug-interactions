@@ -1,0 +1,4 @@
+amphotericin B	drug
+Skeletal muscle relaxants	group
+tubocurarine	drug
+skeletal muscle relaxants	group

@@ -1,0 +1,5 @@
+ritonavir	drug
+indinavir	drug
+Ritonavir	drug
+ritonavir	drug
+Vardenafil	drug

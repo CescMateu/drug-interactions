@@ -1,0 +1,4 @@
+norethindrone	drug
+ethinyl estradiol	drug
+Atorvastatin	drug
+Atorvastatin	drug

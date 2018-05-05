@@ -1,0 +1,6 @@
+Azathioprine	drug
+Mercaptopurine	drug
+mercaptopurine	drug
+Allopurinol	drug
+6-thiouric acid	drug
+azathioprine	drug

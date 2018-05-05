@@ -1,0 +1,4 @@
+saquinavir	drug
+ZDV	drug
+Saquinavir	drug
+HIVID	drug

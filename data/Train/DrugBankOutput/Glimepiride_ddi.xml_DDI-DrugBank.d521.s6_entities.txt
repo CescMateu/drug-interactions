@@ -1,0 +1,6 @@
+Hydrodiuril	brand
+HCTZ	drug
+hydrochlorothiazide	drug
+diuretic	group
+Diuril	brand
+chlorothiazide	drug

@@ -1,0 +1,5 @@
+Phenytoin	drug
+nicotine	drug
+rifampin	drug
+Clozapine	drug
+Clozapine	drug

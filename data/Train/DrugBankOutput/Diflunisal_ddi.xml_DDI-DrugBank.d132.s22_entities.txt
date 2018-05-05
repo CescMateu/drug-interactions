@@ -1,0 +1,2 @@
+indomethacin	drug
+diflunisal	drug

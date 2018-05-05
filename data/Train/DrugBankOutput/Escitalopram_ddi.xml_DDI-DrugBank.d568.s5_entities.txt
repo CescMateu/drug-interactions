@@ -1,0 +1,3 @@
+aspirin	brand
+NSAID	group
+psychotropic drugs	group

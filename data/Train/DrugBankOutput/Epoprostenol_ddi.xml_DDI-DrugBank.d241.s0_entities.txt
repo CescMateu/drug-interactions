@@ -1,0 +1,4 @@
+FLOLAN	brand
+diuretics	group
+antihypertensive agents	group
+vasodilators	group

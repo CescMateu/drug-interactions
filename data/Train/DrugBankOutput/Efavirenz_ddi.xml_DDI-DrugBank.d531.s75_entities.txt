@@ -1,0 +1,2 @@
+efavirenz	drug
+anticonvulsant	group

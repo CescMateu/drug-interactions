@@ -1,0 +1,2 @@
+d-amphetamine	drug
+glucocorticoids	group

@@ -1,0 +1,3 @@
+oxycodone	drug
+levofloxacin	drug
+levofloxacin	drug

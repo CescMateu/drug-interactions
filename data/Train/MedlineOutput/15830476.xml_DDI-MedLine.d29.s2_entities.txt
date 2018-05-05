@@ -1,0 +1,3 @@
+penicillins	group
+cephaloridine	drug
+probenecid	drug

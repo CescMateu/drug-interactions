@@ -1,0 +1,4 @@
+gabapentin	drug
+Maalox	brand
+Maalox	brand
+Antacid	group

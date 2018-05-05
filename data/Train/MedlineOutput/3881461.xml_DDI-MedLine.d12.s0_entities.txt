@@ -1,0 +1,4 @@
+Dexamethasone	drug
+retinyl acetate	drug
+EGF	drug_n
+insulin	drug

@@ -1,0 +1,2 @@
+amiodarone	drug
+digoxin	drug

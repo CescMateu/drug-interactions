@@ -1,0 +1,8 @@
+verapamil	drug
+glyburide	drug
+propranolol	drug
+hydrodolasetron	drug_n
+furosemide	drug
+nifedipine	drug
+diltiazem	drug
+ACE inhibitors	group

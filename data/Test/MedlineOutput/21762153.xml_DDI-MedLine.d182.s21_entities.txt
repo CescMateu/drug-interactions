@@ -1,0 +1,2 @@
+o-cymen-5-ol	drug_n
+zinc	drug

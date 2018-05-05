@@ -1,0 +1,5 @@
+warfarin	drug
+tolbutamide	drug
+prednisolone	drug
+diclofenac	drug
+salicylic acid	drug

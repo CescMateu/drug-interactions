@@ -1,0 +1,4 @@
+colestipol hydrochloride	drug
+digitalis preparations	group
+digitoxin	drug
+digoxin	drug

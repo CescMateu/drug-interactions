@@ -1,0 +1,2 @@
+Quinidine	drug
+Quinidex	brand

@@ -1,0 +1,8 @@
+beta blockers	group
+anticoagulants	group
+corticosteroids	group
+theophylline	drug
+quinidine	drug
+antibiotics	group
+contraceptives	group
+Barbiturates	group

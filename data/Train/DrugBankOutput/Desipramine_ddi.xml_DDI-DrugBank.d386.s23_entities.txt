@@ -1,0 +1,9 @@
+diazepam	drug
+benzodiazepines	group
+chlordiazepoxide	drug
+hypnotics	group
+desipramine	drug
+tranquilizers	group
+sedative	group
+desipramine hydrochloride	drug
+psychotropic agents	group

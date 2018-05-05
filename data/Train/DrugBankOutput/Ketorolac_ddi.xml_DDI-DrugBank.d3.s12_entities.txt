@@ -1,0 +1,4 @@
+lithium	drug
+TORADOL	brand
+TORADOL	brand
+lithium	drug

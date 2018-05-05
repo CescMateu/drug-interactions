@@ -1,0 +1,2 @@
+Phencyclidine	drug_n
+PCP	drug_n

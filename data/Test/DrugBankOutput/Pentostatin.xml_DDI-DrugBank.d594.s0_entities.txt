@@ -1,0 +1,2 @@
+vidarabine	drug
+fludarabine	drug

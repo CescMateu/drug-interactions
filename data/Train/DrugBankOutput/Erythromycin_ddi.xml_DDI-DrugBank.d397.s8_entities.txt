@@ -1,0 +1,14 @@
+erythromycin	drug
+carbamazepine	drug
+cyclosporine	drug
+tacrolimus	drug
+hexobarbital	drug
+phenytoin	drug
+alfentanil	drug
+cisapride	drug
+disopyramide	drug
+lovastatin	drug
+bromocriptine	drug
+valproate	drug
+terfenadine	drug
+astemizole	drug

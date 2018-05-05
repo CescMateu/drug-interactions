@@ -1,0 +1,1 @@
+A variety of parametric dose-response models based on either the normal or logistic probability distribution have been proposed in the literature. 

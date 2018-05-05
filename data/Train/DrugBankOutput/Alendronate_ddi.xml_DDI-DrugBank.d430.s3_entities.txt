@@ -1,0 +1,3 @@
+alendronate	drug
+multivalent cations	drug
+calcium	drug

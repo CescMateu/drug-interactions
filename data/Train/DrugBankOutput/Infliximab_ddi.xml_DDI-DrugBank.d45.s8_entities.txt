@@ -1,0 +1,5 @@
+metronidazole	drug
+antibiotics	group
+corticosteroids	group
+infliximab	drug
+ciprofloxacin	drug

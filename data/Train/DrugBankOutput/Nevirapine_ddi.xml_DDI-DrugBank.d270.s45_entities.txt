@@ -1,0 +1,2 @@
+nelfinavir	drug
+nevirapine	drug

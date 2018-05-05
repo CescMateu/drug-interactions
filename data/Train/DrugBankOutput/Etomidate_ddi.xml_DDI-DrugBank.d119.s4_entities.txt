@@ -1,0 +1,2 @@
+Zimelidine	drug_n
+etomidate	drug

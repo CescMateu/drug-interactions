@@ -1,0 +1,4 @@
+anakinra	drug
+Anakinra	drug
+TNF-blocking agent	group
+interleukin-1 antagonist	group

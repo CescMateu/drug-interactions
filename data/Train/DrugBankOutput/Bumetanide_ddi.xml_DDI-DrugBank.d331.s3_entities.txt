@@ -1,0 +1,5 @@
+Lithium	drug
+Lithium	drug
+bumetanide	drug
+diuretics	group
+lithium	drug

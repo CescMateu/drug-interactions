@@ -1,0 +1,7 @@
+procainamide	drug
+quinidine	drug
+antiarrhythmic	drug
+Antiarrhythmics	drug
+amiodarone	drug
+phenytoin	drug
+disopyramide	drug

@@ -1,0 +1,2 @@
+Cimetidine	drug
+ELLENCE	brand

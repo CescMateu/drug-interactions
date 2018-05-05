@@ -1,0 +1,2 @@
+cephalothin	drug
+cefoxitin	drug

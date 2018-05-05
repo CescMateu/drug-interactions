@@ -1,0 +1,6 @@
+morphine	drug
+Morphine	drug
+gabapentin	drug
+Neurontin	brand
+morphine	drug
+gabapentin	drug

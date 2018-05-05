@@ -1,0 +1,2 @@
+antidepressants	group
+Acamprosate	drug

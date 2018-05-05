@@ -1,0 +1,3 @@
+Norpace	brand
+propranolol	drug
+diazepam	drug

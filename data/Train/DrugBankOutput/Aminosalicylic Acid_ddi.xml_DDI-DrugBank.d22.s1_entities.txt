@@ -1,0 +1,3 @@
+aminosalicylic acid	drug
+digoxin	drug
+digoxin	drug

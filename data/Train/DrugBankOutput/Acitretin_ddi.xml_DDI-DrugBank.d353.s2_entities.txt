@@ -1,0 +1,2 @@
+glibenclamide	drug
+acitretin	drug

@@ -1,0 +1,6 @@
+steroids	group
+surfactant	drug
+dopamine	drug
+dobutamine	drug
+INOmax	brand
+tolazoline	drug

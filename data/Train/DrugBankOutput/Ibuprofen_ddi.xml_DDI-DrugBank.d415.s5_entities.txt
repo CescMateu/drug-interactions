@@ -1,0 +1,4 @@
+nonsteroidal anti-inflammatory drugs	group
+methotrexate	drug
+Methotrexate	drug
+Ibuprofen	drug

@@ -1,0 +1,4 @@
+Phenytoin	drug
+tiagabine	drug
+phenytoin	drug
+AEDs	group

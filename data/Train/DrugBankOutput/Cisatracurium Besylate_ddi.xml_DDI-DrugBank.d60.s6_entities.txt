@@ -1,0 +1,6 @@
+NIMBEX	brand
+NIMBEX	brand
+nitrous oxide	drug
+oxygen	drug
+Isoflurane	drug
+enflurane	drug

@@ -1,0 +1,8 @@
+Aminoglycosides	group
+amphotericin	drug
+Amphotericin	drug
+Foscarnet	drug
+HIVID	drug
+zalcitabine	drug
+foscarnet	drug
+aminoglycosides	group

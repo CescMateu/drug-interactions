@@ -1,0 +1,4 @@
+phenytoin	drug
+phenytoin	drug
+Phenytoin	drug
+acitretin	drug

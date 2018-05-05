@@ -1,0 +1,3 @@
+Danazol	drug
+danazol	drug
+lovastatin	drug

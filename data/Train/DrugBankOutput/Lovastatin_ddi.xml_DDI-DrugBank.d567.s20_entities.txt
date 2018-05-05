@@ -1,0 +1,3 @@
+Propranolol	drug
+lovastatin	drug
+propranolol	drug

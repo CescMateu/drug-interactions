@@ -1,0 +1,4 @@
+nalidixic acid	drug
+Quinolones	group
+warfarin	drug
+anticoagulant	group

@@ -1,0 +1,1 @@
+It is desirable to monitor TCA plasma levels whenever a TCA is going to be co-administered with another drug known to be an inhibitor of P450 2D6.

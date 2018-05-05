@@ -1,0 +1,4 @@
+levodopa	drug
+LODOSYN	brand
+levodopa	drug
+carbidopa	drug

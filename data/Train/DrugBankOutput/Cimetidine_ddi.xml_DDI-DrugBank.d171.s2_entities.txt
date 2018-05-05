@@ -1,0 +1,2 @@
+anticoagulant	group
+Tagamet	brand

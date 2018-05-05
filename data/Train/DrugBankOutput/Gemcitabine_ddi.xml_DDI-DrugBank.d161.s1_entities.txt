@@ -1,0 +1,2 @@
+Gemzar	brand
+cisplatin	drug

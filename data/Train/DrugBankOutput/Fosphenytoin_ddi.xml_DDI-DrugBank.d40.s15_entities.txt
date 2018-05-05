@@ -1,0 +1,4 @@
+valproate	drug
+valproic acid	drug
+phenobarbital	drug
+phenytoin	drug

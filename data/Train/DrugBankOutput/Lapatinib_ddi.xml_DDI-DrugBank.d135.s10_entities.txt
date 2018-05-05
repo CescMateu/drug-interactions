@@ -1,0 +1,2 @@
+TYKERB	brand
+lapatinib	drug

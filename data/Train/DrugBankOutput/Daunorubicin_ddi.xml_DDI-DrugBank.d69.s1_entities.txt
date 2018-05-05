@@ -1,0 +1,3 @@
+Cerubidine	brand
+Cerubidine	brand
+doxorubicin	drug

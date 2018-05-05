@@ -1,0 +1,10 @@
+didanosine	drug
+FACTIVE	brand
+antacids	group
+ferrous sulfate	drug
+Magnesium	drug
+aluminum	drug
+zinc	drug
+Videx	brand
+iron	drug
+multivitamin preparations	group

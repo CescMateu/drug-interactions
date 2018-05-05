@@ -1,0 +1,2 @@
+MPTP	drug_n
+1-methyl-4-phenyl-1,2,3,6- tetrahydropyridine	drug_n

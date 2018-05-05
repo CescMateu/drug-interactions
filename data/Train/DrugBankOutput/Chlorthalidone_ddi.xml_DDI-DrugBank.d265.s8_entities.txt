@@ -1,0 +1,2 @@
+Chlorthalidone	drug
+norepinephrine	drug

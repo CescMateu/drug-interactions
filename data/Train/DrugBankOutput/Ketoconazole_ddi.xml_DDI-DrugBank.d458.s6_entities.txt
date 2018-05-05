@@ -1,0 +1,2 @@
+astemizole	drug
+ketoconazole	drug

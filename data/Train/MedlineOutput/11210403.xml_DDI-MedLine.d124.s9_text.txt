@@ -1,0 +1,1 @@
+There was not a significant difference (p > 0.05) in AUC (48.59 +/- 8.52 vs. 49.9 +/- 9.93), Cmax (7.73 +/- 2.6 vs. 6.6 +/- 2.0), and tmax (1.1 +/- 0.6 vs. 1.6 +/- 1.1) for levofloxacin versus levofloxacin/oxycodone regimens. 

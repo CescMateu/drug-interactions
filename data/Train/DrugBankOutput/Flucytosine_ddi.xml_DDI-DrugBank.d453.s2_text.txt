@@ -1,0 +1,1 @@
+Drug/Laboratory Test Interactions: Measurement of serum creatinine levels should be determined by the Jaffe reaction, since Ancobon does not interfere with the determination of creatinine values by this method.

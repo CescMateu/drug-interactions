@@ -1,0 +1,4 @@
+tricyclic antidepressants	group
+theophylline	drug
+aminophylline	drug
+sympathomimetics	group

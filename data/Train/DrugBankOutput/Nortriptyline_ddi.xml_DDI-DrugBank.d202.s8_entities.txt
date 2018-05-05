@@ -1,0 +1,2 @@
+tricyclic antidepressant	group
+reserpine	drug

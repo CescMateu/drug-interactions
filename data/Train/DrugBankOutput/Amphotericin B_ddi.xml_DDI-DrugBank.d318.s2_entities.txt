@@ -1,0 +1,4 @@
+Corticotropin	drug
+Corticosteroids	group
+amphotericin B	drug
+ACTH	group

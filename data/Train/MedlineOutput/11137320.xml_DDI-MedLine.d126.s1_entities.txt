@@ -1,0 +1,2 @@
+cypermethrin	drug
+Type II pyrethroid	drug_n

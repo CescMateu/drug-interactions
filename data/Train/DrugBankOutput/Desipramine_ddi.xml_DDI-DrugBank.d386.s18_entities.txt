@@ -1,0 +1,2 @@
+anticholinergic	group
+sympathomimetic drugs	group

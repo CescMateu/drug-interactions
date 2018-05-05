@@ -1,0 +1,1 @@
+It is thought that homeostatic mechanisms match intrinsic excitability to the incoming synaptic drive, but evidence for involvement of voltage-gated conductances is sparse. 

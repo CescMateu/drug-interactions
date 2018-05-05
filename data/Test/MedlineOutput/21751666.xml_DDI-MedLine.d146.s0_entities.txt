@@ -1,0 +1,2 @@
+immunosuppresive drug	group
+oseltamivir	drug

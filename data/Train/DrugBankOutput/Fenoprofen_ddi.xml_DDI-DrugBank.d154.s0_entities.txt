@@ -1,0 +1,3 @@
+fenoprofen	drug
+aspirin	brand
+hydroxylated fenoprofen	drug_n

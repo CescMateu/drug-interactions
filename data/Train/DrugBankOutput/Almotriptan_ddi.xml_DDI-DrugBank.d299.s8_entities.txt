@@ -1,0 +1,4 @@
+almotriptan	drug
+verapamil	drug
+almotriptan	drug
+Verapamil	drug

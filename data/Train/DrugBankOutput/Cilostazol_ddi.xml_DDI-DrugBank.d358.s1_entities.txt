@@ -1,0 +1,3 @@
+omeprazole	drug
+erythromycin	drug
+cilostazol	drug

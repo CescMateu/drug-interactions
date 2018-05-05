@@ -1,0 +1,2 @@
+ouabain	drug
+palytoxin	drug_n

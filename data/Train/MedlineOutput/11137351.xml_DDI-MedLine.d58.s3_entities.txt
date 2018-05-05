@@ -1,0 +1,5 @@
+omega-conotoxin GVIA	drug_n
+nimodipine	drug
+selective Ca(2+) channel blockers	group
+ginsenosides	drug_n
+omega-agatoxin IVA	drug_n

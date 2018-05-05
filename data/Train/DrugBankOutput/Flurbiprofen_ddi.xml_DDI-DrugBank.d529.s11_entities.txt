@@ -1,0 +1,2 @@
+flurbiprofen	drug
+beta-blocker	group

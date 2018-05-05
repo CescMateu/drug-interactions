@@ -1,0 +1,3 @@
+meperidine	drug
+Amphetamines	group
+Meperidine	drug

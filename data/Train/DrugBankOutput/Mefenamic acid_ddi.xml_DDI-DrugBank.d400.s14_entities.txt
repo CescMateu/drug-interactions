@@ -1,0 +1,8 @@
+trimethoprim	drug
+lovastatin	drug
+fluconazole	drug
+mefenamic acid	drug
+mefenamic acid	drug
+magnesium hydroxide	drug
+antacid	group
+Antacids	group

@@ -1,0 +1,5 @@
+paroxetine	drug
+serotonin reuptake inhibitors	group
+SSRIs	group
+fluoxetine	drug
+sertraline	drug

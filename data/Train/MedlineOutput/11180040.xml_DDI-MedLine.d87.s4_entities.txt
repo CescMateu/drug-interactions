@@ -1,0 +1,2 @@
+Morphine	drug
+ADL 8-2698	drug

@@ -1,0 +1,8 @@
+sulfamethoxazole	drug
+trimethoprim	drug
+Bactrim	brand
+Septra	brand
+sulfisoxazole	drug
+Gantrisin	brand
+sulfasalazine	drug
+Azulfidine	brand

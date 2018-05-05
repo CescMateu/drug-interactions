@@ -1,0 +1,4 @@
+Ketoconazole	drug
+NIZORAL	brand
+terfenadine	drug
+terfenadine	drug

@@ -1,0 +1,3 @@
+Nicotine	drug
+Nicotine	drug
+ergot	drug

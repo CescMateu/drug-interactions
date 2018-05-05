@@ -1,0 +1,5 @@
+warfarin	drug
+enoxacin	drug
+R-warfarin	drug
+Warfarin	drug
+Quinolones	group

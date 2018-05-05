@@ -1,0 +1,9 @@
+calcium-blocking agents	group
+nitrates	group
+prazosin	drug
+hydralazine	drug
+enalapril	drug
+Enalapril	drug
+methyldopa	drug
+beta adrenergic-blocking agents	group
+digoxin	drug

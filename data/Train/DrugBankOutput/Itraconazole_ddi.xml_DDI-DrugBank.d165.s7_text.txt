@@ -1,0 +1,1 @@
+Human pharmacokinetics data indicate that oral ketoconazole potently inhibits the metabolism of cisapride resulting in an eight-fold increase in the mean AUC of cisapride.

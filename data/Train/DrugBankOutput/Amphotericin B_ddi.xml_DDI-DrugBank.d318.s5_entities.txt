@@ -1,0 +1,3 @@
+Digitalis glycosides	group
+amphotericin B	drug
+digitalis	group

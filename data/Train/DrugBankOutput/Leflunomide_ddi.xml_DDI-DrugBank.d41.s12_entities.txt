@@ -1,0 +1,2 @@
+tolbutamide	drug
+Tolbutamide	drug

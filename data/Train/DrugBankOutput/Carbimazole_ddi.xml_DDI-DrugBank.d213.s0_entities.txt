@@ -1,0 +1,5 @@
+iodine	drug
+Iodine	drug
+iodine	drug
+Carbimazole	drug
+Carbimazole	drug

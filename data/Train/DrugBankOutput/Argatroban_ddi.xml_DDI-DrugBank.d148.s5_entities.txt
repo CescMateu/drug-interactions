@@ -1,0 +1,3 @@
+Argatroban	drug
+Thrombolytic agents	group
+thrombolytic agents	group

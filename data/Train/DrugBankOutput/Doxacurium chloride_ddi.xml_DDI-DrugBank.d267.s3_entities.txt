@@ -1,0 +1,4 @@
+enflurane	drug
+Isoflurane	drug
+NUROMAX	brand
+halothane	drug

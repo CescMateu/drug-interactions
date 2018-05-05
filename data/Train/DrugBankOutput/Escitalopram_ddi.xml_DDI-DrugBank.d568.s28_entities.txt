@@ -1,0 +1,3 @@
+ritonavir	drug
+escitalopram	drug
+escitalopram	drug

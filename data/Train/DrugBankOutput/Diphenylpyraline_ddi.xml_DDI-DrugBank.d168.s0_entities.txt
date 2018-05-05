@@ -1,0 +1,8 @@
+alcohol	drug
+CNS depressants	group
+antihistamines	group
+anticholinergics	group
+antihistamines	group
+monoamine oxidase (MAO) inhibitors	group
+antihistamines	drug
+antihistamines	drug

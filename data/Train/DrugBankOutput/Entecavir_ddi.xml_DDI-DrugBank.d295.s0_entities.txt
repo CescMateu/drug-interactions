@@ -1,0 +1,3 @@
+entecavir	drug
+BARACLUDE	brand
+entecavir	drug

@@ -1,0 +1,6 @@
+digoxin	drug
+contraceptive	group
+valproate	drug
+phenytoin	drug
+probenecid	drug
+warfarin	drug

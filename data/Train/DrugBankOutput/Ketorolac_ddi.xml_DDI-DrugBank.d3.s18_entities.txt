@@ -1,0 +1,5 @@
+carbamazepine	drug
+Antiepileptic Drugs	group
+TORADOL	brand
+antiepileptic drugs	group
+phenytoin	drug

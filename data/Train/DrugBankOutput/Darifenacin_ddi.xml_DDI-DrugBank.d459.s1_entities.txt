@@ -1,0 +1,4 @@
+thioridazine	drug
+tricyclic antidepressants	group
+ENABLEX	brand
+flecainide	drug

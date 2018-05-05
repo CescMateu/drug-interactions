@@ -1,0 +1,6 @@
+hypnotics	group
+sedatives	group
+Acamprosate	drug
+anxiolytics	group
+benzodiazepines	group
+non-opioid analgesics	group

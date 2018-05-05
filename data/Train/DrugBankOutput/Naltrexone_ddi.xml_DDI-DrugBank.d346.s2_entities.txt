@@ -1,0 +1,2 @@
+REVIA	brand
+disulfiram	drug

@@ -1,0 +1,1 @@
+Drug/Laboratory Test Interaction Because Xigris may affect the APTT assay, Xigris present in plasma samples may interfere with one-stage coagulation assays based on the APTT (such as factor VIII, IX, and XI assays).

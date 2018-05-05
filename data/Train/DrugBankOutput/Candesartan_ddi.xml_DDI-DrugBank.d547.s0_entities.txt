@@ -1,0 +1,8 @@
+glyburide	drug
+candesartan cilexetil	drug
+digoxin	drug
+nifedipine	drug
+hydrochlorothiazide	drug
+warfarin	drug
+enalapril	drug
+contraceptives	group

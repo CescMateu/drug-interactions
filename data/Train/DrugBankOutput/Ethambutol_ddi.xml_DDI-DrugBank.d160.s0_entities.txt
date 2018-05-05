@@ -1,0 +1,6 @@
+ethambutol	drug
+aluminum hydroxide	drug
+antacid	group
+ethambutol	drug
+ethambutol	drug
+antacid products	group

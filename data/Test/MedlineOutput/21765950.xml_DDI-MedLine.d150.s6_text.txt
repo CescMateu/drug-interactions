@@ -1,0 +1,1 @@
+Moreover, these targets that cause similar side effects are more often in a linear part of the network, having two or less interactions, than drug targets in general. 

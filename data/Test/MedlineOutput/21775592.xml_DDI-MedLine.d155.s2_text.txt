@@ -1,0 +1,1 @@
+In support of the anatomical predictions, on-beam excitation and off-beam inhibition of Purkinje cells have been shown to occur when the surface of the cerebellum is electrically excited. 

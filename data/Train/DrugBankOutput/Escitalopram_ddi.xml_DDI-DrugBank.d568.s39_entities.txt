@@ -1,0 +1,5 @@
+citalopram	drug
+escitalopram	drug
+Citalopram	drug
+Citalopram	drug
+Celexa	brand

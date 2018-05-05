@@ -1,0 +1,2 @@
+carbamazepine	drug
+aripiprazole	drug

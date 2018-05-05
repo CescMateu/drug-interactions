@@ -1,0 +1,3 @@
+echistatin	drug_n
+contortrostatin	drug_n
+flavoridin	drug_n

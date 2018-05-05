@@ -1,0 +1,4 @@
+PEGASYS	brand
+ribavirin	drug
+PEGASYS	brand
+COPEGUS	brand

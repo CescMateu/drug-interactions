@@ -1,0 +1,4 @@
+terodiline	drug
+sparfloxacin	drug
+bepridil	drug
+astemizole	drug

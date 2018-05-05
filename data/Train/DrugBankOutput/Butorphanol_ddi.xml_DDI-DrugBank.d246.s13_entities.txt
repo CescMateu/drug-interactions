@@ -1,0 +1,3 @@
+oxymetazoline	drug
+STADOL NS	brand
+nasal vasoconstrictor	group

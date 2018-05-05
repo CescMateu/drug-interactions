@@ -1,0 +1,1 @@
+Potential interactions between TAXOL, a substrate of CYP3A4, and protease inhibitors (ritonavir, saquinavir, indinavir, and nelfinavir), which are substrates and/or inhibitors of CYP3A4, have not been evaluated in clinical trials.

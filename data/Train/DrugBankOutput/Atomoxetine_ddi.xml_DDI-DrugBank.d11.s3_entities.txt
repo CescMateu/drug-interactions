@@ -1,0 +1,4 @@
+paroxetine	drug
+STRATTERA	brand
+quinidine	drug
+fluoxetine	drug

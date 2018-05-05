@@ -1,0 +1,3 @@
+digoxin	drug
+Acarbose	drug
+digoxin	drug

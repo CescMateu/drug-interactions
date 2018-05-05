@@ -1,0 +1,3 @@
+t1	drug
+amiodarone	drug
+Cholestyramine	drug

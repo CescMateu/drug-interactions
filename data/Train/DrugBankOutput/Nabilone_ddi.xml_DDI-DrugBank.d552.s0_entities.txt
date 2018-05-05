@@ -1,0 +1,6 @@
+narcotic analgesics	group
+barbiturates	group
+alcohol	drug
+CNS depressants	group
+psychoactive drugs	group
+Nabilone	drug

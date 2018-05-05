@@ -1,0 +1,9 @@
+opioids	group
+Sedatives	group
+Anesthetics	group
+Opioids	group
+Hypnotics	group
+anesthetics	group
+PRECEDEX	brand
+hypnotics	group
+sedatives	group

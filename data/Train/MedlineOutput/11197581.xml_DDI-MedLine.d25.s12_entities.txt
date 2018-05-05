@@ -1,0 +1,6 @@
+atorvastatin	drug
+cerivastatin	drug
+Macrolide antibiotics	group
+HMG-CoA reductase inhibitors	group
+lovastatin	drug
+simvastatin	drug

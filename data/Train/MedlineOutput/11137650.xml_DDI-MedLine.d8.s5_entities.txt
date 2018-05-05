@@ -1,0 +1,2 @@
+rifabutin	drug
+rifampicin	drug

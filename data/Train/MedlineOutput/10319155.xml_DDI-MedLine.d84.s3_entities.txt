@@ -1,0 +1,6 @@
+GL	drug_n
+antibiotics	group
+ampicillin	drug
+cefazolin	drug
+oxytetracycline	drug
+chloramphenicol	drug

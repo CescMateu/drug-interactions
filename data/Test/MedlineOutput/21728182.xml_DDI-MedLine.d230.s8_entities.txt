@@ -1,0 +1,2 @@
+neferine	drug_n
+amiodarone	drug

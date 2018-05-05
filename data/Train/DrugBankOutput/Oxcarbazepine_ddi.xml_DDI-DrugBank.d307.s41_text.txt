@@ -1,0 +1,1 @@
+The mean AUC values of EE were decreased by 48% [90% CI: 22-65] in one study and 52% [90% CI: 38-52] in another study [1,2].

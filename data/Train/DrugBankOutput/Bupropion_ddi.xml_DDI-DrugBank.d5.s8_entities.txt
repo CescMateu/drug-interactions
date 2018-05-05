@@ -1,0 +1,4 @@
+bupropion	drug
+carbamazepine	drug
+phenobarbital	drug
+phenytoin	drug

@@ -1,0 +1,11 @@
+diazepam	drug
+clarithromycin	drug
+lansoprazole	drug
+warfarin	drug
+antipyrine	drug
+indomethacin	drug
+ibuprofen	drug
+phenytoin	drug
+propranolol	drug
+prednisone	drug
+terfenadine	drug

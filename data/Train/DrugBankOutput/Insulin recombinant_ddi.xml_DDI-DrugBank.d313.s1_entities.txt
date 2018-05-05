@@ -1,0 +1,11 @@
+sulfonamide antibiotics	group
+octreotide	drug
+somatostatin analog	group
+fibrates	group
+disopyramide	drug
+ACE inhibitors	group
+antidiabetic products	group
+salicylates	group
+propoxyphene	drug
+monoamine oxidase (MAO) inhibitors	group
+fluoxetine	drug

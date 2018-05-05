@@ -1,0 +1,6 @@
+propranolol	drug
+phenytoin	drug
+TIKOSYN	brand
+warfarin	drug
+theophylline	drug
+contraceptives	group

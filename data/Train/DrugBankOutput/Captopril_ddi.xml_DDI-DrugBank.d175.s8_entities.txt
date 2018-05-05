@@ -1,0 +1,2 @@
+Captopril	drug
+antihypertensive agents	group

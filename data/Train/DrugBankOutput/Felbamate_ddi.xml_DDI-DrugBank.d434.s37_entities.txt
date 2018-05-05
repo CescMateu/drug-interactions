@@ -1,0 +1,7 @@
+ethinyl estradiol	drug
+contraceptive	group
+Combination Oral Contraceptives	group
+Felbatol	brand
+contraceptive	group
+felbamate	drug
+gestodene	drug

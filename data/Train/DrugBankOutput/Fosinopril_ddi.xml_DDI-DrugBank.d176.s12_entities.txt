@@ -1,0 +1,11 @@
+cimetidine	drug
+hydrochlorothiazide	drug
+propanolol	drug
+nifedipine	drug
+chlorthalidone	drug
+digoxin	drug
+propantheline	drug
+metoclopramide	drug
+fosinopril	drug
+fosinoprilat	drug_n
+warfarin	drug

@@ -1,0 +1,2 @@
+lomefloxacin	drug
+Sucralfate	drug

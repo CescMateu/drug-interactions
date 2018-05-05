@@ -1,0 +1,12 @@
+phenytoin	drug
+amlodipine	drug
+ranitidine	drug
+glyburide	drug
+estrogens	group
+omeprazole	drug
+antacid	group
+medroxyprogesterone	drug
+magnesium hydroxide	drug
+aluminum hydroxide	drug
+theophylline	drug
+TIKOSYN	brand

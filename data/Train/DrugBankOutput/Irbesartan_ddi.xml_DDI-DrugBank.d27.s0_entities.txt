@@ -1,0 +1,4 @@
+nifedipine	drug
+warfarin	drug
+digoxin	drug
+hydrochlorothiazide	drug

@@ -1,0 +1,3 @@
+phenobarbital	drug
+Phenobarbital	drug
+Amphetamines	group

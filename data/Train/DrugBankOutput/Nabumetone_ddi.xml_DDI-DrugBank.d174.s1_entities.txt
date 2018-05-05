@@ -1,0 +1,3 @@
+nabumetone	drug
+warfarin	drug
+NSAIDs	group

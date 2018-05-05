@@ -1,0 +1,3 @@
+Aspirin	brand
+Vardenafil	drug
+aspirin	brand

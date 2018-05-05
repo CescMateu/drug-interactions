@@ -1,0 +1,3 @@
+ketoconazole	drug
+INH	drug
+Isoniazid	drug

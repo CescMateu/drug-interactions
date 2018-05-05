@@ -1,0 +1,4 @@
+ethinyl estradiol	drug
+norethindrone	drug
+Contraceptives	group
+Rofecoxib	drug

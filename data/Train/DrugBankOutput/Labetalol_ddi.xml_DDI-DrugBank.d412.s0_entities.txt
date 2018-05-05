@@ -1,0 +1,3 @@
+labetalol HCl	drug
+labetalol HCl	drug
+tricyclic antidepressants	group

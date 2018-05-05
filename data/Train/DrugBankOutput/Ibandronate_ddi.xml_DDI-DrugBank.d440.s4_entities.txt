@@ -1,0 +1,3 @@
+PPIs	group
+H2 blockers	group
+Ibandronate	drug

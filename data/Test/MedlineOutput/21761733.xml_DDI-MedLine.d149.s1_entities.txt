@@ -1,0 +1,3 @@
+ginseng	drug
+Abeta(1-40)	drug_n
+ginko	drug

@@ -1,0 +1,7 @@
+cefdinir	drug
+iron supplement	group
+Iron Supplements	group
+Iron	drug
+iron	drug
+iron	drug
+vitamins	group

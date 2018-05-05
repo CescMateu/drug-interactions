@@ -1,0 +1,3 @@
+alcohol	drug
+tranquilizers	group
+barbiturates	group

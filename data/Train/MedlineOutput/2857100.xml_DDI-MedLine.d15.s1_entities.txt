@@ -1,0 +1,3 @@
+neuroleptics	group
+cerulein	drug_n
+3H-spiroperidol	drug_n

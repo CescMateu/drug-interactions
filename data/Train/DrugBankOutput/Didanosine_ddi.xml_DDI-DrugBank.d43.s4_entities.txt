@@ -1,0 +1,6 @@
+antacid	group
+VIDEX	brand
+antacids	group
+Antacids	group
+aluminum	drug
+magnesium	drug

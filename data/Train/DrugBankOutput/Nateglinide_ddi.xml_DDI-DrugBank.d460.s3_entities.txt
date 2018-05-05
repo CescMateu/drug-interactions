@@ -1,0 +1,3 @@
+Glyburide	drug
+Starlix	brand
+glyburide	drug

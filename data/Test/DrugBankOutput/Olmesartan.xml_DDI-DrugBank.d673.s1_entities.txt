@@ -1,0 +1,2 @@
+olmesartan	drug
+antacids	group

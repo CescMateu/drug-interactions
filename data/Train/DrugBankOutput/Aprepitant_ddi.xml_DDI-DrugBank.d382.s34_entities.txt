@@ -1,0 +1,6 @@
+carbamazepine	drug
+phenytoin	drug
+Aprepitant	drug
+rifampin	drug
+aprepitant	drug
+Aprepitant	drug

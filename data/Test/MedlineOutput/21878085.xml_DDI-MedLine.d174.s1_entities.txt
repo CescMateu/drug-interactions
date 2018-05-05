@@ -1,0 +1,2 @@
+NSAIDs	group
+Nonsteroidal anti-inflammatory drugs	group

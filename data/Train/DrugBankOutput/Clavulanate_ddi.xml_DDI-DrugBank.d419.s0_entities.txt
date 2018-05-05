@@ -1,0 +1,3 @@
+ampicillin	drug
+allopurinol	drug
+ampicillin	drug

@@ -1,0 +1,7 @@
+warfarin	drug
+phenytoin	drug
+lidocaine	drug
+lorazepam	drug
+chlordiazepoxide	drug
+theophylline	drug
+nizatidine	drug

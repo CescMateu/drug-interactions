@@ -1,0 +1,12 @@
+MAOI	group
+MAOI	group
+Flupenthixol	drug
+Monoamine oxidase inhibitors	group
+Ethanol	drug
+Flupenthixol	drug
+flupenthixol	drug
+Arecoline	drug_n
+Ethanol	drug
+Tricyclic antidepressants	group
+Flupenthixol	drug
+Tricyclic antidepressants	group

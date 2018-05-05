@@ -1,0 +1,3 @@
+phenytoin	drug
+Phenytoin	drug
+Isoniazid	drug

@@ -1,0 +1,2 @@
+penciclovir	drug
+probenecid	drug

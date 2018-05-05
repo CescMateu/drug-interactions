@@ -1,0 +1,2 @@
+L-phenylalanine	drug
+non-selective MAO inhibitors	group

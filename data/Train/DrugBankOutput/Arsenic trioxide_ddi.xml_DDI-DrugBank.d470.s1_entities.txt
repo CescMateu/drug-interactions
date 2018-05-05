@@ -1,0 +1,5 @@
+antiarrhythmics	group
+TRISENOX	brand
+diuretics	group
+thioridazine	drug
+amphotericin B	drug

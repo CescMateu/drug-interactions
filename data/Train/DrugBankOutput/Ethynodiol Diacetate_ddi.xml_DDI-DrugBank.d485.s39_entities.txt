@@ -1,0 +1,3 @@
+Combination hormonal contraceptives	group
+Selegiline	drug
+selegiline	drug

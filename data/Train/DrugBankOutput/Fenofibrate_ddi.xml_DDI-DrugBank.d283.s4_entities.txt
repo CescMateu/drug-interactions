@@ -1,0 +1,4 @@
+TRICOR	brand
+bile acid binding resin	group
+Resins	group
+bile acid sequestrants	group

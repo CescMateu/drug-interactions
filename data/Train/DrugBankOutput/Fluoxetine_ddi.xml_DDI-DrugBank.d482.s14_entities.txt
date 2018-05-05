@@ -1,0 +1,18 @@
+Coumadin	brand
+blood thinner	group
+metoprolol	drug
+antidepressants	group
+carbamazepine	drug
+antihistamines	group
+cimetidine	drug
+Tegretol	brand
+estrogens	group
+Tagamet	brand
+lithium	drug
+ketoconazole	drug
+Sporanox	brand
+Prozac	brand
+fluoxetine	drug
+levodopa	drug
+muscle relaxants	group
+Nizoral	brand

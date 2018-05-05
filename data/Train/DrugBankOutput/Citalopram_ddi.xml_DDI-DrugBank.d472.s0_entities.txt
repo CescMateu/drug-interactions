@@ -1,0 +1,12 @@
+muscle relaxants	group
+narcotics	group
+sedatives	group
+tranquilizers	group
+antipsychotics	group
+reserpine	drug
+methyldopa	drug
+beta-blockers	group
+Central nervous system depressant	group
+alcohol	drug
+antidepressants	group
+antihistamines	group

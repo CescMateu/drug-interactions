@@ -1,0 +1,2 @@
+99mTc-methylene diphosphonate	drug
+gentamicin	drug

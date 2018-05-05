@@ -1,0 +1,6 @@
+antipsychotic drug	group
+chlorpromazine	drug
+antiparkinsonian drug	group
+trihexyphenidyl	drug
+tricyclic antidepressant	group
+amitriptyline	drug

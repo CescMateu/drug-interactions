@@ -1,0 +1,4 @@
+delavirdine	drug
+Antiretroviral Drugs	group
+VIDEX	brand
+indinavir	drug

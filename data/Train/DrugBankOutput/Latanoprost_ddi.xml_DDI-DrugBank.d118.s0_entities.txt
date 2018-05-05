@@ -1,0 +1,2 @@
+latanoprost	drug
+thimerosal	drug_n

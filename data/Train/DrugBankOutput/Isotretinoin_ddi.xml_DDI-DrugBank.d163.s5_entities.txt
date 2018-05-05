@@ -1,0 +1,2 @@
+hormonal contraceptives	group
+combined oral contraceptives	group

@@ -1,0 +1,3 @@
+Warfarin	drug
+aliskiren	drug
+warfarin	drug

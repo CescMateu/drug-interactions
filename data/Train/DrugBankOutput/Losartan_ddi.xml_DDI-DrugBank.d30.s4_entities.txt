@@ -1,0 +1,2 @@
+losartan	drug
+Fluconazole	drug

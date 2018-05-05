@@ -1,0 +1,3 @@
+paroxetine	drug
+eszopiclone	drug
+Paroxetine	drug

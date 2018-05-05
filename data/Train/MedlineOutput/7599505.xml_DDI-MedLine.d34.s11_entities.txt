@@ -1,0 +1,4 @@
+iron	drug
+cobalt	drug
+iron	drug
+cobalt	drug

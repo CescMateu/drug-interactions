@@ -1,0 +1,3 @@
+zalcitabine	drug
+Doxorubicin	drug
+Doxorubicin	drug

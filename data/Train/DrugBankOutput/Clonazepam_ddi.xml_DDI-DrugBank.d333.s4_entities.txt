@@ -1,0 +1,2 @@
+Fluoxetine	drug
+clonazepam	drug

@@ -1,0 +1,3 @@
+morphine	drug
+Morphine	drug
+Neurontin	brand

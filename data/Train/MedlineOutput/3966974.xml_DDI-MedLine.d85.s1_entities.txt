@@ -1,0 +1,4 @@
+misonidazole	drug_n
+CCNU	drug
+CCNU	drug
+nitrosourea	group

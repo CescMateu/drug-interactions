@@ -1,0 +1,4 @@
+phenytoin	drug
+Norpace	brand
+Norpace CR	brand
+disopyramide	drug

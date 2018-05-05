@@ -1,0 +1,3 @@
+aspirin	brand
+fosinopril sodium	drug
+fosinoprilat	drug_n

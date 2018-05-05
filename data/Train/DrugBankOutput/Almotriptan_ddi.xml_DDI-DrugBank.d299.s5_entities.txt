@@ -1,0 +1,3 @@
+Propanolol	drug
+almotriptan	drug
+propranolol	drug

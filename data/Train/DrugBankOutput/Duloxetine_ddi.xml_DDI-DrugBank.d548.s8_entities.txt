@@ -1,0 +1,3 @@
+desipramine	drug
+duloxetine	drug
+desipramine	drug

@@ -1,0 +1,4 @@
+phenytoin	drug
+buspirone	drug
+warfarin	drug
+propranolol	drug

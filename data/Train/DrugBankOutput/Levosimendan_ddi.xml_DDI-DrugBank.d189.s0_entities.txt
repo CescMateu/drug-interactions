@@ -1,0 +1,10 @@
+felodipine	drug
+beta-blockers	group
+captopril	drug
+Levosimendan	drug
+carvedilol	drug
+isosorbide mononitrate	drug
+warfarin	drug
+digoxin	drug
+itraconazole	drug
+ethanol	drug

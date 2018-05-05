@@ -1,0 +1,3 @@
+Lodine	brand
+NSAIDs	group
+aspirin	brand

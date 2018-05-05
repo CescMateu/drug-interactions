@@ -1,0 +1,4 @@
+gefitinib	drug
+gefitinib	drug
+ketoconazole	drug
+itraconazole	drug

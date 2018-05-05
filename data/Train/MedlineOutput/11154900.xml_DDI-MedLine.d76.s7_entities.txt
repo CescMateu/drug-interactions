@@ -1,0 +1,3 @@
+NaFlu	drug
+cysteine	drug
+CMC-Cys	drug_n

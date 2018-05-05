@@ -1,0 +1,2 @@
+flutamide	drug
+warfarin	drug

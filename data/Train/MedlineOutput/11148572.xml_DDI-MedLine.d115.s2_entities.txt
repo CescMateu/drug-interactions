@@ -1,0 +1,11 @@
+cyclophosphamide	drug
+bleomycin	drug
+vincristine	drug
+prednisone	drug
+teniposide	drug
+doxorubicin	drug
+cyclophosphamide	drug
+prednisone	drug
+vincristine	drug
+doxorubicin	drug
+antiretroviral	group

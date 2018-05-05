@@ -1,0 +1,2 @@
+minocycline	drug
+azithromycin	drug

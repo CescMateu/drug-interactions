@@ -1,0 +1,3 @@
+ELSPAR	brand
+methotrexate	drug
+ELSPAR	brand

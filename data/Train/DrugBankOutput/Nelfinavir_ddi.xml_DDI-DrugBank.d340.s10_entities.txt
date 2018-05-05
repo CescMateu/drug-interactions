@@ -1,0 +1,4 @@
+VIRACEPT	brand
+terfenadine	drug
+Terfenadine	drug
+terfenadine	drug

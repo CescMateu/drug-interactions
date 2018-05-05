@@ -1,0 +1,5 @@
+ethinyl estradiol	drug
+Contraceptives	group
+atorvastatin	drug
+contraceptive	group
+norethindrone	drug

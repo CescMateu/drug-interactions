@@ -1,0 +1,5 @@
+Felbatol	brand
+Antiepileptic Drugs	group
+AEDs	group
+antiepileptic drugs	group
+AEDs	group

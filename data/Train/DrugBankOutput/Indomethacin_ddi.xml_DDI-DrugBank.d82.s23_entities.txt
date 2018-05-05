@@ -1,0 +1,4 @@
+INDOCIN	brand
+loop diuretics	group
+potassium-sparing diuretics	group
+thiazide diuretics	group

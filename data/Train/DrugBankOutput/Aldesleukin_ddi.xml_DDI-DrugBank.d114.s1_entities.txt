@@ -1,0 +1,6 @@
+sedatives	group
+tranquilizers	group
+analgesics	group
+antiemetics	group
+psychotropic drugs	group
+narcotics	group

@@ -1,0 +1,4 @@
+ketoprofen	drug
+ketoprofen	drug
+Probenecid	drug
+Probenecid	drug

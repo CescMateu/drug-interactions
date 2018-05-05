@@ -1,0 +1,5 @@
+ketoconazole	drug
+lansoprazole	drug
+iron	drug
+ampicillin	drug
+digoxin	drug

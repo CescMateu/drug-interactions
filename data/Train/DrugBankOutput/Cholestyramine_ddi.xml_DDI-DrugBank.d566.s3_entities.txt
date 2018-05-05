@@ -1,0 +1,4 @@
+fat soluble vitamins	group
+resin	group
+cholestyramine	drug
+cholestyramine	drug

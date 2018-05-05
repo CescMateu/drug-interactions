@@ -1,0 +1,2 @@
+ZDV	drug
+Zalcitabine	drug

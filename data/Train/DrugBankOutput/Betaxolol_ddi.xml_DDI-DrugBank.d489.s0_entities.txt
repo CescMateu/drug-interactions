@@ -1,0 +1,5 @@
+hydrochlorothiazide	drug
+nifedipine	drug
+chlorthalidone	drug
+Kerlone	brand
+cimetidine	drug

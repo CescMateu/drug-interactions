@@ -1,0 +1,2 @@
+nonsteroidal anti-inflammatory agents	group
+cinoxacin	drug

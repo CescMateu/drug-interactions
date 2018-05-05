@@ -1,0 +1,4 @@
+Uricosuric drugs	group
+probenecid	drug
+sulfinpyrazone	drug
+nitrofurantoin	drug

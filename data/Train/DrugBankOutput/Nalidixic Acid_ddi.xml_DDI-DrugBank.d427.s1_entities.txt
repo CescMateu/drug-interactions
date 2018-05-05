@@ -1,0 +1,3 @@
+quinolones	group
+theophylline	drug
+theophylline	drug

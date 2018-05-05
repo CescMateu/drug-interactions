@@ -1,0 +1,1 @@
+Activity-dependent changes in synaptic strength are well established as mediating long-term plasticity underlying learning and memory, but modulation of  target neuron excitability could complement changes in synaptic strength and regulate network activity. 

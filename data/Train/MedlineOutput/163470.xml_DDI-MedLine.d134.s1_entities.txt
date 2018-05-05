@@ -1,0 +1,3 @@
+pertechnetate	drug
+perchlorate	drug_n
+radiopertechnetate	drug

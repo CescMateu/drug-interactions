@@ -1,0 +1,2 @@
+diuretics	group
+guanfacine	drug

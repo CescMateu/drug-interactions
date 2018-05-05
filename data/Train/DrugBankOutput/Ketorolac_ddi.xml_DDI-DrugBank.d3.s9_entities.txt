@@ -1,0 +1,5 @@
+TORADOL	brand
+Probenecid	drug
+ketorolac	drug
+probenecid	drug
+ketorolac	drug

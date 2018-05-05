@@ -1,0 +1,4 @@
+rifampin	drug
+phenobarbital	drug
+efavirenz	drug
+rifabutin	drug

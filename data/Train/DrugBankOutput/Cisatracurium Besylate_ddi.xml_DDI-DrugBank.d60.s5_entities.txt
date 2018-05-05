@@ -1,0 +1,4 @@
+NIMBEX	brand
+atracurium	drug
+pancuronium	drug
+vecuronium	drug

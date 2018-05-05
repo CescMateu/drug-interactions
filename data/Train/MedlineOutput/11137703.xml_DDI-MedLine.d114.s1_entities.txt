@@ -1,0 +1,4 @@
+InsP(3)	drug_n
+inositol 1,4,5-trisphosphate	drug_n
+RR	drug_n
+ruthenium red	drug_n

@@ -1,0 +1,6 @@
+omega-agatoxin VIA	drug_n
+omega-conotoxin GVIA	drug_n
+nimodipine	drug
+omega-agatoxin IVA	drug_n
+omega-conotoxin GVIA	drug_n
+ginsenosides	drug_n

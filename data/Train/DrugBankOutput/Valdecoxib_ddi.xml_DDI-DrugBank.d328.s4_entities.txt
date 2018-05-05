@@ -1,0 +1,4 @@
+valdecoxib	drug
+valdecoxib	drug
+Aspirin	brand
+aspirin	brand

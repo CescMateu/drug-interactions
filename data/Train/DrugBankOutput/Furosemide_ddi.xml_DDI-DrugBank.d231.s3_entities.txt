@@ -1,0 +1,3 @@
+salicylates	group
+furosemide	drug
+salicylate	group

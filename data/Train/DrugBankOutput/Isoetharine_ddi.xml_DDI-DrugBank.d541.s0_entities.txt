@@ -1,0 +1,6 @@
+quinidine	drug
+disopyramide	drug
+adrenergic bronchodilators	group
+beta-adrenergic blocking agents	group
+procainamide	drug
+phenothiazines	group

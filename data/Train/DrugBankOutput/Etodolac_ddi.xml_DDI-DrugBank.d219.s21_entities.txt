@@ -1,0 +1,3 @@
+phenytoin	drug
+Etodolac	drug
+Phenytoin	drug

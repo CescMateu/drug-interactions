@@ -1,0 +1,2 @@
+colchicine	drug
+eugenol	drug

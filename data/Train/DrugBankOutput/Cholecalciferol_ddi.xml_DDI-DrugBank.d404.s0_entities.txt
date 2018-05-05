@@ -1,0 +1,8 @@
+Calcitriol	drug
+Vitamin D3	drug
+Vitamin D2	drug
+vitamin D	group
+fat soluble vitamins	group
+Cholestyramine	drug
+Cholestyramine	drug
+Calcidiol	drug

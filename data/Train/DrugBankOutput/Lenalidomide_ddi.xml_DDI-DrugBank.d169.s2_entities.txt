@@ -1,0 +1,2 @@
+lenalidomide	drug
+warfarin	drug

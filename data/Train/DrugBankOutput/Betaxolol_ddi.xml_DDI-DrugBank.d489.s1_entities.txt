@@ -1,0 +1,4 @@
+anticoagulant	group
+Kerlone	brand
+warfarin	drug
+warfarin	drug

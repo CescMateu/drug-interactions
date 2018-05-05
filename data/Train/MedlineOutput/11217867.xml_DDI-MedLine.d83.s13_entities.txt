@@ -1,0 +1,4 @@
+olanzapine	drug
+haloperidol	drug
+olanzapine	drug
+risperidone	drug

@@ -1,0 +1,5 @@
+tacrolimus	drug
+CANCIDAS	brand
+tacrolimus	drug
+tacrolimus	drug
+CANCIDAS	brand

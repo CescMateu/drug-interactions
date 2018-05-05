@@ -1,0 +1,5 @@
+thioxanthines	group
+butyrophenones	group
+phenothiazines	group
+DOSTINEX	brand
+metoclopramide	drug

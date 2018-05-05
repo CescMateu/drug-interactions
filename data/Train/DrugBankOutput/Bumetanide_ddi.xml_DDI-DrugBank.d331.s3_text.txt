@@ -1,0 +1,1 @@
+- Lithium: Lithium should generally not be given with diuretics (such as bumetanide) because they reduce its renal clearance and add a high risk of lithium toxicity.

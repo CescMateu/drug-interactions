@@ -1,0 +1,3 @@
+SINEQUAN	brand
+alcohol	drug
+Alcohol	drug

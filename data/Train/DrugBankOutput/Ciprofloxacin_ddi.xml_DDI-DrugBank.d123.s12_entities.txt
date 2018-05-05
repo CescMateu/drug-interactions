@@ -1,0 +1,5 @@
+omeprazole	drug
+ciprofloxacin	drug
+Omeprazole	drug
+Proquin XR	brand
+Proquin XR	brand

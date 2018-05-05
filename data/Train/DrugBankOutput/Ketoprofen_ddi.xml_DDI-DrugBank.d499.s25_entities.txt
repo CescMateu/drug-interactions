@@ -1,0 +1,3 @@
+ketoprofen	drug
+lithium	drug
+lithium	drug

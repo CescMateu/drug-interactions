@@ -1,0 +1,6 @@
+calcium-channel-blocking agents	group
+diuretics	group
+Lotensin	brand
+beta-adrenergic-blocking agents	group
+digoxin	drug
+hydralazine	drug

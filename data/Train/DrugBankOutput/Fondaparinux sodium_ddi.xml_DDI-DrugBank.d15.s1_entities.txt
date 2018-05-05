@@ -1,0 +1,6 @@
+piroxicam	drug
+acetylsalicylic acid	drug
+warfarin	drug
+Fondaparinux	drug
+digoxin	drug
+digoxin	drug

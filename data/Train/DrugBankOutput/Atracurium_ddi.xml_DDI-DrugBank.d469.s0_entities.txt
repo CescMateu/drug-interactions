@@ -1,0 +1,2 @@
+TRACRIUM	brand
+enflurane	drug

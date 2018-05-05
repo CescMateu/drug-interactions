@@ -1,0 +1,2 @@
+methenamine	drug
+Acetazolamide	drug

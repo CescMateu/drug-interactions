@@ -1,0 +1,2 @@
+aspirin	brand
+Misoprostol	drug

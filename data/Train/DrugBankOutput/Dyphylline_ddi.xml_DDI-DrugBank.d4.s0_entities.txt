@@ -1,0 +1,4 @@
+theophylline	drug
+xanthine bronchodilators	group
+sympathomimetic bronchodilators	group
+ephedrine	drug

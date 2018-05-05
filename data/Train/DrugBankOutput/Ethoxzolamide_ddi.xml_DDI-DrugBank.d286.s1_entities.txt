@@ -1,0 +1,4 @@
+barbiturates	group
+lithium	drug
+ASA	drug
+salicylates	group

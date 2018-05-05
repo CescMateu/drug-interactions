@@ -1,0 +1,3 @@
+midazolam	drug
+rifaximin	drug
+rifaximin	drug

@@ -1,0 +1,1 @@
+Aspirin: Concomitant administration of diclofenac and aspirin is not recommended because diclofenac is displaced from its binding sites during the concomitant administration of aspirin, resulting in lower plasma concentrations, peak plasma levels, and AUC values.

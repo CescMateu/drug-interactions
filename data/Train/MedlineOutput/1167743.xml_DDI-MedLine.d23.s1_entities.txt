@@ -1,0 +1,9 @@
+Innovar	brand
+ketamine	drug
+ouabain	drug
+ouabain	drug
+pentobarbital	drug
+Innovar Vet	brand
+ketamine	drug
+digitalis	group
+pentobarbital	drug

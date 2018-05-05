@@ -1,0 +1,3 @@
+muscle relaxant	group
+Skeletal muscle relaxants	group
+tubocurarine	drug

@@ -1,0 +1,2 @@
+clindamycin	drug
+erythromycin	drug

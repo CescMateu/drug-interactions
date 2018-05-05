@@ -1,0 +1,2 @@
+Acetazolamide	drug
+cyclosporine	drug

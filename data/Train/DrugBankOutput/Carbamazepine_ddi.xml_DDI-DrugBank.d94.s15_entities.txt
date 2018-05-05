@@ -1,0 +1,3 @@
+anticonvulsants	group
+carbamazepine	drug
+EQUETROTM	brand

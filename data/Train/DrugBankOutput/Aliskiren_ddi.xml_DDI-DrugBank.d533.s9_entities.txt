@@ -1,0 +1,4 @@
+furosemide	drug
+furosemide	drug
+aliskiren	drug
+Furosemide	drug

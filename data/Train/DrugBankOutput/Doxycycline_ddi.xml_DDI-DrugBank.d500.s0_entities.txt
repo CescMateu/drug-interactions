@@ -1,0 +1,3 @@
+anticoagulant	group
+tetracyclines	group
+anticoagulant	group

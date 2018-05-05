@@ -1,0 +1,2 @@
+chlordiazepoxide	drug
+anticoagulants	group

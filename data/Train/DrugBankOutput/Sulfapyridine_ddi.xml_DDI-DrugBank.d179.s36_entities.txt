@@ -1,0 +1,3 @@
+Mephenytoin	drug
+Mesantoin	brand
+sulfapyridine	drug

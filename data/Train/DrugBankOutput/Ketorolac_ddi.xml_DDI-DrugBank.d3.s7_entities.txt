@@ -1,0 +1,5 @@
+TORADOL	brand
+heparin	drug
+warfarin	drug
+TORADOL	brand
+anticoagulants	group

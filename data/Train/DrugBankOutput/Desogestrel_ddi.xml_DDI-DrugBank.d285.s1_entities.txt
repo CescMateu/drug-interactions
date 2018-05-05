@@ -1,0 +1,6 @@
+tetracyclines	group
+ampicillin	drug
+griseofulvin	drug
+carbamazepine	drug
+phenytoin sodium	drug
+barbiturates	group

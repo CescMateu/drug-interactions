@@ -1,0 +1,4 @@
+phenytoin	drug
+carbamazepine	drug
+MHD	drug_n
+phenobarbital	drug

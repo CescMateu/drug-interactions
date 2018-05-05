@@ -1,0 +1,2 @@
+escitalopram	drug
+non-selective MAO inhibitor	group

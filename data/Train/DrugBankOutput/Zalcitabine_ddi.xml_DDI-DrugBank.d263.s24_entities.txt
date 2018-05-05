@@ -1,0 +1,3 @@
+zalcitabine	drug
+Metoclopramide	drug
+metoclopramide	drug

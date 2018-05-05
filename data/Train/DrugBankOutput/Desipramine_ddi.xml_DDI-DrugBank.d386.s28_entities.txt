@@ -1,0 +1,2 @@
+fluoxetine	drug
+tricyclic antidepressants	group

@@ -1,0 +1,5 @@
+prednisolone	drug
+Rofecoxib	drug
+prednisolone	drug
+Prednisone	drug
+prednisone	drug

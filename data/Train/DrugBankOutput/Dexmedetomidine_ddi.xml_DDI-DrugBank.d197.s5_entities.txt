@@ -1,0 +1,3 @@
+PRECEDEX	brand
+Neuromuscular Blockers	group
+rocuronium	drug

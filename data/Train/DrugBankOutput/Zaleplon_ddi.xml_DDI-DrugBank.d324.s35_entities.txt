@@ -1,0 +1,4 @@
+Sonata	brand
+Warfarin	drug
+warfarin	drug
+warfarin	drug

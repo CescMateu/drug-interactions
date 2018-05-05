@@ -1,0 +1,2 @@
+methyl aminolevulinate	drug
+anesthetics	group

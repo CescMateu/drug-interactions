@@ -1,0 +1,2 @@
+Indinavir	drug
+amprenavir	drug

@@ -1,0 +1,3 @@
+lapatinib	drug
+Carbamazepine	drug
+carbamazepine	drug

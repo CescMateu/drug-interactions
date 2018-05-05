@@ -1,0 +1,9 @@
+quinidine	drug
+propafenone	drug
+Type 1C antiarrhythmics	group
+encainide	drug
+flecainide	drug
+antidepressants	group
+clozapine	drug
+carbamazepine	drug
+phenothiazines	group

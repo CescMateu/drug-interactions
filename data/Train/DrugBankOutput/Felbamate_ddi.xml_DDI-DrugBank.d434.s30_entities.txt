@@ -1,0 +1,9 @@
+phenytoin	drug
+Felbatol	brand
+Felbatol	brand
+felbamate	drug
+Phenytoin	drug
+Phenytoin	drug
+Antiepileptic Drugs	group
+Felbatol	brand
+Felbatol	brand

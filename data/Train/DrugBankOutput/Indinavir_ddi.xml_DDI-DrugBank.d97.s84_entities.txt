@@ -1,0 +1,4 @@
+CRIXIVAN	brand
+rifabutin	drug
+CRIXIVAN	brand
+rifabutin	drug

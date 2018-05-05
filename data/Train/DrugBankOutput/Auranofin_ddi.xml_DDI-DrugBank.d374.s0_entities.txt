@@ -1,0 +1,4 @@
+gold medication	group
+Auranofin	drug
+Myochrysine	brand
+Solganal	brand

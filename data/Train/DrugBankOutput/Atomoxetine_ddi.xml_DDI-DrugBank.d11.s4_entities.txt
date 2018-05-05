@@ -1,0 +1,4 @@
+paroxetine	drug
+fluoxetine	drug
+atomoxetine	drug
+atomoxetine	drug

@@ -1,0 +1,10 @@
+Laxatives	group
+Iron	drug
+Colestipol	drug
+magnesium salicylate	drug
+Choline salicylate	drug
+Cholestyramine	drug
+Calcium	drug
+Antacids	group
+tetracyclines	group
+Magnesium salicylate	drug

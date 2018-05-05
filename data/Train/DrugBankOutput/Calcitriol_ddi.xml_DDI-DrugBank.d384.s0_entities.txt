@@ -1,0 +1,8 @@
+vitamin D analogues	group
+Vitamin D2	drug
+Vitamin D3	drug
+Calcitriol	drug
+Calcidiol	drug
+Cholestyramine	drug
+Cholestyramine	drug
+fat soluble vitamins	group

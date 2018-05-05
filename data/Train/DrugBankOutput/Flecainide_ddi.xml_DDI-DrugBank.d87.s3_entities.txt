@@ -1,0 +1,4 @@
+TAMBOCOR	brand
+propranolol	drug
+flecainide	drug
+propranolol	drug

@@ -1,0 +1,3 @@
+cimetidine	drug
+STADOL NS	brand
+butorphanol	drug

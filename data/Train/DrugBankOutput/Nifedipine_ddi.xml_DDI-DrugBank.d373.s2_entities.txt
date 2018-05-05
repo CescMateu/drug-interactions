@@ -1,0 +1,6 @@
+Digitalis	group
+digoxin	drug
+digoxin	drug
+nifedipine	drug
+digoxin	drug
+nifedipine	drug

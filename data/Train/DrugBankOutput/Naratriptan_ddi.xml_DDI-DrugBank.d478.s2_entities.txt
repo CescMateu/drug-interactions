@@ -1,0 +1,2 @@
+naratriptan	drug
+5-HT1 agonists	group

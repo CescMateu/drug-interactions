@@ -1,0 +1,3 @@
+NovoLog	brand
+NovoLog	brand
+zinc insulin	drug

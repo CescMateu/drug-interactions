@@ -1,0 +1,5 @@
+SMX	drug
+TMP	drug
+sulfamethoxazole	drug
+trimethoprim	drug
+ACZONE	brand

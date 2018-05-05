@@ -1,0 +1,2 @@
+phenytoin	drug
+rifampicin	drug

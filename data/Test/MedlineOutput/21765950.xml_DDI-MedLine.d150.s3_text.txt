@@ -1,0 +1,1 @@
+However, side-effect similarity of drugs could also be caused by their target proteins being close in a molecular network, which as such could cause similar downstream effects. 

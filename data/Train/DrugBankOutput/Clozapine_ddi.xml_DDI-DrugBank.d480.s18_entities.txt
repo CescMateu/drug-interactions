@@ -1,0 +1,4 @@
+Clozapine	drug
+carbamazepine	drug
+carbamazepine	drug
+Clozapine	drug

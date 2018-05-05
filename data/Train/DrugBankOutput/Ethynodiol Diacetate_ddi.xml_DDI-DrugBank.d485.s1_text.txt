@@ -1,0 +1,1 @@
+Inhibits CYP1A2 (weak), 2B6 (weak), 2C19 (weak), 3A4 (weak).

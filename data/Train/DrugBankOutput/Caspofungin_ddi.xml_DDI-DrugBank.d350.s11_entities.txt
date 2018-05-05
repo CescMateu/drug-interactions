@@ -1,0 +1,2 @@
+rifampin	drug
+CANCIDAS	brand

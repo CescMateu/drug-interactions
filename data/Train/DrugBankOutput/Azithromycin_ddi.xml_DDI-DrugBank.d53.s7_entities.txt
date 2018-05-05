@@ -1,0 +1,16 @@
+didanosine	drug
+cetirizine	drug
+azithromycin	drug
+carbamazepine	drug
+efavirenz	drug
+atorvastatin	drug
+rifabutin	drug
+midazolam	drug
+indinavir	drug
+fluconazole	drug
+zidovudine	drug
+sulfamethoxazole	drug
+trimethoprim	drug
+triazolam	drug
+theophylline	drug
+sildenafil	drug

@@ -1,0 +1,2 @@
+neomycin	drug
+ACTH	group

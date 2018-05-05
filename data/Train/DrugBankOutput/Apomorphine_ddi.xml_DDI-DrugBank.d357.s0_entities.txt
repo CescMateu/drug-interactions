@@ -1,0 +1,10 @@
+palonosetron	drug
+alosetron	drug
+5HT3 antagonist class	group
+ondansetron	drug
+granisetron	drug
+dolasetron	drug
+5HT3 Antagonists	group
+apomorphine	drug
+ondansetron	drug
+apomorphine	drug

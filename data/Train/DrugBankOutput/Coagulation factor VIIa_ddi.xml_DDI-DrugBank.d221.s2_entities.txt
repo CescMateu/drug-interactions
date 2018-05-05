@@ -1,0 +1,3 @@
+tranexamic acid	drug
+aminocaproic acid	drug
+NovoSeven	brand

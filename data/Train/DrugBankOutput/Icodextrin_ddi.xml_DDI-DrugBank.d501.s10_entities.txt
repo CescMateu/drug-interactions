@@ -1,0 +1,9 @@
+ampicillin	drug
+ampicillin	drug
+cefazolin	drug
+vancomycin	drug
+antibiotics	group
+amphotericin	drug
+gentamicin	drug
+ceftazidime	drug
+EXTRANEAL	brand

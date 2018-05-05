@@ -1,0 +1,7 @@
+Methylxanthines	group
+Corticosteroids	group
+xanthine derivatives	group
+Diuretics	group
+diuretics	group
+steroids	group
+beta2-agonists.	group

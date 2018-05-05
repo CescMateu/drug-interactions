@@ -1,0 +1,2 @@
+caffeine	drug
+acetaminophen	drug

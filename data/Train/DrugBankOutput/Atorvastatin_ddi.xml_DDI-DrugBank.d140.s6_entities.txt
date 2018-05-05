@@ -1,0 +1,3 @@
+Cimetidine	drug
+Atorvastatin	drug
+cimetidine	drug

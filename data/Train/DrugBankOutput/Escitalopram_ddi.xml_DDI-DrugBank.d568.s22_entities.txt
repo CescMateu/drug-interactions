@@ -1,0 +1,4 @@
+carbamazepine	drug
+carbamazepine	drug
+citalopram	drug
+Carbamazepine	drug

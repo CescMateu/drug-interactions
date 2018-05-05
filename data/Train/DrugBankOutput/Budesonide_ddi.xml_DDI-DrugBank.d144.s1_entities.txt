@@ -1,0 +1,7 @@
+intraconazole	drug
+ketoconazole	drug
+indinavir	drug
+ritonavir	drug
+erythromycin	drug
+saquinavir	drug
+budesonide	drug

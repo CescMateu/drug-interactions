@@ -1,0 +1,2 @@
+erythromycin	drug
+lovastatin	drug

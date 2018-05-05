@@ -1,0 +1,2 @@
+bismuth subsalicylate	drug
+enoxacin	drug

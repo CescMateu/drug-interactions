@@ -1,0 +1,2 @@
+nevirapine	drug
+delavirdine	drug

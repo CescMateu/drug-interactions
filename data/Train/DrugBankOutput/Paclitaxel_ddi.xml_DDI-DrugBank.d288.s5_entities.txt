@@ -1,0 +1,4 @@
+paclitaxel	drug
+doxorubicin	drug
+doxorubicin	drug
+doxorubicinol	drug_n

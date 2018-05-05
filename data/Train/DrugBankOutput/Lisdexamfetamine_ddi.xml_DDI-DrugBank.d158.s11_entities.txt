@@ -1,0 +1,3 @@
+antihypertensives	drug
+Antihypertensives	group
+Amphetamines	group

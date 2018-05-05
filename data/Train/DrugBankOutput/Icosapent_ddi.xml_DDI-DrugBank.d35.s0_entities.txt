@@ -1,0 +1,5 @@
+Ginkgo biloba	drug
+non-steroidal anti-inflammatory drugs	group
+ginkgo	drug
+EPA	drug
+aspirin	brand

@@ -1,0 +1,3 @@
+terfenadine	drug
+Terfenadine	drug
+dirithromycin	drug

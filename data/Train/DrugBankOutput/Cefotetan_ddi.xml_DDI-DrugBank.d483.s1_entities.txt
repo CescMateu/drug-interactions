@@ -1,0 +1,2 @@
+aminoglycoside	group
+CEFOTAN	brand

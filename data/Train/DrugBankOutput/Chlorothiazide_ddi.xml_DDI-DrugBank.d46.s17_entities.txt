@@ -1,0 +1,2 @@
+chlorothiazide	drug
+lithium	drug

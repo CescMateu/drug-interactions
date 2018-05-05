@@ -1,0 +1,4 @@
+barbiturates	group
+sedatives	group
+Clonidine hydrochloride	drug
+alcohol	drug

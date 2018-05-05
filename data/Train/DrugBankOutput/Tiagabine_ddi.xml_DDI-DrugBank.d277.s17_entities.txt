@@ -1,0 +1,4 @@
+S-warfarin	drug
+tiagabine	drug
+Warfarin	drug
+R-warfarin	drug

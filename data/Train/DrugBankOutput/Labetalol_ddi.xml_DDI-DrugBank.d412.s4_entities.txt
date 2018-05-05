@@ -1,0 +1,2 @@
+Cimetidine	drug
+labetalol HCl	drug

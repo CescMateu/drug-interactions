@@ -1,0 +1,2 @@
+ROMAZICON	brand
+benzodiazepine	group

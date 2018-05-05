@@ -1,0 +1,2 @@
+Dicumarol	drug
+warfarin	drug

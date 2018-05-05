@@ -1,0 +1,6 @@
+psychotropic drug	group
+benzodiazepine	group
+clozapine	drug
+psychotropics	group
+benzodiazepines	group
+Clozapine	drug

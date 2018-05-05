@@ -1,0 +1,3 @@
+aspirin	brand
+vitamin K antagonist	group
+antithrombotic	group

@@ -1,0 +1,3 @@
+Ketoconazole	drug
+Ketoconazole	drug
+Isoniazid	drug

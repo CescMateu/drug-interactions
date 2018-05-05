@@ -1,0 +1,2 @@
+Narcotic analgesics	group
+clonidine	drug

@@ -1,0 +1,4 @@
+ENBREL	brand
+sulfasalazine	drug
+sulfasalazine	drug
+ENBREL	brand

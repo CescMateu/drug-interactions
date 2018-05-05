@@ -1,0 +1,3 @@
+Aspirin	brand
+aspirin	brand
+meclofenamate sodium	drug

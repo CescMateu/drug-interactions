@@ -1,0 +1,4 @@
+alcohol	drug
+reserpine	drug
+phenytoin	drug
+carbamazepine	drug

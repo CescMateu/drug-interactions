@@ -1,0 +1,6 @@
+ethinyl estradiol	drug
+Ortho-Novum	brand
+Contraceptives	group
+Valdecoxib	drug
+contraceptive	group
+norethindrone	drug

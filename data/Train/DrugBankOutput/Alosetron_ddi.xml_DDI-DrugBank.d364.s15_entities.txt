@@ -1,0 +1,4 @@
+hydralazine	drug
+procainamide	drug
+isoniazid	drug
+alosetron	drug

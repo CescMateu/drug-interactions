@@ -1,0 +1,13 @@
+TIKOSYN	brand
+zafirlukast	drug
+dofetilide	drug
+quinine	drug
+norfloxacin	drug
+azole antifungal agents	group
+macrolide antibiotics	group
+serotonin reuptake inhibitors	group
+protease inhibitors	group
+cannabinoids	group
+amiodarone	drug
+nefazadone	drug
+diltiazem	drug

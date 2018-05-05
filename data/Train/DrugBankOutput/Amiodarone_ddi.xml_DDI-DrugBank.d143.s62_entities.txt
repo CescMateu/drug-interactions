@@ -1,0 +1,4 @@
+Cordarone	drug
+phenytoin	drug
+dextromethorphan	drug
+methotrexate	drug

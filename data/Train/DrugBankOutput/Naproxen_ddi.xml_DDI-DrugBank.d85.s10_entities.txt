@@ -1,0 +1,2 @@
+naproxen	drug
+Probenecid	drug

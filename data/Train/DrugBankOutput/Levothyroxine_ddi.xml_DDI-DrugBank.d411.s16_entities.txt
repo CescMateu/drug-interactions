@@ -1,0 +1,3 @@
+thyroid hormone	group
+Somatropin	drug
+Somatrem	drug

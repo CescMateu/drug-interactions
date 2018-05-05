@@ -1,0 +1,5 @@
+chlorpropamide	drug
+sulfonylurea	group
+glibenclamide	drug
+acitretin	drug
+Glibenclamide	drug

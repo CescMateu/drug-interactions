@@ -1,0 +1,6 @@
+picrotoxin	drug_n
+diazepam	drug
+phenazepam	drug_n
+phenibut	drug_n
+amizyl	drug_n
+phentolamine	drug

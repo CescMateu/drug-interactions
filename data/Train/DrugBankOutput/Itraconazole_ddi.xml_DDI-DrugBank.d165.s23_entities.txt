@@ -1,0 +1,2 @@
+coumarin	group
+Itraconazole	drug

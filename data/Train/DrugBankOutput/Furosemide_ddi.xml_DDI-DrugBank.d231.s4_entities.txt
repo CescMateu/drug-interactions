@@ -1,0 +1,3 @@
+tubocurarine	drug
+Furosemide	drug
+succinylcholine	drug

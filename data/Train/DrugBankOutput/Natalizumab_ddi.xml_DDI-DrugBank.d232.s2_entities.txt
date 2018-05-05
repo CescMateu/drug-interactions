@@ -1,0 +1,6 @@
+beta-interferon	drug
+glatiramer acetate	drug
+TYSABRI	brand
+interferon beta-1a	drug
+AVONEX	brand
+glatiramer acetate	drug

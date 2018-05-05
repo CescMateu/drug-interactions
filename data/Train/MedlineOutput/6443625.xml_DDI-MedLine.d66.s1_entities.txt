@@ -1,0 +1,2 @@
+ethynyl estradiol	drug
+levonorgestrel	drug

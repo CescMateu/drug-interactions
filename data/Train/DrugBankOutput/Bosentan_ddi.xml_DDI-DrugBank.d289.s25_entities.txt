@@ -1,0 +1,4 @@
+bosentan	drug
+simvastatin	drug
+Simvastatin	drug
+Statins	group

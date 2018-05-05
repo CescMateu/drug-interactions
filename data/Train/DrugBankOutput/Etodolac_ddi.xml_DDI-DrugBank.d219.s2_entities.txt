@@ -1,0 +1,3 @@
+antacids	group
+Antacids	group
+Lodine	brand

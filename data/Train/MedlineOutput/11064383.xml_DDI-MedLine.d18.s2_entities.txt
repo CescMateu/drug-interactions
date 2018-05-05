@@ -1,0 +1,2 @@
+budesonide	drug
+ethanol	drug

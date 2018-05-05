@@ -1,0 +1,3 @@
+diflunisal	drug
+Antacids	group
+antacids	group

@@ -1,0 +1,4 @@
+ANTACID	group
+Magnesium-Aluminum Hydroxide	drug
+Cerivastatin	drug
+antacid	group

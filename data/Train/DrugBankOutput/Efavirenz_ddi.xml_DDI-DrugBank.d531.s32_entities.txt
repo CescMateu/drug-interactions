@@ -1,0 +1,3 @@
+macrolide antibiotics	group
+erythromycin	drug
+SUSTIVA	brand

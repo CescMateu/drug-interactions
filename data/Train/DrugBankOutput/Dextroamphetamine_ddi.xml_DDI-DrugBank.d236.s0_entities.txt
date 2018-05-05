@@ -1,0 +1,7 @@
+guanethidine	drug
+reserpine	drug
+Acidifying agents	group
+Gastrointestinal acidifying agents	group
+amphetamines	group
+glutamic acid HCl	drug
+ascorbic acid	drug

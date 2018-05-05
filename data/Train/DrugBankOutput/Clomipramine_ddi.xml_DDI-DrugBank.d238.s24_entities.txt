@@ -1,0 +1,4 @@
+Anafranil	brand
+Anafranil	brand
+digoxin	drug
+warfarin	drug

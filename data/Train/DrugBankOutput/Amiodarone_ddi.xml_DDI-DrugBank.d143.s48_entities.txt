@@ -1,0 +1,4 @@
+rifampin	drug
+amiodarone	drug
+amiodarone	drug
+desethylamiodarone	drug

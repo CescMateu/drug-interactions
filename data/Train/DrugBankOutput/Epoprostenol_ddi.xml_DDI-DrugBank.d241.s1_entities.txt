@@ -1,0 +1,3 @@
+FLOLAN	brand
+anticoagulants	group
+antiplatelet agents	group

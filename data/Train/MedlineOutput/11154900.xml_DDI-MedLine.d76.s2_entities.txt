@@ -1,0 +1,2 @@
+Cysteine	drug
+NaCMC	drug_n

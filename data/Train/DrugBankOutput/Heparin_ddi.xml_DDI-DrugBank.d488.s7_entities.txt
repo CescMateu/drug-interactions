@@ -1,0 +1,6 @@
+mitoxantrone	drug
+heparin	drug
+droperidol	drug
+ciprofloxacin	drug
+Heparin Sodium	drug
+doxorubicin	drug

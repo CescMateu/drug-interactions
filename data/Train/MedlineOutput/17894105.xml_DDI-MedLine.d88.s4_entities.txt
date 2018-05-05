@@ -1,0 +1,2 @@
+amphetamine	drug
+cocaine	drug

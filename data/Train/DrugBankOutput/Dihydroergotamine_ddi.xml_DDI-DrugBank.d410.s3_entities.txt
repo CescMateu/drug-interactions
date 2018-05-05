@@ -1,0 +1,6 @@
+D.H.E. 45	brand
+Beta Blockers	group
+propranolol	drug
+dihydroergotamine mesylate	drug
+ergotamine	drug
+propranolol	drug

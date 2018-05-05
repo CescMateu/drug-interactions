@@ -1,0 +1,4 @@
+aluminum	drug
+calcium	drug
+Antacids	group
+magnesium	drug

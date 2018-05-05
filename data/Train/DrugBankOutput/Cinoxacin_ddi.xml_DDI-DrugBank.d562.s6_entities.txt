@@ -1,0 +1,3 @@
+Antacids	group
+sucralfate	drug
+quinolones	group

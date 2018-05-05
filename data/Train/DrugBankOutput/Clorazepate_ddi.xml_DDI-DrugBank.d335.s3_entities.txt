@@ -1,0 +1,6 @@
+antidepressants	group
+monoamine oxidase inhibitors	group
+barbiturates	group
+benzodiazepines	group
+phenothiazines	group
+narcotics	group

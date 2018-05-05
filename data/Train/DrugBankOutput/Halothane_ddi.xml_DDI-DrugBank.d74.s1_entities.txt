@@ -1,0 +1,2 @@
+FLUOTHANE	brand
+tubocurarine	drug

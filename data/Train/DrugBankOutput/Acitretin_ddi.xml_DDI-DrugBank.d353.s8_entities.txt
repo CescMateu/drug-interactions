@@ -1,0 +1,3 @@
+Methotrexate	drug
+methotrexate	drug
+etretinate	drug

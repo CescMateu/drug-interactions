@@ -1,0 +1,2 @@
+phenobarbital	drug
+CMI	drug

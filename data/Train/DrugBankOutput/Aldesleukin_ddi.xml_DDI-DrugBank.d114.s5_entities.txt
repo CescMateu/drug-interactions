@@ -1,0 +1,6 @@
+dacarbazine	drug
+cis-platinum	drug
+PROLEUKIN	brand
+antineoplastic agents	group
+tamoxifen	drug
+interferon-alfa	drug

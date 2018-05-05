@@ -1,0 +1,4 @@
+L-phenylalanine	drug
+Selegiline	drug
+selegiline	drug
+selective MAO inhibitor	group

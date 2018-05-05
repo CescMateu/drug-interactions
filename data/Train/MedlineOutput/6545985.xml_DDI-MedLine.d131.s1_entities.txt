@@ -1,0 +1,4 @@
+neurotensin	drug_n
+enkephalins	drug_n
+D-Ala2-metenkephalinamide	drug_n
+tuftsin	drug_n

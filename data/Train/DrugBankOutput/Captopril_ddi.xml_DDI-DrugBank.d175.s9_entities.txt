@@ -1,0 +1,2 @@
+thiazides	group
+diuretics	group

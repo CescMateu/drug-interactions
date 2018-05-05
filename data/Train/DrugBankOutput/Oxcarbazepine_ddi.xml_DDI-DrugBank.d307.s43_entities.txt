@@ -1,0 +1,3 @@
+contraceptives	group
+hormonal contraceptives	group
+Trileptal	brand

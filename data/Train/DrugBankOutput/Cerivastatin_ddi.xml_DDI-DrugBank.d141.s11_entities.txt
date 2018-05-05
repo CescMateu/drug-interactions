@@ -1,0 +1,3 @@
+warfarin	drug
+cerivastatin	drug
+cerivastatin sodium	drug

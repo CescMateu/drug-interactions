@@ -1,0 +1,2 @@
+methadone	drug
+opiate	group

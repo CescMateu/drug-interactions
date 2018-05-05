@@ -1,0 +1,17 @@
+imipramine	drug
+nortriptyline	drug
+antidepressants	group
+bupropion	drug
+sertraline	drug
+fluoxetine	drug
+paroxetine	drug
+desipramine	drug
+haloperidol	drug
+antipsychotics	group
+metoprolol	drug
+beta-blockers	group
+thioridazine	drug
+risperidone	drug
+flecainide	drug
+propafenone	drug
+Type 1C antiarrhythmics	group

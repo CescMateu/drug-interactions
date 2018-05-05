@@ -1,0 +1,5 @@
+carbamazepine	drug
+rifampicin	drug
+dexamethasone	drug
+phenytoin	drug
+phenobarbital	drug

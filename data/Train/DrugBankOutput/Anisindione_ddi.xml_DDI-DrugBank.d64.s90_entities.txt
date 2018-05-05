@@ -1,0 +1,8 @@
+non-steroidal anti-inflammatory drugs	group
+dipyridamole	drug
+antineoplastic agents	group
+aspirin	brand
+dextran	drug
+anticoagulants	group
+hydrochloroquine	drug
+clofibrate	drug

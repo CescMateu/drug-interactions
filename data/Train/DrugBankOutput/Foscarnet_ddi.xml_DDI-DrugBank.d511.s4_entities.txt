@@ -1,0 +1,5 @@
+foscarnet	drug
+FOSCAVIR	brand
+aminoglycosides	group
+amphotericin B	drug
+pentamidine	drug

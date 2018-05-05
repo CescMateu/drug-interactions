@@ -1,0 +1,4 @@
+atorvastatin	drug
+Erythromycin	drug
+erythromycin	drug
+atorvastatin	drug

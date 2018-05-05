@@ -1,0 +1,5 @@
+Antacids	group
+magnesium hydroxide	drug
+aluminum hydroxide	drug
+ketoprofen	drug
+Orudis	brand

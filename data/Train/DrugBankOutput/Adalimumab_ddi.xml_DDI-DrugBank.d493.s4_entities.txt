@@ -1,0 +1,3 @@
+HUMIRA	brand
+TNF-blocking agents	group
+anakinra	drug

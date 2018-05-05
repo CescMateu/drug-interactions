@@ -1,0 +1,2 @@
+alpha interferon	drug
+PEGASYS	brand

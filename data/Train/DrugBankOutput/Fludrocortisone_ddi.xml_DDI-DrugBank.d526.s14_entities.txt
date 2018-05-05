@@ -1,0 +1,3 @@
+salicylate	group
+steroids	group
+aspirin	brand

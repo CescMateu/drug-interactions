@@ -1,0 +1,6 @@
+charcoal	drug
+Intestinal adsorbents	group
+amylase	drug
+digestive enzyme preparations	group
+Acarbose	drug
+pancreatin	drug

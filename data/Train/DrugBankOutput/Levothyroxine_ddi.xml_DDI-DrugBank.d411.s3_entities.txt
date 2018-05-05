@@ -1,0 +1,18 @@
+methadone	drug
+perphenazine	drug
+meclofenamic acid	drug
+mefenamic acid	drug
+salicylates	group
+tamoxifen	drug
+phenylbutazone	drug
+phenytoin	drug
+furosemide	drug
+glucocorticoids	group
+levothyroxine sodium	drug
+androgens	group
+anabolic hormones	group
+asparaginase	drug
+clofibrate	drug
+estrogens	group
+estrogen-containing compounds	group
+5-fluorouracil	drug

@@ -1,0 +1,3 @@
+tyrphostin AG1024	drug_n
+doxorubicin	drug
+doxorubicin	drug

@@ -1,0 +1,3 @@
+diclofenac	drug
+phenobarbital	drug
+Phenobarbital	drug

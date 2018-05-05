@@ -1,0 +1,2 @@
+quinidine	drug
+nisoldipine	drug

@@ -1,0 +1,4 @@
+psychotropics	group
+antihistamines	group
+alcohol	drug
+codeine	drug

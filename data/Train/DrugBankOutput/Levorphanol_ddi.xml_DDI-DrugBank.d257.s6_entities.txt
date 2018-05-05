@@ -1,0 +1,9 @@
+nalbuphine	drug
+pentazocine	drug
+Agonist/antagonist analgesics	group
+Mixed Agonist/Antagonist Opioid Analgesics	group
+pure agonist opioid analgesic	group
+buprenorphine	drug
+dezocine	drug
+butorphanol	drug
+Levo-Dromoran	brand

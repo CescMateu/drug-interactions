@@ -1,0 +1,4 @@
+gabapentin	drug
+Neurontin	brand
+naproxen sodium	drug
+Naproxen	drug

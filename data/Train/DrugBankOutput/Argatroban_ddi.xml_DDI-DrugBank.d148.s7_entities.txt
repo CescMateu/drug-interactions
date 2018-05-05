@@ -1,0 +1,3 @@
+erythromycin	drug
+digoxin	drug
+Argatroban	drug

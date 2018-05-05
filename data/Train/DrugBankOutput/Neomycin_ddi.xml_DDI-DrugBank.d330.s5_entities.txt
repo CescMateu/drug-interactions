@@ -1,0 +1,3 @@
+anticoagulants	group
+neomycin sulfate	drug
+coumarin	group

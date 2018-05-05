@@ -1,0 +1,3 @@
+gentamicin	drug
+Gentamicin	drug
+Methionine	drug

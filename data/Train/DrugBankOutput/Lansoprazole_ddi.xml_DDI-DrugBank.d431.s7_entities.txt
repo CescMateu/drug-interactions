@@ -1,0 +1,5 @@
+sucralfate	drug
+sucralfate	drug
+proton pump inhibitors	group
+lansoprazole	drug
+omeprazole	drug

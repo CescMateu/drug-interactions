@@ -1,0 +1,3 @@
+halothane	drug
+dantrolene sodium	drug
+verapamil	drug

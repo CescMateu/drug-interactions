@@ -1,0 +1,3 @@
+anticoagulants	group
+cholestyramine	drug
+vitamin K	group

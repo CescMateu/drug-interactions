@@ -1,0 +1,4 @@
+vitamin K	group
+vitamin K	group
+cholestyramine	drug
+Cholestyramine	drug

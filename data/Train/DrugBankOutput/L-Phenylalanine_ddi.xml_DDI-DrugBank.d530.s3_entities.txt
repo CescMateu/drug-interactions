@@ -1,0 +1,3 @@
+neuroleptic drugs	group
+Neuroleptic Drugs	group
+L-phenylalanine	drug

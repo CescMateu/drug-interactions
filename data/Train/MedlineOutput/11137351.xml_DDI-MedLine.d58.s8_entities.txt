@@ -1,0 +1,2 @@
+ginsenosides	drug_n
+ginseng	drug

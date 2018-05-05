@@ -1,0 +1,7 @@
+norethindrone	drug
+ethinyl estradiol	drug
+norethindrone	drug
+ethinyl estradiol	drug
+contraceptive	group
+Aprepitant	drug
+contraceptives	group

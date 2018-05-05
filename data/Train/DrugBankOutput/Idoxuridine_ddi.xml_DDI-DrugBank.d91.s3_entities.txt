@@ -1,0 +1,3 @@
+idoxuridine	drug
+Boric acid	drug
+idoxuridine	drug

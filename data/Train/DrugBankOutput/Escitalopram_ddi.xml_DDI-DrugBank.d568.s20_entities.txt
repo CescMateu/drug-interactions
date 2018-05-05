@@ -1,0 +1,3 @@
+citalopram	drug
+Warfarin	drug
+warfarin	drug

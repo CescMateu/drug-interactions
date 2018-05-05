@@ -1,0 +1,10 @@
+chlorpromazine	drug
+phenothiazine	group
+fluphenazine	drug
+Thorazine	brand
+Permitil	brand
+Prolixin	brand
+Compazine	brand
+prochlorperazine	drug
+Phenergan	brand
+promethazine	drug

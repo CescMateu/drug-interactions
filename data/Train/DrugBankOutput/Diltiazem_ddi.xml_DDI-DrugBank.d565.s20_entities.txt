@@ -1,0 +1,3 @@
+diltiazem hydrochloride	drug
+digoxin	drug
+digoxin	drug

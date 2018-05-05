@@ -1,0 +1,2 @@
+alcohol	drug
+3-hydroxy-1,4-benzodiazepine	group

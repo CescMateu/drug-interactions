@@ -1,0 +1,11 @@
+AEDs	group
+levetiracetam	drug
+valproate	drug
+phenobarbital	drug
+lamotrigine	drug
+primidone	drug
+phenytoin	drug
+AEDs	group
+Keppra	brand
+gabapentin	drug
+carbamazepine	drug

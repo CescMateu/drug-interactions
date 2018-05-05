@@ -1,0 +1,6 @@
+zinc	drug
+multivitamins	group
+iron	drug
+quinolones	group
+didanosine	drug
+Videx	brand

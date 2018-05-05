@@ -1,0 +1,2 @@
+ATROVENT	brand
+albuterol	drug

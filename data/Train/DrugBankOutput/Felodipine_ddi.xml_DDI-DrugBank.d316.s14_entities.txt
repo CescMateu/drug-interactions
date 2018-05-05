@@ -1,0 +1,6 @@
+felodipine	drug
+Anticonvulsants	group
+phenytoin	drug
+anticonvulsant	group
+phenobarbital	drug
+carbamazepine	drug

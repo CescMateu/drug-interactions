@@ -1,0 +1,1 @@
+Everolimus dose-proportionality and stability over time were assessed in the context of linear regression and ANOVA models. 

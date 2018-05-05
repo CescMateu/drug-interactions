@@ -1,0 +1,3 @@
+diuretics	group
+Diuretics	group
+Lotensin	brand

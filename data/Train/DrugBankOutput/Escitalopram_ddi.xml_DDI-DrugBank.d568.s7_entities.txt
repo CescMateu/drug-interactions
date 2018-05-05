@@ -1,0 +1,4 @@
+citalopram	drug
+Cimetidine	drug
+citalopram	drug
+cimetidine	drug

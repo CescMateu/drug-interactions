@@ -1,0 +1,5 @@
+Fluoxetine	drug
+OCs	group
+sertraline	drug
+diltiazem	drug
+macrolide antibiotics	group

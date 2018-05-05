@@ -1,0 +1,3 @@
+corticosteroids	group
+troleandomycin	drug
+ketoconazole	drug

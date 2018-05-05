@@ -1,0 +1,4 @@
+Rifampicin	drug
+rifampicin	drug
+isradipine	drug
+isradipine	drug

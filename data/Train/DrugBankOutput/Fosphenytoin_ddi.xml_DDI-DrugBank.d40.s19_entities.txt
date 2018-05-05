@@ -1,0 +1,13 @@
+coumarin	group
+corticosteroids	group
+anticoagulants	group
+phenytoin	drug
+furosemide	drug
+estrogens	group
+doxycycline	drug
+digitoxin	drug
+rifampin	drug
+contraceptives	group
+vitamin D	group
+theophylline	drug
+quinidine	drug

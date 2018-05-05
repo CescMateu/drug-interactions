@@ -1,0 +1,9 @@
+Sectral	brand
+metoprolol	drug
+Tenormin	brand
+acebutolol	drug
+Inderal	brand
+atenolol	drug
+beta-blocker	group
+propranolol	drug
+Lopressor	brand

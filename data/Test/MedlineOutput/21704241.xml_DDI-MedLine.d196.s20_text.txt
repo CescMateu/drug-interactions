@@ -1,0 +1,1 @@
+The 90% CIs about the ratio of the fenofibric acid geometric mean to the fenofibrate geometric mean were within the 80% and 125% limits for the pharmacokinetic parameters C(max), AUC(0-t), and AUC(0-   ) of the ln-transformed data in both study 1 (fasted) and study 2. 

@@ -1,0 +1,2 @@
+nitroglycerin	drug
+Labetalol HCl	drug

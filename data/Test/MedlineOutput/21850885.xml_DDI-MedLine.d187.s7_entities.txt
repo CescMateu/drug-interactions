@@ -1,0 +1,2 @@
+THC	drug_n
+cannabinoids	drug_n

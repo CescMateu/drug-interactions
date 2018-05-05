@@ -1,0 +1,5 @@
+aripiprazole	drug
+paroxetine	drug
+fluoxetine	drug
+quinidine	drug
+ketoconazole	drug

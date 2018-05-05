@@ -1,0 +1,6 @@
+alcohol	drug
+Duloxetine	drug
+Alcohol	drug
+Duloxetine	drug
+ethanol	drug
+Duloxetine	drug

@@ -1,0 +1,8 @@
+phenformin	drug
+chlorpropamide	drug
+phenformin	drug
+glyburide	drug
+flurbiprofen	drug
+Hypoglycemic Agents	group
+metformin	drug
+glyburide	drug

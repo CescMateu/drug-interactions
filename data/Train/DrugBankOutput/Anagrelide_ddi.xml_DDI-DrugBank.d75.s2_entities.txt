@@ -1,0 +1,8 @@
+iron	drug
+ranitidine	drug
+hydroxyurea	drug
+allopurinol	drug
+anagrelide	drug
+aspirin	brand
+acetaminophen	drug
+furosemide	drug

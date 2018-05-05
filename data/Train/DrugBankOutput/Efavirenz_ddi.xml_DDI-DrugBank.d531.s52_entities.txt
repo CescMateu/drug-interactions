@@ -1,0 +1,3 @@
+contraceptives	group
+efavirenz	drug
+contraceptives	group

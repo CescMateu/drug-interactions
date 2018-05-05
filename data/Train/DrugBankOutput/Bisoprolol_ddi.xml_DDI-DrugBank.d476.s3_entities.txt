@@ -1,0 +1,9 @@
+disopyramide	drug
+myocardial depressants	group
+ZEBETA	brand
+phenylalkylamine	group
+calcium antagonists	group
+benzothiazepine	group
+verapamil	drug
+antiarrhythmic agents	group
+diltiazem	drug

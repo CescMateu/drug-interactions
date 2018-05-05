@@ -1,0 +1,16 @@
+procainamide	drug
+quinidine	drug
+lithium	drug
+anesthetics	group
+sodium colistemethate	drug
+magnesium	group
+tetracyclines	group
+bacitracin	drug
+polymyxins	group
+lincomycin	drug
+nondepolarizing agents	group
+NIMBEX	brand
+antibiotics	group
+aminoglycosides	group
+clindamycin	drug
+colistin	drug

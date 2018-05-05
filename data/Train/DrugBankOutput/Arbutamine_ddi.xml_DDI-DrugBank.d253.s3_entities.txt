@@ -1,0 +1,6 @@
+digitalis glycosides	group
+arbutamine	drug
+Antidepressants	group
+tricyclic	group
+atropine	drug
+anticholinergic agents	group

@@ -1,0 +1,2 @@
+cyclosporine	drug
+NSAIDs	group

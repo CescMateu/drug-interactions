@@ -1,0 +1,5 @@
+astemizole	drug
+terfenadine	drug
+midazolam	drug
+cisapride	drug
+triazolam	drug

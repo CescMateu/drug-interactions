@@ -1,0 +1,4 @@
+sulfapyridine	drug
+Synkayvite	brand
+AquaMEPHYTON	brand
+Vitamin K	group

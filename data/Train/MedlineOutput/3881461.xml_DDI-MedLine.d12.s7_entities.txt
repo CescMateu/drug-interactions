@@ -1,0 +1,6 @@
+retinyl acetate	drug
+dexamethasone	drug
+retinoids	group
+glucocorticoids	group
+EGF	drug_n
+insulin	drug

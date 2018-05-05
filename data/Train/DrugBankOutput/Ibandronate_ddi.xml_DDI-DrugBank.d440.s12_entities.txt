@@ -1,0 +1,3 @@
+NSAIDs	group
+aspirin	brand
+ibandronate	drug

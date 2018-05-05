@@ -1,0 +1,9 @@
+acetylsalicylic acid	drug
+Platelet inhibitors	group
+phenylbutazone	drug
+dextran	drug
+indomethacin	drug
+ibuprofen	drug
+hydroxychloroquine	drug
+dipyridamole	drug
+heparin sodium	drug

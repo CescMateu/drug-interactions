@@ -1,0 +1,2 @@
+benzodiazepine	group
+chlordiazepoxide	drug

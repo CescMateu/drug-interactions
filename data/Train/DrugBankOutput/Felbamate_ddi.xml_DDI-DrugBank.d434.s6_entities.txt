@@ -1,0 +1,2 @@
+Carbamazepine	drug
+CBZ	drug

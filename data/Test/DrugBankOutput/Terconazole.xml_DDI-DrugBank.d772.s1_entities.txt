@@ -1,0 +1,5 @@
+TERAZOL	brand
+estradiol	drug
+progesterone	drug
+terconazole	drug
+contraceptive	group

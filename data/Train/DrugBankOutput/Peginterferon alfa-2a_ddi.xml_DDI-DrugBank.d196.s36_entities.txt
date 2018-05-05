@@ -1,0 +1,2 @@
+benzyl alcohol	drug_n
+PEGASYS	brand

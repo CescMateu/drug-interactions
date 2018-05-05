@@ -1,0 +1,4 @@
+allopurinol	drug
+Thiazide Diuretics	group
+allopurinol	drug
+thiazide diuretics	group

@@ -1,0 +1,3 @@
+Zinc	drug
+iron	drug
+quinolones	group

@@ -1,0 +1,2 @@
+melarsoprol	drug
+thiabendazole	drug

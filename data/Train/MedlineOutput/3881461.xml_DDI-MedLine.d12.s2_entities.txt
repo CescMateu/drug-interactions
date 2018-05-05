@@ -1,0 +1,5 @@
+transferrin	drug_n
+EGF	drug_n
+dexamethasone	drug
+retinyl acetate	drug
+insulin	drug

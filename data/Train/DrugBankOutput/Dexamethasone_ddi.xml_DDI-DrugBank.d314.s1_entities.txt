@@ -1,0 +1,4 @@
+Amphotericin B	drug
+corticosteroids	group
+amphotericin B	drug
+diuretics	group

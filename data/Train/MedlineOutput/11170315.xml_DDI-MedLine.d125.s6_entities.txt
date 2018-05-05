@@ -1,0 +1,4 @@
+(-)-erythro-fluorocitrate	drug_n
+1,3-difluoro-2-propanol	drug_n
+4-methylpyrazole	drug
+1,3-difluoro-2-propanol	drug_n

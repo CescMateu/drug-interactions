@@ -1,0 +1,2 @@
+lovastatin	drug
+fibrates	group

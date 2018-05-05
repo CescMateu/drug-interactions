@@ -1,0 +1,2 @@
+bombesin	drug_n
+verapamil	drug

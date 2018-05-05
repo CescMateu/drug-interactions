@@ -1,0 +1,3 @@
+dopa decarboxylase inhibitor	group
+levodopa	drug
+entacapone	drug

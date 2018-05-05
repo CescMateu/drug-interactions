@@ -1,0 +1,11 @@
+digoxin	drug
+furosemide	drug
+FLOLAN	brand
+digoxin	drug
+FLOLAN	brand
+anticoagulants	group
+diuretics	group
+oxygen	drug
+vasodilators	group
+digoxin	drug
+furosemide	drug

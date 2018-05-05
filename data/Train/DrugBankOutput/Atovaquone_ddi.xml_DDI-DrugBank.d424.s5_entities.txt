@@ -1,0 +1,4 @@
+rifampin	drug
+rifampin	drug
+Rifabutin	drug
+rifamycin	drug

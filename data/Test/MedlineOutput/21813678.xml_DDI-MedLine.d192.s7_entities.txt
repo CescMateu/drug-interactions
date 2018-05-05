@@ -1,0 +1,2 @@
+morphine	drug
+opiate	group

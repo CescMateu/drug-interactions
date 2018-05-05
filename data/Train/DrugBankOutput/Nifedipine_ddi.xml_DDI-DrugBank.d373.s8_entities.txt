@@ -1,0 +1,4 @@
+nifedipine	drug
+quinidine	drug
+Quinidine	drug
+quinidine	drug

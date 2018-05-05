@@ -1,0 +1,2 @@
+thioridazine	drug
+REVIA	brand

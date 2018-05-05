@@ -1,0 +1,3 @@
+verapamil	drug
+calcium antagonist	group
+labetalol	drug

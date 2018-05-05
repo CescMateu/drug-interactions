@@ -1,0 +1,2 @@
+indomethacin	drug
+furosemide	drug

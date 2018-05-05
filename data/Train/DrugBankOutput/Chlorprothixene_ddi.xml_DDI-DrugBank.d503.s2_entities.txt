@@ -1,0 +1,5 @@
+opioids	group
+chlorprothixene	drug
+opioid	group
+opioids	group
+chlorprothixene	drug

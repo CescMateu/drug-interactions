@@ -1,0 +1,3 @@
+Dantrium	brand
+phenobarbital	drug
+diazepam	drug

@@ -1,0 +1,3 @@
+Thiazides	group
+Thiazides	group
+calcium	drug

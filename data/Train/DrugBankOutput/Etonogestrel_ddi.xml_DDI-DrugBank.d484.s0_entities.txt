@@ -1,0 +1,45 @@
+antibiotics	group
+Tylenol	brand
+acetaminophen	drug
+Etonogestrel	drug
+Dilantin	brand
+anticonvulsants	group
+tetracycline	drug
+ampicillin	drug
+Tegretol	brand
+Phenobarbital	drug
+rifampin	drug
+temazepam	drug
+theophylline	drug
+Theo-Dur	brand
+vitamin C	drug
+rifadin	brand
+Prelone	brand
+MS Contin	brand
+Kadian	brand
+prednisolone	drug
+phenylbutazone	drug
+Viracept	brand
+Norvir	brand
+Astramorph	brand
+morphine	drug
+atorvastatin	drug
+Sporanox	brand
+Nizoral	brand
+Gris-PEG	brand
+antifungals	group
+Felbatol	brand
+Topamax	brand
+Trileptal	brand
+clofibrate	drug
+Lipitor	brand
+Invirase	brand
+Kaletra	brand
+Neoral	brand
+Sandimmune	brand
+Atromid-S	brand
+cyclosporine	drug
+Crixivan	brand
+Fortovase	brand
+protease inhibitors	group
+Agenerase	brand

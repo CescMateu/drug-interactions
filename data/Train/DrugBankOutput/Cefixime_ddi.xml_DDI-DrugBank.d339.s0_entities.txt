@@ -1,0 +1,3 @@
+Carbamazepine	drug
+carbamazepine	drug
+SUPRAX	brand

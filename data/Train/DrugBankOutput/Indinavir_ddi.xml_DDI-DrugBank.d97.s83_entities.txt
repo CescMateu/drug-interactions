@@ -1,0 +1,2 @@
+indinavir	drug
+rifabutin	drug

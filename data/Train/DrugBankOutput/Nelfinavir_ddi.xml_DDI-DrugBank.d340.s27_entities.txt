@@ -1,0 +1,2 @@
+zidovudine	drug
+VIRACEPT	brand

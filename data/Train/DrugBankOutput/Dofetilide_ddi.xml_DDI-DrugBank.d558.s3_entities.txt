@@ -1,0 +1,2 @@
+Cimetidine	drug
+dofetilide	drug

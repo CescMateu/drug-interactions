@@ -1,0 +1,7 @@
+phenytoin	drug
+Mefloquine	drug
+anticonvulsant	group
+anticonvulsant	group
+valproic acid	drug
+carbamazepine	drug
+phenobarbital	drug

@@ -1,0 +1,1 @@
+Drugs Metabolized by Cytochrome P450 Enzymes The drug interaction study evaluating the effect of grepafloxacin on theophylline indicates that grepafloxacin inhibits theophylline metabolism, which is mediated by CYP1A2.

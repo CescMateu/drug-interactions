@@ -1,0 +1,3 @@
+digoxin	drug
+Digoxin	drug
+Sonata	brand

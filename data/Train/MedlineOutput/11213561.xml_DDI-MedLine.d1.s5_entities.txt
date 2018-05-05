@@ -1,0 +1,3 @@
+short-acting nitrates	group
+Sildenafil	drug
+long-acting nitrates	group

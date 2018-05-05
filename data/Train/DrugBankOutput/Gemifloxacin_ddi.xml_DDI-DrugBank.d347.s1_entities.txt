@@ -1,0 +1,8 @@
+estrogen	group
+progesterone	drug
+contraceptive	group
+gemifloxacin	drug
+FACTIVE	brand
+calcium carbonate	drug
+cimetidine	drug
+omeprazole	drug

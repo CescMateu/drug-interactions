@@ -1,0 +1,2 @@
+Purinethol	brand
+Mercaptopurine	drug

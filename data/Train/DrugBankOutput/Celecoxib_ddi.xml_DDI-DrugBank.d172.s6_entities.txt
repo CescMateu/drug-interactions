@@ -1,0 +1,3 @@
+lithium	drug
+fluconazole	drug
+celecoxib	drug

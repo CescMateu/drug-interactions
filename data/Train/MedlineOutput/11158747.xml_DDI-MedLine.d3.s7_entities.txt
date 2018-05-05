@@ -1,0 +1,3 @@
+25-O-desacetylrifabutin	drug_n
+Amprenavir	drug
+rifabutin	drug

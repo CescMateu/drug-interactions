@@ -1,0 +1,1 @@
+In vitro studies indicate that moxifloxacin does not inhibit CYP3A4, CYP2D6, CYP2C9, CYP2C19, or CYP1A2 indicating that moxifloxacin is unlikely to alter the pharmacokinetics of drugs metabolized by these cytochrome P450 isozymes.

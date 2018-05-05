@@ -1,0 +1,4 @@
+Cyclosporine	drug
+cyclosporine	drug
+cyclosporine	drug
+quinolone class	group

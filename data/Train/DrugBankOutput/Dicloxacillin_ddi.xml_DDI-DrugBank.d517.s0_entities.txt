@@ -1,0 +1,3 @@
+penicillin	drug
+Tetracycline	drug
+bacteriostatic antibiotic	group

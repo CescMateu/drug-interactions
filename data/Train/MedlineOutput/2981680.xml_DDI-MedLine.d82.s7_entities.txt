@@ -1,0 +1,2 @@
+arsenate	drug_n
+phosphate	drug

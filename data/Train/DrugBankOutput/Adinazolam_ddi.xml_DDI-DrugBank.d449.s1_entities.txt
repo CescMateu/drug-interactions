@@ -1,0 +1,4 @@
+fluvoxamine	drug
+Nafazodone	drug
+Xanax	brand
+cimetidine	drug

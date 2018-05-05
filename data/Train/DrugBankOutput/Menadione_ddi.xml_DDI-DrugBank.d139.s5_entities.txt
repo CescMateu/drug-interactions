@@ -1,0 +1,4 @@
+mineral oil	drug_n
+Mineral Oil	drug_n
+vitamin K	group
+vitamin K	group

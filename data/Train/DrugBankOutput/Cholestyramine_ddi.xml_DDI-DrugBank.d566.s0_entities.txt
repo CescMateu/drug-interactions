@@ -1,0 +1,13 @@
+estrogens	group
+progestins	group
+digitalis	group
+tetracycline	drug
+penicillin G	drug
+thiazide diuretics	group
+propranolol	drug
+phenylbutazone	group
+warfarin	drug
+Cholestyramine	drug
+resin	group
+phenobarbital	drug
+thyroxine	drug

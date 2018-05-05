@@ -1,0 +1,4 @@
+losartan	drug
+erythromycin	drug
+Ketoconazole	drug
+losartan	drug

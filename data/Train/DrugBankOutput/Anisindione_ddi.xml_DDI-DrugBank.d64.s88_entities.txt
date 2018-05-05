@@ -1,0 +1,4 @@
+chlorpropamide	drug
+tolbutamide	drug
+hypoglycemic agents	group
+anticoagulants	group

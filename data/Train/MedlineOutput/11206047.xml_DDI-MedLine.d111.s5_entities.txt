@@ -1,0 +1,14 @@
+theophylline	drug
+acetaminophen	drug
+valproic acid	drug
+phenobarbital	drug
+quinidine	drug
+lidocaine	drug
+lidocaine	drug
+quinidine	drug
+acetaminophen	drug
+theophylline	drug
+phenobarbital	drug
+valproic acid	drug
+phenobarbital	drug
+acetaminophen	drug

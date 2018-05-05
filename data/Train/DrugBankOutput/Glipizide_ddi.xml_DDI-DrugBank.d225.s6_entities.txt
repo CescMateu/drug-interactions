@@ -1,0 +1,12 @@
+nicotinic acid	drug
+sympathomimetics	group
+calcium channel blocking drugs	group
+isoniazid	drug
+thyroid products	group
+estrogens	group
+contraceptives	group
+phenytoin	drug
+thiazides	group
+diuretics	group
+corticosteroids	group
+phenothiazines	group

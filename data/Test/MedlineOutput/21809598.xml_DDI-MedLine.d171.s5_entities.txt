@@ -1,0 +1,8 @@
+nucleoside or nucleotide reverse transcriptase inhibitors	group
+NRTI	group
+non-nucleoside reverse transcriptase inhibitor	group
+NNRTI	group
+protease inhibitor	group
+PI	group
+integrase inhibitor	group
+II	group

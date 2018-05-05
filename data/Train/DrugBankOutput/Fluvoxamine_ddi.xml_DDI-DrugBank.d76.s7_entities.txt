@@ -1,0 +1,4 @@
+Terfenadine	drug
+astemizole	drug
+cisapride	drug
+ketoconazole	drug

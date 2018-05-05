@@ -1,0 +1,3 @@
+digoxin	drug
+calcium channel blockers	group
+diuretics	group

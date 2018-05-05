@@ -1,0 +1,2 @@
+tripelennamine	drug
+pentazocine	drug

@@ -1,0 +1,3 @@
+CNS depressants	drug
+barbiturates	drug
+alcohol	drug

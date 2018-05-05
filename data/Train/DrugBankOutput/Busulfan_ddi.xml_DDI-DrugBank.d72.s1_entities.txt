@@ -1,0 +1,7 @@
+BUSULFEX	brand
+granisetron	drug
+Kytril	brand
+ondansetron	drug
+Zofran	brand
+Fluconazole	drug
+5-HT3 antiemetics	group

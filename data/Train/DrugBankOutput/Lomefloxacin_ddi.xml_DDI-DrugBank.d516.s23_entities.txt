@@ -1,0 +1,5 @@
+terfenadine	drug
+terfenadine	drug
+Terfenadine	drug
+lomefloxacin	drug
+lomefloxacin	drug

@@ -1,0 +1,3 @@
+atropine	drug
+physostigmine	drug
+ethanol	drug

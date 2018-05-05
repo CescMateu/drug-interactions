@@ -1,0 +1,4 @@
+(+)-NANM	drug_n
+PCP	drug_n
+naloxone	drug
+(-)-NANM	drug_n

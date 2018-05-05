@@ -1,0 +1,2 @@
+Acetylsalicylic acid	drug
+iloprost	drug

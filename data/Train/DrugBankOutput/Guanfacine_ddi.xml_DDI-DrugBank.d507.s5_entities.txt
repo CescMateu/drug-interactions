@@ -1,0 +1,4 @@
+timolol	drug
+guanfacine	drug
+Noncardioselective beta-blockers	group
+nadolol	drug

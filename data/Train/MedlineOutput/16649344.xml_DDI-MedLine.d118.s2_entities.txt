@@ -1,0 +1,5 @@
+tacrolimus	drug
+sirolimus	drug
+cyclosporine	drug
+Sirolimus	drug
+immunosuppressants	group

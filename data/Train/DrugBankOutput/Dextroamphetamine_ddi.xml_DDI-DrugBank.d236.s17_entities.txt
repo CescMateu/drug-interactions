@@ -1,0 +1,3 @@
+Amphetamines	group
+Ethosuximide	drug
+ethosuximide	drug

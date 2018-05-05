@@ -1,0 +1,3 @@
+Phenytoin	drug
+phenobarbital	drug
+carbamazepine	drug

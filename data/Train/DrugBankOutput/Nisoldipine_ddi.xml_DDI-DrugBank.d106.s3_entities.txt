@@ -1,0 +1,3 @@
+SULAR	brand
+phenytoin	drug
+nisoldipine	drug

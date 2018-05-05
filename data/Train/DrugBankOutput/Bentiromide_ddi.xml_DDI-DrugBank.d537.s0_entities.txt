@@ -1,0 +1,15 @@
+anesthetics	group
+chloramphenicol	drug
+thiazide diuretics	group
+para-aminobenzoic acid	drug_n
+sulfonamides	group
+multivitamins	group
+procainamide	drug
+Chloromycetin	brand
+Pronestyl	brand
+benzocaine	drug
+lidocaine	drug
+Bentiromide	drug
+acetaminophen	drug
+Tylenol	brand
+PABA	drug_n

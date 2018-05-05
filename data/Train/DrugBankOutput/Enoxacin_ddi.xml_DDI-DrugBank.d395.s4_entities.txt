@@ -1,0 +1,3 @@
+enoxacin	drug
+enoxacin	drug
+caffeine	drug

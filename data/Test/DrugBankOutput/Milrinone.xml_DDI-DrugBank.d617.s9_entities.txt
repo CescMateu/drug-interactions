@@ -1,0 +1,2 @@
+furosemide	drug
+PRIMACOR	brand

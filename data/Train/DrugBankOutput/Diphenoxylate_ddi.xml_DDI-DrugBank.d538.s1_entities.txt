@@ -1,0 +1,4 @@
+Diphenoxylate HCl	drug
+atropine sulfate	drug
+MAO inhibitors	group
+diphenoxylate hydrochloride	drug

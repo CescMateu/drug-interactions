@@ -1,0 +1,4 @@
+chlorprothixene	drug
+anticholinergic drugs	group
+tricyclic antidepressants	group
+antiparkinsonian agents	group

@@ -1,0 +1,3 @@
+Cimetidine	drug
+Histamine H2 antagonists	group
+amiodarone	drug

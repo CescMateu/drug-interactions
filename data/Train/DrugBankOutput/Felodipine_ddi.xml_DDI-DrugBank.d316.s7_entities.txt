@@ -1,0 +1,4 @@
+felodipine	drug
+PLENDIL	drug
+erythromycin	drug
+felodipine	drug

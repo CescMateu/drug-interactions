@@ -1,0 +1,2 @@
+coumarin anticoagulant	group
+lovastatin	drug

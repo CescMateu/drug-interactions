@@ -1,0 +1,2 @@
+Trecator	brand
+isoniazid	drug

@@ -1,0 +1,5 @@
+lithium	drug
+citalopram	drug
+Lithium	drug
+citalopram	drug
+lithium	drug

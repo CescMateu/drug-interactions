@@ -1,0 +1,10 @@
+folic acid	drug
+vitamin B12	drug
+Methotrexate	drug
+diuretic	group
+triamterene	drug
+sulfasalazine	drug
+metformin	drug
+primidone	drug
+phenytoin	drug
+anticonvulsant medications	group

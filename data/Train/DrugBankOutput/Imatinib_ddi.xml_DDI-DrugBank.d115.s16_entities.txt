@@ -1,0 +1,2 @@
+acetaminophen	drug
+Gleevec	brand

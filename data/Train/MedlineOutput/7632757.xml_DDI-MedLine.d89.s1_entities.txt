@@ -1,0 +1,2 @@
+aminoglycoside antibiotic	group
+Gentamicin	drug

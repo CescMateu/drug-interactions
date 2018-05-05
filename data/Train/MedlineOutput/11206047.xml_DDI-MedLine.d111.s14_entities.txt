@@ -1,0 +1,6 @@
+phenobarbital	drug
+valproic acid	drug
+theophylline	drug
+acetaminophen	drug
+acetaminophen	drug
+phenobarbital	drug

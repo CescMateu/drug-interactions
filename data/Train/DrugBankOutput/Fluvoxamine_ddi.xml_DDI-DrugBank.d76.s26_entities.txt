@@ -1,0 +1,4 @@
+Theophylline	drug
+fluvoxamine	drug
+Theophylline	drug
+aminophylline	drug

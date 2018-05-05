@@ -1,0 +1,6 @@
+amphotericin B	drug
+mycophenolate	drug
+CANCIDAS	brand
+itraconazole	drug
+nelfinavir	drug
+tacrolimus	drug

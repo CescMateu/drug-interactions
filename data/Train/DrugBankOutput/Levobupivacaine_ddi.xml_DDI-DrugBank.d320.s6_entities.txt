@@ -1,0 +1,5 @@
+clarithromycin	drug
+calcium channel antagonists	group
+verapamil	drug
+omeprazole	drug
+furafylline	drug

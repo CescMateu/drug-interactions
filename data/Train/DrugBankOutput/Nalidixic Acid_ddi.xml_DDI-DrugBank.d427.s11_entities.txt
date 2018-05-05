@@ -1,0 +1,3 @@
+quinolones	group
+Didanosine	drug
+Videx	brand

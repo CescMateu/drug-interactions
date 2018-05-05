@@ -1,0 +1,2 @@
+anticholinesterase agents	group
+corticosteroid	group

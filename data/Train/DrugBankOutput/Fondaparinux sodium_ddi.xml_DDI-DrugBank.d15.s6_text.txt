@@ -1,0 +1,1 @@
+Since fondaparinux does not markedly inhibit CYP450s (CYP1A2, CYP2A6, CYP2C9, CYP2C19, CYP2D6, CYP2E1, or CYP3A4) in vitro, fondaparinux sodium is not expected to significantly interact with other drugs in vivo by inhibition of metabolism mediated by these isozymes.

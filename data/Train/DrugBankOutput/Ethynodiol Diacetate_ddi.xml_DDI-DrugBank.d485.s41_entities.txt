@@ -1,0 +1,6 @@
+imipramine	drug
+nortriptyline	drug
+Tricyclic antidepressants	group
+amitriptyline	drug
+combination hormonal contraceptives	group
+antidepressant	group

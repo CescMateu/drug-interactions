@@ -1,0 +1,6 @@
+levodopa	drug
+isoniazid	drug
+risperidone	drug
+butyrophenones	group
+phenothiazines	group
+Dopamine D2 receptor antagonists	group

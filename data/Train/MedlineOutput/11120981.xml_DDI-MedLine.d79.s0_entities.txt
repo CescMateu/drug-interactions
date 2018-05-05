@@ -1,0 +1,4 @@
+IDV	drug
+indinavir	drug
+IDV	drug
+didanosine	drug

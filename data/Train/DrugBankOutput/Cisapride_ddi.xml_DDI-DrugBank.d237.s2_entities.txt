@@ -1,0 +1,6 @@
+cisapride	drug
+cisapride	drug
+clarithromycin	drug
+Antibiotics	group
+troleandomycin	drug
+erythromycin	drug

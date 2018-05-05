@@ -1,0 +1,4 @@
+Ketoconazole	drug
+fluconazole	drug
+Fluconazole	drug
+Ketoconazole	drug

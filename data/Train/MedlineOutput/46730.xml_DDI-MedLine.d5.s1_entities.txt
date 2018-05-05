@@ -1,0 +1,6 @@
+organophosphorous compound	group
+phenobarbital sodium	drug
+anticoagulant	group
+trichlorfon	drug_n
+coumaphos	drug_n
+bishydroxycoumarin	drug

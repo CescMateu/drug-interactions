@@ -1,0 +1,3 @@
+Antidiabetic drugs	group
+insulin	drug
+antidiabetic drug	group

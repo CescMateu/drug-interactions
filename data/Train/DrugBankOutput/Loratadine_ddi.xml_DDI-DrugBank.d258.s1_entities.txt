@@ -1,0 +1,4 @@
+descarboethoxyloratadine	drug
+loratadine	drug
+loratadine	drug
+loratadine	drug

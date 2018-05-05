@@ -1,0 +1,2 @@
+simvastatin	drug
+clarithromycin	drug

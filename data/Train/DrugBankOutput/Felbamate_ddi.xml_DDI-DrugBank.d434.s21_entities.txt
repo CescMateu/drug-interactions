@@ -1,0 +1,2 @@
+carbamazepine	drug
+carbamazepine epoxide	drug_n

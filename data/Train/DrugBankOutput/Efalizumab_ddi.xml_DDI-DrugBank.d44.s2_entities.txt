@@ -1,0 +1,4 @@
+Acellular vaccines	group
+live vaccines	group
+live-attenuated vaccines	group
+RAPTIVA	brand

@@ -1,0 +1,7 @@
+Antacids	group
+fexofenadine hydrochloride	drug
+aluminum	drug
+magnesium	drug
+antacid	group
+Maalox	brand
+fexofenadine	drug

@@ -1,0 +1,7 @@
+proton pump inhibitors	group
+H2 blockers	group
+Proton Pump Inhibitors	group
+H2 Blockers	group
+dasatinib	drug
+omeprazole	drug
+famotidine	drug

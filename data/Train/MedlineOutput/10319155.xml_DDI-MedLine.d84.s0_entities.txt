@@ -1,0 +1,2 @@
+antibiotics	group
+Ganoderma lucidum extract	drug_n

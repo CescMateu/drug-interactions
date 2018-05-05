@@ -1,0 +1,3 @@
+anticholinesterase agents	group
+succinylcholine	drug
+HUMORSOL	brand

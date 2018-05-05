@@ -1,0 +1,11 @@
+lovastatin	drug
+astemizole	drug
+valproate	drug
+carbamazepine	drug
+hexobarbital	drug
+cyclosporine	drug
+erythromycin	drug
+bromocriptine	drug
+phenytoin	drug
+disopyramide	drug
+alfentanil	drug

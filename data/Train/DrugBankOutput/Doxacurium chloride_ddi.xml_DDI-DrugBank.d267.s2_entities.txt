@@ -1,0 +1,2 @@
+NUROMAX	brand
+neuromuscular blocking agents	group

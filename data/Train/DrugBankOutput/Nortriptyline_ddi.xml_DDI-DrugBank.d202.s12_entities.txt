@@ -1,0 +1,3 @@
+dextromethorphan	drug
+debrisoquin	drug
+tricyclic antidepressants	group

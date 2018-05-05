@@ -1,0 +1,4 @@
+midazolam	drug
+triazolam	drug
+Sedative	group
+hypnotics	group

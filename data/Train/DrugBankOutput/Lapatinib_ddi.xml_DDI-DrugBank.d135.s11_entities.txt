@@ -1,0 +1,3 @@
+capecitabine	drug
+capecitabine	drug
+lapatinib	drug

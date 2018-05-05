@@ -1,0 +1,2 @@
+Orudis	brand
+ketoprofen	drug

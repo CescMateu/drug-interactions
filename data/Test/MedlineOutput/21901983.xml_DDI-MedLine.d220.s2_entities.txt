@@ -1,0 +1,2 @@
+Luteolin	drug_n
+apigenin	drug_n

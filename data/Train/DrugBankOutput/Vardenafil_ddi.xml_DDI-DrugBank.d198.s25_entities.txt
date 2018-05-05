@@ -1,0 +1,4 @@
+Vardenafil	drug
+Nifedipine	drug
+nifedipine	drug
+nifedipine	drug

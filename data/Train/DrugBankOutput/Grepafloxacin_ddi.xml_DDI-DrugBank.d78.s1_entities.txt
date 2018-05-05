@@ -1,0 +1,13 @@
+calcium	drug
+sucralfate	drug
+iron	drug
+multivitamins	group
+quinolones	group
+antacids	group
+aluminum	drug
+magnesium	drug
+iron	drug
+zinc	drug
+quinolones	group
+VIDEX	brand
+didanosine	drug

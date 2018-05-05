@@ -1,0 +1,3 @@
+atenolol	drug
+dolasetron mesylate	drug
+hydrodolasetron	drug_n

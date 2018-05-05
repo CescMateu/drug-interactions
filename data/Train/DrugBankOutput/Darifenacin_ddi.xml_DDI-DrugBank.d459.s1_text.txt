@@ -1,0 +1,1 @@
+Caution should be taken when ENABLEX is used concomitantly with medications that are predominantly metabolized by CYP2D6 and which have a narrow therapeutic window, such as flecainide, thioridazine and tricyclic antidepressants (see CLINICAL PHARMACOLOGY).

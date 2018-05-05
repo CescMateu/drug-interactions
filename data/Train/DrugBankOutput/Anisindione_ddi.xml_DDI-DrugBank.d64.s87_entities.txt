@@ -1,0 +1,55 @@
+metronidazole	drug
+methylphenidate	drug
+thyroid drugs	group
+sulindac	drug
+glucagon	drug
+fenoprofen	drug
+indomethacin	drug
+ranitidine	drug
+anesthetics	group
+influenza virus vaccine	group
+methyldopa	drug
+mefenamic acid	drug
+chymotrypsin	drug
+anabolic steroids	group
+cimetidine	drug
+cinchophen	drug
+sulfonamides	group
+clofibrate	drug
+sulfinpyrazone	drug
+dextran	drug
+salicylates	group
+dextrothyroxine	drug
+ibuprofen	drug
+diazoxide	drug
+warfarin sodium	drug
+quinine	drug
+diflunisal	drug
+tolbutamide	drug
+triclofos sodium	drug
+trimethoprim	drug
+quinidine	drug
+pyrazolones	group
+chloral hydrate	drug
+chlorpropamide	drug
+antibiotics	group
+bromelains	drug
+amiodarone	drug
+sulfamethoxazole	drug
+allopurinol	drug
+aminosalicylic acid	drug
+anticoagulant	group
+alcohol	drug
+prolonged narcotics	group
+pentoxifylline	drug
+phenylbutazone	drug
+oxolinic acid	drug
+oxyphenbutazone	drug
+nalidixic acid	drug
+naproxen	drug
+miconazole	drug
+monoamine oxidase inhibitors	group
+disulfiram	drug
+ethacrynic acid	drug
+phenyramidol	drug_n
+phenytoin	drug

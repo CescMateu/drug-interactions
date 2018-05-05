@@ -1,0 +1,3 @@
+Aspirin	brand
+CELEBREX	brand
+aspirin	brand

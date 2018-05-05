@@ -1,0 +1,4 @@
+valproate	drug
+famotidine	drug
+aripiprazole	drug
+lithium	drug

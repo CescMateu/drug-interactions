@@ -1,0 +1,5 @@
+Warfarin	drug
+isradipine	drug
+warfarin	drug
+warfarin	drug
+isradipine	drug

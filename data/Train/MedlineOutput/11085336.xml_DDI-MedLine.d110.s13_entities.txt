@@ -1,0 +1,2 @@
+18-MC	drug_n
+Ibogaine	drug_n

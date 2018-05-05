@@ -1,0 +1,7 @@
+tranquilizers	group
+sedatives	group
+antianxiety agents	group
+alcohol	drug
+Antihistamines	group
+hypnotics	group
+CNS depressants	group

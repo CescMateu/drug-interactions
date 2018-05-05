@@ -1,0 +1,6 @@
+sympathomimetic amine	group
+epinephrine	drug
+decongestants	group
+anesthetics	group
+norepinephrine	drug
+tricyclic antidepressants	group

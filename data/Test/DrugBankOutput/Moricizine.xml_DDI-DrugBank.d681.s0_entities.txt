@@ -1,0 +1,4 @@
+cimetidine	drug
+digoxin	drug
+sevelamer	drug
+theophylline	drug

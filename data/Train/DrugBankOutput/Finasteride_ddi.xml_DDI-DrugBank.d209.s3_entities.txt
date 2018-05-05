@@ -1,0 +1,16 @@
+anticonvulsants	group
+angiotensin-converting enzyme (ACE) inhibitors	group
+beta blockers	group
+benzodiazepines	group
+acetaminophen	drug
+finasteride	drug
+analgesics	group
+acetylsalicylic acid	drug
+nitrates	group
+calcium-channel blockers	group
+H2 antagonists	group
+diuretics	group
+prostaglandin synthetase inhibitors	group
+HMG-CoA reductase inhibitors	group
+quinolone anti-infectives	group
+NSAIDs	group

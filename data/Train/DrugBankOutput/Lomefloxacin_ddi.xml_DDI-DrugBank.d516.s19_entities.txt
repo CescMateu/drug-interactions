@@ -1,0 +1,4 @@
+Phenytoin	drug
+phenytoin	drug
+phenytoin sodium	drug
+lomefloxacin	drug

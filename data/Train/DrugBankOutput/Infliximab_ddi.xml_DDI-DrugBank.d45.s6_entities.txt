@@ -1,0 +1,4 @@
+nonsteroidal anti-inflammatory agents	group
+MTX	drug
+corticosteroids	group
+folic acid	drug

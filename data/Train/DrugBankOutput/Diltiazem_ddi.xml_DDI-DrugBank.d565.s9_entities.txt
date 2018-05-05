@@ -1,0 +1,2 @@
+propranolol	drug
+diltiazem	drug

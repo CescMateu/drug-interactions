@@ -1,0 +1,3 @@
+anticoagulant	drug
+Bezalip	brand
+Bezalip	brand

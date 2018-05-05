@@ -1,0 +1,3 @@
+astemizole	drug
+Antihistamines	drug
+terfenadine	drug

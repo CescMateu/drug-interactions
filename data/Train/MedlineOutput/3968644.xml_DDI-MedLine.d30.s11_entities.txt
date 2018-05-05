@@ -1,0 +1,4 @@
+(+)-NANM	drug_n
+Haloperidol	drug
+NANM	drug_n
+PCP	drug_n

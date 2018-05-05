@@ -1,0 +1,3 @@
+diuretics	group
+TIKOSYN	brand
+diuretics	group

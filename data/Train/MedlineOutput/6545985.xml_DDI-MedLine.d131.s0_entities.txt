@@ -1,0 +1,3 @@
+tuftsin	drug_n
+enkephalins	drug_n
+neurotensin	drug_n

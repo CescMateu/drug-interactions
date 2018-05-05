@@ -1,0 +1,2 @@
+Corticosteroids	group
+aspirin	brand

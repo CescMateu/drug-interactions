@@ -1,0 +1,4 @@
+cimetidine	drug
+ketoconazole	drug
+Loratadine	drug
+erythromycin	drug

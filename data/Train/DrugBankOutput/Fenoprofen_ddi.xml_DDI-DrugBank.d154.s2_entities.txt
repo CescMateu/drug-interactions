@@ -1,0 +1,6 @@
+salicylates	group
+Nalfon	brand
+Nalfon	brand
+aspirin	brand
+aspirin	brand
+Nalfon	brand

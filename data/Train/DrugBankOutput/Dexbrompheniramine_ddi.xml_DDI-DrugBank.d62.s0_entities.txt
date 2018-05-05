@@ -1,0 +1,9 @@
+antihistamines	group
+CNS depressants	group
+antihistamines	group
+Dexbrompheniramine	drug
+alcohol	drug
+monoamine oxidase (MAO) inhibitors	group
+antihistamines	group
+anticholinergics	group
+antihistamines	group

@@ -1,0 +1,10 @@
+CYP3A4	drug
+diltiazem	drug
+propranolol	drug
+receptor	drug
+Amiodarone	drug
+Antihypertensives	drug
+CYP3A4	drug
+verapamil	drug
+calcium channel	drug
+CYP3A4	drug

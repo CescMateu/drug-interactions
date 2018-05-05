@@ -1,0 +1,2 @@
+Aminosalicylic acid	drug
+vitamin B12	drug

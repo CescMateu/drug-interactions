@@ -1,0 +1,5 @@
+rifabutin	drug
+rifapentine	drug
+phenytoin	drug
+carbamazepine	drug
+phenobarbital	drug

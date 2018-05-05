@@ -1,0 +1,2 @@
+beta-endorphin	drug_n
+morphine	drug

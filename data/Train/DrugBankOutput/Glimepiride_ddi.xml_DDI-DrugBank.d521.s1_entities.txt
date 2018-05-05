@@ -1,0 +1,13 @@
+Magan	brand
+bismuth subsalicylate	drug
+Pepto-Bismol	brand
+salicylate	group
+magnesium/choline salicylate	drug
+glimepiride	drug
+aspirin	brand
+Disalcid	brand
+choline salicylate	drug
+Trilisate	brand
+salsalate	drug
+Arthropan	drug
+magnesium salicylate	drug

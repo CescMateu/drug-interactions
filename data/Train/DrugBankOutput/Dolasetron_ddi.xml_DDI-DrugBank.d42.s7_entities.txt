@@ -1,0 +1,6 @@
+cyclophosphamide	drug
+doxorubicin	drug
+chemotherapeutic agents	group
+Dolasetron mesylate	drug
+5-fluorouracil	drug
+cisplatin	drug

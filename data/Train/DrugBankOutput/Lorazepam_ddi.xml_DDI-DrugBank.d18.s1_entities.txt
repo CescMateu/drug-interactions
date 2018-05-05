@@ -1,0 +1,9 @@
+ethyl alcohol	drug
+phenothiazines	group
+Lorazepam	drug
+benzodiazepines	group
+antidepressants	group
+scopolamine	drug
+barbiturates	group
+MAO inhibitors	group
+lorazepam	drug

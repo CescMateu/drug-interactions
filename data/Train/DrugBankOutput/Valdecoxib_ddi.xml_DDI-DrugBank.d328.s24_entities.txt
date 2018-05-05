@@ -1,0 +1,4 @@
+warfarin	drug
+S-warfarin	drug
+R-warfarin	drug
+Valdecoxib	drug

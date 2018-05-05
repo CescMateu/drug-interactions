@@ -1,0 +1,3 @@
+fluvoxamine	drug
+duloxetine	drug
+duloxetine	drug

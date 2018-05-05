@@ -1,0 +1,4 @@
+erythromycin	drug
+cisapride	drug
+cisapride	drug
+erythromycin	drug

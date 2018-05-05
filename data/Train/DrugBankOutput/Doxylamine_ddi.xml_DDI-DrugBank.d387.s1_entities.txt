@@ -1,0 +1,3 @@
+Antihistamines	group
+heparin	drug
+warfarin	drug

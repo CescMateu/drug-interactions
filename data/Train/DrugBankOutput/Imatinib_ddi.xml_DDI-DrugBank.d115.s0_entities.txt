@@ -1,0 +1,7 @@
+itraconazole	drug
+erythromycin	drug
+clarithromycin	drug
+imatinib	drug
+imatinib	drug
+Gleevec	brand
+ketoconazole	drug

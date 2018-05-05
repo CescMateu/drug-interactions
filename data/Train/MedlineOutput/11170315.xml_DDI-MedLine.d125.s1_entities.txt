@@ -1,0 +1,3 @@
+1,3-difluoro-2-propanol	drug_n
+Gliftor	drug_n
+1,3-difluoroacetone	drug_n

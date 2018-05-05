@@ -1,0 +1,2 @@
+rofecoxib	drug
+digoxin	drug

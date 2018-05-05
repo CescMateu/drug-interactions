@@ -1,0 +1,2 @@
+tiagabine	drug
+ethanol	drug

@@ -1,0 +1,4 @@
+clonidine	drug
+digitalis	group
+calcium channel blockers	group
+beta-blockers	group

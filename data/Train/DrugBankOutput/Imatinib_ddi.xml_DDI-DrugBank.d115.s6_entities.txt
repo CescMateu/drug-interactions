@@ -1,0 +1,3 @@
+Gleevec	brand
+rifampin	drug
+Gleevec	brand

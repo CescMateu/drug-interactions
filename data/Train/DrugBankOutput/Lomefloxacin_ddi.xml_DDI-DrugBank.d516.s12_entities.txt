@@ -1,0 +1,3 @@
+Cimetidine	drug
+Cimetidine	drug
+quinolones	group

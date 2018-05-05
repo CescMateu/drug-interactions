@@ -1,0 +1,4 @@
+Praziquantel	drug
+praziquantel	drug
+albendazole sulfoxide	drug
+albendazole	drug

@@ -1,0 +1,2 @@
+calcitriol	drug
+Rocaltrol	brand

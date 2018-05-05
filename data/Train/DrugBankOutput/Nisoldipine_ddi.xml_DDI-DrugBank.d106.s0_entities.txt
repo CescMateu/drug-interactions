@@ -1,0 +1,2 @@
+nisoldipine	drug
+cimetidine 400 mg	drug

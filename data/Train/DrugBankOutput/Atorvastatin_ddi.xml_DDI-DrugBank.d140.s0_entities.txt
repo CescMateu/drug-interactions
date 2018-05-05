@@ -1,0 +1,6 @@
+erythromycin	drug
+azole antifungals	group
+niacin	drug
+nicotinic acid	drug
+cyclosporine	drug
+fibric acid derivatives	group

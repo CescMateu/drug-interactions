@@ -1,0 +1,8 @@
+tolbutamide	drug
+acetylsalicylic acid	drug
+phenytoin	drug
+warfarin	drug
+nicardipine	drug
+glyburide	drug
+propranolol	drug
+nateglinide	drug

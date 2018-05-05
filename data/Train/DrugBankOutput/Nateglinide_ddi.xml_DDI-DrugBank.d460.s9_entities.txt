@@ -1,0 +1,3 @@
+diclofenac	drug
+Diclofenac	drug
+Starlix	brand

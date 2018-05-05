@@ -1,0 +1,4 @@
+protease inhibitor	group
+saquinavir	drug
+saquinavir	drug
+FORTOVASE	brand

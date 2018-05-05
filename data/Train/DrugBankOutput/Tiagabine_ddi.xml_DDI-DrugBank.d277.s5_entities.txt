@@ -1,0 +1,5 @@
+phenytoin	drug
+GABITRIL	brand
+AEDs	group
+Phenytoin	drug
+Tiagabine	drug

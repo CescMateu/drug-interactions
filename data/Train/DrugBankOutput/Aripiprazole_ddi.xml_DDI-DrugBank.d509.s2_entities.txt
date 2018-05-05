@@ -1,0 +1,2 @@
+antihypertensive agents	group
+aripiprazole	drug

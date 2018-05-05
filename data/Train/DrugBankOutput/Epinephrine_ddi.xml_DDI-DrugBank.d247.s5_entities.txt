@@ -1,0 +1,4 @@
+cyclopropane	drug
+epinephrine	drug
+halothane	drug
+halogenated hydrocarbon general anesthetics	group

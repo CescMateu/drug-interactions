@@ -1,0 +1,5 @@
+ROMAZICON	brand
+benzodiazepines	group
+benzodiazepine	group
+alcohol	drug
+sedative	group

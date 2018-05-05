@@ -1,0 +1,3 @@
+moclobemide	drug
+Monoamine Oxidase Inhibitors	group
+almotriptan	drug

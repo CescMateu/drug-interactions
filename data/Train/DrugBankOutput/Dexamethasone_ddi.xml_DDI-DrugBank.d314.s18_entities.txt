@@ -1,0 +1,6 @@
+rifampin	drug
+carbamazepine	drug
+phenytoin	drug
+barbiturates	group
+corticosteroid	group
+corticosteroids	group

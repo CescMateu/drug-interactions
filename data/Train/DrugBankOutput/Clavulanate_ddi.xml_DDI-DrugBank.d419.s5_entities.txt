@@ -1,0 +1,3 @@
+contraceptives	group
+broad-spectrum antibiotics	group
+AUGMENTIN XR	brand

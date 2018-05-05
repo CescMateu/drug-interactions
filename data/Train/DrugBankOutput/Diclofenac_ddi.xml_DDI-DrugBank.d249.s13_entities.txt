@@ -1,0 +1,3 @@
+hypoglycemic agents	group
+insulin	drug
+diclofenac	drug

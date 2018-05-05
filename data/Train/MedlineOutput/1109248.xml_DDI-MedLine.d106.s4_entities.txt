@@ -1,0 +1,3 @@
+secobarbital	drug
+phenobarbital	drug
+glutethimide	drug

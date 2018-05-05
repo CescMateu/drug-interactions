@@ -1,0 +1,2 @@
+NOVANTRONE	brand
+corticosteroids	group

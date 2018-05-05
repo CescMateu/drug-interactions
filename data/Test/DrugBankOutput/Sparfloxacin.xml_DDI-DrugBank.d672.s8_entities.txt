@@ -1,0 +1,3 @@
+sparfloxacin	drug
+Probenecid	drug
+Probenecid	drug

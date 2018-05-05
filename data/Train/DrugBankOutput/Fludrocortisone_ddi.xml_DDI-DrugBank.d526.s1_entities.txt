@@ -1,0 +1,5 @@
+potassium-depleting diuretics	group
+Amphotericin B	drug
+ethacrynic acid	drug
+benzothiadiazines	group
+furosemide	drug

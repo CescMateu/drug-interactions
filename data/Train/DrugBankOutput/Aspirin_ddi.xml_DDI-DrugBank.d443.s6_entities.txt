@@ -1,0 +1,2 @@
+Phenobarbital	drug
+aspirin	brand

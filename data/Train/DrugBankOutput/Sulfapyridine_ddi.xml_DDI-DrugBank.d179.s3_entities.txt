@@ -1,0 +1,9 @@
+Winstrol	brand
+oxandrolone	drug
+Anabolin	brand
+nandrolone	drug
+Anabolic steroids	group
+stanozolol	drug
+Anadrol	brand
+oxymetholone	drug
+Anavar	brand

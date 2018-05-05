@@ -1,0 +1,4 @@
+antacids	group
+vitamin D	group
+Magnesium	drug
+Magnesium	drug

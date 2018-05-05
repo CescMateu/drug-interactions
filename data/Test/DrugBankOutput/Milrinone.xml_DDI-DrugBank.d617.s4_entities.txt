@@ -1,0 +1,4 @@
+furosemide	drug
+chlorthalidone	drug
+spironolactone	drug
+hydrochlorothiazide	drug

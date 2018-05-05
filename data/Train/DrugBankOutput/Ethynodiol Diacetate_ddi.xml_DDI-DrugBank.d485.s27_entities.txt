@@ -1,0 +1,4 @@
+Nevirapine	drug
+combination hormonal contraceptives	group
+Non-nucleoside reverse transcriptase inhibitors	group
+NNRTIs	group

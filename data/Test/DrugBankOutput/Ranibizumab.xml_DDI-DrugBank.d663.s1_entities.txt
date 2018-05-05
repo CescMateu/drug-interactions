@@ -1,0 +1,2 @@
+verteporfin	drug
+LUCENTIS	brand

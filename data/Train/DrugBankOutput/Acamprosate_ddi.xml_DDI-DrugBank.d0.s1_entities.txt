@@ -1,0 +1,3 @@
+acamprosate	drug
+disulfiram	drug
+diazepam	drug

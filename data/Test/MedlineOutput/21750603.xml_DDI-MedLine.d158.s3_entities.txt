@@ -1,0 +1,4 @@
+DAPT	drug_n
+N-[N-(3, 5-Difluorophenacetyl)-L-alanyl]-S-phenylglycine t-butyl ester	drug_n
+(IGF)-1	drug_n
+insulin growth factor	drug_n

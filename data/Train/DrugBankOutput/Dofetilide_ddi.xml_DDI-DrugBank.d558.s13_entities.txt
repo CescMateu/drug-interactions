@@ -1,0 +1,5 @@
+HCTZ	drug
+HCTZ	drug
+triamterene	drug
+TIKOSYN	brand
+diuretic	group

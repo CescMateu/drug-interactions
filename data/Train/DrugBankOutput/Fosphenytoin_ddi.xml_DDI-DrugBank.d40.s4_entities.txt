@@ -1,0 +1,5 @@
+diazepam	drug
+diazepam	drug
+fosphenytoin	drug
+phenytoin	drug
+Cerebyx	brand

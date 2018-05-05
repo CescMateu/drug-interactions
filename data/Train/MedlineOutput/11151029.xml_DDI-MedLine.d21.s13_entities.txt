@@ -1,0 +1,2 @@
+glucose	drug
+sertraline	drug

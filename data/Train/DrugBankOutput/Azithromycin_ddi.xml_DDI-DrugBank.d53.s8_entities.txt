@@ -1,0 +1,3 @@
+azithromycin	drug
+efavirenz	drug
+fluconazole	drug

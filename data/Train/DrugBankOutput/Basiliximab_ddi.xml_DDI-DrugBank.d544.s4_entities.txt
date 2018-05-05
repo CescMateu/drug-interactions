@@ -1,0 +1,3 @@
+mycophenolate mofetil	drug
+Simulect	brand
+azathioprine	drug

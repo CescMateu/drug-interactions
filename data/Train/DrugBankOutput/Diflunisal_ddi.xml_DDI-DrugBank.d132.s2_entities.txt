@@ -1,0 +1,2 @@
+anticoagulants	group
+diflunisal	drug

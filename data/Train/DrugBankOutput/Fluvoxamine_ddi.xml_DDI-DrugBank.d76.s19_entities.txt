@@ -1,0 +1,3 @@
+diazepam	drug
+Diazepam	drug
+Fluvoxamine	drug

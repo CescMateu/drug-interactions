@@ -1,0 +1,4 @@
+sulfonylurea	group
+glyburide	drug
+Glyburide	drug
+ciprofloxacin	drug

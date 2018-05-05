@@ -1,0 +1,2 @@
+Anticoagulants	group
+Warfarin	drug

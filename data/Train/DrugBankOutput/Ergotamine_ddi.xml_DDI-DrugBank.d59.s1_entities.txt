@@ -1,0 +1,2 @@
+vasoconstrictor drugs	group
+ERGOMAR	brand

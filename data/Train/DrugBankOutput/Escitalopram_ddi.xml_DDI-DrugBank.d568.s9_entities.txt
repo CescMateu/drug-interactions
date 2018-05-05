@@ -1,0 +1,6 @@
+digoxin	drug
+citalopram	drug
+citalopram	drug
+Digoxin	drug
+digoxin	drug
+citalopram	drug

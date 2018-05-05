@@ -1,0 +1,6 @@
+H2 antagonists	group
+dexamethasone	drug
+corticosteroids	group
+TAXOL	brand
+ranitidine	drug
+cimetidine	drug

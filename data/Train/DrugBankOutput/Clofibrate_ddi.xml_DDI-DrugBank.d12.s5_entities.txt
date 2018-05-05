@@ -1,0 +1,2 @@
+tolbutamide	drug
+Atromid-S	brand

@@ -1,0 +1,3 @@
+diuretic	group
+Indomethacin	drug
+diuretics	group

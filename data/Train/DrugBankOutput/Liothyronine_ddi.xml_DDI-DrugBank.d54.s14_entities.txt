@@ -1,0 +1,4 @@
+estrogens	group
+thyroid	group
+contraceptives	group
+estrogen	group

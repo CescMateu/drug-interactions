@@ -1,0 +1,4 @@
+coumarin	group
+warfarin sodium	drug
+warfarin sodium	drug
+levamisole	drug

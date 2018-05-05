@@ -1,0 +1,4 @@
+ergotamine	drug
+dihydroergotamine	drug
+Ergotamine	drug
+erythromycin	drug

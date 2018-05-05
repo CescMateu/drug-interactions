@@ -1,0 +1,4 @@
+aspirin	brand
+Aspirin	brand
+flurbiprofen	drug
+flurbiprofen	drug

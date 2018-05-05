@@ -1,0 +1,5 @@
+sertraline	drug
+paroxetine	drug
+fluoxetine	drug
+clozapine	drug
+clozapine	drug

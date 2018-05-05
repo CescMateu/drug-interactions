@@ -1,0 +1,3 @@
+disulfiram	drug
+anticoagulants	group
+disulfiram	drug

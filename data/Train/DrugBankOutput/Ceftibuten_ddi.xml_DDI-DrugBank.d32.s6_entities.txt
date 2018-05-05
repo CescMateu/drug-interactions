@@ -1,0 +1,2 @@
+ceftibuten	drug
+antacid	group

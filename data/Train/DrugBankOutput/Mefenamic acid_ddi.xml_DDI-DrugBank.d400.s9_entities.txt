@@ -1,0 +1,4 @@
+Lithium	drug
+NSAIDs	group
+lithium	drug
+lithium	drug

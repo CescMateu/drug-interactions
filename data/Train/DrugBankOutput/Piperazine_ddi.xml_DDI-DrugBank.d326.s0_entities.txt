@@ -1,0 +1,3 @@
+Phenothiazines	group
+piperazine	drug
+phenothiazine	group

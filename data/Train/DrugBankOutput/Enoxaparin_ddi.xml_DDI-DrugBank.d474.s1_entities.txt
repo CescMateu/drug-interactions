@@ -1,0 +1,7 @@
+dipyridamole	drug
+ketorolac tromethamine	drug
+sulfinpyrazone	drug
+platelet inhibitors	group
+anticoagulants	group
+NSAIDs	group
+acetylsalicylic acid	drug

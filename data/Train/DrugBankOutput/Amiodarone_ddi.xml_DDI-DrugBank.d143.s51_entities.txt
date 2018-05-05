@@ -1,0 +1,4 @@
+CYP3A4	drug
+amiodarone	drug
+amiodarone	drug
+Fentanyl	drug

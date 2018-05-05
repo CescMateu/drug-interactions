@@ -1,0 +1,2 @@
+antiplatelet agent	group
+clopidogrel	drug

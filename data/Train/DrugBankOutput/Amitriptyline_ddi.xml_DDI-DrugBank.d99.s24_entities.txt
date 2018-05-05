@@ -1,0 +1,4 @@
+tricyclic antidepressants	drug
+cimetidine	drug
+antidepressants	drug
+cimetidine	drug

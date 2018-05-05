@@ -1,0 +1,2 @@
+Acetazolamide	drug
+folic acid antagonists	group

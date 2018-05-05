@@ -1,0 +1,5 @@
+dimethyl sufloxide	drug_n
+b-carotene	drug
+ethanol	drug
+formate	drug_n
+mannitol	drug

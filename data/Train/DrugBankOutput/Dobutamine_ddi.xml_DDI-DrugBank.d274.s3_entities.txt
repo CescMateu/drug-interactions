@@ -1,0 +1,14 @@
+digitalis preparations	group
+dobutamine	drug
+spironolactone	drug
+furosemide	drug
+glyceryl trinitrate	drug
+lidocaine	drug
+morphine	drug
+isosorbide dinitrate	drug
+heparin	drug
+atropine	drug
+potassium chloride	drug
+protamine	drug
+acetaminophen	drug
+folic acid	drug

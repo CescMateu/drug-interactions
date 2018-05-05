@@ -1,0 +1,10 @@
+MAO inhibitors	group
+propoxyphene	drug
+salicylates	group
+somatostatin analog	group
+ACE inhibitors	group
+disopyramide	drug
+fibrates	group
+fluoxetine	drug
+octreotide	drug
+sulfonamide antibiotics	group

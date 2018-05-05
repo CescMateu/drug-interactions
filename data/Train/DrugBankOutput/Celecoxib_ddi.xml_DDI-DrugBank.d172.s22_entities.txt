@@ -1,0 +1,4 @@
+Warfarin	drug
+celecoxib	drug
+warfarin	drug
+warfarin	drug

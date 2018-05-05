@@ -1,0 +1,5 @@
+selenium	drug
+vitamin B6	drug
+vitamin D	group
+magnesium	drug
+magnesium sparing diuretics	group

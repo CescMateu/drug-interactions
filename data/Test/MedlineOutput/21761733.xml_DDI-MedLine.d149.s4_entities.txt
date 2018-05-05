@@ -1,0 +1,3 @@
+EGGB	drug
+ginseng	drug
+ginko	drug

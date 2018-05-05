@@ -1,0 +1,3 @@
+Antidiabetic Agents	group
+quinolones	group
+antidiabetic agent	group

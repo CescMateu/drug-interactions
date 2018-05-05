@@ -1,0 +1,3 @@
+terazosin	drug
+Alpha-blockers	group
+Vardenafil	drug

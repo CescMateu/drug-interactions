@@ -1,0 +1,3 @@
+Non-steroidal anti-inflammatory drugs	group
+aspirin	brand
+quinolones	group

@@ -1,0 +1,4 @@
+Probenecid	drug
+probenecid	drug
+PIPRACIL	brand
+piperacillin	drug

@@ -1,0 +1,2 @@
+amiodarone	drug
+digitalis	group

@@ -1,0 +1,4 @@
+colestipol	drug
+atorvastatin	drug
+Colestipol	drug
+atorvastatin	drug

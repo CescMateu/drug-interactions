@@ -1,0 +1,1 @@
+Inhibitory interneurons across diverse brain regions commonly exhibit spontaneous spiking activity, even in the absence of external stimuli. 

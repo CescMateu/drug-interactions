@@ -1,0 +1,2 @@
+PCP	drug_n
+DCG-IV	drug_n

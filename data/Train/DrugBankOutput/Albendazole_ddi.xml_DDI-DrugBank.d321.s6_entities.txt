@@ -1,0 +1,4 @@
+theophylline	drug
+Theophylline	drug
+albendazole	drug
+aminophylline	drug

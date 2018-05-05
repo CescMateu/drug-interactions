@@ -1,0 +1,2 @@
+lead	drug_n
+alcohol	drug

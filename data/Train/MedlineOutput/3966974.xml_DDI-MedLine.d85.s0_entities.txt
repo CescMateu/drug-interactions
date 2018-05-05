@@ -1,0 +1,2 @@
+Misonidazole	drug_n
+CCNU	drug

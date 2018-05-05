@@ -1,0 +1,5 @@
+Aspirin	brand
+diclofenac	drug
+aspirin	brand
+diclofenac	drug
+aspirin	brand

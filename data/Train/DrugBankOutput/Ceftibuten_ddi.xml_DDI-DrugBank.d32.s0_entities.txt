@@ -1,0 +1,2 @@
+ceftibuten	drug
+Theophylline	drug

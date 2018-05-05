@@ -1,0 +1,7 @@
+carvedilol	drug
+debrisoquin	drug
+fluoxetine	drug
+quinidine	drug
+propafenone	drug
+paroxetine	drug
+carvedilol	drug

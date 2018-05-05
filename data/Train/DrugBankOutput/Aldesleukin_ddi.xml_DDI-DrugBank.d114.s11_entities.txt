@@ -1,0 +1,3 @@
+radiographic iodinated contrast media	group
+Iodinated Contrast Media	group
+interleukin-2	drug

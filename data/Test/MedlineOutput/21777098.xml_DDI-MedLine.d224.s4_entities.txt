@@ -1,0 +1,2 @@
+carbamide peroxide	drug_n
+manganese gluconate	drug_n

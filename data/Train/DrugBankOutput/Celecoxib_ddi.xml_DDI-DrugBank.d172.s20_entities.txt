@@ -1,0 +1,2 @@
+lithium	drug
+CELEBREX	brand

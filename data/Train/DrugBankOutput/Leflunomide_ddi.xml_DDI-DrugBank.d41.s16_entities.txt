@@ -1,0 +1,3 @@
+ARAVA	brand
+Warfarin	drug
+warfarin	drug

@@ -1,0 +1,12 @@
+metformin	drug
+nateglinide	drug
+warfarin	drug
+phenytoin	drug
+pravastatin	drug
+glyburide	drug
+captopril	drug
+nicardipine	drug
+furosemide	drug
+propranolol	drug
+acetylsalicylic acid	drug
+tolbutamide	drug

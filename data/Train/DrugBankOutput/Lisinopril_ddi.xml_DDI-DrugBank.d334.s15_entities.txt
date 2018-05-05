@@ -1,0 +1,6 @@
+amiloride	drug
+potassium	drug
+spironolactone	drug
+triamterene	drug
+PRINIVIL	brand
+potassium-sparing diuretics	group

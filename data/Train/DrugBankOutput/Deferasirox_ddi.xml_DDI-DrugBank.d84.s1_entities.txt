@@ -1,0 +1,6 @@
+aluminum	drug
+deferasirox	drug
+Exjade	brand
+iron	drug
+antacid preparations	group
+aluminum	drug

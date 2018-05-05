@@ -1,0 +1,8 @@
+paroxetine	drug
+fluvoxamine	drug
+5-HT1 agonists	group
+sertraline	drug
+SSRIs	group
+Selective Serotonin Reuptake Inhibitors	group
+fluoxetine	drug
+SSRIs	group

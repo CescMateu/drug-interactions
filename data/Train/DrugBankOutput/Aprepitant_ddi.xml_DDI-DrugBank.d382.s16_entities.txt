@@ -1,0 +1,5 @@
+S(-) warfarin	drug
+S(-)warfarin	drug
+Aprepitant	drug
+R(+) warfarin	drug
+Aprepitant	drug

@@ -1,0 +1,4 @@
+Simvastatin	drug
+HMG-CoA Reductase Inhibitors	drug
+amiodarone	drug
+CYP3A4	drug

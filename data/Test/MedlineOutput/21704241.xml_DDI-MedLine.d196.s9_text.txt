@@ -1,0 +1,1 @@
+The pharmacokinetic parameters of interest for assessing bioequivalence were AUC(0-t), AUC(0-   ), C(max), and T(max). 

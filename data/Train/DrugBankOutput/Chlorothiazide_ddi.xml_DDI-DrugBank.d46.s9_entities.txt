@@ -1,0 +1,2 @@
+ACTH	drug
+Corticosteroids	group

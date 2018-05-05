@@ -1,0 +1,2 @@
+salicylates	group
+corticosteroids	group

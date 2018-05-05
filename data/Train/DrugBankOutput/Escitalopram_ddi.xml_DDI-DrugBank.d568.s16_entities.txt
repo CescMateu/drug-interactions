@@ -1,0 +1,4 @@
+Sumatriptan	drug
+selective serotonin reuptake inhibitor	group
+SSRI	group
+sumatriptan	drug

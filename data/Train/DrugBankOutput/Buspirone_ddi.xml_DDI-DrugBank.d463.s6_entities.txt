@@ -1,0 +1,2 @@
+buspirone	drug
+warfarin	drug

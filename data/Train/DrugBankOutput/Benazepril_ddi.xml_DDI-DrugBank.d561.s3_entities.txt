@@ -1,0 +1,3 @@
+Potassium	drug
+Potassium-Sparing Diuretics	group
+thiazide diuretics	group

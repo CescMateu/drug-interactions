@@ -1,0 +1,5 @@
+insulin	drug
+NaCMC	drug_n
+cysteine	drug
+NaFlu	drug
+bacitracin	drug

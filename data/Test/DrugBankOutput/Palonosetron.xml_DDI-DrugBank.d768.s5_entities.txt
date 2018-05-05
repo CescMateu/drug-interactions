@@ -1,0 +1,7 @@
+doxorubicin	drug
+cytarabine	drug
+mitomycin C	drug
+chemotherapeutic agents	group
+Palonosetron	drug
+cyclophosphamide	drug
+cisplatin	drug

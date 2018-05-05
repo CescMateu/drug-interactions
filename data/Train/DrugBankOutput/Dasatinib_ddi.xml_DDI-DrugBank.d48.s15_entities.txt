@@ -1,0 +1,14 @@
+SPRYCEL	brand
+dihydroergotamine	drug
+ergotamine	drug
+ergot alkaloids	group
+tacrolimus	drug
+sirolimus	drug
+quinidine	drug
+pimozide	drug
+fentanyl	drug
+cyclosporine	drug
+cisapride	drug
+terfenadine	drug
+astemizole	drug
+alfentanil	drug

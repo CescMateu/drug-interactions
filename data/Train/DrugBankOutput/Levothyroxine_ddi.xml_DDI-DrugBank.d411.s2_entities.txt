@@ -1,0 +1,8 @@
+sucralfate	drug
+sodium polystyrene sulfonate	drug
+ferrous sulfate	drug
+colestipol hydrochloride	drug
+cholestyramine	drug
+aluminum hydoxide	drug
+levothyroxine sodium	drug
+Levothyroxine Sodium	drug

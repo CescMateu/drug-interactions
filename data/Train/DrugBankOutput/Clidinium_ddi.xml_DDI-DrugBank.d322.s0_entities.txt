@@ -1,0 +1,4 @@
+Amantadine	drug
+tricyclic antidepressants	group
+MAOIs	group
+clidinium	drug

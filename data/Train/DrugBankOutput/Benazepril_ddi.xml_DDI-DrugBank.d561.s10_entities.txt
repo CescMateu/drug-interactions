@@ -1,0 +1,9 @@
+cimetidine	drug
+hydrochlorothiazide	drug
+Lotensin	brand
+furosemide	drug
+chlorthalidone	drug
+propranolol	drug
+digoxin	drug
+naproxen	drug
+atenolol	drug

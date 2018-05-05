@@ -1,0 +1,3 @@
+flurbiprofen	drug
+furosemide	drug
+diuretics	group

@@ -1,0 +1,3 @@
+halothane	drug
+Enflurane	drug
+nitrous oxide	drug

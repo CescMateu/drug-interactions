@@ -1,0 +1,3 @@
+Vitamin E	drug
+allopurinol	drug
+cypermethrin	drug

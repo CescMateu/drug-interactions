@@ -1,0 +1,3 @@
+anticoagulants	group
+Anticoagulants	group
+guanfacine	drug

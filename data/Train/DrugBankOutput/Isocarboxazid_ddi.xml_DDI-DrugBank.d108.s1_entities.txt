@@ -1,0 +1,2 @@
+disulfiram	drug
+MAO inhibitor	group

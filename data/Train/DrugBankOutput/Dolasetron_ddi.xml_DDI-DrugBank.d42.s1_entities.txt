@@ -1,0 +1,4 @@
+rifampin	drug
+cimetidine	drug
+dolasetron	drug
+hydrodolasetron	drug_n

@@ -1,0 +1,1 @@
+In this study, we investigated the proportion of side-effect similarities that is due to targets that are close in the network compared to shared drug targets. 

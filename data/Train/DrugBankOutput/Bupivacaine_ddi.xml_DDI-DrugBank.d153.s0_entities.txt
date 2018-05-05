@@ -1,0 +1,5 @@
+norepinephrine	drug
+monoamine oxidase inhibitors	group
+anesthetic solutions	group
+epinephrine	drug
+tricyclic antidepressants	group

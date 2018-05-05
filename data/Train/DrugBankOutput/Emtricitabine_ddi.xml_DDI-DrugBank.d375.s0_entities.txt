@@ -1,0 +1,5 @@
+EMTRIVA	brand
+indinavir	drug
+stavudine	drug
+famciclovir	drug
+tenofovir disoproxil fumarate	drug

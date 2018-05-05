@@ -1,0 +1,7 @@
+nefazodone	drug
+benzodiazepines	group
+cimetidine	drug
+fluvoxamine	drug
+isoniazide	drug
+diltiazem	drug
+macrolide antibiotics	group

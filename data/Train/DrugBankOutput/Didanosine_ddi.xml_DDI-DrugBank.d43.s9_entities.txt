@@ -1,0 +1,3 @@
+VIDEX	brand
+ciprofloxacin	drug
+ciprofloxacin	drug

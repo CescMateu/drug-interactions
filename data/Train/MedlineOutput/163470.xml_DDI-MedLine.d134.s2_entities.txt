@@ -1,0 +1,2 @@
+perchlorate	drug_n
+pertechnetate	drug

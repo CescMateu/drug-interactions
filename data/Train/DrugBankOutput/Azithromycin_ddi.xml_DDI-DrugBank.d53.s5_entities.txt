@@ -1,0 +1,2 @@
+warfarin	drug
+macrolides	group

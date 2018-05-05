@@ -1,0 +1,6 @@
+ketoconazole	drug
+terfenadine	drug
+cyclosporine	drug
+docetaxel	drug
+troleandomycin	drug
+erythromycin	drug

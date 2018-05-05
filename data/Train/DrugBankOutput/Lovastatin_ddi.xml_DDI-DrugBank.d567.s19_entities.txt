@@ -1,0 +1,2 @@
+Lovastatin	drug
+anticoagulants	group

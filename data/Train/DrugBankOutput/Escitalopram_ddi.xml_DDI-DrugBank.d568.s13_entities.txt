@@ -1,0 +1,5 @@
+citalopram	drug
+pimozide	drug
+Celexa	brand
+Pimozide	drug
+pimozide	drug

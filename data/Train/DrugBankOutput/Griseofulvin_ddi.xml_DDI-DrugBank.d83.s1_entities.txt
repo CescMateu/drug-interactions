@@ -1,0 +1,2 @@
+barbiturates	group
+griseofulvin	drug

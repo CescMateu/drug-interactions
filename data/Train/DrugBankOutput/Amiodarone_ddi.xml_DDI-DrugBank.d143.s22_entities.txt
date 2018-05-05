@@ -1,0 +1,4 @@
+Cardiac glycosides	drug
+digoxin	drug
+amiodarone	drug
+digoxin	drug

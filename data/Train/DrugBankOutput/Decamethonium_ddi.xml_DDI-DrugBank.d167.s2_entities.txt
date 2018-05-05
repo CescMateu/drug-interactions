@@ -1,0 +1,8 @@
+metaclopramide	drug
+beta-blockers	group
+terbutaline	drug
+lithium carbonate	drug
+anesthetics	group
+anesthetics	group
+procaine	drug
+lidocaine	drug

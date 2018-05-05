@@ -1,0 +1,4 @@
+diflunisal	drug
+Aspirin	brand
+aspirin	brand
+diflunisal	drug

@@ -1,0 +1,17 @@
+quinine	drug
+disopyramide	drug
+dapsone	drug
+calcium channel blockers	group
+tacrolimus	drug
+warfarin	drug
+quinidine	drug
+amiodarone	drug
+ergot derivatives	group
+pimozide	drug
+triazolam	drug
+alfentanyl	drug
+alprazolam	drug
+saquinavir	drug
+cyclosporine	drug
+carbamazepine	drug
+fentanyl	drug

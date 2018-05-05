@@ -1,0 +1,2 @@
+fenfluramine	drug
+CNS depressant drugs	group

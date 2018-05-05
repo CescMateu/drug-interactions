@@ -1,0 +1,5 @@
+central nervous system depressants	group
+antihistamines	group
+alcohol	drug
+tricyclic antidepressants	group
+barbiturates	group

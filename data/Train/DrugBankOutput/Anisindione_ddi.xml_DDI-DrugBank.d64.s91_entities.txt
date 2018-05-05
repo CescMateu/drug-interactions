@@ -1,0 +1,2 @@
+anticoagulant medication	group
+antiplatelet medication	group

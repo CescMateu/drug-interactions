@@ -1,0 +1,4 @@
+bexarotene	drug
+phenobarbital	drug
+phenytoin	drug
+rifampin	drug

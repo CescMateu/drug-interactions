@@ -1,0 +1,5 @@
+Ibandronate	drug
+calcium	drug
+aluminum	drug
+magnesium	drug
+iron	drug

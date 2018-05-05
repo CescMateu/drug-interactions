@@ -1,0 +1,1 @@
+Patches of granule cells were asynchronously activated by photostimulation to mimic their excitation by a mossy fiber as it occurs in vivo. 

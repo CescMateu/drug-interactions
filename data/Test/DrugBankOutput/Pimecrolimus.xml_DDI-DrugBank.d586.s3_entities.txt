@@ -1,0 +1,6 @@
+cimetidine	drug
+calcium channel blockers	group
+itraconazole	drug
+erythromycin	drug
+fluconazole	drug
+ketoconazole	drug

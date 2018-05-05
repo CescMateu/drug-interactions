@@ -1,0 +1,2 @@
+anticholinergic	drug
+tricyclic antidepressants	drug

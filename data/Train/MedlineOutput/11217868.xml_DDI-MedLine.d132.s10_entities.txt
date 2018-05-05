@@ -1,0 +1,2 @@
+Efavirenz	drug
+nelfinavir	drug

@@ -1,0 +1,3 @@
+antithyroid agents	group
+digoxin	drug
+digitoxin	drug

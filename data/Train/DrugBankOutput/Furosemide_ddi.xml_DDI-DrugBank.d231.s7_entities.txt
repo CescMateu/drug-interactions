@@ -1,0 +1,2 @@
+ganglionic adrenergic blocking drugs	group
+peripheral adrenergic blocking drugs	group

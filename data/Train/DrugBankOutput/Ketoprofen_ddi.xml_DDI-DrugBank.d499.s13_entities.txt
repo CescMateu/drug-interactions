@@ -1,0 +1,5 @@
+Digoxin	drug
+ketoprofen	drug
+digoxin	drug
+ketoprofen	drug
+digoxin	drug

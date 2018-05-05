@@ -1,0 +1,1 @@
+We have selected a subclone of MCF-7 cells resistant to 1,25(OH)2D3 (MCF-7D3Res). 

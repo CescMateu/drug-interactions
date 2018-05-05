@@ -1,0 +1,34 @@
+levodopa	drug
+iodine-containing compounds	group
+diazepam	drug
+chloral hydrate	drug
+dopamine agonists	group
+dopamine	drug
+glucocorticoids	group
+ethionamide	drug
+insulin	drug
+heparin	drug
+thiazide diuretics	group
+sulfonylureas	group
+sulfonamides	group
+somatostatin analogs	group
+carbamazepine	drug
+b-adrenergic blocking agents	group
+perchlorate	drug
+thiocyanate	drug
+antithyroid drugs	group
+pertechnetate	drug
+p-aminosalicylic acid	drug
+aminoglutethimide	drug
+androgens	group
+amiodarone	drug
+lovastatin	drug
+lithium	drug
+6-mercaptopurine	drug
+metoclopramide	drug
+mitotane	drug
+nitroprusside	drug
+phenobarbital	drug
+phenytoin	drug
+resorcinol	drug
+rifampin	drug

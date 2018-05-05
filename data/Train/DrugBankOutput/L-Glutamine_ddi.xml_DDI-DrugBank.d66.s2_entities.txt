@@ -1,0 +1,4 @@
+Indomethacin	drug
+L-glutamine	drug
+indomethacin	drug
+indomethacin	drug

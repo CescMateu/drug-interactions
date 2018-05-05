@@ -1,0 +1,14 @@
+troleandomycin	drug
+telithromycin	drug
+voriconazole	drug
+TAO	drug
+saquinavir	drug
+ritonavir	drug
+itraconazole	drug
+indinavir	drug
+nelfinavir	drug
+nefazodone	drug
+ketoconazole	drug
+TARCEVA	brand
+clarithromycin	drug
+atazanavir	drug

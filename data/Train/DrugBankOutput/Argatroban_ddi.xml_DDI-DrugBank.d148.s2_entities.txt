@@ -1,0 +1,7 @@
+Argatroban	drug
+acetaminophen	drug
+Argatroban	drug
+Aspirin	brand
+Acetaminophen	drug
+Argatroban	drug
+aspirin	brand

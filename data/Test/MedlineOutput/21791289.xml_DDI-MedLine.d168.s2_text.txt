@@ -1,0 +1,1 @@
+It is not well understood how stimulus-evoked inhibition can be distinguished from background inhibition arising from spontaneous firing. 

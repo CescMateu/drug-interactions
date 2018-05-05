@@ -1,0 +1,2 @@
+VIRACEPT	brand
+rifabutin	drug

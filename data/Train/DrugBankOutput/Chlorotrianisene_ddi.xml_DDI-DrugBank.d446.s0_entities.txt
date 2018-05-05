@@ -1,0 +1,14 @@
+antidepressants	group
+Chlorotrianisene	drug
+barbiturates	group
+aspirin	brand
+calcium	drug
+bromocriptine	drug
+corticotropin	drug
+corticosteroids	group
+dantrolene	drug
+cyclosporine	drug
+somatropin	drug
+nicotine	drug
+warfarin	drug
+tamoxifen	drug

@@ -1,0 +1,4 @@
+Argatroban	drug
+antiplatelet agents	group
+thrombolytics	group
+anticoagulants	group

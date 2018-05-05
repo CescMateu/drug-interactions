@@ -1,0 +1,3 @@
+Digoxin	drug
+azithromycin	drug
+digoxin	drug

@@ -1,0 +1,4 @@
+promethazine	drug
+zaleplon	drug
+Promethazine	drug
+zaleplon	drug

@@ -1,0 +1,2 @@
+TAMBOCOR	brand
+beta blockers	group

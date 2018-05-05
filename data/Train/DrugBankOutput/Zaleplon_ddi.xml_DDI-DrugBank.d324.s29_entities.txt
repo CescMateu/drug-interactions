@@ -1,0 +1,3 @@
+Sonata	brand
+cimetidine	drug
+zaleplon	drug

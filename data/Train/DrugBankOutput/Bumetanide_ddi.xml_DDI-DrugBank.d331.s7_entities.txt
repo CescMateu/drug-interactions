@@ -1,0 +1,4 @@
+Indomethacin	drug
+Indomethacin	drug
+bumetanide	drug
+bumetanide	drug

@@ -1,0 +1,1 @@
+The detection was performed by a triple-quadrupole mass spectrometer in the positive ion and multiple reaction monitoring (MRM) mode, m/z 368.3 --> 

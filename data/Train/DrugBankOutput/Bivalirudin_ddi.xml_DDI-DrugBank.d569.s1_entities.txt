@@ -1,0 +1,4 @@
+warfarin	drug
+thrombolytics	group
+Angiomax	brand
+heparin	drug

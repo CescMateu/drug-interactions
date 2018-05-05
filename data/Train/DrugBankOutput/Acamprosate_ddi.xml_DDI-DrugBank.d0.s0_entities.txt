@@ -1,0 +1,4 @@
+Acamprosate	drug
+alcohol	drug
+acamprosate	drug
+alcohol	drug

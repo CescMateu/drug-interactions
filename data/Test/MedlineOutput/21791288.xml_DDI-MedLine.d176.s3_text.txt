@@ -1,0 +1,1 @@
+Here, we show that glutamatergic synaptic activity modulates target neuron excitability and switches the basis of action potential repolarization from Kv3 to Kv2 potassium channel dominance, thereby adjusting neuronal signaling between low and high activity states, respectively. 

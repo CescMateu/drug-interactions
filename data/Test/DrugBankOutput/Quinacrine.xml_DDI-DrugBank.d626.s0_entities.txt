@@ -1,0 +1,2 @@
+primaquine	drug
+Alcohol	drug

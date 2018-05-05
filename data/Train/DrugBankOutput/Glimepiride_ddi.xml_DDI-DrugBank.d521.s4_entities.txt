@@ -1,0 +1,8 @@
+Parnate	brand
+tranylcypromine	drug
+Nardil	brand
+phenelzine	drug
+MAOI	group
+monoamine oxidase inhibitor	group
+Marplan	brand
+isocarboxazid	drug

@@ -1,0 +1,17 @@
+Asendin	brand
+Anafranil	brand
+attapulgite	drug
+Ketoconazole	drug
+Antacids	group
+kaolin	drug
+Tricyclic antidepressants	group
+Elavil	brand
+Central nervous system (CNS) depressants	group
+anticholinergics	group
+Surmontil	brand
+Potassium chloride	drug
+Kay Ciel	brand
+Pertofrane	brand
+Sinequan	brand
+Tofranil	brand
+Aventyl	brand

@@ -1,0 +1,5 @@
+triamterene	drug
+HCTZ	drug
+Triamterene	drug
+HCTZ	drug
+Hydrochlorothiazide	drug

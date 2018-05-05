@@ -1,0 +1,3 @@
+sulphenazole	drug
+tolbutamide	drug
+nifedipine	drug

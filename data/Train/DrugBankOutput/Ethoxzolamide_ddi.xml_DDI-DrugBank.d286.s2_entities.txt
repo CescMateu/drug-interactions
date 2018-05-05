@@ -1,0 +1,4 @@
+diuretics	group
+ethoxzolamide	drug
+corticosteroids	group
+amphotericin B	drug

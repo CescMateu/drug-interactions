@@ -1,0 +1,2 @@
+vitamin D	group
+ketoconazole	drug

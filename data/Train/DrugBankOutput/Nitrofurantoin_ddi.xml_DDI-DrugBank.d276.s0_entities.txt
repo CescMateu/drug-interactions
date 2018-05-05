@@ -1,0 +1,3 @@
+nitrofurantoin	drug
+Antacids	group
+magnesium trisilicate	drug

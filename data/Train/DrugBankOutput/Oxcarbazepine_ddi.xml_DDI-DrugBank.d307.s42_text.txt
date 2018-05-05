@@ -1,0 +1,1 @@
+The mean AUC values of LNG were decreased by 32% [90% CI: 20-45] in one study and 52% [90% CI: 42-52] in another study.

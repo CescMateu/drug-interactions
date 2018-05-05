@@ -1,0 +1,4 @@
+meclofenamate sodium	drug
+magnesium hydroxide	drug
+aluminum hydroxide	drug
+Antacids	group

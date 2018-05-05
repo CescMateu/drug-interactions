@@ -1,0 +1,9 @@
+beta adrenergic blocking agents	group
+chloramphenicol	drug
+probenecid	drug
+coumarins	group
+monoamine oxidase inhibitors	group
+sulfonylurea	group
+nonsteroidal anti-inflammatory agents	group
+salicylates	group
+sulfonamides	group

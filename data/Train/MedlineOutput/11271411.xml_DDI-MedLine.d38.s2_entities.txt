@@ -1,0 +1,2 @@
+glucocorticoids	group
+psychostimulants	group

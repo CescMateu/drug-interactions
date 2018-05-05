@@ -1,0 +1,2 @@
+metformin	drug
+cephalexin	drug

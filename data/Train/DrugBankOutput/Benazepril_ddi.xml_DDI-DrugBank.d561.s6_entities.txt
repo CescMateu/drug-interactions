@@ -1,0 +1,4 @@
+anticoagulants	group
+acenocoumarol	drug
+warfarin	drug
+Anticoagulants	group

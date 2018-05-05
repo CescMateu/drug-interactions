@@ -1,0 +1,2 @@
+furosemide	drug
+acetylsalicylic acid	drug

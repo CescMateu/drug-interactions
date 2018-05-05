@@ -1,0 +1,2 @@
+Isocarboxazid	drug
+psychotropic agents	group

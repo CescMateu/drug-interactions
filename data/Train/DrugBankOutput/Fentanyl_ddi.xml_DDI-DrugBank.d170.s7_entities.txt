@@ -1,0 +1,5 @@
+opioid analgesics	group
+MAOI	group
+MAO inhibitors	group
+MAO Inhibitors	group
+DURAGESIC	brand

@@ -1,0 +1,2 @@
+sedatives	group
+warfarin	drug

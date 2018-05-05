@@ -1,0 +1,3 @@
+AED	group
+oxcarbazepine	drug
+MHD	drug_n

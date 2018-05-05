@@ -1,0 +1,2 @@
+warfarin	drug
+HMG-CoA reductase inhibitor	group

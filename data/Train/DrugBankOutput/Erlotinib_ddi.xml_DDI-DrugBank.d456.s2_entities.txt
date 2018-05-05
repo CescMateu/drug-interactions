@@ -1,0 +1,2 @@
+rifampicin	drug
+erlotinib	drug

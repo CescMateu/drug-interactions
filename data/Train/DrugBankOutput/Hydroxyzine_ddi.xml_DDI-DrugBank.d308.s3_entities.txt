@@ -1,0 +1,2 @@
+alcohol	drug
+CNS depressant drugs	group

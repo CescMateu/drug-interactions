@@ -1,0 +1,4 @@
+Hydrochlorothiazide	drug
+DynaCirc	brand
+isradipine	drug
+hydrochlorothiazide	drug

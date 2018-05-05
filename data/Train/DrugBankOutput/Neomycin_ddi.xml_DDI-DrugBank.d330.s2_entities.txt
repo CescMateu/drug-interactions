@@ -1,0 +1,5 @@
+5-fluorouracil	drug
+methotrexate	drug
+vitamin B-12	drug
+penicillin V	drug
+neomycin	drug

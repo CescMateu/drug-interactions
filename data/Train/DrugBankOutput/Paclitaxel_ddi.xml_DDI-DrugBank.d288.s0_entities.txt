@@ -1,0 +1,6 @@
+cisplatin	drug
+TAXOL	brand
+cisplatin	drug
+TAXOL	brand
+cisplatin	drug
+TAXOL	brand

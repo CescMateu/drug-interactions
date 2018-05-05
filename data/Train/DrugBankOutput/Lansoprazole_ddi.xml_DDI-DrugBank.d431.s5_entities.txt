@@ -1,0 +1,2 @@
+theophylline	drug
+lansoprazole	drug

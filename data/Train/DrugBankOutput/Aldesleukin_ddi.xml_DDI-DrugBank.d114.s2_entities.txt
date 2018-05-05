@@ -1,0 +1,7 @@
+doxorubicin	drug
+cytotoxic	group
+indomethacin	drug
+aminoglycosides	group
+PROLEUKIN	brand
+asparaginase	drug
+methotrexate	drug

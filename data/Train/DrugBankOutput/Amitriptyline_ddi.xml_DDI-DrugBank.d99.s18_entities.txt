@@ -1,0 +1,6 @@
+epinephrine	drug
+anesthetics	drug
+anticholinergic	drug
+sympathomimetic	drug
+disulfiram	drug
+amitriptyline HCl	drug

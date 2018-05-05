@@ -1,0 +1,3 @@
+benzodiazepines	group
+anxiolytic	group
+hypnotic drugs	group

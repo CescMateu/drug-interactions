@@ -1,0 +1,3 @@
+linezolid	drug
+Serotonergic Agents	group
+serotonergic agents	group

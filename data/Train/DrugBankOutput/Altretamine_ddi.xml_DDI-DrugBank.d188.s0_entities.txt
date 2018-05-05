@@ -1,0 +1,4 @@
+Cimetidine	drug
+altretamine	drug
+HEXALEN	brand
+antidepressants of the MAO inhibitor class	group

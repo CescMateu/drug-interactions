@@ -1,0 +1,2 @@
+contortrostatin	drug_n
+Echistatin	drug_n

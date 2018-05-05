@@ -1,0 +1,14 @@
+nicardipine	drug
+nefazodone	drug
+ciprofloxacin	drug
+azole antifungals	group
+diclofenac	drug
+clarithromycin	drug
+erythromycin	drug
+doxycycline	drug
+isoniazid	drug
+imatinib	drug
+protease inhibitors	group
+propofol	drug
+verapamil	drug
+quinidine	drug

@@ -1,0 +1,11 @@
+propafenone	drug
+Type 1C antiarrhythmics	group
+antidepressants	group
+Duloxetine	drug
+TCAs	group
+tricyclic antidepressants	group
+amitriptyline	drug
+nortriptyline	drug
+phenothiazines	group
+imipramine	drug
+flecainide	drug

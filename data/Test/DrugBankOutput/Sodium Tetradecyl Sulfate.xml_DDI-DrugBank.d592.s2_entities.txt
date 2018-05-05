@@ -1,0 +1,2 @@
+Sodium Tetradecyl Sulfate	drug
+Heparin	drug

@@ -1,0 +1,8 @@
+ergot alkaloid class	group
+troleandomycin	drug
+erythromycin	drug
+Macrolide Antibiotics	group
+macrolide class	group
+antibiotics	group
+dihydroergotamine mesylate	drug
+D.H.E. 45	brand

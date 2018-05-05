@@ -1,0 +1,4 @@
+albendazole	drug
+dexamethasone	drug
+albendazole sulfoxide	drug
+Dexamethasone	drug

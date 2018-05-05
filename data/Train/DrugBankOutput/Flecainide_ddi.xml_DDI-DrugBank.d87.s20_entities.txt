@@ -1,0 +1,3 @@
+diltiazem	drug
+TAMBOCOR	brand
+nifedipine	drug

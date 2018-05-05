@@ -1,0 +1,2 @@
+desethylamiodarone	drug
+Amiodarone	drug

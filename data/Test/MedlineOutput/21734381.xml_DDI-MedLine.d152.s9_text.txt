@@ -1,0 +1,1 @@
+Some pharmacokinetic drug interactions are based on the competitive inhibition of the rate of drug metabolism of one of the drugs, leading to an increased concentration of the drug which was not intended. 

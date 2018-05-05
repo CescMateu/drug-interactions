@@ -1,0 +1,2 @@
+caffeine	drug
+paraxanthine	drug_n

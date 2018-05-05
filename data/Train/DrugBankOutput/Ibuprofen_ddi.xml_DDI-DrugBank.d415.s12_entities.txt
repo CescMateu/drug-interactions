@@ -1,0 +1,4 @@
+lithium	drug
+lithium	drug
+Ibuprofen	drug
+Lithium	drug

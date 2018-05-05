@@ -1,0 +1,2 @@
+Colchicine	drug
+acidifying agents	group

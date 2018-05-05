@@ -1,0 +1,8 @@
+Telithromycin	drug
+HIV protease inhibitors	group
+Nefazodone	drug
+Cyclosporine	drug
+Itraconazole	drug
+Ketoconazole	drug
+Erythromycin	drug
+Clarithromycin	drug

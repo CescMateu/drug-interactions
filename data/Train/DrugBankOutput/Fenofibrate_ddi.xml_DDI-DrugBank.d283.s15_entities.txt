@@ -1,0 +1,4 @@
+atorvastatin	drug
+atorvastatin	drug
+TRICOR	brand
+fenofibrate	drug

@@ -1,0 +1,2 @@
+INDOCIN	brand
+methotrexate	drug

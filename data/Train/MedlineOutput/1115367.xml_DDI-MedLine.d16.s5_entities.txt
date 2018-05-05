@@ -1,0 +1,3 @@
+ketamine	drug
+halothane	drug
+ketamine	drug

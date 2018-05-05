@@ -1,0 +1,2 @@
+ketoprofen	drug
+warfarin	drug

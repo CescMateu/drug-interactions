@@ -1,0 +1,2 @@
+Gabapentin	drug
+naproxen	drug

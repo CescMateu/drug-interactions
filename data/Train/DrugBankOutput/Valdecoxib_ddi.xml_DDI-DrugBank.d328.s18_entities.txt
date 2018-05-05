@@ -1,0 +1,3 @@
+valdecoxib	drug
+dextromethorphan	drug
+valdecoxib	drug

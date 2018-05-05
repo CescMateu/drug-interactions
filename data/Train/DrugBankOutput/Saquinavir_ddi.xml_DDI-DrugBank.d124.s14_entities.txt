@@ -1,0 +1,6 @@
+bepridil	drug
+flecainide	drug
+Antiarrhythmics	group
+Amiodarone	drug
+propafenone	drug
+quinidine	drug

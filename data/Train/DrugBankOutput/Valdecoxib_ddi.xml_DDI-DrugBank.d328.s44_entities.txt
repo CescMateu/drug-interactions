@@ -1,0 +1,4 @@
+Ortho-Novum	brand
+valdecoxib	drug
+ethinyl estradiol	drug
+norethindrone	drug

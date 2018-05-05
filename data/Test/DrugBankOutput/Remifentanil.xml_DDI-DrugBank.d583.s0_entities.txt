@@ -1,0 +1,2 @@
+remifentanil	drug
+succinylcholine	drug

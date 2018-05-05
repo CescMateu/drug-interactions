@@ -1,0 +1,2 @@
+antifungal drug	group
+miconazole nitrate	drug

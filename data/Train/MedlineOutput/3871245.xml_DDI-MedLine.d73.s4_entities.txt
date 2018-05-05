@@ -1,0 +1,3 @@
+pargyline	drug
+MPTP	drug_n
+Methamphetamine	drug

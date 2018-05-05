@@ -1,0 +1,3 @@
+Diazepam	drug
+Diazepam	drug
+Valium	brand

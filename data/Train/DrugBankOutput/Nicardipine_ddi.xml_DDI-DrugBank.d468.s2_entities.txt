@@ -1,0 +1,3 @@
+nicardipine HCl	drug
+Cimetidine	drug
+Cimetidine	drug

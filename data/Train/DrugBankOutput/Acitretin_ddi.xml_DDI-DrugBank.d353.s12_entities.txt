@@ -1,0 +1,5 @@
+Vitamin A	group
+retinoids	group
+vitamin A	group
+retinoids	group
+acitretin	drug

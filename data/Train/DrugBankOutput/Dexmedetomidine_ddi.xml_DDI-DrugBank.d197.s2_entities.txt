@@ -1,0 +1,5 @@
+sevoflurane	drug
+isoflurane	drug
+propofol	drug
+alfentanil	drug
+midazolam	drug

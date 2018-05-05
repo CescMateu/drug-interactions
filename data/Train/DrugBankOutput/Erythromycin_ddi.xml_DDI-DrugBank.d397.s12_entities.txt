@@ -1,0 +1,2 @@
+terfenadine	drug
+erythromycin	drug

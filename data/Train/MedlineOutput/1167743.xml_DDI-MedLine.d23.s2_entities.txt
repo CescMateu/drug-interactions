@@ -1,0 +1,6 @@
+fentayl	drug
+pentobarbital	drug
+ketamine	drug
+droperidol	drug
+ouabain	drug
+Innovar	brand

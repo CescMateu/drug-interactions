@@ -1,0 +1,5 @@
+ketoconazole	drug
+rifampin	drug
+phenobarbital	drug
+phenytoin	drug
+levobupivacaine	drug

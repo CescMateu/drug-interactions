@@ -1,0 +1,1 @@
+Pharmacokinetic data indicate that oral ketoconazole inhibits the metabolism of astemizole, resulting in elevated plasma levels of astemizole and its active metabolite desmethylastemizole which may prolong QT intervals.

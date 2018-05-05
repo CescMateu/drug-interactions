@@ -1,0 +1,3 @@
+18-Methoxycoronaridine	drug_n
+18-MC	drug_n
+ibogaine	drug_n

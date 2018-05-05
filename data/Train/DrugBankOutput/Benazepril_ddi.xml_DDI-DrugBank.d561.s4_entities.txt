@@ -1,0 +1,5 @@
+spironolactone	drug
+Potassium-sparing diuretics	group
+triamterene	drug
+amiloride	drug
+potassium	drug

@@ -1,0 +1,2 @@
+contraceptives	group
+griseofulvin	drug

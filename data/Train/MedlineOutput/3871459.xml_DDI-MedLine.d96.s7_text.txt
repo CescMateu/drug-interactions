@@ -1,0 +1,1 @@
+Jacalin is a D-Gal binding lectin and should be a useful tool for studying of serum and secretory IgA.

@@ -1,0 +1,2 @@
+neuroleptic	group
+clonidine	drug

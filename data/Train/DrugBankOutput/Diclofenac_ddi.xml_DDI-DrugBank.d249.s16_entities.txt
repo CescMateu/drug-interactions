@@ -1,0 +1,8 @@
+prednisolone	drug
+doxycycline	drug
+digitoxin	drug
+diclofenac	drug
+azathioprine	drug
+gold	group
+chloroquine	drug
+D-penicillamine	drug

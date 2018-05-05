@@ -1,0 +1,3 @@
+levamisole hydrochloride	drug
+ERGAMISOL	brand
+alcohol	drug

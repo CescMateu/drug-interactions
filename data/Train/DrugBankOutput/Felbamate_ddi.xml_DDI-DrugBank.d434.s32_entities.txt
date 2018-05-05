@@ -1,0 +1,6 @@
+Valproate	drug
+valproate	drug
+Felbatol	brand
+valproate	drug
+Felbatol	brand
+felbamate	drug

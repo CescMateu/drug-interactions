@@ -1,0 +1,2 @@
+Lomefloxacin	drug
+phenytoin	drug

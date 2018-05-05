@@ -1,0 +1,5 @@
+Rifabutin	drug
+rifabutin	drug
+VIRACEPT	brand
+nelfinavir	drug
+rifabutin	drug

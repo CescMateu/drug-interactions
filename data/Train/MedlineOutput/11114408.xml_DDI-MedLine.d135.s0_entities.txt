@@ -1,0 +1,2 @@
+phencyclidine	drug_n
+clozapine	drug

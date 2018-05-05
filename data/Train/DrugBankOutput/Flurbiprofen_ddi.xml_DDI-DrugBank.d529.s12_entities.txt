@@ -1,0 +1,7 @@
+cimetidine	drug
+flurbiprofen	drug
+flurbiprofen	drug
+ranitidine	drug
+cimetidine	drug
+Ranitidine	drug
+Cimetidine	drug

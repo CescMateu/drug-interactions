@@ -1,0 +1,6 @@
+Primidone	drug
+Phenobarbital	drug
+phenobarbital	drug
+tiagabine	drug
+AEDs	group
+primidone	drug

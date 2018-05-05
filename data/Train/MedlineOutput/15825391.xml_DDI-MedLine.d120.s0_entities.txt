@@ -1,0 +1,2 @@
+filipin	drug_n
+amphotericin B	drug

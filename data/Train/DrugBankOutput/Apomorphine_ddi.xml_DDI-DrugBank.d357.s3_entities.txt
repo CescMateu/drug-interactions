@@ -1,0 +1,10 @@
+APOKYN	brand
+metoclopramide	drug
+phenothiazines	group
+neuroleptics	group
+thioxanthenes	group
+butyrophenones	group
+apomorphine	drug
+Dopamine Antagonists	group
+dopamine antagonists	group
+dopamine agonist	group

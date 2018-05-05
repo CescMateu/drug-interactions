@@ -1,0 +1,2 @@
+coumarin-derivative anticoagulants	group
+warfarin	drug

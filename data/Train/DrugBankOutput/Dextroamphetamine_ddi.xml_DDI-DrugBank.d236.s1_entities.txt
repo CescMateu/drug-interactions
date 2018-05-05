@@ -1,0 +1,4 @@
+ammonium chloride	drug
+Urinary acidifying agents	group
+amphetamine	drug
+sodium acid phosphate	drug

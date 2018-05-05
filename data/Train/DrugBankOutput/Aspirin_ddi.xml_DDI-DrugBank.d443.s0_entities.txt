@@ -1,0 +1,5 @@
+phenylbutazone	drug
+Uricosuric Agents	group
+Aspirin	brand
+probenecid	drug
+sulfinpyrazone	drug

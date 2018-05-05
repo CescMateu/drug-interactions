@@ -1,0 +1,2 @@
+rifampicin	drug
+TARCEVA	brand

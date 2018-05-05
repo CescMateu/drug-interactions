@@ -1,0 +1,7 @@
+glyburide	drug
+celecoxib	drug
+methotrexate	drug
+ketoconazole	drug
+tolbutamide	drug
+phenytoin	drug
+warfarin	drug

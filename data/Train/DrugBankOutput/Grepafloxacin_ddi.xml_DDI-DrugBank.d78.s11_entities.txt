@@ -1,0 +1,4 @@
+grepafloxacin	drug
+theophylline	drug
+grepafloxacin	drug
+theophylline	drug

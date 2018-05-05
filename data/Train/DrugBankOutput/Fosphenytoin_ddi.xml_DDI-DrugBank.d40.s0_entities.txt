@@ -1,0 +1,2 @@
+fosphenytoin	drug
+phenytoin	drug

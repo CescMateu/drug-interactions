@@ -1,0 +1,6 @@
+heparin sodium	drug
+antihistamines	group
+Digitalis	group
+Heparin	drug
+nicotine	drug
+tetracyclines	group

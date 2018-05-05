@@ -1,0 +1,3 @@
+cinoxacin	drug
+cinoxacin	drug
+caffeine	drug

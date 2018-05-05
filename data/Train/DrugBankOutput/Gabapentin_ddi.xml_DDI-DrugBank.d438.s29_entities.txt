@@ -1,0 +1,3 @@
+Cimetidine	drug
+cimetidine	drug
+gabapentin	drug

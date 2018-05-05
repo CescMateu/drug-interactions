@@ -1,0 +1,4 @@
+Amiodarone	drug
+procainamide	drug
+procainamide	drug
+procainamide	drug

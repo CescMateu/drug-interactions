@@ -1,0 +1,8 @@
+topiramate	drug
+griseofulvin	drug
+tetracyclines	group
+ampicillin	drug
+phenylbutazone	drug
+barbiturates	group
+carbamazepine	drug
+phenytoin sodium	drug

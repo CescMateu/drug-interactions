@@ -1,0 +1,4 @@
+ETHANOL	drug
+caffeine	drug
+combination hormonal contraceptives	group
+caffeine	drug

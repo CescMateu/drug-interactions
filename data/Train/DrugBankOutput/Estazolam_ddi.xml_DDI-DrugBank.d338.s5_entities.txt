@@ -1,0 +1,4 @@
+4-hydroxy-estazolam	drug_n
+triazolobenzodiazepines	group
+Estazolam	drug
+estazolam	drug

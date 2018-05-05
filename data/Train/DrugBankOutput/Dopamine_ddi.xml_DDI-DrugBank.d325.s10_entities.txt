@@ -1,0 +1,3 @@
+halogenated hydrocarbon anesthetics	group
+cyclopropane	drug
+dopamine HCl	drug

@@ -1,0 +1,6 @@
+dirithromycin	drug
+H 2 -receptor antagonists	group
+antacids	group
+dirithromycin	drug
+H 2 receptor antagonists	group
+Antacids	group

@@ -1,0 +1,5 @@
+ergotamine	drug
+ergot-type medications	group
+dihydroergotamine	drug
+methysergide	drug
+FROVA	brand

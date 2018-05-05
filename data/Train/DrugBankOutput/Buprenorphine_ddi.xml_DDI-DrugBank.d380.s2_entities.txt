@@ -1,0 +1,9 @@
+saquinavir	drug
+SUBUTEX	brand
+ritonavir	drug
+indinavir	drug
+erythromycin	drug
+HIV protease inhibitors	group
+ketoconazole	drug
+macrolide antibiotics	group
+SUBOXONE	brand

@@ -1,0 +1,2 @@
+pravastatin	drug
+fenofibric acid	drug_n

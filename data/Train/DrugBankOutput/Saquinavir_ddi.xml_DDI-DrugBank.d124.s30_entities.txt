@@ -1,0 +1,5 @@
+phenobarbital	drug
+phenytoin	drug
+dexamethasone	drug
+carbamazepine	drug
+saquinavir	drug

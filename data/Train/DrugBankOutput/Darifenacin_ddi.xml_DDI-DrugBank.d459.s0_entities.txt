@@ -1,0 +1,6 @@
+clarithromycin	drug
+nelfinavir	drug
+ketoconazole	drug
+ENABLEX	brand
+ritonavir	drug
+itraconazole	drug

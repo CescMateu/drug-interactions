@@ -1,0 +1,5 @@
+b-lactam antibiotics	group
+Probenecid	drug
+cefdinir	drug
+probenecid	drug
+cefdinir	drug

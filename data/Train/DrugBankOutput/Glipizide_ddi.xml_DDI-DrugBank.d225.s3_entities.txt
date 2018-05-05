@@ -1,0 +1,4 @@
+dicumarol	drug
+salicylate	group
+tolbutamide	drug
+glipizide	drug

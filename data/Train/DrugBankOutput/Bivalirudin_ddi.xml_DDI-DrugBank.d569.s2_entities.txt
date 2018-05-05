@@ -1,0 +1,2 @@
+dextran	drug
+Angiomax	brand

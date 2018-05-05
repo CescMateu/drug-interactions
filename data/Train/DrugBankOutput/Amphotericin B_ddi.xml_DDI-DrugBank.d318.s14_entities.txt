@@ -1,0 +1,3 @@
+leukocyte transfusions	drug_n
+amphotericin B	drug
+Leukocyte transfusions	drug_n

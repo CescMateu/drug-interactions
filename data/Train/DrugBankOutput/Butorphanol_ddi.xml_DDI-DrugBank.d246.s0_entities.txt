@@ -1,0 +1,7 @@
+barbiturates	group
+alcohol	drug
+central nervous system depressants	group
+butorphanol	drug
+central nervous system depressant	group
+antihistamines	group
+tranquilizers	group

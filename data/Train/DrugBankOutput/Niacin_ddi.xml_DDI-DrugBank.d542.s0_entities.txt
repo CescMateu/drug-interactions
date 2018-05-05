@@ -1,0 +1,5 @@
+ganglionic blocking agents	group
+Vitamin B3	drug
+Niacin	drug
+Antihypertensive	group
+Nicotinic acid	drug

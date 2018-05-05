@@ -1,0 +1,4 @@
+quinidine	drug
+selective serotonin reuptake inhibitors	group
+SSRIs	group
+doxepin	drug

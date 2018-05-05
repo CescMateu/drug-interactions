@@ -1,0 +1,7 @@
+barbiturates	group
+alcohol	drug
+CNS depressants	group
+ALPHAGAN P	brand
+anesthetics	group
+sedatives	group
+opiates	group

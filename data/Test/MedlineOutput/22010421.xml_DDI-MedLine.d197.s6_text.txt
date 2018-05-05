@@ -1,0 +1,1 @@
+PXR-ligands include a wide variety of pharmaceutical agents, such as antiepileptic drugs, taxol, rifampicin, and human immunodeficiency virus protease inhibitors such as ritonavir and saquinavir. 

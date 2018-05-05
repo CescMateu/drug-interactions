@@ -1,0 +1,6 @@
+procarbazine	drug
+mechlorethamine	drug
+allopurinol	drug
+cyclophosphamide	drug
+doxorubicin	drug
+bleomycin	drug

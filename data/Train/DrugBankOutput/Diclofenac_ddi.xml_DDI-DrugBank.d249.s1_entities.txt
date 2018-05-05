@@ -1,0 +1,4 @@
+NSAIDs	group
+anticoagulants of the warfarin type	group
+diclofenac	drug
+Anticoagulants	group

@@ -1,0 +1,2 @@
+oxytocin	drug
+prostaglandin F2alpha	drug

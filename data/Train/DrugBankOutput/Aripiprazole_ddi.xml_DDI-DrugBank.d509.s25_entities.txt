@@ -1,0 +1,6 @@
+omeprazole	drug
+warfarin	drug
+dextromethorphan	drug
+aripiprazole	drug
+dextromethorphan	drug
+warfarin	drug

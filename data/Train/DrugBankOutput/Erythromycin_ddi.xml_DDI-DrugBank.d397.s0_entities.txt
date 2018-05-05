@@ -1,0 +1,4 @@
+Erythromycin	drug
+theophylline	drug
+theophylline	drug
+theophylline	drug

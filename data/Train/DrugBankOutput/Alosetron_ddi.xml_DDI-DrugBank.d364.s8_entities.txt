@@ -1,0 +1,2 @@
+Ketoconazole	drug
+alosetron	drug

@@ -1,0 +1,2 @@
+TORADOL	brand
+probenecid	drug

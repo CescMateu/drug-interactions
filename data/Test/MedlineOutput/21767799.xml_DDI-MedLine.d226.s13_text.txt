@@ -1,0 +1,1 @@
+Caution should be used when implementing benchmarking in a quality circle as it did not improve healthcare when compared to the traditional procedure with anonymised comparisons.

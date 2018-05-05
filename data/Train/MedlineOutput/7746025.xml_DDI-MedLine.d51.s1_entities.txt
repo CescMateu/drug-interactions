@@ -1,0 +1,5 @@
+caffeine	drug
+theophylline	drug
+8-phenyltheophylline	drug_n
+8-cyclopentyl-1,3-dipropylxanthine	drug_n
+DPCPX	drug_n

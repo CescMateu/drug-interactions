@@ -1,0 +1,4 @@
+erythromycin	drug
+Clozapine	drug
+Cimetidine	drug
+caffeine	drug

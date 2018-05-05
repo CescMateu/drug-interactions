@@ -1,0 +1,3 @@
+hypoglycemic agents	group
+TRACLEER	brand
+glyburide	drug

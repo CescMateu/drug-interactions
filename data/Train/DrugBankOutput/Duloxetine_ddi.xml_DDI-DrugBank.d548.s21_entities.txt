@@ -1,0 +1,7 @@
+Duloxetine	drug
+famotidine	drug
+duloxetine	drug
+Duloxetine	drug
+aluminum	drug
+magnesium	drug
+antacids	group

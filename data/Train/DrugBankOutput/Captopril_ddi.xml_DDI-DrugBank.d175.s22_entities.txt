@@ -1,0 +1,4 @@
+Furosemide	drug
+Loop Diuretics	group
+captopril	drug
+captopril	drug

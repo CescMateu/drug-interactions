@@ -1,0 +1,2 @@
+INAPSINE	brand
+CNS depressant drugs	group

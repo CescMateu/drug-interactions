@@ -1,0 +1,6 @@
+thyroid products	group
+sympathomimetics	group
+thiazides	group
+corticosteroids	group
+Starlix	brand
+antidiabetic drugs	group

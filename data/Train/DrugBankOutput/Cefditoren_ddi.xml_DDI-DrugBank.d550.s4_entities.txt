@@ -1,0 +1,5 @@
+cefditoren	drug
+b-lactam antibiotics	group
+Probenecid	drug
+cefditoren pivoxil	drug
+probenecid	drug

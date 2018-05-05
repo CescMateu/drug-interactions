@@ -1,0 +1,9 @@
+haloperidol	drug
+neuroleptics	group
+3H-spiroperidol	drug_n
+cerulein	drug_n
+3H-spiroperidol	drug_n
+apomorphine	drug
+3H-spiroperidol	drug_n
+pyreneperone	drug_n
+apomorphine	drug

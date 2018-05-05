@@ -1,0 +1,13 @@
+phenothiazines	group
+tricyclic antidepressants	group
+central nervous system depressants	group
+Levo-Dromoran	brand
+sedatives	group
+alcohol	drug
+opioids	group
+hypnotics	group
+barbiturates	group
+anesthetics	group
+skeletal muscle relaxants	group
+tranquilizers	group
+antihistamines	group

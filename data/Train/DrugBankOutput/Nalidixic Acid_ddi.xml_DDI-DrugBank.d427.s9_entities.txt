@@ -1,0 +1,2 @@
+iron	drug
+sucralfate	drug

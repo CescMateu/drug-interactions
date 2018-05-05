@@ -1,0 +1,2 @@
+coumarin anticoagulants	group
+phenytoin	drug

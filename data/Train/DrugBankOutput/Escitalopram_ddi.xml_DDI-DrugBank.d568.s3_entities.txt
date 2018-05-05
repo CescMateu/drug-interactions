@@ -1,0 +1,3 @@
+Aspirin	brand
+NSAIDs	group
+Warfarin	drug

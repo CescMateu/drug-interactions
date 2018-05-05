@@ -1,0 +1,1 @@
+RESULTS: The geometric mean (90% confidence interval) whole blood sirolimus area under the plasma concentration time-curve increased 60% (35%-90%), from 736 to 1178 ng x h/mL, and maximum concentration increased 43% (14%-81%), from 67 to 96 ng/mL, with diltiazem coadministration, whereas the mean elimination half-life of sirolimus decreased slightly, from 79 to 67 hours. 

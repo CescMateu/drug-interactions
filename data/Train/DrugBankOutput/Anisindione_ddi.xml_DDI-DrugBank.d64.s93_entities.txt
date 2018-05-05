@@ -1,0 +1,3 @@
+anisindione	drug
+indanedione anticoagulants	group
+Dicumarol	drug

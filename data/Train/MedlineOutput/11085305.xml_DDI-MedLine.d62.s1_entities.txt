@@ -1,0 +1,2 @@
+methamphetamine	drug
+METH	drug

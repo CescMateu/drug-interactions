@@ -1,0 +1,4 @@
+Methotrexate	drug
+Ketoprofen	drug
+NSAIDs	group
+methotrexate	drug

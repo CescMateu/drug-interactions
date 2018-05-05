@@ -1,0 +1,4 @@
+loop diuretics	group
+non-steroidal anti-inflammatory agent	group
+thiazide diuretics	group
+potassium-sparing diuretics	group

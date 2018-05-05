@@ -1,0 +1,4 @@
+Accutane	brand
+estrogen	group
+progesterone	drug
+Progesterone	drug

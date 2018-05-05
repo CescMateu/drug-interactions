@@ -1,0 +1,8 @@
+ibuprofen	drug
+naproxen	drug
+digoxin	drug
+warfarin	drug
+phenytoin	drug
+ketorolac tromethamine	drug
+piroxicam	drug
+acetaminophen	drug

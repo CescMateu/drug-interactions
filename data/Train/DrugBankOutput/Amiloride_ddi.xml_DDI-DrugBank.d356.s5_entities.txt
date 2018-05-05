@@ -1,0 +1,3 @@
+diuretic	group
+MIDAMOR	brand
+non-steroidal anti-inflammatory agents	group

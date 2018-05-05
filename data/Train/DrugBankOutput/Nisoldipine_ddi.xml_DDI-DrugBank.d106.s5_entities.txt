@@ -1,0 +1,4 @@
+propranolol	drug
+atenolol	drug
+beta-blockers	group
+nisoldipine	drug

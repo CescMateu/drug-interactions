@@ -1,0 +1,6 @@
+vardenafil	drug
+vardenafil	drug
+Indinavir	drug
+HIV Protease Inhibitors	group
+vardenafil	drug
+Vardenafil	drug

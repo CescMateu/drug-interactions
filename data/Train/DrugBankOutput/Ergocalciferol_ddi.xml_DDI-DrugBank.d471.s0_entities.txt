@@ -1,0 +1,3 @@
+vitamin D preparations	group
+fat-soluble vitamins	group
+Mineral oil	drug

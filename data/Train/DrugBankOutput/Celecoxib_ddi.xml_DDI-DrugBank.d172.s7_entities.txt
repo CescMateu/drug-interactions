@@ -1,0 +1,4 @@
+nonsteroidal anti-inflammatory drugs	group
+NSAIDs	group
+furosemide	drug
+ACE inhibitors	group

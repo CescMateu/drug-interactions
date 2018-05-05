@@ -1,0 +1,3 @@
+Femara	brand
+cimetidine	drug
+warfarin	drug

@@ -1,0 +1,10 @@
+methyldopa	drug
+nicotinic acid	drug
+niacin	drug
+tolbutamide	drug
+colestipol hydrochloride	drug
+aspirin	brand
+clindamycin	brand
+clofibrate	drug
+phenytoin	drug
+warfarin	drug

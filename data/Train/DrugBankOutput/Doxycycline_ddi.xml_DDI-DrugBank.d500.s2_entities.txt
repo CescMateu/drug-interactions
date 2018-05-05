@@ -1,0 +1,6 @@
+magnesium	drug
+iron	drug
+tetracyclines	group
+antacids	group
+aluminum	drug
+calcium	drug

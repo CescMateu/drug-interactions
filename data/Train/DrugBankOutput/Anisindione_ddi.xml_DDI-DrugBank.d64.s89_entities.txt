@@ -1,0 +1,5 @@
+anticoagulants	group
+phenytoin	drug
+anticonvulsant	group
+anticoagulant	group
+phenytoin	drug

@@ -1,0 +1,1 @@
+The approach is applicable across a wide variety of settings commonly associated with joint action data, including continuous and discrete responses, alternative error structures, and nonzero background response. 

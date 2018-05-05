@@ -1,0 +1,4 @@
+bepridil	drug
+Antiarrhythmics	group
+quinidine	drug
+lidocaine	drug

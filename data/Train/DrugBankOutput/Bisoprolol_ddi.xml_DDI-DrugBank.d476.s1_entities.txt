@@ -1,0 +1,3 @@
+ZEBETA	brand
+guanethidine	drug
+reserpine	drug

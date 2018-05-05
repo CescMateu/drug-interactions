@@ -1,0 +1,2 @@
+FOSCAVIR	brand
+pentamidine	drug

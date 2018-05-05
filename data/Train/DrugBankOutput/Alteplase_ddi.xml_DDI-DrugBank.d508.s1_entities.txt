@@ -1,0 +1,6 @@
+Activase	brand
+Abciximab	drug
+vitamin K antagonists	group
+heparin	drug
+dipyridamole	drug
+acetylsalicylic acid	drug

@@ -1,0 +1,2 @@
+Amiodarone	drug
+Cordarone	brand

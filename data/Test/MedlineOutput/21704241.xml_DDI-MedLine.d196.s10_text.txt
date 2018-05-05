@@ -1,0 +1,1 @@
+The criterion for a lack of difference between products was a 90% CI between 0.80 and 1.25 for the fenofibric acid:fenofibrate ratios for AUC(0-t), AUC(0-   ), and C(max.) 

@@ -1,0 +1,2 @@
+Colchicine	drug
+CNS depressants	group

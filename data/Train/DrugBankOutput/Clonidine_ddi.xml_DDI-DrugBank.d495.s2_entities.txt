@@ -1,0 +1,6 @@
+alcohol	drug
+Clonidine	drug
+clonidine	drug
+Amitriptyline	drug
+sedating drugs	group
+barbiturates	group

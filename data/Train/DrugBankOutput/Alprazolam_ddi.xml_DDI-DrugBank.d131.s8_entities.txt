@@ -1,0 +1,13 @@
+macrolide antibiotics	group
+erythromycin	drug
+clarithromycin	drug
+diltiazem	drug
+isoniazid	drug
+alprazolam	drug
+benzodiazepines	group
+benzodiazepines	group
+alprazolam	drug
+alprazolam	drug
+alprazolam	drug
+alprazolam	drug
+benzodiazepines	group

@@ -1,0 +1,4 @@
+corticosteroids	group
+corticosteroid	group
+Ketoconazole	drug
+Ketoconazole	drug

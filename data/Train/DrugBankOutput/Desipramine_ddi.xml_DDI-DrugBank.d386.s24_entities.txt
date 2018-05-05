@@ -1,0 +1,2 @@
+desipramine	drug
+major tranquilizers	group

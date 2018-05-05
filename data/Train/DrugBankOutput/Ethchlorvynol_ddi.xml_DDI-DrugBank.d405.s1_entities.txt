@@ -1,0 +1,4 @@
+barbiturates	group
+alcohol	drug
+ethchlorvynol	drug
+MAOIs	group

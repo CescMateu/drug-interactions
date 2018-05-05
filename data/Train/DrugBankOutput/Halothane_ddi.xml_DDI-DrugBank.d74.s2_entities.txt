@@ -1,0 +1,2 @@
+FLUOTHANE	brand
+adrenaline	drug

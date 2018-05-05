@@ -1,0 +1,2 @@
+diflunisal	drug
+coumarins	group

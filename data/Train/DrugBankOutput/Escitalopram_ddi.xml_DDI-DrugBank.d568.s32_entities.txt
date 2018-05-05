@@ -1,0 +1,5 @@
+tricyclic antidepressant	group
+desipramine	drug
+escitalopram	drug
+escitalopram	drug
+desipramine	drug

@@ -1,0 +1,2 @@
+esomeprazole	drug
+warfarin	drug

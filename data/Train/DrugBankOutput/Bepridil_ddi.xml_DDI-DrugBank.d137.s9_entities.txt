@@ -1,0 +1,6 @@
+tricyclic anti-depressants	group
+cardiac glycosides	group
+procainamide	drug
+quinidine	drug
+anti-arrhythmic agents	group
+bepridil hydrochloride	drug

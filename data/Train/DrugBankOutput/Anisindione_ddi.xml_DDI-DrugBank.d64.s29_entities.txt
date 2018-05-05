@@ -1,0 +1,24 @@
+alcohol	drug
+antacids	group
+anticoagulant	group
+adrenocortical steroids	group
+carbamazepine	drug
+chloral hydrate	drug
+antihistamines	group
+barbiturates	group
+chlordiazepoxide	drug
+cholestyramine	drug
+griseofulvin	drug
+haloperidol	drug
+meprobamate	drug
+contraceptives	group
+vitamin K	group
+diuretics	group
+ethchlorvynol	drug
+glutethimide	drug
+paraldehyde	drug
+primidone	drug
+rifampin	drug
+ranitidine	drug
+warfarin sodium	drug
+vitamin C	drug

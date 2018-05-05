@@ -1,0 +1,3 @@
+antacid preparations	group
+Exjade	brand
+aluminum	drug

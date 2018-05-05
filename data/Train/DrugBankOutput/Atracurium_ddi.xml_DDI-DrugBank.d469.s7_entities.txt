@@ -1,0 +1,11 @@
+quinidine	drug
+aminoglycosides	group
+antibiotics	group
+lithium	drug
+polymyxins	group
+enflurane	drug
+TRACRIUM	brand
+halothane	drug
+isoflurane	drug
+procainamide	drug
+magnesium	drug

@@ -1,0 +1,3 @@
+Methotrexate	drug
+NSAIDs	group
+methotrexate	drug

@@ -1,0 +1,4 @@
+digoxin	drug
+FLOLAN	brand
+digoxin	drug
+digoxin	drug

@@ -1,0 +1,1 @@
+Mean number of drugs per MAC was 4 (95% CI, +/- 0.2). 

@@ -1,0 +1,4 @@
+antibiotics	group
+neomycin	drug
+streptomycin	drug
+kanamycin	drug

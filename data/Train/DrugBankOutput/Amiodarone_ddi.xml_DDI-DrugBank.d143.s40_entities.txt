@@ -1,0 +1,2 @@
+amiodarone	drug
+antiarrhythmic	drug

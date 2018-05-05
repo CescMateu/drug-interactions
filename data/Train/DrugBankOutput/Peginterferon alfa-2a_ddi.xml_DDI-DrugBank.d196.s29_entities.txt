@@ -1,0 +1,2 @@
+ribavirin	drug
+Ribavirin	drug

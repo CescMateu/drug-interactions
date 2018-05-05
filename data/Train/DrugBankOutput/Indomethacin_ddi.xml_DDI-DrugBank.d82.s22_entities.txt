@@ -1,0 +1,3 @@
+digoxin	drug
+digoxin	drug
+INDOCIN	brand

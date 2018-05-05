@@ -1,0 +1,2 @@
+haloperidol	drug
+CMI	drug

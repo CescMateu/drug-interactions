@@ -1,0 +1,3 @@
+glyburide	drug
+Etodolac	drug
+Glyburide	drug

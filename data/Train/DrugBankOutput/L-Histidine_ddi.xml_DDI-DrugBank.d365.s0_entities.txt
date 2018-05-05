@@ -1,0 +1,3 @@
+medroxyprogesterone acetate	drug
+L-histidine	drug
+Medroxyprogesterone Acetate	drug

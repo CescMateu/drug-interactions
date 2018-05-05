@@ -1,0 +1,4 @@
+methotrexate	drug
+phenytoin	drug
+cyclosporin	drug
+anticoagulant	group

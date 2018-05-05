@@ -1,0 +1,3 @@
+ketamine	drug
+Innovar	brand
+digitalis	group

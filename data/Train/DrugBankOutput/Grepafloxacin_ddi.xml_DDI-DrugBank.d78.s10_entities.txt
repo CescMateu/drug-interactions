@@ -1,0 +1,4 @@
+warfarin	drug
+quinolone antimicrobial	group
+warfarin	drug
+quinolones	group

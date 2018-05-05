@@ -1,0 +1,2 @@
+polyene antibiotics	group
+filipin	drug_n

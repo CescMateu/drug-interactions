@@ -1,0 +1,4 @@
+Ascorbic acid	drug
+ascorbic acid	drug
+vitamin C	drug
+synthetic estrogens	group

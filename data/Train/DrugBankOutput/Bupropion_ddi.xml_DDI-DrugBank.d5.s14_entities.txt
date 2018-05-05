@@ -1,0 +1,3 @@
+desipramine	drug
+bupropion	drug
+desipramine	drug

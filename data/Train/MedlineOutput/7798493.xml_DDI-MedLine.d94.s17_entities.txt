@@ -1,0 +1,3 @@
+cocaine	drug
+norepinephrine	drug
+desipramine	drug

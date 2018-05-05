@@ -1,0 +1,3 @@
+thyroid	group
+estrogens	group
+levothyroxine	drug

@@ -1,0 +1,4 @@
+Lofexidine	drug
+alcohol	drug
+barbiturates	group
+sedatives	group

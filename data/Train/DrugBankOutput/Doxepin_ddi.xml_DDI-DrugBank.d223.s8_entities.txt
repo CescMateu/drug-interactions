@@ -1,0 +1,7 @@
+selective serotonin reuptake inhibitors	group
+SSRIs	group
+citalopram	drug
+escitalopram	drug
+fluoxetine	drug
+sertraline	drug
+paroxetine	drug

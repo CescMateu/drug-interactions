@@ -1,0 +1,4 @@
+anastrozole	drug
+tamoxifen	drug
+anastrozole	drug
+anastrozole	drug

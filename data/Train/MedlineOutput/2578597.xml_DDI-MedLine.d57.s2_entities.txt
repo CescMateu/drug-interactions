@@ -1,0 +1,8 @@
+tripelennamine	drug
+methdilazine	drug
+promethazine	drug
+phenyltoloxamine	drug_n
+pyrilamine	drug
+orphenadrine	drug
+hydroxyzine	drug
+diphenhydramine	drug

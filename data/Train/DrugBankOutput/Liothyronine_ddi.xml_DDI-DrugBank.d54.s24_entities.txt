@@ -1,0 +1,8 @@
+corticosteroids	group
+estrogens	group
+thyroid hormone	group
+androgens	group
+iodine	group
+salicylates	group
+contraceptives	group
+estrogens	group

@@ -1,0 +1,5 @@
+ranitidine	drug
+propranolol	drug
+nifedipine	drug
+digoxin	drug
+Acarbose	drug

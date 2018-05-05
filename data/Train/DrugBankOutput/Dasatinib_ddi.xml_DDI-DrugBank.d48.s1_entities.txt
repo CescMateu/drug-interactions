@@ -1,0 +1,13 @@
+telithromycin	drug
+saquinavir	drug
+dasatinib	drug
+nelfinavir	drug
+nefazodone	drug
+ketoconazole	drug
+SPRYCEL	brand
+erythromycin	drug
+itraconazole	drug
+ritonavir	drug
+clarithromycin	drug
+indinavir	drug
+atazanavir	drug

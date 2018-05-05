@@ -1,0 +1,4 @@
+lomefloxacin	drug
+omeprazole	drug
+Omeprazole	drug
+lomefloxacin	drug

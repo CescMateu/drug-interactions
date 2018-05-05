@@ -1,0 +1,5 @@
+bromocriptine mesylate	drug
+phenothiazines	group
+haloperidol	drug
+metoclopramide	drug
+pimozide	drug

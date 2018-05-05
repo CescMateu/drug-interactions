@@ -1,0 +1,1 @@
+PATIENTS: Random sample of 626 MAC out of a total of 1306. 

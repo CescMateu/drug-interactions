@@ -1,0 +1,8 @@
+aspirin	brand
+ticlopidine	drug
+nitrates	group
+angiotensin converting enzyme inhibitors	group
+calcium channel antagonists	group
+beta-adrenergic receptor blockers	group
+warfarin	drug
+heparin	drug

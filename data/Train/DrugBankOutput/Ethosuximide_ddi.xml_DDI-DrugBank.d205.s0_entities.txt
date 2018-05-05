@@ -1,0 +1,7 @@
+Zarontin	brand
+ethosuximide	drug
+antiepileptic drugs	group
+ethosuximide	drug
+phenytoin	drug
+valproic acid	drug
+ethosuximide	drug

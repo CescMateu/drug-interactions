@@ -1,0 +1,9 @@
+lomefloxacin	drug
+Sucralfate	drug
+antacids	group
+Antacids	group
+sucralfate	drug
+Videx	brand
+didanosine	drug
+magnesium	drug
+aluminum	drug

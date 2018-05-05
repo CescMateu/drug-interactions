@@ -1,0 +1,2 @@
+anticholinesterase	group
+antibiotics	group

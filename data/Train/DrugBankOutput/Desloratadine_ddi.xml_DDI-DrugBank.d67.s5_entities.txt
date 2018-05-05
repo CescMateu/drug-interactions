@@ -1,0 +1,2 @@
+Desloratadine	drug
+3-Hydroxydesloratadine	drug_n

@@ -1,0 +1,4 @@
+diethylpropion	drug
+antihypertensive drugs	group
+guanethidine	drug
+a-methyldopa	drug

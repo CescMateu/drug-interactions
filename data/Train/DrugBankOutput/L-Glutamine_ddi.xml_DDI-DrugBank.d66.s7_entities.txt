@@ -1,0 +1,4 @@
+paclitaxel	drug
+paclitaxel	drug
+L-glutamine	drug
+Paclitaxel	drug

@@ -1,0 +1,2 @@
+flumazenil	drug
+benzodiazepines	group

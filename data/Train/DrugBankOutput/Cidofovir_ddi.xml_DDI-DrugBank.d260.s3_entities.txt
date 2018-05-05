@@ -1,0 +1,10 @@
+foscarnet	drug
+pentamidine	drug
+amikacin	drug
+amphotericin B	drug
+tobramycin	drug
+gentamicin	drug
+VISTIDE	brand
+aminoglycosides	group
+vancomycin	drug
+non-steroidal anti-inflammatory agents	group

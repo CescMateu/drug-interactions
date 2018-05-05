@@ -1,0 +1,5 @@
+VIRACEPT	brand
+nelfinavir	drug
+Indinavir	drug
+indinavir	drug
+indinavir	drug

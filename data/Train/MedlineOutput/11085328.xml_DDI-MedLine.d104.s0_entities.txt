@@ -1,0 +1,4 @@
+PCP	drug_n
+phencyclidine	drug_n
+L-CCG-1	drug_n
+DCG-IV	drug_n

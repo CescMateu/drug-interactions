@@ -1,0 +1,2 @@
+flecainide	drug
+cimetidine	drug

@@ -1,0 +1,4 @@
+aluminum hydroxide	drug
+Antacids	group
+enoxacin	drug
+magnesium hydroxide	drug

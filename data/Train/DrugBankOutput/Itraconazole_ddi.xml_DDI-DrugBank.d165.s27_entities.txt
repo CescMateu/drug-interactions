@@ -1,0 +1,2 @@
+hypoglycemic agents	group
+Itraconazole	drug

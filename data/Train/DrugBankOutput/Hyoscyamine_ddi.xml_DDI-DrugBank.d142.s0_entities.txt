@@ -1,0 +1,8 @@
+LEVSIN	brand
+antimuscarinics	group
+amantadine	drug
+haloperidol	drug
+phenothiazines	group
+monoamine oxidase (MAO) inhibitors	group
+tricyclic antidepressants	group
+antihistamines	group

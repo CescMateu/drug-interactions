@@ -1,0 +1,6 @@
+efavirenz	drug
+nevirapine	drug
+PI	group
+indinavir	drug
+nevirapine	drug
+efavirenz	drug

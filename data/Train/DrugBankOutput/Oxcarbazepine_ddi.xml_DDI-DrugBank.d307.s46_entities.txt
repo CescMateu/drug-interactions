@@ -1,0 +1,2 @@
+Verapamil	drug
+MHD	drug_n

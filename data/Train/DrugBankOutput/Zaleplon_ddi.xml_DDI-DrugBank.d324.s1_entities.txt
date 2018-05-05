@@ -1,0 +1,5 @@
+ethanol	drug
+Sonata	brand
+Ethanol	drug
+ethanol	drug
+ethanol	drug

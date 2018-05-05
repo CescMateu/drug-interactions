@@ -1,0 +1,7 @@
+benzodiazepines	group
+alprazolam	drug
+ergotamine	drug
+cyclosporine	drug
+amiodarone	drug
+nicardipine	drug
+nifedipine	drug

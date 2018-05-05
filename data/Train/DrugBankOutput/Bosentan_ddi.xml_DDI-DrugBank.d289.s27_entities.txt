@@ -1,0 +1,4 @@
+Bosentan	drug
+statins	group
+lovastatin	drug
+atorvastatin	drug

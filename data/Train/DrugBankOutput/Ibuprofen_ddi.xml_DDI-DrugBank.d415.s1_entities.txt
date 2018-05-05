@@ -1,0 +1,5 @@
+anticoagulants	group
+coumarin-type anticoagulants	group
+ibuprofen	drug
+ibuprofen	drug
+nonsteroidal anti-inflammatory agents	group

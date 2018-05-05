@@ -1,0 +1,4 @@
+carboxytolbutamide	drug_n
+4-hydroxytolbutamide	drug_n
+tolbutamide	drug
+tolbutamide	drug

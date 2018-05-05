@@ -1,0 +1,2 @@
+azole antifungal agents	group
+hypoglycemic agents	group

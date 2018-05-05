@@ -1,0 +1,3 @@
+indomethacin	drug
+diazepam	drug
+metamizol	drug

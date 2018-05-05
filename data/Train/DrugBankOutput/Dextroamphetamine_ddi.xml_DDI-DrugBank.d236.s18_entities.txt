@@ -1,0 +1,3 @@
+Haloperidol	drug
+Haloperidol	drug
+amphetamines	group

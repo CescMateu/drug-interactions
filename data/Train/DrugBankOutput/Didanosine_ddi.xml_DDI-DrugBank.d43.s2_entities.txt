@@ -1,0 +1,4 @@
+VIDEX	brand
+allopurinol	drug
+didanosine	drug
+Allopurinol	drug

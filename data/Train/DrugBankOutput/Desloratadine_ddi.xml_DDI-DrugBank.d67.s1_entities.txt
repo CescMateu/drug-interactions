@@ -1,0 +1,5 @@
+cimetidine	drug
+desloratadine	drug
+azithromycin	drug
+fluoxetine	drug
+fluoxetine	drug

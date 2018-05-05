@@ -1,0 +1,2 @@
+angiotensins	drug_n
+angiotensin	drug_n

@@ -1,0 +1,3 @@
+centrally acting drugs	group
+EQUETROTM	brand
+alcohol	drug

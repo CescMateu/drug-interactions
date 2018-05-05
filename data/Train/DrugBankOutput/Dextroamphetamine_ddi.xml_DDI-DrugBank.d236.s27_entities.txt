@@ -1,0 +1,3 @@
+amphetamine	group
+Propoxyphene	drug
+propoxyphene	drug

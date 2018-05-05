@@ -1,0 +1,2 @@
+FORADIL	brand
+corticosteroids	group

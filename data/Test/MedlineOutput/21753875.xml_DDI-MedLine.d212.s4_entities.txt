@@ -1,0 +1,6 @@
+eugenol	drug
+ethanol	drug
+isopropyl myristate	drug_n
+colchicine	drug
+Tween80	drug_n
+eugenol	drug

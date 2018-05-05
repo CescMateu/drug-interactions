@@ -1,0 +1,6 @@
+ethanol	drug
+nicotine	drug
+morphine	drug
+cocaine	drug
+ibogaine	drug_n
+18-MC	drug_n

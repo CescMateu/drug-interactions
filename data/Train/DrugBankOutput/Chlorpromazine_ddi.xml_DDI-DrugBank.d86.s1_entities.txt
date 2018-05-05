@@ -1,0 +1,15 @@
+propranolol	drug
+beta-blockers	group
+anti-anxiety drugs	group
+anti-depressants	group
+guanadrel	drug
+guanethidine	drug
+grepafloxacin	drug
+sparfloxacin	drug
+cabergoline	drug
+metrizamide	drug
+antihistamines	group
+codeine	drug
+narcotic	group
+lithium	drug
+diphenhydramine	drug

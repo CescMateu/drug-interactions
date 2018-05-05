@@ -1,0 +1,2 @@
+acetaldehyde	drug_n
+ethanol	drug

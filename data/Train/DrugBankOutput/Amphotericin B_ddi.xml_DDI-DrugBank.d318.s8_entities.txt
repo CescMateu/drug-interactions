@@ -1,0 +1,9 @@
+clotrimazole	drug
+miconazole	drug
+ketoconazole	drug
+Imidazoles	group
+imidazoles	group
+imidazoles	group
+amphotericin B	drug
+fluconazole	drug
+amphotericin B	drug

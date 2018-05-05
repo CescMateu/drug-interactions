@@ -1,0 +1,3 @@
+corticosteroid	drug
+salicylate	group
+salicylate	group

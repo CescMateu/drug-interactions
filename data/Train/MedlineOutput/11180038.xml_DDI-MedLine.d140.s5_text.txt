@@ -1,0 +1,1 @@
+Everolimus exposure-response relationships between area under the blood concentration-time curve (AUC) and changes in platelets, leukocytes, and lipids were explored with the median-effect model. 

@@ -1,0 +1,2 @@
+phenytoin	drug
+Cerebyx	brand

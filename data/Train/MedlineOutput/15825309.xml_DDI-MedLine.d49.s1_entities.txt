@@ -1,0 +1,2 @@
+gentamicin	drug
+clindamycin	drug

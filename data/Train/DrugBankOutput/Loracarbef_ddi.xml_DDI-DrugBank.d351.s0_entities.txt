@@ -1,0 +1,5 @@
+loracarbef	drug
+loracarbef	drug
+probenecid	drug
+Probenecid	drug
+b-lactam antibiotics	group

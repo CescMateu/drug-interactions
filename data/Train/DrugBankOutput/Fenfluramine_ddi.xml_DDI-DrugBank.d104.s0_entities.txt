@@ -1,0 +1,5 @@
+reserpine	drug
+guanethidine	drug
+methyldopa	drug
+Fenfluramine	drug
+antihypertensive drugs	group

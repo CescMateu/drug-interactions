@@ -1,0 +1,3 @@
+Ampicillin	drug
+chloroquine	drug
+ampicillin	drug

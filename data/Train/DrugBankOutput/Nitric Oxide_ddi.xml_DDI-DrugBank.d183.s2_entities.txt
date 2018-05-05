@@ -1,0 +1,4 @@
+INOmax	brand
+nitroglycerin	drug
+sodium nitroprusside	drug
+nitric oxide donor compounds	group

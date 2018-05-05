@@ -1,0 +1,2 @@
+Acetaminophen	drug
+synthetic estrogens	group

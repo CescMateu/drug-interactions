@@ -1,0 +1,4 @@
+pargyline	drug
+tranylcypromine sulfate	drug
+phenelzine sulfate	drug
+Non-selective monoamine oxidase (MAO) inhibitors	group

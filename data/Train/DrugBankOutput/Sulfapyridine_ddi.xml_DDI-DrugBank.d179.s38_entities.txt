@@ -1,0 +1,5 @@
+methotrexate	drug
+sulfapyridine	drug
+Methotrexate	drug
+Mexate	brand
+methotrexate	drug

@@ -1,0 +1,6 @@
+iodamide	drug
+verografine	drug
+cimetidine	drug
+iodamide	drug
+verografin	drug
+cimetidine	drug

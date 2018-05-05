@@ -1,0 +1,4 @@
+anesthetics	group
+ganglionic blocking agents	group
+hypotensive drugs	group
+sodium nitroprusside	drug

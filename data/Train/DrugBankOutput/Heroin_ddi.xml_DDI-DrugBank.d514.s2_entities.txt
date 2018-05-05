@@ -1,0 +1,7 @@
+methadone	drug
+Valium	brand
+diazepam	drug
+benzodiazepines	group
+alcohol	drug
+central nervous system depressants	group
+heroin	drug_n

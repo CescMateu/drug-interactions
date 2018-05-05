@@ -1,0 +1,5 @@
+acetaminophen	drug
+acetaminophen	drug
+busulfan	drug
+busulfan	drug
+BUSULFEX	brand

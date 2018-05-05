@@ -1,0 +1,3 @@
+bumetanide	drug
+bumetanide	drug
+probenecid	drug

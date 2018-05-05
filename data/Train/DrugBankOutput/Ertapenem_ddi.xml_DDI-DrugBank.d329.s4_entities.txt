@@ -1,0 +1,4 @@
+ertapenem	drug
+vinblastine	drug
+digoxin	drug
+ertapenem	drug

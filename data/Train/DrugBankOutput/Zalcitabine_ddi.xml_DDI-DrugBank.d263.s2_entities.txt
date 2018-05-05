@@ -1,0 +1,3 @@
+zalcitabine	drug
+didanosine	drug
+stavudine	drug

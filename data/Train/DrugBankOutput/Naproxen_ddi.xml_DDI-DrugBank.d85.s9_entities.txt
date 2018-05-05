@@ -1,0 +1,4 @@
+Naproxen	drug
+NSAIDs	group
+propranolol	drug
+beta-blockers	group

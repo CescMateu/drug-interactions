@@ -1,0 +1,3 @@
+amantadine	drug
+WELLBUTRIN	brand
+levodopa	drug

@@ -1,0 +1,3 @@
+H 2 -receptor antagonists	group
+Antacids	group
+ceftibuten	drug

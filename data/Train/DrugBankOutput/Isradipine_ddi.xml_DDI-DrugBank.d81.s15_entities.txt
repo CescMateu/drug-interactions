@@ -1,0 +1,2 @@
+DynaCirc	brand
+isradipine	drug

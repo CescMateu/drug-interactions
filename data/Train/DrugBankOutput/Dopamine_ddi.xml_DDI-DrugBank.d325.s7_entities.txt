@@ -1,0 +1,4 @@
+phenothiazines	group
+dopamine	drug
+Butyrophenones	group
+haloperidol	drug

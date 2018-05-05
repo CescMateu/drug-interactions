@@ -1,0 +1,4 @@
+IRESSA	brand
+cimetidine	drug
+ranitidine	drug
+histamine H2-receptor antagonists	group

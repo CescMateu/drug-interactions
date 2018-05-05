@@ -1,0 +1,4 @@
+phenytoin	drug
+carbamazepine	drug
+nondepolarizing neuromuscular blocking agents	group
+NUROMAX	brand

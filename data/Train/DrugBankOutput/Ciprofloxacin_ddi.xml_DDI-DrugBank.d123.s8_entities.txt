@@ -1,0 +1,11 @@
+aluminum	drug
+magnesium	drug
+ciprofloxacin	drug
+quinolone	group
+calcium	drug
+VIDEX	brand
+sucralfate	drug
+antacids	group
+zinc	drug
+iron	drug
+ciprofloxacin	drug

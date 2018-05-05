@@ -1,0 +1,2 @@
+Lodine	brand
+warfarin	drug

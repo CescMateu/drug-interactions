@@ -1,0 +1,4 @@
+Rifampin	drug
+VIOXX	brand
+rifampin	drug
+rofecoxib	drug

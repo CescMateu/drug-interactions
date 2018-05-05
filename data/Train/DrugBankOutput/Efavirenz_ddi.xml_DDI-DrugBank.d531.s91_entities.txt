@@ -1,0 +1,4 @@
+zidovudine	drug
+lamivudine	drug
+NRTIs	group
+SUSTIVA	brand

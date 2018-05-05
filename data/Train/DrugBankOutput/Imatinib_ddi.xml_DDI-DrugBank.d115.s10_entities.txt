@@ -1,0 +1,4 @@
+dihydropyridine calcium channel blockers	group
+HMG-CoA reductase inhibitors	group
+Gleevec	brand
+benzodiazepines	group

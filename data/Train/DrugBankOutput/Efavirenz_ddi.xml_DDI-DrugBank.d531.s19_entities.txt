@@ -1,0 +1,4 @@
+SUSTIVA	brand
+ritonavir	drug
+atazanavir	drug
+SUSTIVA	brand

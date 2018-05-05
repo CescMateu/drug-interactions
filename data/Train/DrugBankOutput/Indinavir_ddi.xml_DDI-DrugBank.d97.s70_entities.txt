@@ -1,0 +1,2 @@
+HMG-CoA Reductase Inhibitor	group
+atorvastatin	drug

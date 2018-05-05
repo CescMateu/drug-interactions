@@ -1,0 +1,2 @@
+etodolac	drug
+Lodine	brand

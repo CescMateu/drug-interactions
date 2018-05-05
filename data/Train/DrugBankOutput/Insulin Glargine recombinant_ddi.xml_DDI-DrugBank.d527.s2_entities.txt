@@ -1,0 +1,15 @@
+thyroid hormones	group
+somatropin	drug
+progestogens	group
+estrogens	group
+contraceptives	group
+epinephrine	drug
+sympathomimetic agents	group
+terbutaline	drug
+albuterol	drug
+corticosteroids	group
+insulin	drug
+diuretics	group
+danazol	drug
+phenothiazine derivatives	group
+isoniazid	drug

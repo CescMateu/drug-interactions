@@ -1,0 +1,3 @@
+NSAID	group
+NSAID	group
+aspirin	brand

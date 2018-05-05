@@ -1,0 +1,5 @@
+chloroquine	drug
+Antacids	group
+kaolin	drug
+Antacids	group
+kaolin	drug

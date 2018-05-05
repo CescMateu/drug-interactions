@@ -1,0 +1,3 @@
+zinc	drug
+lymecycline	drug
+iron	drug

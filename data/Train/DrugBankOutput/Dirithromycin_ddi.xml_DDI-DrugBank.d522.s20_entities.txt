@@ -1,0 +1,4 @@
+digoxin	drug
+digoxin	drug
+erythromycin	drug
+Digoxin	drug

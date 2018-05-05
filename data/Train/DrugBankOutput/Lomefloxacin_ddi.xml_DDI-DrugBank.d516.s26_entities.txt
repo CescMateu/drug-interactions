@@ -1,0 +1,3 @@
+lomefloxacin	drug
+warfarin	drug
+warfarin	drug

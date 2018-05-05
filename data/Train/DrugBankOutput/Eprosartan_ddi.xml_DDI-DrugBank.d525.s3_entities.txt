@@ -1,0 +1,2 @@
+Ranitidine	drug
+eprosartan	drug

@@ -1,0 +1,2 @@
+butorphanol	drug
+MAO inhibitors	group

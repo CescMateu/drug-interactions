@@ -1,0 +1,5 @@
+citalopram	drug
+ketoconazole	drug
+ketoconazole	drug
+Ketoconazole	drug
+citalopram	drug

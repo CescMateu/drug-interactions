@@ -1,0 +1,3 @@
+diazepam	drug
+esomeprazole	drug
+diazepam	drug

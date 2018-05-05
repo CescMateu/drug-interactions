@@ -1,0 +1,2 @@
+levorphanol	drug
+Levo-Dromoran	brand

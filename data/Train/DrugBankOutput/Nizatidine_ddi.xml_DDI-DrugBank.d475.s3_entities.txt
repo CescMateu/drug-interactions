@@ -1,0 +1,3 @@
+nizatidine	drug
+aspirin	brand
+salicylate	group

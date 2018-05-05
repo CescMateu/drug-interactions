@@ -1,0 +1,5 @@
+HMG-CoA reductase inhibitor	group
+WelChol	brand
+atorvastatin	drug
+lovastatin	drug
+simvastatin	drug

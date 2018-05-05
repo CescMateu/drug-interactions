@@ -1,0 +1,3 @@
+Misoprostol	drug
+diclofenac	drug
+ibuprofen	drug

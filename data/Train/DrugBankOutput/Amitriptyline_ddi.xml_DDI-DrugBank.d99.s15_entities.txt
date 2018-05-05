@@ -1,0 +1,2 @@
+Guanethidine	drug
+Monoamine Oxidase Inhibitors	drug

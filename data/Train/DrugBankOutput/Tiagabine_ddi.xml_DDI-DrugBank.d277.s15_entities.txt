@@ -1,0 +1,5 @@
+GABITRIL	brand
+Cimetidine	drug
+cimetidine	drug
+tiagabine	drug
+tiagabine	drug

@@ -1,0 +1,3 @@
+ibuprofen	drug
+L-arginine	drug
+Ibuprofen	drug

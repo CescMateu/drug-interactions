@@ -1,0 +1,2 @@
+erythromycin	drug
+indinavir	drug

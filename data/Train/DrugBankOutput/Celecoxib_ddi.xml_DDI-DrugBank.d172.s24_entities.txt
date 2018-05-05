@@ -1,0 +1,2 @@
+CELEBREX	brand
+warfarin	drug

@@ -1,0 +1,6 @@
+digoxin	drug
+warfarin	drug
+irbesartan	drug
+digoxin	drug
+hydrochlorothiazide	drug
+warfarin	drug

@@ -1,0 +1,5 @@
+buspirone HCl	drug
+buspirone HCl	drug
+psychotropic drugs	group
+buspirone hydrochloride	drug
+MAO inhibitors	group

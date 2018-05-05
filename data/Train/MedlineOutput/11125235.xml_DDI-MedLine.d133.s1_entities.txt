@@ -1,0 +1,6 @@
+verapamil	drug
+calcium channel blocker	group
+bombesin	drug_n
+verapamil hydrochloride	drug
+azoxymethane	drug_n
+AOM	drug_n

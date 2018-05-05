@@ -1,0 +1,2 @@
+diphenidol	drug
+anticholinergics	group

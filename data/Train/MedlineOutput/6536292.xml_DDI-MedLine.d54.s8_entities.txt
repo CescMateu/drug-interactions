@@ -1,0 +1,3 @@
+alcohol	drug
+Physostigmine	drug
+alcohol	drug

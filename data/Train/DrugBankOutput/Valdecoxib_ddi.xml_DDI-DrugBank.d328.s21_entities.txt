@@ -1,0 +1,3 @@
+Lithium	drug
+BEXTRA	brand
+lithium	drug

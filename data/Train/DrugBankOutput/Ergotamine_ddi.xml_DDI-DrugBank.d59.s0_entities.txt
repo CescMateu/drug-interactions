@@ -1,0 +1,3 @@
+ERGOMAR	brand
+triacetyloleandomycin	drug
+ergotamine	drug

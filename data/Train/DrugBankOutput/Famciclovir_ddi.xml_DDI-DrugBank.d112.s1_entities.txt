@@ -1,0 +1,2 @@
+6-deoxy penciclovir	drug_n
+penciclovir	drug

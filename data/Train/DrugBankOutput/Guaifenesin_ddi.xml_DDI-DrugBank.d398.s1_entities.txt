@@ -1,0 +1,3 @@
+dextromethorphan	drug
+monoamine oxidase inhibitors	group
+MAOIs	group

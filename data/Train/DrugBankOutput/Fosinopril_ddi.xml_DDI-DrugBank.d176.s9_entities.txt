@@ -1,0 +1,10 @@
+fosinoprilat	drug_n
+fosinopril	drug
+simethicone	drug
+fosinopril	drug
+aluminum hydroxide	drug
+magnesium hydroxide	drug
+Antacids	group
+antacid	group
+antacids	group
+fosinopril	drug

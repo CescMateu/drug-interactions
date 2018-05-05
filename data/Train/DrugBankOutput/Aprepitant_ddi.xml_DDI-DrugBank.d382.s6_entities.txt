@@ -1,0 +1,3 @@
+Aprepitant	drug
+Aprepitant	drug
+digoxin	drug

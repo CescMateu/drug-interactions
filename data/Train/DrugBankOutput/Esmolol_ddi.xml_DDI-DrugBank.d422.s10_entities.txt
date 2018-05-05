@@ -1,0 +1,5 @@
+warfarin	drug
+succinylcholine	drug
+morphine	drug
+digoxin	drug
+BREVIBLOC	brand

@@ -1,0 +1,9 @@
+TIKOSYN	brand
+magnesium hydroxide	drug
+cimetidine	drug
+antacids	group
+aluminum hydroxide	drug
+omeprazole	drug
+ranitidine	drug
+TIKOSYN	brand
+anti-ulcer	group

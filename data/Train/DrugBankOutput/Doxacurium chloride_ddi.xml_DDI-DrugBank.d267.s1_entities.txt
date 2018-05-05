@@ -1,0 +1,3 @@
+succinylcholine	drug
+succinylcholine	drug
+NUROMAX	brand

@@ -1,0 +1,14 @@
+contraceptives	group
+estrogens	group
+barbiturates	group
+contraceptives	group
+valproic acid	drug
+barbiturates	group
+barbiturates	group
+divalproex sodium	drug
+barbiturates	group
+central nervous system (CNS) depressants	group
+carbamazepine	drug
+corticotropin	drug
+anticoagulants	group
+blood thinner	group

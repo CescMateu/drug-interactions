@@ -1,0 +1,2 @@
+beta blocker	group
+propranolol	drug

@@ -1,0 +1,2 @@
+Anastrozole	drug
+antipyrine	drug

@@ -1,0 +1,1 @@
+We found that only a minor fraction of side-effect similarities (5.8 %) are caused by drugs targeting proteins close in the network, compared to side-effect similarities caused by overlapping drug targets (64%). 

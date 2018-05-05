@@ -1,0 +1,3 @@
+cetirizine	drug
+theophylline	drug
+cetirizine	drug

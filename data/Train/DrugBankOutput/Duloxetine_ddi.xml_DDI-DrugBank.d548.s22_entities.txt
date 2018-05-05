@@ -1,0 +1,2 @@
+duloxetine	drug
+proton pump inhibitors	group

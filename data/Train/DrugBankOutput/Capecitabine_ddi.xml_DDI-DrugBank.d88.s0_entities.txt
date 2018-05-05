@@ -1,0 +1,6 @@
+magnesium hydroxide	drug
+antacid	group
+Antacid	group
+aluminum hydroxide	drug
+Maalox	brand
+capecitabine	drug

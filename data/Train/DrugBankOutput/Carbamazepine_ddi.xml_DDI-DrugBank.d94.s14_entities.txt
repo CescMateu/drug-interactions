@@ -1,0 +1,3 @@
+carbamazepine	drug
+Carbamazepine	drug
+lithium	drug

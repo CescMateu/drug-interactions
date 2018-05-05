@@ -1,0 +1,2 @@
+bishydroxy-coumarin	drug
+coumaphos	drug_n

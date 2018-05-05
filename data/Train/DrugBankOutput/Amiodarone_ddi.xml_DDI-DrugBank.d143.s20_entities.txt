@@ -1,0 +1,6 @@
+cyclosporine	drug
+cyclosporine	drug
+CYP3A4	drug
+amiodarone	drug
+Immunosuppressive	drug
+Cyclosporine	drug

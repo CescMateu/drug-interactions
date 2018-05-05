@@ -1,0 +1,12 @@
+anakinra	drug
+sulfasalazine	drug
+corticosteroids	group
+NSAIDs	group
+MTX	drug
+ORENCIA	brand
+gold	drug
+chloroquine	drug
+azathioprine	drug
+TNF blocking agents	group
+leflunomide	drug
+hydroxychloroquine	drug

@@ -1,0 +1,2 @@
+citalopram	drug
+pimozide	drug

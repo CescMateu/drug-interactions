@@ -1,0 +1,4 @@
+Folic acid	drug
+phenobarbital	drug
+phenytoin	drug
+primidone	drug

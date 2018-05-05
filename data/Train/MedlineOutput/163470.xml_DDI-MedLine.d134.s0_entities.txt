@@ -1,0 +1,4 @@
+sodium perchlorate	drug_n
+radiopertechnetate	drug
+radiopertechnetate	drug
+sodium perchlorate	drug_n

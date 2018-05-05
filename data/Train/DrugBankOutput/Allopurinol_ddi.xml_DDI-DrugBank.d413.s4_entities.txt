@@ -1,0 +1,7 @@
+Imuran	brand
+azathioprine	drug
+Purinethol	brand
+mercaptopurine	drug
+azathioprine	drug
+mercaptopurine	drug
+allopurinol	drug

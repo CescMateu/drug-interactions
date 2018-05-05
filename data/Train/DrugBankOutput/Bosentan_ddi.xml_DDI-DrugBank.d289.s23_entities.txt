@@ -1,0 +1,4 @@
+Ketoconazole	drug
+bosentan	drug
+ketoconazole	drug
+bosentan	drug

@@ -1,0 +1,3 @@
+morphine	drug
+(-)-NANM	drug_n
+naloxone	drug

@@ -1,0 +1,6 @@
+tricyclic antidepressants	group
+formoterol	drug
+Monoamine Oxidase Inhibitors	group
+Tricyclic Antidepressants	group
+FORADIL	brand
+monoamine oxidase inhibitors	group

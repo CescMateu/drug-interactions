@@ -1,0 +1,3 @@
+nifedipine	drug
+digoxin	drug
+digoxin	drug

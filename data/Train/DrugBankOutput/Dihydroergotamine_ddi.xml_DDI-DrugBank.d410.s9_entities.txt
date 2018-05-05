@@ -1,0 +1,3 @@
+dihydroergotamine mesylate	drug
+D.H.E. 45	brand
+SSRIs	group

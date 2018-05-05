@@ -1,0 +1,3 @@
+orphenadrine	drug
+WELLBUTRIN	brand
+cyclophosphamide	drug

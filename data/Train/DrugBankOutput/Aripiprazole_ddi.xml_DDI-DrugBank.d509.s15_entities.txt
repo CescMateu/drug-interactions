@@ -1,0 +1,5 @@
+Quinidine	drug
+aripiprazole	drug
+quinidine	drug
+aripiprazole	drug
+dehydroaripiprazole	drug_n

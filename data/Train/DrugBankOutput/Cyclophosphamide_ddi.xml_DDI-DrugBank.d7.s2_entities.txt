@@ -1,0 +1,2 @@
+Cyclophosphamide	drug
+succinylcholine chloride	drug

@@ -1,0 +1,4 @@
+muscle relaxants	group
+anesthetics	group
+narcotics	group
+ROMAZICON	brand

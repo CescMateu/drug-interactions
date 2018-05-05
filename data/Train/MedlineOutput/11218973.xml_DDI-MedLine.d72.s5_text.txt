@@ -1,0 +1,1 @@
+Statistical analysis: Mantel-Haenszel (alpha = 0.05). 

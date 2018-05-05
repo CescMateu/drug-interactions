@@ -1,0 +1,4 @@
+Fe	drug
+Co	drug
+iron	drug
+cobalt	drug

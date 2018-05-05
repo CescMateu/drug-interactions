@@ -1,0 +1,5 @@
+phenobarbital sodium	drug
+coumaphos	drug_n
+coumaphos	drug_n
+trichlorfon	drug_n
+bishydroxycoumarin	drug

@@ -1,0 +1,3 @@
+itraconazole	drug
+antifungal agents	group
+ketoconazole	drug

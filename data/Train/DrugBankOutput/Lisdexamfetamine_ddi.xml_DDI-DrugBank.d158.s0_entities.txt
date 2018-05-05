@@ -1,0 +1,3 @@
+sodium acid phosphate	drug
+ammonium chloride	drug
+amphetamine	drug

@@ -1,0 +1,12 @@
+Cisplatin	drug
+EQUETROTM	brand
+felbamate	drug
+doxorubicin HCL	drug
+phenobarbital	drug
+rifampin	drug
+primidone	drug
+Phenytoin	drug
+theophylline	drug
+methsuximide	drug
+EQUETROTM	brand
+EQUETROTM	brand

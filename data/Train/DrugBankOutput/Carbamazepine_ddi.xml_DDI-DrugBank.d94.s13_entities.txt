@@ -1,0 +1,6 @@
+Carbamazepine	drug
+EQUETROTM	brand
+Clomipramine HCl	drug
+Phenytoin	drug
+primidone	drug
+EQUETROTM	brand

@@ -1,0 +1,4 @@
+TIKOSYN	brand
+verapamil	drug
+dofetilide	drug
+dofetilide	drug

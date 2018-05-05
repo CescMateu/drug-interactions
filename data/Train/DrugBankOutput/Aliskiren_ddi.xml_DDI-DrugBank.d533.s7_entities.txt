@@ -1,0 +1,11 @@
+ramipril	drug
+atorvastatin	drug
+metformin	drug
+amlodipine	drug
+atenolol	drug
+celecoxib	drug
+lovastatin	drug
+aliskiren	drug
+valsartan	drug
+digoxin	drug
+hydrochlorothiazide	drug

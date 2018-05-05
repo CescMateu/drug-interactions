@@ -1,0 +1,8 @@
+imipramine	drug
+fluoxetine	drug
+curcumin	drug_n
+curcumin	drug_n
+imipramine	drug
+curcumin	drug_n
+fluoxetine	drug
+curcumin	drug_n

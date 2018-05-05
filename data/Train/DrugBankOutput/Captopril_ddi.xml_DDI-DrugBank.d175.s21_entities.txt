@@ -1,0 +1,3 @@
+Cardiac Glycosides	group
+captopril	drug
+digoxin	drug

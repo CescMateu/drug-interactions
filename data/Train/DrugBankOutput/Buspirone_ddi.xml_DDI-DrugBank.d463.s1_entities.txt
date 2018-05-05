@@ -1,0 +1,3 @@
+Desyrel	brand
+trazodone hydrochloride	drug
+buspirone HCl	drug

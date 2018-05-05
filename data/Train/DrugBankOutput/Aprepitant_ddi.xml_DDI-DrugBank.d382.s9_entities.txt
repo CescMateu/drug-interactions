@@ -1,0 +1,7 @@
+Dexamethasone	drug
+Corticosteroids	group
+dexamethasone	drug
+Aprepitant	drug
+dexamethasone	drug
+Aprepitant	drug
+dexamethasone	drug

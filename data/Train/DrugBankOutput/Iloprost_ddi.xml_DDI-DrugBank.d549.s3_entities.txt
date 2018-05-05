@@ -1,0 +1,9 @@
+antipyretics	group
+nonsteroidal antiinflammatories	group
+calcium channel blockers	group
+analgesics	group
+diuretics	group
+cardiac glycosides	group
+iloprost	drug
+anticoagulants	group
+corticosteroids	group
