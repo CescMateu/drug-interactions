@@ -66,17 +66,17 @@ def bio_tagger(text, drugs):
         
     return(bio_tagged)
 
-def checkPreviousTokenCondition(tokens, pos, fun):
+def checkPreviousTokenCondition(tokens, pos, condition):
     '''(list of str, int, function) -> list of bool
     Description:
     Given a list of tokens 'tokens' to be analyzed and an integer 'pos', this function returns a 
     list of booleans indicating, for each token in the list, if the token in the position +- 'pos'
-    complies with the condition specified in 'fun'. This function introduces an exception: If the token
+    complies with the condition specified in 'condition'. This function introduces an exception: If the token
     analyzed is either 'START' or 'STOP', it won't be processed and will return 0 in all cases. Also, is 'START'
     and 'STOP' are the tokens in the 'pos' position in respect the token analized, also a 0 will be returned.
     
     Requirements:
-    - The function in 'fun' needs to be a function that gets an string as an input an returns a boolean
+    - The function in 'condition' needs to be a function that gets an string as an input an returns a boolean
     as an output in 0/1 format, not False/True.
     - 'pos' can only take one of the following values: (-2, -1, 0, 1, 2)
     
@@ -85,31 +85,31 @@ def checkPreviousTokenCondition(tokens, pos, fun):
     >>> def isUpperCap(string):
     ...      return int(string.isupper())
     
-    >>> checkPreviousTokenCondition(tokens = tokens_example, pos = -2, fun = isUpperCap)
+    >>> checkPreviousTokenCondition(tokens = tokens_example, pos = -2, condition = isUpperCap)
     [0, 0, 0, 0]
     
     >>> tokens_example = ['START', 'My', 'name', 'Is', 'Cesc', 'Mateu', '.']
     >>> def hasInitialUpperCase(string):
     ...       return int(string[0].isupper())
-    >>> checkPreviousTokenCondition(tokens = tokens_example, pos = -1, fun = hasInitialUpperCase)
+    >>> checkPreviousTokenCondition(tokens = tokens_example, pos = -1, condition = hasInitialUpperCase)
     [0, 0, 1, 0, 1, 1, 1]
     
     >>> tokens_example = ['START', 'My', 'name', 'Is', 'Cesc', 'Mateu', 'Jove', 'STOP', 'START', 'How', 'ARE', 'you', '?', 'STOP', 'START']
     >>> def hasInitialUpperCase(string):
     ...       return int(string[0].isupper())
-    >>> checkPreviousTokenCondition(tokens = tokens_example, pos = -1, fun = hasInitialUpperCase)
+    >>> checkPreviousTokenCondition(tokens = tokens_example, pos = -1, condition = hasInitialUpperCase)
     [0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0]
     
     >>> tokens_example = ['START', 'My', 'name', 'Is', 'Cesc', 'Mateu', '.']
     >>> def hasInitialUpperCase(string):
     ...       return int(string[0].isupper())
-    >>> checkPreviousTokenCondition(tokens = tokens_example, pos = 0, fun = hasInitialUpperCase)
+    >>> checkPreviousTokenCondition(tokens = tokens_example, pos = 0, condition = hasInitialUpperCase)
     [0, 1, 0, 1, 1, 1, 0]
     
     >>> tokens_example = ['START', 'My', 'name', 'Is', 'Cesc', 'Mateu', '.']
     >>> def hasInitialUpperCase(string):
     ...       return int(string[0].isupper())
-    >>> checkPreviousTokenCondition(tokens = tokens_example, pos = 2, fun = hasInitialUpperCase)
+    >>> checkPreviousTokenCondition(tokens = tokens_example, pos = 2, condition = hasInitialUpperCase)
     [0, 1, 1, 1, 0, 0, 0]
     '''
     
@@ -131,7 +131,7 @@ def checkPreviousTokenCondition(tokens, pos, fun):
         elif tokens[idx_token] == 'START' or tokens[idx_token] == 'STOP':
             boolean_list.append(False)
         else:
-            boolean_list.append(fun(tokens[idx_token + pos]))
+            boolean_list.append(condition(tokens[idx_token + pos]))
            
     # If we are checking the posterior elements of a list, at the end we will need to append 0's
     if pos > 0:
