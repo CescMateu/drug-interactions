@@ -1,5 +1,37 @@
 import nltk,warnings
 
+# Define some functions that will be used in order to create the features
+def hasNumbers(string):
+    return any(char.isdigit() for char in string)
+
+def hasLetters(string):
+    return any(char.isalpha() for char in string)
+
+def hasUpperCase(string):
+    return any(char.isupper() for char in string)
+
+def allUpperCase(string):
+    return(string.isupper())
+
+def allLowerCase(string):
+    return(string.islower())
+
+def hasInitialCapital(string):
+    return(string[0].isupper())
+
+def containsSlash(string):
+    return('/' in string)
+
+def allLetters(string):
+    return(string.isalpha())
+
+def allDigits(string):
+    return(string.isdigit())
+
+def containsDash(string):
+    return('-' in string)
+    
+
 def bioTagger(text, drugs):
     ''' (str, list of str) -> list of tuples
     
@@ -196,6 +228,138 @@ def bioTagsToEntities(tokens, bio_tags):
             warnings.warn('One of the tags was not recognised. Please check the "bio_tags" parameter.')
     
     return entities
+
+
+# Define a function for the automatized creation of features given a tokenized sentence
+
+def createFeatureVector(sentence):
+    '''
+    Description:
+    
+    Examples/Tests:
+    
+    '''
+    tokenized_sentence = nltk.word_tokenize(sentence)
+    #tokenized_sentence = ['START']+tokenized_sentence+['STOP']
+    # Feature: Initialise the feature_vector dictionary, in which we will create the features of each token
+    feature_vector = {}
+    
+    # Feature: Length of the token
+    feature_vector['token_length'] = [len(token) for token in tokenized_sentence]
+    
+    # Feature: Prefixes and Suffixes
+
+    prefix_feature = []
+    suffix_feature = []
+
+    prefixes = r'^meth|^eth|^prop|^but|^pent|^hex|^hept|^oct|^non|^dec'
+    suffixes = r'ane$|ene$|yne$|ol$|al$|amine$|cid$|ium$|ether$|ate$|one$'
+
+    for token in tokenized_sentence:
+
+            if re.search(prefixes,token):
+                prefix_feature=prefix_feature+[1]
+            else:
+                prefix_feature = prefix_feature+[0]
+
+            if re.search(suffixes,token):
+                suffix_feature=suffix_feature+[1]
+            else:
+                suffix_feature = suffix_feature+[0]
+
+    feature_vector['prefix_feature']=prefix_feature
+    feature_vector['suffix_feature']=suffix_feature
+
+    # Feature: Check if the token is already in the DrugBank database
+    
+    # Feature: POS of the token
+    
+    # recovering
+    # pos = nltk.pos_tag()
+    
+    # Feature: Binary token type features
+        # contains_hyphen, all_lowercase_letters, 
+        # contains_slash, all_letters, contains_period, all_digits, contains_uppercase,
+        # contains_digit, contains_letters
+    
+    all_uppercase_letters = [1 if token.isupper() else 0 for token in tokenized_sentence]
+    all_lowercase_letters = [1 if token.islower() else 0 for token in tokenized_sentence]
+    initial_capital_letter = [1 if token[0].isupper() else 0 for token in tokenized_sentence]
+    contains_slash = [1 if '/' in token else 0 for token in tokenized_sentence]
+    all_letters = [1 if token.isalpha() else 0 for token in tokenized_sentence]
+    all_digits = [1 if token.isdigit() else 0 for token in tokenized_sentence]
+    contains_digit = [1 if hasNumbers(token) else 0 for token in tokenized_sentence]
+    contains_letters = [1 if hasLetters(token) else 0 for token in tokenized_sentence]
+    contains_uppercase = [1 if hasUpperCase(token) else 0 for token in tokenized_sentence]
+    contains_dash = [1 if '_' in token else 0 for token in tokenized_sentence]
+    
+    feature_vector['all_uppercase_letters']=all_uppercase_letters
+    feature_vector['all_lowercase_letters']=all_lowercase_letters
+    feature_vector['initial_capital_letter']=initial_capital_letter
+    feature_vector['contains_slash']=contains_slash
+    feature_vector['all_letters']=all_uppercase_letters
+    feature_vector['all_digits']=all_digits
+    feature_vector['contains_digit']=contains_digit
+    feature_vector['contains_letters']=contains_letters
+    feature_vector['contains_uppercase']=contains_uppercase  
+    feature_vector['contains_dash']=contains_dash  
+    
+    
+    # Feature: Position of the token in the sentence (distance from the 'START' token)
+    idx_position = []
+    current_position = -1
+    for token in tokenized_sentence:
+        if token == 'STOP':
+            current_position = -1
+            idx_position.append(current_position)
+        else:
+            current_position += 1
+            idx_position.append(current_position)
+    feature_vector['idx_position'] = idx_position
+    
+    
+    # Feature: Binary token type features of the +-2 previous/following tokens
+    
+    for k in [-2, -1, 1, 2]:
+        all_uppercase_letters_context = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = k, condition = allUpperCase)
+        all_lowercase_letters_context = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = k, condition = allLowerCase)
+        initial_capital_letter_context = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = k, condition = hasInitialCapital)
+        contains_slash_context = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = k, condition = containsSlash)
+        all_letters_context = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = k, condition = allLetters)
+        all_digits_context = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = k, condition = allDigits)
+        contains_digit_context = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = k, condition = hasNumbers)
+        contains_letters_context = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = k, condition = hasLetters)
+        contains_uppercase_context = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = k, condition = hasUpperCase)
+        contains_dash_context = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = k, condition = containsDash)
+        
+        feature_vector['all_uppercase_letters_context%d' % k] = all_uppercase_letters_context
+        feature_vector['all_lowercase_letters_context%d' % k] = all_lowercase_letters_context
+        feature_vector['initial_capital_letter_context%d' % k] = initial_capital_letter_context
+        feature_vector['contains_slash_context%d' % k] = contains_slash_context
+        feature_vector['all_letters_context%d' % k] = all_letters_context
+        feature_vector['all_digits_context%d' % k] = all_digits_context
+        feature_vector['contains_digit_context%d' % k] = contains_digit_context
+        feature_vector['contains_letters_context%d' % k] = contains_letters_context
+        feature_vector['contains_uppercase_context%d' % k] = contains_uppercase_context
+        feature_vector['contains_dash_context%d' % k] = contains_dash_context
+    
+    
+    
+    return feature_vector
+
+    
+
+
 
 
             
