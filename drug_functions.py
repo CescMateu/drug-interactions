@@ -11,11 +11,11 @@ def bioTagger(text, drugs):
     
     Examples/Tests:
     
-    >>> bio_tagger('Ibuprofeno is great!', ['Ibuprofeno'])
+    >>> bioTagger('Ibuprofeno is great!', ['Ibuprofeno'])
     [('Ibuprofeno', 'B'), ('is', 'O'), ('great', 'O'), ('!', 'O')]
-    >>> bio_tagger('I would like to buy calcium-rich milk', ['calcium'])
+    >>> bioTagger('I would like to buy calcium-rich milk', ['calcium'])
     [('I', 'O'), ('would', 'O'), ('like', 'O'), ('to', 'O'), ('buy', 'O'), ('calcium-rich', 'B'), ('milk', 'O')]
-    >>> bio_tagger('Give me TNF antioxidants together with sodium, please', ['TNF antioxidants', 'sodium'])
+    >>> bioTagger('Give me TNF antioxidants together with sodium, please', ['TNF antioxidants', 'sodium'])
     [('Give', 'O'), ('me', 'O'), ('TNF', 'B'), ('antioxidants', 'I'), ('together', 'O'), ('with', 'O'), ('sodium', 'B'), (',', 'O'), ('please', 'O')]
     '''
 
@@ -148,14 +148,15 @@ def bioTagsToEntities(tokens, bio_tags):
     model and compare them with the real ones. 
 
     Examples/Tests:
-    >>> bio_tags_to_entities(tokens = ['START', 'Ibuprofeno', 'is', 'good', '.'], bio_tags = ['O', 'B', 'O', 'O', 'O'])
+    >>> bioTagsToEntities(tokens = ['START', 'Ibuprofeno', 'is', 'good', '.'], bio_tags = ['O', 'B', 'O', 'O', 'O'])
     ['Ibuprofeno']
-    >>> bio_tags_to_entities(tokens = ['START', 'Food', 'is', 'good', '.'], bio_tags = [])
+    >>> bioTagsToEntities(tokens = ['START', 'Food', 'is', 'good', '.'], bio_tags = [])
     []
-    >>> bio_tags_to_entities(tokens = ['START', 'TNF', 'Receptors', 'are', 'good', '.', 'STOP'], bio_tags = ['O', 'B', 'I', 'O', 'O', 'O', 'O'])
+    >>> bioTagsToEntities(tokens = ['START', 'TNF', 'Receptors', 'are', 'good', '.', 'STOP'], bio_tags = ['O', 'B', 'I', 'O', 'O', 'O', 'O'])
     ['TNF Receptors']
-    >>> bio_tags_to_entities(tokens = ['START', 'TNF', 'Receptors', 'and', 'Fluimicil', '400mg', 'are', 'good', '.', 'STOP'], bio_tags = ['O', 'B', 'I', 'O', 'B', 'I', 'O', 'O', 'O', 'O'])
+    >>> bioTagsToEntities(tokens = ['START', 'TNF', 'Receptors', 'and', 'Fluimicil', '400mg', 'are', 'good', '.', 'STOP'], bio_tags = ['O', 'B', 'I', 'O', 'B', 'I', 'O', 'O', 'O', 'O'])
     ['TNF Receptors', 'Fluimicil 400mg']
+    >>>> 
     '''
 
     # Initialise the necessary objects
