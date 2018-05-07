@@ -1,4 +1,4 @@
-import nltk
+import nltk,warnings
 
 def bioTagger(text, drugs):
     ''' (str, list of str) -> list of tuples
@@ -156,7 +156,8 @@ def bioTagsToEntities(tokens, bio_tags):
     ['TNF Receptors']
     >>> bioTagsToEntities(tokens = ['START', 'TNF', 'Receptors', 'and', 'Fluimicil', '400mg', 'are', 'good', '.', 'STOP'], bio_tags = ['O', 'B', 'I', 'O', 'B', 'I', 'O', 'O', 'O', 'O'])
     ['TNF Receptors', 'Fluimicil 400mg']
-    >>>> 
+    >>> bioTagsToEntities(tokens = ['START', 'TNF', 'Receptors', 'and', 'Fluimicil', '400mg', 'are', 'good', '.', 'STOP'], bio_tags = ['O', 'B', 'I', 'B', 'I', 'I', 'O', 'O', 'O', 'O'])
+    ['TNF Receptors', 'and Fluimicil 400mg']
     '''
 
     # Initialise the necessary objects
@@ -176,7 +177,7 @@ def bioTagsToEntities(tokens, bio_tags):
             word = tokens[idx]
             prev_tag = 'B'
 
-        elif tag == 'I':
+        elif tag == 'I' and prev_tag in ['B','I']:
             # If a 'I' tag is found, we need to update the current entity (it is formed by more than one word)
             word = word + ' ' + tokens[idx]
             prev_tag = 'I'
@@ -192,7 +193,7 @@ def bioTagsToEntities(tokens, bio_tags):
             continue
         else:
             # Any other case should raise an error
-            raise ValueError('One of the tags was not recognised. Please check the "bio_tags" parameter.')
+            warnings.warn('One of the tags was not recognised. Please check the "bio_tags" parameter.')
     
     return entities
 
