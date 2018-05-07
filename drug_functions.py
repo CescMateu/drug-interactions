@@ -1,4 +1,5 @@
-import nltk,warnings
+import nltk,warnings,re
+import pandas as pd
 
 # Define some functions that will be used in order to create the features
 def hasNumbers(string):
@@ -240,9 +241,9 @@ def createFeatureVector(sentence):
     
     '''
     tokenized_sentence = nltk.word_tokenize(sentence)
-    #tokenized_sentence = ['START']+tokenized_sentence+['STOP']
-    # Feature: Initialise the feature_vector dictionary, in which we will create the features of each token
-    feature_vector = {}
+
+    # Feature: Initialise the feature_vector data frame, in which we will create the features of each token
+    feature_vector = pd.DataFrame()
     
     # Feature: Length of the token
     feature_vector['token_length'] = [len(token) for token in tokenized_sentence]
@@ -269,13 +270,28 @@ def createFeatureVector(sentence):
 
     feature_vector['prefix_feature']=prefix_feature
     feature_vector['suffix_feature']=suffix_feature
-
+    
     # Feature: Check if the token is already in the DrugBank database
     
     # Feature: POS of the token
+    '''
+    tuples = nltk.pos_tag(tokenized_sentence)
+    pos = [word[1] for word in tuples]
     
-    # recovering
-    # pos = nltk.pos_tag()
+        
+    df = pd.DataFrame({'pos_tags':pos})
+    #feature_vector['pos_tag']=pos
+    
+    dummies = pd.get_dummies(df['pos_tags'])
+    dummies.astype(dtype=int)
+    feature_vector.astype(dtype=int)
+    print(dummies.head())
+    
+    feature_vector=feature_vector.join(dummies)
+    
+    # for name in list(dummies.columns.values):
+        #feature_vector[name]=dummies[name]
+    '''
     
     # Feature: Binary token type features
         # contains_hyphen, all_lowercase_letters, 
