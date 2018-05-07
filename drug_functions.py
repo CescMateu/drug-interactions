@@ -1,6 +1,6 @@
 import nltk
 
-def bio_tagger(text, drugs):
+def bioTagger(text, drugs):
     ''' (str, list of str) -> list of tuples
     
     Description: 
@@ -138,6 +138,62 @@ def checkPreviousTokenCondition(tokens, pos, condition):
         boolean_list = boolean_list + [False] * abs(pos)
     
     return([int(element) for element in boolean_list])
+
+
+def bioTagsToEntities(tokens, bio_tags):
+    '''
+    Description:
+    Given a list of tokens, 'tokens' and a list of tags for each token, 'bio_tags', this function returns a list of all the entities
+    detected that had a 'B' or a 'I' associated. This function will be used in order to retrieve the entities predicted by the classification
+    model and compare them with the real ones. 
+
+    Examples/Tests:
+    >>> bio_tags_to_entities(tokens = ['START', 'Ibuprofeno', 'is', 'good', '.'], bio_tags = ['O', 'B', 'O', 'O', 'O'])
+    ['Ibuprofeno']
+    >>> bio_tags_to_entities(tokens = ['START', 'Food', 'is', 'good', '.'], bio_tags = [])
+    []
+    >>> bio_tags_to_entities(tokens = ['START', 'TNF', 'Receptors', 'are', 'good', '.', 'STOP'], bio_tags = ['O', 'B', 'I', 'O', 'O', 'O', 'O'])
+    ['TNF Receptors']
+    >>> bio_tags_to_entities(tokens = ['START', 'TNF', 'Receptors', 'and', 'Fluimicil', '400mg', 'are', 'good', '.', 'STOP'], bio_tags = ['O', 'B', 'I', 'O', 'B', 'I', 'O', 'O', 'O', 'O'])
+    ['TNF Receptors', 'Fluimicil 400mg']
+    '''
+
+    # Initialise the necessary objects
+    entities = []
+    prev_tag = 'O'
+    word = ''
+
+    # Iterate over all the bio_tags and tokens and retrieve those ones that have a 'B' or 'I' associated 
+    for idx in range(0, len(bio_tags)-1):
+        tag = bio_tags[idx]
+
+        if tag == 'B':
+            if prev_tag in ['B','I']:
+                # If a 'B' tag is found and the previous one was either a 'B' or a 'I', we
+                # append the previous entity to the list of entities
+                entities.append(word)
+            word = tokens[idx]
+            prev_tag = 'B'
+
+        elif tag == 'I':
+            # If a 'I' tag is found, we need to update the current entity (it is formed by more than one word)
+            word = word + ' ' + tokens[idx]
+            prev_tag = 'I'
+
+        elif tag == 'O' and prev_tag in ['B','I']:
+            # 'If a 'O' tag is found and the previous tag was either a 'B' or a 'I', 
+            # we append the previous entity to the list of entities (same cases than the first if condition)
+            entities.append(word)
+            prev_tag = 'O'
+
+        elif tag == 'O' and prev_tag == 'O':
+            # Do nothing, no entity appended and go to the next tag
+            continue
+        else:
+            # Any other case should raise an error
+            raise ValueError('One of the tags was not recognised. Please check the "bio_tags" parameter.')
+    
+    return entities
 
 
             
