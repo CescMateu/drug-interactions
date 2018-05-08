@@ -277,20 +277,21 @@ def createFeatureVector(sentence):
     '''
     tuples = nltk.pos_tag(tokenized_sentence)
     pos = [word[1] for word in tuples]
+    pos_tags=pd.DataFrame({'pos_tags':pos})
+    one_hot = pd.get_dummies(pos_tags['pos_tags'])
     
-        
-    df = pd.DataFrame({'pos_tags':pos})
-    #feature_vector['pos_tag']=pos
     
-    dummies = pd.get_dummies(df['pos_tags'])
-    dummies.astype(dtype=int)
-    feature_vector.astype(dtype=int)
-    print(dummies.head())
+    # one hot coding will create columns for those tags seen according to the token set in question. In order to avoid
+    # NaN's when doing the join of the two data frames, we will have to create columns of 0's according to the other 
+    # possible pos tags found with nltk
     
-    feature_vector=feature_vector.join(dummies)
+    nltk_pos_tags = ["''",'$','(',')',',','--','.',':','CC','CD','DT','EX','FW','IN','JJ','JJR','JJS','LS','MD','NN','NNP','NNPS','NNS','PDT','POS','PRP','PRP$','RB','RBR','RBS','RP','SYM','TO','UH','VB','VBD','VBG','VBN','VBP','VBZ','WDT','WP','WP$','WRB',"``"]
+    for name in nltk_pos_tags:
+        if name not in one_hot.columns.values:
+            one_hot[name]=[0]*len(one_hot[one_hot.columns.values[0]])
     
-    # for name in list(dummies.columns.values):
-        #feature_vector[name]=dummies[name]
+    # joining both data frames
+    feature_vector = feature_vector.join(one_hot)
     '''
     
     # Feature: Binary token type features
