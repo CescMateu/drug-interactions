@@ -1,5 +1,18 @@
 import nltk,warnings,re
 import pandas as pd
+from nltk.tag import StanfordPOSTagger
+
+
+# Define precision and recall function for model evaluation
+def compute_recall(pred_ent,true_ent):
+    if len(pred_ent) == 0 or len(true_ent) == 0: return 0
+    else: return round(len([word for word in pred_ent if word in true_ent])/len(true_ent),2)*100
+
+
+def compute_precision(pred_ent,true_ent):
+    if len(pred_ent) == 0 or len(true_ent) == 0: return 0
+    else: return round(len([word for word in pred_ent if word in true_ent])/len(pred_ent),2)*100     
+    
 
 # Define some functions that will be used in order to create the features
 def hasNumbers(string):
@@ -246,7 +259,7 @@ def bioTagsToEntities(tokens, bio_tags):
 
 # Define a function for the automatized creation of features given a tokenized sentence
 
-def createFeatureVector(sentence, drugbank_db):
+def createFeatureVector(sentence, drugbank_db,st):
     ''' (string, list) -> dict
     Description:
     
@@ -285,9 +298,10 @@ def createFeatureVector(sentence, drugbank_db):
     feature_vector['suffix_feature']=suffix_feature
 
     
-    # Feature: POS of the token
+    # Feature: POS of the token with Stanford POStagger
+    
     '''
-    tuples = nltk.pos_tag(tokenized_sentence)
+    tuples = st.tag(tokenized_sentence)
     pos = [word[1] for word in tuples]
     pos_tags=pd.DataFrame({'pos_tags':pos})
     one_hot = pd.get_dummies(pos_tags['pos_tags'])
@@ -405,13 +419,36 @@ def createFeatureVector(sentence, drugbank_db):
     
     feature_vector['is_token_in_DrugBank_db'] = is_token_in_DrugBank_db
     
-    
-    
+    '''
+    # Feature: Map all tokens to the Aa1- format
+    feature_vector['Aa1-'] = tokenToAaFormat(tokenized_sentence)
+    '''
     return feature_vector
 
     
+def tokenToAaFormat(tokens):
+    # the idea is to aggrupate words (a kind of clustering) with the following mapping criteria:
+    # any uppercase letter ---- 'A'
+    # any lower case letter --- 'a'
+    # any sign ---- '-'
+    # any number ---- '1'
+    new_tokens = []
+    for token in tokens:
+        word = ''
+        for char in token:
+            if char.isupper():
+                word = word+'A'
+            elif char.islower():
+                word = word+'a'
+            elif char.isdigit():
+                word = word+'1'
+            elif char in '*&$-/%·#[]()\!_.,':
+                word = word+'-'
+            else: warnings.warn('This character could not be mapped to any of the options')
 
 
+        new_tokens.append(word)
+    return new_tokens
 
 
             
