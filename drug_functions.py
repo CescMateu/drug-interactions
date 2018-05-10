@@ -390,8 +390,9 @@ def createFeatureVector(sentence, drugbank_db):
         for drug in drugbank_db:
             if drug in token:
                 is_token_in_DrugBank_db.append(1)
-            else:
-                is_token_in_DrugBank_db.append(0)
+                break
+        else:
+            is_token_in_DrugBank_db.append(0)
     
     feature_vector['is_token_in_DrugBank_db'] = is_token_in_DrugBank_db
     
