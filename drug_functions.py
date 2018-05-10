@@ -388,7 +388,7 @@ def createFeatureVector(sentence, drugbank_db):
     is_token_in_DrugBank_db = []
     for token in tokenized_sentence:
         for drug in drugbank_db:
-            if drug in token.islower():
+            if drug in token.lower():
                 is_token_in_DrugBank_db.append(1)
                 break
         else:
