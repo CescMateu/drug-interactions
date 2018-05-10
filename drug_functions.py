@@ -321,6 +321,7 @@ def createFeatureVector(sentence, drugbank_db):
     contains_letters = [1 if hasLetters(token) else 0 for token in tokenized_sentence]
     contains_uppercase = [1 if hasUpperCase(token) else 0 for token in tokenized_sentence]
     contains_dash = [1 if '_' in token else 0 for token in tokenized_sentence]
+
     
     feature_vector['all_uppercase_letters']=all_uppercase_letters
     feature_vector['all_lowercase_letters']=all_lowercase_letters
@@ -334,17 +335,25 @@ def createFeatureVector(sentence, drugbank_db):
     feature_vector['contains_dash']=contains_dash  
     
     
-    # Feature: Position of the token in the sentence (distance from the 'START' token)
-    idx_position = []
-    current_position = -1
+    # Feature: Is the token the first/last of the sentence?
+
+    is_first_word_sentence = []
+
+    first_token = False
     for token in tokenized_sentence:
-        if token == 'STOP':
-            current_position = -1
-            idx_position.append(current_position)
-        else:
-            current_position += 1
-            idx_position.append(current_position)
-    feature_vector['idx_position'] = idx_position
+        if token == 'START':
+            first_token = True
+            is_first_word_sentence.append(0)
+        elif first_token == True:
+            is_first_word_sentence.append(1)
+            first_token = False
+        elif first_token == False:
+            is_first_word_sentence.append(0)
+    
+
+    feature_vector['is_first_word_sentence'] = is_first_word_sentence
+
+
     
     
     # Feature: Binary token type features of the +-2 previous/following tokens
