@@ -31,6 +31,19 @@ def allDigits(string):
 
 def containsDash(string):
     return('-' in string)
+
+def isTokenInDB(token, db_list):
+    ''' (string, list) -> bool
+    This function checks if a word 'token' is inside a given DB 'db_list' of drugs that has been
+    extracted from the DrugBank database
+
+    >>> isTokenInDB('Ibuprofeno', ['Ibuprofeno', 'Almax'])
+    True
+    >>> isTokenInDB('Ibuprofeno', ['Fluimucil', 'Paracetamol'])
+    False
+    '''
+
+    return(token in db_list)
     
 
 def bioTagger(text, drugs):
@@ -233,8 +246,8 @@ def bioTagsToEntities(tokens, bio_tags):
 
 # Define a function for the automatized creation of features given a tokenized sentence
 
-def createFeatureVector(sentence):
-    '''
+def createFeatureVector(sentence, drugbank_db):
+    ''' (string, list) -> dict
     Description:
     
     Examples/Tests:
@@ -270,8 +283,7 @@ def createFeatureVector(sentence):
 
     feature_vector['prefix_feature']=prefix_feature
     feature_vector['suffix_feature']=suffix_feature
-    
-    # Feature: Check if the token is already in the DrugBank database
+
     
     # Feature: POS of the token
     '''
@@ -369,6 +381,19 @@ def createFeatureVector(sentence):
         feature_vector['contains_letters_context%d' % k] = contains_letters_context
         feature_vector['contains_uppercase_context%d' % k] = contains_uppercase_context
         feature_vector['contains_dash_context%d' % k] = contains_dash_context
+
+
+    # Feature: Check if the token is present in the DrugBank database (previously parsed)
+
+    is_token_in_DrugBank_db = []
+    for token in tokenized_sentence:
+        for drug in drugbank_db:
+            if drug in token:
+                is_token_in_DrugBank_db.append(1)
+            else:
+                is_token_in_DrugBank_db.append(0)
+    
+    feature_vector['is_token_in_DrugBank_db'] = is_token_in_DrugBank_db
     
     
     
