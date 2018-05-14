@@ -167,10 +167,10 @@ def BOTagger(text, drugs):
     ## Initialise the different lists that we need
     # Tokenize the original text and split the dashed words
     tokens = nltk.word_tokenize(text)
-    tokens = splitDashTokens(tokens)
+    #tokens = splitDashTokens(tokens)
 
     # Also separate the drugs with dashes
-    drugs = splitDashTokens(drugs)
+    #drugs = splitDashTokens(drugs)
     # Create a list with the initial word of each drug entity
     first_drug = [drug.split()[0] for drug in drugs]
     # Create a list with the length of each drug entity
@@ -203,6 +203,10 @@ def BOTagger(text, drugs):
         else:
             # We have already tagged that token
             continue
+
+    if(len(tokens) != len(BO_tags)):
+        print(tokens, BO_tags)
+        stop('Lenghts of the two lists do not coincide')
     
     return(list(zip(tokens, BO_tags)))
 
@@ -285,20 +289,21 @@ def BOTagsToEntities(tokens, bo_tags):
     ''' 
     Examples/Tests:
     >>> BOTagsToEntities(tokens = ['START', 'Ibuprofeno', 'is', 'not','good', '.'], bo_tags = ['O', 'B', 'O', 'B', 'B', 'O'])
-    ['Ibuprofeno','not good']
+    ['Ibuprofeno', 'not good']
     >>> BOTagsToEntities(tokens = ['START', 'TNF', 'Receptors', 'are', 'good', '.', 'STOP'], bo_tags = ['O', 'B', 'B', 'O', 'O', 'B', 'O'])
-    ['TNF Receptors','.']
+    ['TNF Receptors', '.']
+    
     '''
     
     entities =[]
     prev_tag = 'O'
     word = ''
     tokens_tags = zip(tokens,bo_tags)
+    #print('tokens_tags ',list(tokens_tags))
     for token,tag in tokens_tags:
         if tag =='B':
             if prev_tag == 'B':
                 word = word + ' ' + token
-                print(word)
                 prev_tag='B'
             elif prev_tag=='O':
                 word = token
@@ -306,9 +311,7 @@ def BOTagsToEntities(tokens, bo_tags):
         elif tag=='O':
             if prev_tag=='B':
                 entities.append(word)
-                word = ''
-                prev_tag=='O'
-            elif prev_tag=='O':
+                prev_tag='O'
             
     return entities
 
