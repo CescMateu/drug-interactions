@@ -279,8 +279,8 @@ def createFeatureVector(sentence, drugbank_db,st):
     prefix_feature = []
     suffix_feature = []
 
-    prefixes = r'^meth|^eth|^prop|^but|^pent|^hex|^hept|^oct|^non|^dec'
-    suffixes = r'ane$|ene$|yne$|ol$|al$|amine$|cid$|ium$|ether$|ate$|one$'
+    prefixes = r'^meth|^eth|^prop|^but|^pent|^hex|^hept|^oct|^non|^dec|^cef|^sulfa|^ceph|^pred'
+    suffixes = r'ane$|ene$|yne$|ol$|al$|amine$|cid$|ium$|ether$|ate$|afil$|asone$|bicin$|bital$|caine$|cillin$|cycline$|dazole$|dipine$|dronate$|eprazole$|fenac$|floxacin$|gliptin$|glitazone$|iramine$|lamide$|mab$|mustine$|mycin$|nacin$|nazole$|olol$|olone$|onide$|oprazole$|parin$|phylline$|pramine$|pril$|profen$|ridone$|sartan$|semide$|setron$|slatin$|tadine$|terol$|thiazide$|tinib$|trel$|tretin$|triptan$|tyline$|vir$|vudine$|zepam$|zodone$|zolam$|zosin'
 
     for token in tokenized_sentence:
 
@@ -310,7 +310,7 @@ def createFeatureVector(sentence, drugbank_db,st):
     # one hot coding will create columns for those tags seen according to the token set in question. In order to avoid
     # NaN's when doing the join of the two data frames, we will have to create columns of 0's according to the other 
     # possible pos tags found with nltk
-    
+
     nltk_pos_tags = ["''",'$','(',')',',','--','.',':','CC','CD','DT','EX','FW','IN','JJ','JJR','JJS','LS','MD','NN','NNP','NNPS','NNS','PDT','POS','PRP','PRP$','RB','RBR','RBS','RP','SYM','TO','UH','VB','VBD','VBG','VBN','VBP','VBZ','WDT','WP','WP$','WRB',"``"]
     for name in nltk_pos_tags:
         if name not in one_hot.columns.values:
@@ -419,10 +419,11 @@ def createFeatureVector(sentence, drugbank_db,st):
     
     feature_vector['is_token_in_DrugBank_db'] = is_token_in_DrugBank_db
     
-    '''
+    
     # Feature: Map all tokens to the Aa1- format
+    
     feature_vector['Aa1-'] = tokenToAaFormat(tokenized_sentence)
-    '''
+    
     return feature_vector
 
     
@@ -446,8 +447,7 @@ def tokenToAaFormat(tokens):
                 word = word+'-'
             else: warnings.warn('This character could not be mapped to any of the options')
 
-
-        new_tokens.append(word)
+        new_tokens.append(''.join(set(sorted(word)))) # I just compress any substring with the same letter and order it!
     return new_tokens
 
 
