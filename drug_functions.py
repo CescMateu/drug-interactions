@@ -137,36 +137,46 @@ def BOTagger(text, drugs):
     
     >>> BOTagger('Ibuprofeno is great!', ['Ibuprofeno'])
     [('Ibuprofeno', 'B'), ('is', 'O'), ('great', 'O'), ('!', 'O')]
-    >>> BOTagger('I would like to buy calcium-rich milk', ['calcium'])
+    >>> BOTagger('I would like to buy calcium-rich milk', ['calcium-rich'])
     [('I', 'O'), ('would', 'O'), ('like', 'O'), ('to', 'O'), ('buy', 'O'), ('calcium-rich', 'B'), ('milk', 'O')]
     >>> BOTagger('Give me TNF antioxidants together with sodium, please', ['TNF antioxidants', 'sodium'])
-    [('Give', 'O'), ('me', 'O'), ('TNF', 'B'), ('antioxidants', 'O'), ('together', 'O'), ('with', 'O'), ('sodium', 'B'), (',', 'O'), ('please', 'O')]
+    [('Give', 'O'), ('me', 'O'), ('TNF', 'B'), ('antioxidants', 'B'), ('together', 'O'), ('with', 'O'), ('sodium', 'B'), (',', 'O'), ('please', 'O')]
     >>> BOTagger('Give me TNF antioxidants together with Exter diodorant sodium, please', ['TNF antioxidants', 'Exter diodorant sodium'])
-    [('Give', 'O'), ('me', 'O'), ('TNF', 'B'), ('antioxidants', 'O'), ('together', 'O'), ('with', 'O'), ('Exter', 'B'), ('diodorant', 'O'), ('sodium', 'O'), (',', 'O'), ('please', 'O')]
+    [('Give', 'O'), ('me', 'O'), ('TNF', 'B'), ('antioxidants', 'B'), ('together', 'O'), ('with', 'O'), ('Exter', 'B'), ('diodorant', 'B'), ('sodium', 'B'), (',', 'O'), ('please', 'O')]
     '''
 
-    # Preprocessing
-    # Retain only the initial word of each drug
-    initial_drugs = []
-    for drug in drugs:
-        drugs_split = drug.split(' ')
-        initial_drugs.append(drugs_split[0])
-
-    # Tokenize all the words and elements of the original sentence
+    # Initialise the different lists that we need
     tokens = nltk.word_tokenize(text)
+    first_ent = [drug.split()[0] for drug in drugs]
+    ent = drugs
+    ent_length = [len(drug.split()) for drug in drugs]
+    already_tagged = [0]*len(tokens)
+    
+    BO_tags = []
+    for idx_t, t in enumerate(tokens):
+        if already_tagged[idx_t] == 0:
+            # We havent tagged the token yet
+            if t in first_ent:
+                # Recover the index of the entity
+                idx_ent = first_ent.index(t)
+                # Create a list with as many B's as the length of the entity
+                new_B_tags = ['B'] * ent_length[idx_ent]
+                # Attach the new B's to the result
+                BO_tags.extend(new_B_tags)
+                # Update the already_tagged list
+                for i in range(ent_length[idx_ent]):
+                    already_tagged[idx_t + i] = 1
+            else:
+                BO_tags.append('O')
+                already_tagged[idx_t] = 1
 
-    # Bio Tagger
-    # Initialise the bo_tagged list in which we will accumulate the results
-    bo_tagged = []
-
-    for token in tokens:
-
-        if any([drug in token for drug in initial_drugs]):
-            bo_tagged.append((token, 'B'))
         else:
-            bo_tagged.append((token, 'O'))
+            # We have already tagged that token
+            continue
+    #print(already_tagged)
+    return(list(zip(tokens, BO_tags)))
 
-    return(bo_tagged)
+
 
 def checkPreviousTokenCondition(tokens, pos, condition):
     '''(list of str, int, function) -> list of bool
@@ -497,7 +507,7 @@ def tokenToAaFormat(tokens):
 
             
 if __name__ == '__main__':
-    #print(BOTagger('Give me TNF antioxidants together with Exter diodorant sodium, please', ['TNF antioxidants', 'Exter diodorant sodium']))
+    print(BOTagger('Give me TNF antioxidants together with Exter diodorant sodium, please', ['TNF antioxidants', 'Exter diodorant sodium']))
     import doctest
     doctest.testmod()
     
