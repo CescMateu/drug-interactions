@@ -59,7 +59,7 @@ def isTokenInDB(token, db_list):
     return(token in db_list)
     
 
-def bioTagger(text, drugs):
+def BIOTagger(text, drugs):
     ''' (str, list of str) -> list of tuples
     
     Description: 
@@ -70,11 +70,11 @@ def bioTagger(text, drugs):
     
     Examples/Tests:
     
-    >>> bioTagger('Ibuprofeno is great!', ['Ibuprofeno'])
+    >>> BIOTagger('Ibuprofeno is great!', ['Ibuprofeno'])
     [('Ibuprofeno', 'B'), ('is', 'O'), ('great', 'O'), ('!', 'O')]
-    >>> bioTagger('I would like to buy calcium-rich milk', ['calcium'])
+    >>> BIOTagger('I would like to buy calcium-rich milk', ['calcium'])
     [('I', 'O'), ('would', 'O'), ('like', 'O'), ('to', 'O'), ('buy', 'O'), ('calcium-rich', 'B'), ('milk', 'O')]
-    >>> bioTagger('Give me TNF antioxidants together with sodium, please', ['TNF antioxidants', 'sodium'])
+    >>> BIOTagger('Give me TNF antioxidants together with sodium, please', ['TNF antioxidants', 'sodium'])
     [('Give', 'O'), ('me', 'O'), ('TNF', 'B'), ('antioxidants', 'I'), ('together', 'O'), ('with', 'O'), ('sodium', 'B'), (',', 'O'), ('please', 'O')]
     '''
 
@@ -124,6 +124,49 @@ def bioTagger(text, drugs):
                 prev_tag = 'O'
         
     return(bio_tagged)
+
+def BOTagger(text, drugs):
+    ''' (str, list of str) -> list of tuples
+    
+    Description: 
+    Very similar to BIOTagger(), but with just two classes: 'B' and 'O'. Given a sentence 'text' and a set of drugs 'drugs', this function returns a list of str that
+    contains a tag for each of the tokens in text. The tags can be either 'B', or 'O'. 'B' means
+    the token is the first part of a drug entity and 'O' means that the token does not belong to a drug entity.
+    
+    Examples/Tests:
+    
+    >>> BOTagger('Ibuprofeno is great!', ['Ibuprofeno'])
+    [('Ibuprofeno', 'B'), ('is', 'O'), ('great', 'O'), ('!', 'O')]
+    >>> BOTagger('I would like to buy calcium-rich milk', ['calcium'])
+    [('I', 'O'), ('would', 'O'), ('like', 'O'), ('to', 'O'), ('buy', 'O'), ('calcium-rich', 'B'), ('milk', 'O')]
+    >>> BOTagger('Give me TNF antioxidants together with sodium, please', ['TNF antioxidants', 'sodium'])
+    [('Give', 'O'), ('me', 'O'), ('TNF', 'B'), ('antioxidants', 'O'), ('together', 'O'), ('with', 'O'), ('sodium', 'B'), (',', 'O'), ('please', 'O')]
+    >>> BOTagger('Give me TNF antioxidants together with Exter diodorant sodium, please', ['TNF antioxidants', 'Exter diodorant sodium'])
+    [('Give', 'O'), ('me', 'O'), ('TNF', 'B'), ('antioxidants', 'O'), ('together', 'O'), ('with', 'O'), ('Exter', 'B'), ('diodorant', 'O'), ('sodium', 'O'), (',', 'O'), ('please', 'O')]
+    '''
+
+    # Preprocessing
+    # Retain only the initial word of each drug
+    initial_drugs = []
+    for drug in drugs:
+        drugs_split = drug.split(' ')
+        initial_drugs.append(drugs_split[0])
+
+    # Tokenize all the words and elements of the original sentence
+    tokens = nltk.word_tokenize(text)
+
+    # Bio Tagger
+    # Initialise the bo_tagged list in which we will accumulate the results
+    bo_tagged = []
+
+    for token in tokens:
+
+        if any([drug in token for drug in initial_drugs]):
+            bo_tagged.append((token, 'B'))
+        else:
+            bo_tagged.append((token, 'O'))
+
+    return(bo_tagged)
 
 def checkPreviousTokenCondition(tokens, pos, condition):
     '''(list of str, int, function) -> list of bool
@@ -199,7 +242,7 @@ def checkPreviousTokenCondition(tokens, pos, condition):
     return([int(element) for element in boolean_list])
 
 
-def bioTagsToEntities(tokens, bio_tags):
+def BIOTagsToEntities(tokens, bio_tags):
     '''
     Description:
     Given a list of tokens, 'tokens' and a list of tags for each token, 'bio_tags', this function returns a list of all the entities
@@ -207,15 +250,15 @@ def bioTagsToEntities(tokens, bio_tags):
     model and compare them with the real ones. 
 
     Examples/Tests:
-    >>> bioTagsToEntities(tokens = ['START', 'Ibuprofeno', 'is', 'good', '.'], bio_tags = ['O', 'B', 'O', 'O', 'O'])
+    >>> BIOTagsToEntities(tokens = ['START', 'Ibuprofeno', 'is', 'good', '.'], bio_tags = ['O', 'B', 'O', 'O', 'O'])
     ['Ibuprofeno']
-    >>> bioTagsToEntities(tokens = ['START', 'Food', 'is', 'good', '.'], bio_tags = [])
+    >>> BIOTagsToEntities(tokens = ['START', 'Food', 'is', 'good', '.'], bio_tags = [])
     []
-    >>> bioTagsToEntities(tokens = ['START', 'TNF', 'Receptors', 'are', 'good', '.', 'STOP'], bio_tags = ['O', 'B', 'I', 'O', 'O', 'O', 'O'])
+    >>> BIOTagsToEntities(tokens = ['START', 'TNF', 'Receptors', 'are', 'good', '.', 'STOP'], bio_tags = ['O', 'B', 'I', 'O', 'O', 'O', 'O'])
     ['TNF Receptors']
-    >>> bioTagsToEntities(tokens = ['START', 'TNF', 'Receptors', 'and', 'Fluimicil', '400mg', 'are', 'good', '.', 'STOP'], bio_tags = ['O', 'B', 'I', 'O', 'B', 'I', 'O', 'O', 'O', 'O'])
+    >>> BIOTagsToEntities(tokens = ['START', 'TNF', 'Receptors', 'and', 'Fluimicil', '400mg', 'are', 'good', '.', 'STOP'], bio_tags = ['O', 'B', 'I', 'O', 'B', 'I', 'O', 'O', 'O', 'O'])
     ['TNF Receptors', 'Fluimicil 400mg']
-    >>> bioTagsToEntities(tokens = ['START', 'TNF', 'Receptors', 'and', 'Fluimicil', '400mg', 'are', 'good', '.', 'STOP'], bio_tags = ['O', 'B', 'I', 'B', 'I', 'I', 'O', 'O', 'O', 'O'])
+    >>> BIOTagsToEntities(tokens = ['START', 'TNF', 'Receptors', 'and', 'Fluimicil', '400mg', 'are', 'good', '.', 'STOP'], bio_tags = ['O', 'B', 'I', 'B', 'I', 'I', 'O', 'O', 'O', 'O'])
     ['TNF Receptors', 'and Fluimicil 400mg']
     '''
 
@@ -433,6 +476,7 @@ def tokenToAaFormat(tokens):
     # any lower case letter --- 'a'
     # any sign ---- '-'
     # any number ---- '1'
+    # TODO: Add tests with examples
     new_tokens = []
     for token in tokens:
         word = ''
@@ -443,9 +487,9 @@ def tokenToAaFormat(tokens):
                 word = word+'a'
             elif char.isdigit():
                 word = word+'1'
-            elif char in '*&$-/%·#[]()\!_.,':
+            elif char in '*&$-/%·#[]()\!_.:,':
                 word = word+'-'
-            else: warnings.warn('This character could not be mapped to any of the options')
+            else: warnings.warn('Character "' + char + '"" could not be mapped to any of the options')
 
         new_tokens.append(''.join(set(sorted(word)))) # I just compress any substring with the same letter and order it!
     return new_tokens
@@ -453,6 +497,7 @@ def tokenToAaFormat(tokens):
 
             
 if __name__ == '__main__':
+    #print(BOTagger('Give me TNF antioxidants together with Exter diodorant sodium, please', ['TNF antioxidants', 'Exter diodorant sodium']))
     import doctest
     doctest.testmod()
     
