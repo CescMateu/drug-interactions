@@ -1,7 +1,7 @@
 import nltk,warnings,re
 import pandas as pd
 from nltk.tag import StanfordPOSTagger
-
+from operator import itemgetter # this will be needed when sorting a list of tuples
 
 # Define precision and recall function for model evaluation
 def compute_recall(pred_ent,true_ent):
@@ -376,14 +376,14 @@ def BIOTagsToEntities(tokens, bio_tags):
 
 # Define a function for the automatized creation of features given a tokenized sentence
 
-def createFeatureVector(sentence, drugbank_db,st):
+def createFeatureVector(tokenized_sentence, drugbank_db,st):
     ''' (string, list) -> dict
     Description:
     
     Examples/Tests:
     
     '''
-    tokenized_sentence = nltk.word_tokenize(sentence)
+    # tokenized_sentence = nltk.word_tokenize(text)
 
     # Feature: Initialise the feature_vector data frame, in which we will create the features of each token
     feature_vector = pd.DataFrame()
@@ -418,11 +418,12 @@ def createFeatureVector(sentence, drugbank_db,st):
     # Feature: POS of the token with Stanford POStagger
     
     '''
-    tuples = st.tag(tokenized_sentence)
+    #tuples = st.tag(tokenized_sentence)
+    tuples = nltk.pos_tag(tokenized_sentence)
     pos = [word[1] for word in tuples]
     pos_tags=pd.DataFrame({'pos_tags':pos})
     one_hot = pd.get_dummies(pos_tags['pos_tags'])
-    
+    print(one_hot)
     
     # one hot coding will create columns for those tags seen according to the token set in question. In order to avoid
     # NaN's when doing the join of the two data frames, we will have to create columns of 0's according to the other 
@@ -434,7 +435,8 @@ def createFeatureVector(sentence, drugbank_db,st):
             one_hot[name]=[0]*len(one_hot[one_hot.columns.values[0]])
     
     # joining both data frames
-    feature_vector = feature_vector.join(one_hot)
+    for name in one_hot.columns:
+        feature_vector[name]=one_hot[name]
     '''
     
     # Feature: Binary token type features
@@ -541,8 +543,18 @@ def createFeatureVector(sentence, drugbank_db,st):
     
     feature_vector['Aa1-'] = tokenToAaFormat(tokenized_sentence)
     
+    # Feature: Keep the most rare (in terms of frequency) words in the alphabet
+    
     return feature_vector
-
+'''
+def lessFrequentTokensFeature(tokens):
+    # this feature will determine wether a token appears often or not.
+    fdist = nltk.FreqDist(list(set(tokens)) # list of tuples with the following format (token,freq)
+    fdist_sorted = sorted(fdist,key=itemgetter(1),reverse=True)
+    # keeping the 15% less frequent tokens
+    less_freq_tokens = [word for word in fdist_sorted[:round(len(fdist_sorted)*0.15,0)]]
+    return less_freq_tokens
+'''   
     
 def tokenToAaFormat(tokens):
     # the idea is to aggrupate words (a kind of clustering) with the following mapping criteria:
@@ -561,7 +573,7 @@ def tokenToAaFormat(tokens):
                 word = word+'a'
             elif char.isdigit():
                 word = word+'1'
-            elif char in '*&$-/%·#[]()\!_.:,':
+            elif char in '*&$-/%·#[]()\!_.:, ':
                 word = word+'-'
             else: warnings.warn('Character "' + char + '"" could not be mapped to any of the options')
 
