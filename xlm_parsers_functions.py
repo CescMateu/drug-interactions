@@ -111,7 +111,7 @@ def listDDIFromXML(file_root_xml):
 	            rel_type = relationships_types[i]
 
 	            # Put the data into a list of lists
-	            row = [sentence_id, sentence_text, e1_id, e1_name, e1_type, e2_id, e2_name, e2_type, rel_type]
+	            row = [sentence_id, sentence_text, e1_id, e1_name, e1_type, e2_id, e2_name, e2_type, entities_names, rel_type]
 	            file_interactions.append(row)
 
 	# Return the result

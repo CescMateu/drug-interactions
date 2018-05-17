@@ -1,5 +1,53 @@
 import nltk
 
+def tokenizeExceptEntities(sentence, entities_list):
+    ''' (str, list of str) -> list of str
+    Description: 
+    This function tokenizes a given sentence except for those entities that are in the sentence and are in the list. This
+    just applies for those entiites that are multiword, for instance 'TNF blocking agents'
+
+    Examples:
+    >>> tokenizeExceptEntities('I like to take TNF blocking agents for breakfast morning', ['TNF blocking agents', 'breakfast'])
+    ['I', 'like', 'to', 'take', 'TNF blocking agents', 'for', 'breakfast', 'morning']
+    >>> tokenizeExceptEntities('Hey, be careful when drinking calcium enriched uranium.', ['calcium enriched uranium'])
+    ['Hey', ',', 'be', 'careful', 'when', 'drinking', 'calcium enriched uranium', '.']
+    '''
+
+    # Find the beginning and the end of each entity in the sentence
+    entities_length = []
+    for entity in entities_list:
+        initial_char = sentence.find(entity)
+        final_char = initial_char + len(entity)
+        entities_length.append([initial_char, final_char])
+    
+    # Break the sentence in small chunks and just tokenize the non-entities parts
+    initial_idx = 0
+    tokenized_sentence = []
+    for idx, entity_length in enumerate(entities_length):
+        final_idx = entity_length[0]
+        sentence_chunk = sentence[initial_idx:final_idx]
+        tokenized_sentence.append(nltk.word_tokenize(sentence_chunk))
+        tokenized_sentence.append(entities_list[idx])
+        initial_idx = entity_length[1] + 1
+
+    final_sentence_chunk = sentence[(initial_idx-1):]
+    tokenized_sentence.append(nltk.word_tokenize(final_sentence_chunk))
+        
+    # Transform the list of sublists into a single list
+    flat_list = []
+    for subelement in tokenized_sentence:
+        if (isinstance(subelement, list)): 
+            if len(subelement) > 1:
+                for item in subelement:
+                    flat_list.append(item)
+            elif len(subelement) == 1:
+                flat_list.append(subelement[0])
+        else:
+            flat_list.append(subelement)
+    
+    return(flat_list)
+
+
 def countTokensBetweenEntities(sentence, ent1, ent2):
 	'''
 
@@ -16,58 +64,76 @@ def countTokensBetweenEntities(sentence, ent1, ent2):
 	1
 	>>> countTokensBetweenEntities('I am listening to music', 'to', 'music')
 	2
+	>>> countTokensBetweenEntities('I am listening to music', 'I am', 'music')
+	4
 	'''
-	sentence_token = nltk.word_tokenize(sentence)
+	# Transform all the inputs into lower case
+	ent1 = ent1.lower()
+	ent2 = ent2.lower()
+	sentence = sentence.lower()
+
+	# Tokenize the sentence except for the entities
+	sentence_token = tokenizeExceptEntities(sentence, [ent1, ent2])
+
 	return(abs(sentence_token.index(ent1)-sentence_token.index(ent2)) + 1)
 
+
 def countEntitiesBetweenEntities(sentence, ent1, ent2, entities_list):
-    '''
+	'''
 	(str, str, str, list of str) -> int
-    Description:
-    Returns an integer indicating the number of entities between ent1 and ent2. A list of entities is provided in entities_list which includes
-    ent1 and ent2. 
+	Description:
+	Returns an integer indicating the number of entities between ent1 and ent2. A list of entities is provided in entities_list which includes
+	ent1 and ent2. 
 
-    Examples:
-    >>> countEntitiesBetweenEntities('Right now I am trying to work', 'now', 'trying', ['work', 'now', 'trying', 'am'])
-    1
-    >>> countEntitiesBetweenEntities('Oops, seems that I took my Ibuprofeno too late', 'Ibuprofeno', 'seems', ['seems', 'Ibuprofeno', 'took', 'I', 'Oops'])
-    2
-    >>> countEntitiesBetweenEntities('Oops, seems that I took my Ibuprofeno too late', 'Ibuprofeno', 'seems', ['seems', 'Ibuprofeno', 'late', 'Oops'])
-    0
-    >>> countEntitiesBetweenEntities('Oops, seems that I took my Ibuprofeno too late', 'Ibuprofeno', 'seems', ['seems', 'Ibuprofeno'])
-    0
-    '''
+	Examples:
+	>>> countEntitiesBetweenEntities('Right now I am trying to work', 'now', 'trying', ['work', 'now', 'trying', 'am'])
+	1
+	>>> countEntitiesBetweenEntities('Oops, seems that I took my Ibuprofeno too late', 'Ibuprofeno', 'seems', ['seems', 'Ibuprofeno', 'took', 'I', 'Oops'])
+	2
+	>>> countEntitiesBetweenEntities('Oops, seems that I took my Ibuprofeno too late', 'Ibuprofeno', 'seems', ['seems', 'Ibuprofeno', 'late', 'Oops'])
+	0
+	>>> countEntitiesBetweenEntities('Oops, seems that I took my Ibuprofeno too late', 'Ibuprofeno', 'seems', ['seems', 'Ibuprofeno'])
+	0
+	'''
 
-    # Debugging
-    #import pdb; pdb.set_trace()
-    
-    # Eliminate the reference entities from the list of entities
-    entities_list.remove(ent1)
-    entities_list.remove(ent2)
+	# Debugging
+	#import pdb; pdb.set_trace()
 
-    # If the length of the entities_list is 0, return a 0 (Only two entities were provided)
-    if len(entities_list) == 0:
-        return(0)
+	# Transform all the inputs into lower case
+	ent1 = ent1.lower()
+	ent2 = ent2.lower()
+	sentence = sentence.lower()
+	entities_list_aux = [el.lower() for el in entities_list]
+	entities_list = entities_list_aux
 
-    # Tokenize the sentence
-    sentence_tokenized = nltk.word_tokenize(sentence)
+	# Tokenize the sentence without tokenizing the drug entities 
+	sentence_tokenized = tokenizeExceptEntities(sentence, entities_list)
 
-    # Get the range of the sentence in which to iterate
-    if sentence_tokenized.index(ent1) <	sentence_tokenized.index(ent2):
-        min_idx = sentence_tokenized.index(ent1)
-        max_idx = sentence_tokenized.index(ent2)
-    else:
-        min_idx = sentence_tokenized.index(ent2)
-        max_idx = sentence_tokenized.index(ent1)
+	# Eliminate the reference entities from the list of entities
+	entities_list.remove(ent1)
+	entities_list.remove(ent2)
 
-    # Iterate over the sentence between ent1 and ent2 looking for other entities
-    counter_entities = 0
-    for idx in range(min_idx, max_idx):
-        if sentence_tokenized[idx] in entities_list:
-            entities_list.remove(sentence_tokenized[idx])
-            counter_entities += 1
+	# If the length of the entities_list is 0, return a 0 (Only two entities were provided)
+	if len(entities_list) == 0:
+	    return(0)
 
-    return(counter_entities)
+	# Get the range of the sentence in which to iterate
+	if sentence_tokenized.index(ent1) <	sentence_tokenized.index(ent2):
+	    min_idx = sentence_tokenized.index(ent1)
+	    max_idx = sentence_tokenized.index(ent2)
+	else:
+	    min_idx = sentence_tokenized.index(ent2)
+	    max_idx = sentence_tokenized.index(ent1)
+
+	# Iterate over the sentence between ent1 and ent2 looking for other entities
+	counter_entities = 0
+	for idx in range(min_idx, max_idx):
+	    if sentence_tokenized[idx] in entities_list:
+	        entities_list.remove(sentence_tokenized[idx])
+	        counter_entities += 1
+
+	return(counter_entities)
+
 
 def countModalVerbsBetweenEntities(sentence, ent1, ent2):
 	'''
@@ -82,8 +148,13 @@ def countModalVerbsBetweenEntities(sentence, ent1, ent2):
 	# Initializate a list with the most common modal verbs
 	modal_verbs = ['should', 'must', 'can', 'could', 'may', 'might', 'will', 'would', 'shall']
 
-	# Tokenize the sentence
-	sentence_tokenized = nltk.word_tokenize(sentence)
+	# Transform all the inputs into lower case
+	ent1 = ent1.lower()
+	ent2 = ent2.lower()
+	sentence = sentence.lower()
+
+	# Tokenize the sentence without tokenizing the drug entities
+	sentence_tokenized = tokenizeExceptEntities(sentence, [ent1, ent2])
 
 	# Get the range of the sentence in which to iterate
 	if sentence_tokenized.index(ent1) <	sentence_tokenized.index(ent2):
@@ -100,6 +171,7 @@ def countModalVerbsBetweenEntities(sentence, ent1, ent2):
 			modal_verbs_count += 1
 
 	return(modal_verbs_count) 
+
 
 
 if __name__ == '__main__':
