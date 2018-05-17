@@ -1,0 +1,8 @@
+remifentanil	drug
+midazolam	drug
+physostigmine	drug
+neostigmine	drug
+echothiophate	drug
+esmolol	drug
+mivacurium	drug
+atracurium	drug
