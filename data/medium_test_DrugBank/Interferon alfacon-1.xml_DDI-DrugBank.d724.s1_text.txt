@@ -1,0 +1,1 @@
+Infergen should be used cautiously in patients who are receiving agents that are known to cause myelosuppression or with agents known to be metabolized via the cytochrome P-450 pathway.9 Patients taking drugs that are metabolized by this pathway should be monitored closely for changes in the therapeutic and/or toxic levels of concomitant drugs.

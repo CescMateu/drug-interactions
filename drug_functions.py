@@ -546,15 +546,12 @@ def createFeatureVector(tokenized_sentence, drugbank_db,st):
     # Feature: Keep the most rare (in terms of frequency) words in the alphabet
     
     return feature_vector
-'''
-def lessFrequentTokensFeature(tokens):
-    # this feature will determine wether a token appears often or not.
-    fdist = nltk.FreqDist(list(set(tokens)) # list of tuples with the following format (token,freq)
-    fdist_sorted = sorted(fdist,key=itemgetter(1),reverse=True)
-    # keeping the 15% less frequent tokens
-    less_freq_tokens = [word for word in fdist_sorted[:round(len(fdist_sorted)*0.15,0)]]
-    return less_freq_tokens
-'''   
+
+def frequencyTokens(tokens):
+    fdist = nltk.FreqDist(list(set(tokens))) # list of tuples with the following format (token,freq)
+    frequencies = [fdist[token] for token in tokens]
+    return frequencies
+
     
 def tokenToAaFormat(tokens):
     # the idea is to aggrupate words (a kind of clustering) with the following mapping criteria:
@@ -573,7 +570,7 @@ def tokenToAaFormat(tokens):
                 word = word+'a'
             elif char.isdigit():
                 word = word+'1'
-            elif char in '*&$-/%·#[]()\!_.:, ':
+            elif char in '*&$-/%·#[]()\!_.:, ;=~+':
                 word = word+'-'
             else: warnings.warn('Character "' + char + '"" could not be mapped to any of the options')
 

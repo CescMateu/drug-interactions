@@ -1,0 +1,2 @@
+mitoxantrone	drug
+Mitoxantrone	drug
