@@ -1,4 +1,6 @@
 import xml.etree.ElementTree as ET # ElementTree Library
+import os
+import pandas as pd
 
 def listEntitiesFromXML(file_root_xml):
 
@@ -116,4 +118,27 @@ def listDDIFromXML(file_root_xml):
 
 	# Return the result
 	return file_interactions
+
+def readTrainingData(data_dir):
+
+	# Use xlm_element.tag to get the name of the xlm element
+	# Use xlm_element.attrib to get all the attributes of the xlm element as a string
+
+	# Give the headers name for the final dataset
+	headers = ['sentence_id', 'sentence_text', 'e1_id', 'e1_name', 'e1_type', 'e2_id', 'e2_name', 'e2_type', 'list_entities', 'interaction']
+
+	# Parse the DrugBank Files
+	drugs_dataset = []
+	#parent_directory = '../LaboCase/small_train_DrugBank/'
+	for filename in os.listdir(data_dir):
+		if filename.endswith(".xml"):
+			# Parse the file
+			tree = ET.parse(data_dir + filename)
+			# Create a list of lists with the interactions of the file
+			drugs_dataset = drugs_dataset + listDDIFromXML(tree.getroot())
+
+	# Store all the available data into a dataframe
+	DrugBank_df = pd.DataFrame(drugs_dataset, columns=headers)
+
+	return(DrugBank_df)
                 
