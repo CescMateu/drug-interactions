@@ -1,4 +1,6 @@
 import nltk
+import os
+import pandas as pd
 
 def tokenizeExceptEntities(sentence, entities_list):
     ''' (str, list of str) -> list of str
@@ -171,6 +173,50 @@ def countModalVerbsBetweenEntities(sentence, ent1, ent2):
 			modal_verbs_count += 1
 
 	return(modal_verbs_count) 
+
+
+def createFeatures(drugs_df):
+	'''
+	Description:
+	Given a dataset containing two columns with the names of a pair of entities, the sentence that contains those entities, a list
+	with all the entities contained in that sentence and the resulting interaction of the initial entities, 
+	this function returns a dataframe in which many different features have been computed
+	'''
+
+	# Setting off a very annoying warning
+	pd.options.mode.chained_assignment = None  # default='warn'
+
+	drugs_df['n_modal_verbs_bw_entities'] = drugs_df.apply(
+		lambda row: countModalVerbsBetweenEntities(
+			sentence=row['sentence_text'],
+			ent1=row['e1_name'],
+			ent2=row['e2_name']),
+		axis=1)
+
+	drugs_df['n_tokens_bw_entities'] = drugs_df.apply(
+		lambda row: countTokensBetweenEntities(
+			sentence=row['sentence_text'],
+			ent1=row['e1_name'],
+			ent2=row['e2_name']),
+		axis = 1)
+
+	drugs_df['n_entities_bw_entities'] = drugs_df.apply(
+		lambda row: countEntitiesBetweenEntities(
+			sentence=row['sentence_text'],
+			ent1=row['e1_name'],
+			ent2=row['e2_name'],
+			entities_list = row['list_entities']),
+		axis = 1)
+
+	return(drugs_df)
+
+'''
+training_dummies = pd.get_dummies(features['Aa1-'])
+features = features.drop('Aa1-',axis=1)
+# joining both data frames
+for name in training_dummies.columns:
+    features[name]=training_dummies[name]
+'''
 
 
 
