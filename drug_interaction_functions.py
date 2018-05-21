@@ -218,6 +218,70 @@ for name in training_dummies.columns:
     features[name]=training_dummies[name]
 '''
 
+def computeConfusionMatrix(true, pred):
+
+	if(len(true) != len(pred)):
+		stop('Provided vectors do not have the same length')
+
+	# Initialize the different counters
+	true_pos = 0
+	true_neg = 0
+	false_pos = 0
+	false_neg = 0
+
+	for t, p in zip(true, pred):
+		if t == 1 and p == 1:
+			true_pos += 1
+		elif t == 1 and p == 0:
+			false_neg += 1
+		elif t == 0 and p == 1:
+			false_pos += 1
+		elif t == 0 and p == 0:
+			true_neg += 1
+
+
+	return([true_pos, true_neg, false_pos, false_neg])
+
+def computePrecision(true, pred):
+	'''
+	Precision (P) is defined as the number of true positives (T_p) over the number of true positives plus the number of false positives (F_p).
+	P = \frac{T_p}{T_p+F_p}
+	'''
+
+	conf_matrix = computeConfusionMatrix(true,pred)
+
+	if conf_matrix[0] == 0:
+		return(0)
+	
+	return conf_matrix[0]/(conf_matrix[0] + conf_matrix[2])
+
+
+def computeRecall(true, pred):
+	'''
+	Recall (R) is defined as the number of true positives (T_p) over the number of true positives plus the number of false negatives (F_n).
+	R = \frac{T_p}{T_p + F_n}
+	'''
+
+	conf_matrix = computeConfusionMatrix(true,pred)
+
+	if conf_matrix[0] == 0:
+		return(0)
+
+	return(conf_matrix[0]/(conf_matrix[0] + conf_matrix[3]))
+
+def computeF1(true, pred):
+	'''
+	These quantities are also related to the (F_1) score, which is defined as the harmonic mean of precision and recall.
+	F1 = 2\frac{P \times R}{P+R}
+	'''
+
+	prec = computePrecision(true, pred)
+	rec = computeRecall(true, pred)
+
+	return(2*(prec*rec)/(prec+rec))
+
+
+
 
 
 if __name__ == '__main__':
