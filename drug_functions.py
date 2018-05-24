@@ -15,6 +15,7 @@ def compute_precision(pred_ent,true_ent):
     
 
 # Define some functions that will be used in order to create ortographic features
+'''
 def hasNumbers(string):
     return any(char.isdigit() for char in string)
 
@@ -44,7 +45,7 @@ def allDigits(string):
 
 def containsDash(string):
     return('-' in string)
-
+'''
 # Orthographic features from paper
 def initCap(string):
     if re.match('^[A-Z].*',string):
@@ -493,7 +494,7 @@ def createFeatureVector(tokenized_sentence, drugbank_db,st):
     feature_vector = pd.DataFrame()
     
     # Feature: Length of the token
-    feature_vector['token_length'] = [len(token) for token in tokenized_sentence]
+    # feature_vector['token_length'] = [len(token) for token in tokenized_sentence]
     
     # Feature: Prefixes and Suffixes
 

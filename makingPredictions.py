@@ -37,7 +37,7 @@ def makingPredictions(texts_entities,clf,drugbank_db,st):#,training_dummies):
         
         predictions.append((list(predicted_tags),entities,text)) 
         #print('predicted bio tags: ',predicted_tags,'\n')
-        pred_entities = BOTagsToEntities(tokens = tokens, bo_tags = predicted_tags)
+        #pred_entities = BOTagsToEntities(tokens = tokens, bo_tags = predicted_tags)
         #print('predicted entities: ', pred_entities, '\n')
         
     # predictions is a list of tupples comprised of predicted tags and the true drugs we should extract from there
