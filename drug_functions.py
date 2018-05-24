@@ -14,7 +14,7 @@ def compute_precision(pred_ent,true_ent):
     else: return round(len([word for word in pred_ent if word in true_ent])/len(pred_ent),2)*100     
     
 
-# Define some functions that will be used in order to create the features
+# Define some functions that will be used in order to create ortographic features
 def hasNumbers(string):
     return any(char.isdigit() for char in string)
 
@@ -44,6 +44,110 @@ def allDigits(string):
 
 def containsDash(string):
     return('-' in string)
+
+# Orthographic features from paper
+def initCap(string):
+    if re.match('^[A-Z].*',string):
+        return 1
+    else: return 0
+    
+def allCaps(string):
+    if re.match('^[A-Z]+$',string):
+        return 1
+    else: return 0
+
+def hasCap(string):
+    if re.match('^.*[A-Z].*$',string):
+        return 1
+    else: return 0
+    
+def singleCap(string):
+    if re.match('^[A-Z]$',string):
+        return 1
+    else: return 0
+
+def punctuation(string):
+    if re.match('^[,;:\'\"]$',string):
+        return 1
+    else: return 0
+    
+def initDigit(string):
+    if re.match('^[0-9].*',string):
+        return 1
+    else: return 0
+
+def singleDigit(string):
+    if re.match('^[0-9]$',string):
+        return 1
+    else: return 0
+
+def alphaNum(string):
+    if re.match('.*[A-Za-z].*[0-9].*|.*[0-9].*[A-Za-z].*',string):
+        return 1
+    else: return 0
+    
+def manyNum(string):
+    if re.match('^[0-9]{1,2}(,[0-9]{1,2})+$',string):
+        return 1
+    else: return 0
+    
+def realNum(string):
+    if re.match('^-?[0-9]+[\.][0-9]+$',string):
+        return 1
+    else: return 0 
+    
+def inDash(string): #intermidiate dash
+    if re.match('^([\w+][\-]+)+\w+$',string):
+        return 1
+    else: return 0
+    
+def hasDigit(string): 
+    if re.match('.*[0-9].*',string):
+        return 1
+    else: return 0
+    
+def isDash(string): 
+    if re.match('^[-]+$',string):
+        return 1
+    else: return 0
+    
+def roman(string): 
+    if re.match('^[IVXDLCM]+$',string):
+        return 1
+    else: return 0
+
+def endPunctuation(string): 
+    if re.match('^[.?!]$',string):
+        return 1
+    else: return 0
+
+def capsMix(string): 
+    if re.match('.*[A-Z].*[a-z].*|.*[a-z].*[A-Z].*',string):
+        return 1
+    else: return 0
+
+# we could unify the three folowing functions, but I leave it like this for the seek of a better understandability
+def num_unigrams(input_string):
+    n = 1
+    ngrams = []
+    while len(input_string)>=n:
+        ngrams.append(input_string[:n])
+        input_string=input_string[1:]
+    return len(ngrams)
+def num_bigrams(input_string):
+    n = 2
+    ngrams = []
+    while len(input_string)>=n:
+        ngrams.append(input_string[:n])
+        input_string=input_string[1:]
+    return len(ngrams)
+def num_trigrams(input_string):
+    n = 3
+    ngrams = []
+    while len(input_string)>=n:
+        ngrams.append(input_string[:n])
+        input_string=input_string[1:]
+    return len(ngrams)
 
 def isTokenInDB(token, db_list):
     ''' (string, list) -> bool
@@ -395,10 +499,14 @@ def createFeatureVector(tokenized_sentence, drugbank_db,st):
 
     prefix_feature = []
     suffix_feature = []
-
+    '''
+    Self-implemented
     prefixes = r'^meth|^eth|^prop|^but|^pent|^hex|^hept|^oct|^non|^dec|^cef|^sulfa|^ceph|^pred'
-    suffixes = r'ane$|ene$|yne$|ol$|al$|amine$|cid$|ium$|ether$|ate$|afil$|asone$|bicin$|bital$|caine$|cillin$|cycline$|dazole$|dipine$|dronate$|eprazole$|fenac$|floxacin$|gliptin$|glitazone$|iramine$|lamide$|mab$|mustine$|mycin$|nacin$|nazole$|olol$|olone$|onide$|oprazole$|parin$|phylline$|pramine$|pril$|profen$|ridone$|sartan$|semide$|setron$|slatin$|tadine$|terol$|thiazide$|tinib$|trel$|tretin$|triptan$|tyline$|vir$|vudine$|zepam$|zodone$|zolam$|zosin'
-
+    suffixes = r'ane$|ene$|yne$|ol$|al$|amine$|cid$|ium$|ether$|ate$|afil$|asone$|bicin$|bital$|caine$|cillin$|cycline$|dazole$|dipine$|dronate$|eprazole$|fenac$|floxacin$|gliptin$|glitazone$|iramine$|lamide$|mab$|mustine$|mycin$|nacin$|nazole$|olol$|olone$|onide$|oprazole$|parin$|phylline$|pramine$|pril$|profen$|ridone$|sartan$|semide$|setron$|slatin$|tadine$|terol$|thiazide$|tinib$|trel$|tretin$|triptan$|tyline$|vir$|vudine$|zepam$|zodone$|zolam$|zosin$'
+    '''
+    
+    prefixes = r'^alk|^meth|^eth|^prop|^but|^pent|^hex|^hept|^oct|^non|^dec|^undec|^dodec|^eifcos|^di|^tri|^tetra|^penta|^hexa|^hepta'
+    suffixes = r'ane$|ene$|yne$|yl$|ol$|al$|oic$|one$|ate$|amine$|amide$'
     for token in tokenized_sentence:
 
             if re.search(prefixes,token):
@@ -415,57 +523,110 @@ def createFeatureVector(tokenized_sentence, drugbank_db,st):
     feature_vector['suffix_feature']=suffix_feature
 
     
-    # Feature: POS of the token with Stanford POStagger
+    # Feature: unigrams, bigrams and trigrams of POS (POS) in window of [-2, 2]
     
-    '''
-    #tuples = st.tag(tokenized_sentence)
+    
+    # tuples = st.tag(tokenized_sentence)
     tuples = nltk.pos_tag(tokenized_sentence)
     pos = [word[1] for word in tuples]
-    pos_tags=pd.DataFrame({'pos_tags':pos})
-    one_hot = pd.get_dummies(pos_tags['pos_tags'])
-    print(one_hot)
-    
-    # one hot coding will create columns for those tags seen according to the token set in question. In order to avoid
-    # NaN's when doing the join of the two data frames, we will have to create columns of 0's according to the other 
-    # possible pos tags found with nltk
 
-    nltk_pos_tags = ["''",'$','(',')',',','--','.',':','CC','CD','DT','EX','FW','IN','JJ','JJR','JJS','LS','MD','NN','NNP','NNPS','NNS','PDT','POS','PRP','PRP$','RB','RBR','RBS','RP','SYM','TO','UH','VB','VBD','VBG','VBN','VBP','VBZ','WDT','WP','WP$','WRB',"``"]
-    for name in nltk_pos_tags:
-        if name not in one_hot.columns.values:
-            one_hot[name]=[0]*len(one_hot[one_hot.columns.values[0]])
-    
-    # joining both data frames
-    for name in one_hot.columns:
-        feature_vector[name]=one_hot[name]
-    '''
-    
-    # Feature: Binary token type features
-        # contains_hyphen, all_lowercase_letters, 
-        # contains_slash, all_letters, contains_period, all_digits, contains_uppercase,
-        # contains_digit, contains_letters
-    
-    all_uppercase_letters = [1 if token.isupper() else 0 for token in tokenized_sentence]
-    all_lowercase_letters = [1 if token.islower() else 0 for token in tokenized_sentence]
-    initial_capital_letter = [1 if token[0].isupper() else 0 for token in tokenized_sentence]
-    contains_slash = [1 if '/' in token else 0 for token in tokenized_sentence]
-    all_letters = [1 if token.isalpha() else 0 for token in tokenized_sentence]
-    all_digits = [1 if token.isdigit() else 0 for token in tokenized_sentence]
-    contains_digit = [1 if hasNumbers(token) else 0 for token in tokenized_sentence]
-    contains_letters = [1 if hasLetters(token) else 0 for token in tokenized_sentence]
-    contains_uppercase = [1 if hasUpperCase(token) else 0 for token in tokenized_sentence]
-    contains_dash = [1 if '_' in token else 0 for token in tokenized_sentence]
+    # initializing context lists
+    unigram_pos_minus_2 = []
+    unigram_pos_minus_1 = []
+    unigram_pos_0 = []
+    unigram_pos_1 = []
+    unigram_pos_2 = []
 
+    bigram_pos_minus_2 = []
+    bigram_pos_minus_1 = []
+    bigram_pos_0 = []
+    bigram_pos_1 = []
+    bigram_pos_2 = []
+
+    trigram_pos_minus_2 = []
+    trigram_pos_minus_1 = []
+    trigram_pos_0 = []
+    trigram_pos_1 = []
+    trigram_pos_2 = []
     
-    feature_vector['all_uppercase_letters']=all_uppercase_letters
-    feature_vector['all_lowercase_letters']=all_lowercase_letters
-    feature_vector['initial_capital_letter']=initial_capital_letter
-    feature_vector['contains_slash']=contains_slash
-    feature_vector['all_letters']=all_uppercase_letters
-    feature_vector['all_digits']=all_digits
-    feature_vector['contains_digit']=contains_digit
-    feature_vector['contains_letters']=contains_letters
-    feature_vector['contains_uppercase']=contains_uppercase  
-    feature_vector['contains_dash']=contains_dash  
+    for i in range(0,len(tokenized_sentence)):
+        if i in [0,1]:
+            unigram_pos_minus_2.append(0)
+            bigram_pos_minus_2.append(0)
+            trigram_pos_minus_2.append(0)
+        else:
+            unigram_pos_minus_2.append(num_unigrams(pos[i-2]))
+            bigram_pos_minus_2.append(num_bigrams(pos[i-2]))
+            trigram_pos_minus_2.append(num_trigrams(pos[i-2]))
+        
+        if i==0:
+            unigram_pos_minus_1.append(0)
+            bigram_pos_minus_1.append(0)
+            trigram_pos_minus_1.append(0)
+        else:
+            unigram_pos_minus_1.append(num_unigrams(pos[i-1]))
+            bigram_pos_minus_1.append(num_bigrams(pos[i-1]))
+            trigram_pos_minus_1.append(num_trigrams(pos[i-1]))
+        
+        unigram_pos_0.append(num_unigrams(pos[i]))
+        bigram_pos_0.append(num_bigrams(pos[i]))
+        trigram_pos_0.append(num_trigrams(pos[i]))
+        
+        if i != len(tokenized_sentence)-1:
+            unigram_pos_1.append(num_unigrams(pos[i+1]))
+            bigram_pos_1.append(num_bigrams(pos[i+1]))
+            trigram_pos_1.append(num_trigrams(pos[i+1]))
+        else: 
+            unigram_pos_1.append(0)
+            bigram_pos_1.append(0)
+            trigram_pos_1.append(0)
+                                 
+        if i not in [len(tokenized_sentence)-2,len(tokenized_sentence)-1]:
+            unigram_pos_2.append(num_unigrams(pos[i+2]))
+            bigram_pos_2.append(num_bigrams(pos[i+2]))
+            trigram_pos_2.append(num_trigrams(pos[i+2]))
+        else:
+            unigram_pos_2.append(0)
+            bigram_pos_2.append(0)
+            trigram_pos_2.append(0)
+    
+    
+    # adding the feature lists to the data frame
+    feature_vector['unigram_pos_minus_2'] = unigram_pos_minus_2
+    feature_vector['bigram_pos_minus_2'] = bigram_pos_minus_2
+    feature_vector['trigram_pos_minus_2'] = trigram_pos_minus_2
+    feature_vector['unigram_pos_minus_1'] = unigram_pos_minus_1
+    feature_vector['bigram_pos_minus_1'] = bigram_pos_minus_1
+    feature_vector['trigram_pos_minus_1'] = trigram_pos_minus_1
+    feature_vector['unigram_pos_0'] = unigram_pos_0
+    feature_vector['bigram_pos_0'] = bigram_pos_0
+    feature_vector['trigram_pos_0'] = trigram_pos_0
+    feature_vector['unigram_pos_1'] = unigram_pos_1
+    feature_vector['bigram_pos_1'] = bigram_pos_1
+    feature_vector['trigram_pos_1'] = trigram_pos_1
+    feature_vector['unigram_pos_2'] = unigram_pos_2
+    feature_vector['bigram_pos_2'] = bigram_pos_2
+    feature_vector['trigram_pos_2'] = trigram_pos_2
+    
+    
+    # Feature: Binary token type orthographic features
+
+    feature_vector['all_uppercase_letters'] = [allCaps(token) for token in tokenized_sentence]
+    feature_vector['initial_capital_letter'] = [initCap(token) for token in tokenized_sentence]
+    feature_vector['contains_capital_letter'] = [hasCap(token) for token in tokenized_sentence]
+    feature_vector['single_capital_letter'] = [singleCap(token) for token in tokenized_sentence]
+    feature_vector['punctuation'] = [punctuation(token) for token in tokenized_sentence]
+    feature_vector['initial_digit'] = [initDigit(token) for token in tokenized_sentence]
+    feature_vector['single_digit'] = [singleDigit(token) for token in tokenized_sentence]
+    feature_vector['letter_and_num'] = [alphaNum(token) for token in tokenized_sentence]
+    feature_vector['many_numbers'] = [manyNum(token) for token in tokenized_sentence]
+    feature_vector['contains_real_numbers'] = [realNum(token) for token in tokenized_sentence]
+    feature_vector['intermediate_dash'] = [inDash(token) for token in tokenized_sentence]
+    feature_vector['has_digit'] = [hasDigit(token) for token in tokenized_sentence]
+    feature_vector['is_Dash'] = [isDash(token) for token in tokenized_sentence]
+    feature_vector['is_roman_letter'] = [roman(token) for token in tokenized_sentence]
+    feature_vector['is_end_punctuation'] = [endPunctuation(token) for token in tokenized_sentence]
+    feature_vector['caps_mix'] = [capsMix(token) for token in tokenized_sentence]
     
     
     # Feature: Is the token the first/last of the sentence?
@@ -491,7 +652,8 @@ def createFeatureVector(tokenized_sentence, drugbank_db,st):
     
     # Feature: Binary token type features of the +-2 previous/following tokens
     
-    for k in [-2, -1, 1, 2]:
+    for k in [-2, -1, 0, 1, 2]:
+        '''
         all_uppercase_letters_context = checkPreviousTokenCondition(tokens = tokenized_sentence, 
                                                                  pos = k, condition = allUpperCase)
         all_lowercase_letters_context = checkPreviousTokenCondition(tokens = tokenized_sentence, 
@@ -512,7 +674,15 @@ def createFeatureVector(tokenized_sentence, drugbank_db,st):
                                                                  pos = k, condition = hasUpperCase)
         contains_dash_context = checkPreviousTokenCondition(tokens = tokenized_sentence, 
                                                                  pos = k, condition = containsDash)
+        '''
         
+        unigrams = checkPreviousTokenCondition(tokens = tokenized_sentence, pos = k, condition = num_unigrams)
+        
+        bigrams = checkPreviousTokenCondition(tokens = tokenized_sentence, pos = k, condition = num_bigrams)
+        
+        trigrams = checkPreviousTokenCondition(tokens = tokenized_sentence, pos = k, condition = num_trigrams)
+
+        '''
         feature_vector['all_uppercase_letters_context%d' % k] = all_uppercase_letters_context
         feature_vector['all_lowercase_letters_context%d' % k] = all_lowercase_letters_context
         feature_vector['initial_capital_letter_context%d' % k] = initial_capital_letter_context
@@ -523,8 +693,36 @@ def createFeatureVector(tokenized_sentence, drugbank_db,st):
         feature_vector['contains_letters_context%d' % k] = contains_letters_context
         feature_vector['contains_uppercase_context%d' % k] = contains_uppercase_context
         feature_vector['contains_dash_context%d' % k] = contains_dash_context
+        '''
+        
+        feature_vector['unigrams%d' % k] = unigrams
+        feature_vector['bigrams%d' % k] = bigrams
+        feature_vector['trigrams%d' % k] = trigrams
 
-
+    # Orthographic features taking profit of the checkPreviousTokenCondition. We want this only for k =0
+    '''  
+    feature_vector['all_uppercase_letters']= checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = 0, condition = allCaps)
+    feature_vector['all_lowercase_letters'] = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = 0, condition = allLowerCase)
+    feature_vector['initial_capital_letter'] = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = 0, condition = hasInitialCapital)
+    feature_vector['contains_slash'] = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = 0, condition = containsSlash)
+    feature_vector['all_letters'] = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = 0, condition = allLetters)
+    feature_vector['all_digits'] = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = 0, condition = allDigits)
+    feature_vector['contains_digit'] = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = 0, condition = hasNumbers)
+    feature_vector['contains_letters'] = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = 0, condition = hasLetters)
+    feature_vector['contains_uppercase'] = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                 pos = 0, condition = hasUpperCase)
+    feature_vector['contains_dash_contex'] = checkPreviousTokenCondition(tokens = tokenized_sentence, 
+                                                                pos = 0, condition = containsDash)
+    '''
+    
     # Feature: Check if the token is present in the DrugBank database (previously parsed)
 
     is_token_in_DrugBank_db = []
@@ -538,10 +736,11 @@ def createFeatureVector(tokenized_sentence, drugbank_db,st):
     
     feature_vector['is_token_in_DrugBank_db'] = is_token_in_DrugBank_db
     
-    
+    '''
     # Feature: Map all tokens to the Aa1- format
     
     feature_vector['Aa1-'] = tokenToAaFormat(tokenized_sentence)
+    '''
     
     # Feature: Keep the most rare (in terms of frequency) words in the alphabet
     

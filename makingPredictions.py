@@ -3,7 +3,7 @@ import nltk, statistics
 import pandas as pd
 from drug_functions import *
 
-def makingPredictions(texts_entities,clf,drugbank_db,st,training_dummies):
+def makingPredictions(texts_entities,clf,drugbank_db,st):#,training_dummies):
     predictions = []
     for text,entities in texts_entities:
         #print('text: ', text)
@@ -14,6 +14,8 @@ def makingPredictions(texts_entities,clf,drugbank_db,st,training_dummies):
         # computing predictions
         features = createFeatureVector(tokens, drugbank_db,st)
         
+        
+        '''
         # computing one-hot coding for 'Aa1-' feature.
         dummies = pd.get_dummies(features['Aa1-'])
         features = features.drop('Aa1-',axis=1)
@@ -28,19 +30,8 @@ def makingPredictions(texts_entities,clf,drugbank_db,st,training_dummies):
             if name not in dummies.columns:
                 features[name]=[0]*len(dummies[dummies.columns.values[0]])
         
-
         '''
-        The following lines will only be uncommented if we use this feature in the training error
-        # Adding the frequency of the tokens as a feature
-        test_frequencies = []
-        for token in tokens:
-            if token in training_frequencies:
-                test_frequencies += [training_frequencies[token]]
-            else:
-                test_frequencies +=[0]
-        features['frequencies']=test_frequencies
-        '''   
-
+        
         predicted_tags = clf.predict(features)
         
         
@@ -57,7 +48,7 @@ def makingPredictions(texts_entities,clf,drugbank_db,st,training_dummies):
     for tags, true_entities, text in predictions:
         # I need the tokens for the bioTagsToEntities function
         tokens = nltk.word_tokenize(text)
-        predicted_entities = BOTagsToEntities(tokens,tags)
+        predicted_entities = BIOTagsToEntities(tokens,tags)
         precision = precision + [compute_precision(predicted_entities,true_entities)]
         recall = recall + [compute_recall(predicted_entities,true_entities)]
 
