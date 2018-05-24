@@ -1,12 +1,17 @@
+# Import basic packages
 import nltk
 import os
 import pandas as pd
+
+# Import self-defined functions
+from drug_functions import *
+from binary_features_functions import *
 
 def tokenizeExceptEntities(sentence, entities_list):
     ''' (str, list of str) -> list of str
     Description: 
     This function tokenizes a given sentence except for those entities that are in the sentence and are in the list. This
-    just applies for those entiites that are multiword, for instance 'TNF blocking agents'
+    just applies for those entities that are multiword, for instance 'TNF blocking agents'
 
     Examples:
     >>> tokenizeExceptEntities('I like to take TNF blocking agents for breakfast morning', ['TNF blocking agents', 'breakfast'])
@@ -172,10 +177,91 @@ def countModalVerbsBetweenEntities(sentence, ent1, ent2):
 		if modal_verb in sentence_tokenized[min_idx:max_idx+1]:
 			modal_verbs_count += 1
 
-	return(modal_verbs_count) 
+	return(modal_verbs_count)
+
+def createOrtographicFeatures(drugs_df):
+	'''
+	Description:
+	Given a dataset containing two columns with the names of a pair of entities, the sentence that contains those entities, a list
+	with all the entities contained in that sentence and the resulting interaction of the initial entities, 
+	this function returns a dataframe in which many different features have been computed
+	'''
+
+	# Setting off a very annoying warning
+	pd.options.mode.chained_assignment = None  # default='warn'
+
+	for ent_idx in [1, 2]:
+
+		drugs_df['ent%d_contains_numbers' % ent_idx] = drugs_df.apply(
+			lambda row: hasNumbers(
+				string = row['e%d_name' % ent_idx]),
+			axis = 1)
+
+		drugs_df['ent%d_has_uppercase' % ent_idx] = drugs_df.apply(
+			lambda row: hasUpperCase(
+				string = row['e%d_name' % ent_idx]),
+			axis = 1)
+
+		drugs_df['ent%d_all_uppercase' % ent_idx] = drugs_df.apply(
+			lambda row: allUpperCase(
+				string = row['e%d_name' % ent_idx]),
+			axis = 1)
+
+		drugs_df['ent%d_initial_capital' % ent_idx] = drugs_df.apply(
+			lambda row: hasInitialCapital(
+				string = row['e%d_name' % ent_idx]),
+			axis = 1)
+
+		drugs_df['ent%d_contains_slash' % ent_idx] = drugs_df.apply(
+			lambda row: containsSlash(
+				string = row['e%d_name' % ent_idx]),
+			axis = 1)
+
+		drugs_df['ent%d_contains_dash' % ent_idx] = drugs_df.apply(
+			lambda row: containsDash(
+				string = row['e%d_name' % ent_idx]),
+			axis = 1)
+
+		drugs_df['ent%d_n_tokens' % ent_idx] = drugs_df.apply(
+			lambda row: countTokensEntity(
+				entity = row['e%d_name' % ent_idx]),
+			axis = 1)
+
+		drugs_df['ent%d_contains_punctuation' % ent_idx] = drugs_df.apply(
+			lambda row: punctuation(
+				string = row['e%d_name' % ent_idx]),
+			axis = 1)
+
+		drugs_df['ent%d_init_digit' % ent_idx] = drugs_df.apply(
+			lambda row: initDigit(
+				string = row['e%d_name' % ent_idx]),
+			axis = 1)
+
+		drugs_df['ent%d_single_digit' % ent_idx] = drugs_df.apply(
+			lambda row: singleDigit(
+				string = row['e%d_name' % ent_idx]),
+			axis = 1)
+
+		drugs_df['ent%d_contains_roman' % ent_idx] = drugs_df.apply(
+			lambda row: roman(
+				string = row['e%d_name' % ent_idx]),
+			axis = 1)
+
+		drugs_df['ent%d_end_punctuation' % ent_idx] = drugs_df.apply(
+			lambda row: endPunctuation(
+				string = row['e%d_name' % ent_idx]),
+			axis = 1)
+
+		drugs_df['ent%d_caps_mix' % ent_idx] = drugs_df.apply(
+			lambda row: capsMix(
+				string = row['e%d_name' % ent_idx]),
+			axis = 1)
 
 
-def createFeatures(drugs_df):
+	return(drugs_df)
+
+
+def createContextFeatures(drugs_df):
 	'''
 	Description:
 	Given a dataset containing two columns with the names of a pair of entities, the sentence that contains those entities, a list
@@ -208,15 +294,101 @@ def createFeatures(drugs_df):
 			entities_list = row['list_entities']),
 		axis = 1)
 
+
 	return(drugs_df)
 
-'''
-training_dummies = pd.get_dummies(features['Aa1-'])
-features = features.drop('Aa1-',axis=1)
-# joining both data frames
-for name in training_dummies.columns:
-    features[name]=training_dummies[name]
-'''
+
+def containsPrefix(string, prefix):
+	'''
+	Description:
+	Checks if a string starts with a particular prefix
+
+	>>> containsPrefix('ibuprofeno', 'ibu')
+	1
+	>>> containsPrefix('Ibuprofeno', 'ibu')
+	1
+	>>> containsPrefix('TNF blocking ibuprofenos', 'ibu')
+	1
+	>>> containsPrefix('Ibuprofeno', 'hepta')
+	0
+	>>> containsPrefix('TNF blocking ibuprofenos', 'hola')
+	0
+	'''
+
+	string = string.lower()
+	prefix = prefix.lower()
+
+	if countTokensEntity(string) == 1:
+		# If the entity only is formed by one word
+		return(int(string.startswith(prefix)))
+	else:
+		# If the entity is formed by more than one word
+		string_sep = nltk.word_tokenize(string)
+		for word in string_sep:
+			if word.startswith(prefix):
+				return(int(True))
+		return(int(False))
+
+def containsSuffix(string, suffix):
+	'''
+	Description:
+	Checks if a string starts with a particular suffix
+
+	>>> containsSuffix('ibuprofeno', 'eno')
+	1
+	>>> containsSuffix('IbuprofenO', 'eno')
+	1
+	>>> containsSuffix('TNF blocking ibuprofeno', 'eno')
+	1
+	>>> containsSuffix('Ibuprofeno', 'hepta')
+	0
+	>>> containsSuffix('TNF blocking ibuprofenos', 'hola')
+	0
+	'''
+
+	string = string.lower()
+	suffix = suffix.lower()
+
+	if countTokensEntity(string) == 1:
+		# If the entity only is formed by one word
+		return(string.endswith(suffix))
+	else:
+		# If the entity is formed by more than one word
+		string_sep = nltk.word_tokenize(string)
+		for word in string_sep:
+			if word.endswith(suffix):
+				return(int(True))
+		return(int(False))
+
+
+def createMorphologicFeatures(drugs_df):
+
+	# Setting off a very annoying warning
+	pd.options.mode.chained_assignment = None  # default='warn'
+
+	prefixes = ['alk', 'meth', 'eth', 'prop', 'but', 'pent', 'hex', 'hept', 'oct', 'non', 'dec', 'undec', 'dodec', 'eifcos', 'di', 'tri', 'tetra', 'penta', 'hexa', 'hepta']
+	sufixes = ['ane', 'ene', 'yne', 'yl', 'ol', 'al', 'oic', 'one', 'ate', 'amine', 'amide']
+
+	for ent_idx in [1, 2]:
+		for prefix in prefixes:
+			drugs_df['ent{ent_idx}_contains_prefix_{prefix}'.format(ent_idx = ent_idx, prefix = prefix)] = drugs_df.apply(
+				lambda row: containsPrefix(
+					string = row['e%d_name' % ent_idx],
+					prefix = prefix),
+				axis = 1)
+
+		for suffix in sufixes:
+			drugs_df['ent{ent_idx}_contains_suffix_{suffix}'.format(ent_idx = ent_idx, suffix = suffix)] = drugs_df.apply(
+				lambda row: containsSuffix(
+					string = row['e%d_name' % ent_idx],
+					suffix = suffix),
+				axis = 1)
+
+	return(drugs_df)
+
+
+
+
 
 def computeConfusionMatrix(true, pred):
 
@@ -277,6 +449,9 @@ def computeF1(true, pred):
 
 	prec = computePrecision(true, pred)
 	rec = computeRecall(true, pred)
+
+	if prec+rec == 0:
+		return(0)
 
 	return(2*(prec*rec)/(prec+rec))
 
