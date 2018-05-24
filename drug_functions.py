@@ -3,6 +3,8 @@ import pandas as pd
 from nltk.tag import StanfordPOSTagger
 from operator import itemgetter # this will be needed when sorting a list of tuples
 
+from binary_features_functions import *
+
 # Define precision and recall function for model evaluation
 def compute_recall(pred_ent,true_ent):
     if len(pred_ent) == 0 or len(true_ent) == 0: return 0
@@ -12,38 +14,6 @@ def compute_recall(pred_ent,true_ent):
 def compute_precision(pred_ent,true_ent):
     if len(pred_ent) == 0 or len(true_ent) == 0: return 0
     else: return round(len([word for word in pred_ent if word in true_ent])/len(pred_ent),2)*100     
-    
-
-# Define some functions that will be used in order to create ortographic features
-def hasNumbers(string):
-    return any(char.isdigit() for char in string)
-
-def hasLetters(string):
-    return any(char.isalpha() for char in string)
-
-def hasUpperCase(string):
-    return any(char.isupper() for char in string)
-
-def allUpperCase(string):
-    return(string.isupper())
-
-def allLowerCase(string):
-    return(string.islower())
-
-def hasInitialCapital(string):
-    return(string[0].isupper())
-
-def containsSlash(string):
-    return('/' in string)
-
-def allLetters(string):
-    return(string.isalpha())
-
-def allDigits(string):
-    return(string.isdigit())
-
-def containsDash(string):
-    return('-' in string)
 
 # Orthographic features from paper
 def initCap(string):
