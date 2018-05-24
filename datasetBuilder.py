@@ -21,7 +21,8 @@ def createTrainSet(train_dirs_whereto_parse):
                     entities = entities+[entity.get('text')]
                 # we do not add to the train set those sentences with no entities
                 if entities:
-                    train_texts_entities = train_texts_entities + [('START '+sentence.get('text')+' STOP', entities)]
+                    #train_texts_entities = train_texts_entities + [('START '+sentence.get('text')+' STOP', entities)]
+                    train_texts_entities = train_texts_entities + [(sentence.get('text'), entities)]
                     entities =[]
 
     # train_texts_entities is a list of tuples. Each one is comprised of the sentence and the drugs in there
@@ -51,8 +52,8 @@ def createTestSet(test_dirs_whereto_parse):
         
         for file in text_file_names:
             file = open(file,'r')
-            test_texts = test_texts + ['START '+file.read()[:-1]+' STOP'] # each file.read() string ends with a \n I do not want
-            
+            #test_texts = test_texts + ['START '+file.read()[:-1]+' STOP'] # each file.read() string ends with a \n I do not want
+            test_texts = test_texts + [file.read()[:-1]]
         for file in entities_file_names:
             read_entities = []
             with open(file,'r') as f:
