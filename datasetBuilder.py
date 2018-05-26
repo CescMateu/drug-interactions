@@ -1,7 +1,7 @@
 from lxml import etree # XML file parsing
 from os import listdir 
 
-def createTrainSet(train_dirs_whereto_parse):
+def createSet(train_dirs_whereto_parse):
     # Initialise the different lists with the data
     entities=[]
     texts=[]
@@ -18,10 +18,10 @@ def createTrainSet(train_dirs_whereto_parse):
         for root in roots:
             for sentence in root.findall('sentence'):
                 for entity in sentence.findall('entity'):
-                    entities = entities+[entity.get('text')]
+                    # entities = entities+[entity.get('text')]
+                    entities = entities+[(entity.get('text'),entity.get('type'))]
                 # we do not add to the train set those sentences with no entities
                 if entities:
-                    #train_texts_entities = train_texts_entities + [('START '+sentence.get('text')+' STOP', entities)]
                     train_texts_entities = train_texts_entities + [(sentence.get('text'), entities)]
                     entities =[]
 
