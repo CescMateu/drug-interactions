@@ -14,7 +14,6 @@ def compute_recall(pred_ent,true_ent):
 def compute_precision(pred_ent,true_ent):
     if len(pred_ent) == 0 or len(true_ent) == 0: return 0
     else: return round(len([word for word in pred_ent if word in true_ent])/len(pred_ent),2)*100     
-<<<<<<< HEAD
     
 
 # Define some functions that will be used in order to create ortographic features
@@ -49,9 +48,7 @@ def allDigits(string):
 def containsDash(string):
     return('-' in string)
 '''
-=======
 
->>>>>>> 47693f08b5005b17456ab7a451c28f2eae038c5e
 # Orthographic features from paper
 def initCap(string):
     if re.match('^[A-Z].*',string):

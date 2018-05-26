@@ -75,6 +75,7 @@ def listDDIFromXML(file_root_xml):
 	    n_relationships = 0
 	    relationships_types = []
 	    relationships_element1, relationships_element2 = [], []
+	    relationships_type_interaction = []
 	    
 	    # Iterate over all the items of the sentence
 	    for item in sentence:
@@ -89,6 +90,10 @@ def listDDIFromXML(file_root_xml):
 	            relationships_types.append(item.get('ddi'))
 	            relationships_element1.append(item.get('e1'))
 	            relationships_element2.append(item.get('e2'))
+	            if (item.get('ddi') == 'true'):
+	            	relationships_type_interaction.append(item.get('type'))
+	            else:
+	            	relationships_type_interaction.append('none')
 	            n_relationships += 1
 	            
 	        else:
@@ -111,9 +116,10 @@ def listDDIFromXML(file_root_xml):
 
 	            # Which relationship do the 2 elements have?
 	            rel_type = relationships_types[i]
+	            rel_type_int = relationships_type_interaction[i]
 
 	            # Put the data into a list of lists
-	            row = [sentence_id, sentence_text, e1_id, e1_name, e1_type, e2_id, e2_name, e2_type, entities_names, rel_type]
+	            row = [sentence_id, sentence_text, e1_id, e1_name, e1_type, e2_id, e2_name, e2_type, entities_names, rel_type, rel_type_int]
 	            file_interactions.append(row)
 
 	# Return the result
@@ -125,7 +131,7 @@ def readTrainingData(data_dir):
 	# Use xlm_element.attrib to get all the attributes of the xlm element as a string
 
 	# Give the headers name for the final dataset
-	headers = ['sentence_id', 'sentence_text', 'e1_id', 'e1_name', 'e1_type', 'e2_id', 'e2_name', 'e2_type', 'list_entities', 'interaction']
+	headers = ['sentence_id', 'sentence_text', 'e1_id', 'e1_name', 'e1_type', 'e2_id', 'e2_name', 'e2_type', 'list_entities', 'interaction', 'interaction_type']
 
 	# Parse the DrugBank Files
 	drugs_dataset = []

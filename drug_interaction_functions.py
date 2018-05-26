@@ -294,8 +294,78 @@ def createContextFeatures(drugs_df):
 			entities_list = row['list_entities']),
 		axis = 1)
 
+	drugs_df['POS_path_bw_entities'] = drugs_df.apply(
+		lambda row: createPOSpath(
+			sentence=row['sentence_text'],
+			ent1=row['e1_name'],
+			ent2=row['e2_name'],
+			simplified = True),
+		axis = 1)
+
 
 	return(drugs_df)
+
+
+def createPOSpath(sentence, ent1, ent2, simplified = False):
+	'''
+	Description:
+	Path between a pair of drugs: Path between two main drugs in the parse tree is another feature in our system. 
+	Because syntactic paths are in general a sparse feature, we reduced the sparsity by collapsing identical adjacent non-terminal labels. 
+	E.g., NP-S-VP-VP-NP is converted to NP-S-VP-NP. This technique decreased the number of paths by 24.8%.
+
+	Examples:
+	>>> createPOSpath('I like to take Ibuprofenos together with aspirins', 'Ibuprofenos', 'aspirins')
+	'RB-IN'
+
+	'''
+
+	# Tokenize the sentence
+	tok_sentence = tokenizeExceptEntities(sentence = sentence, entities_list = [ent1, ent2])
+	pos_tok_sentence = nltk.pos_tag(tok_sentence)
+
+	# Look for the indices of the pair of drugs inside the sentence
+	ent1_idx = tok_sentence.index(ent1)
+	ent2_idx = tok_sentence.index(ent2)
+
+	# Extract the POS tags between the two entities
+	if ent1_idx < ent2_idx:
+		pos_tags = pos_tok_sentence[ent1_idx+1:ent2_idx]
+	else:
+		pos_tags = pos_tok_sentence[ent2_idx+1:ent1_idx]
+
+	# Retain only the tags
+	pos_tags = [tag[1] for tag in pos_tags]
+
+	# Retain only the first two characters of each POS tag
+	pos_tags = [tag[0:2] for tag in pos_tags]
+
+
+	# Export the result in the desired format (simplified argument)
+	res = ''
+	if simplified == False:
+		for idx, tag in enumerate(pos_tags):
+			if idx == len(pos_tags) - 1: # Just append the tag if it's the last tag of the list (without the '-')
+				res = res + tag
+			else:
+				res = res + tag + '-'
+
+		return(res)
+
+	elif simplified == True:
+
+		prev_tag = pos_tags[0]
+		simplified_res = [prev_tag]
+
+		for tag in pos_tags[1:]:
+			if tag != prev_tag:
+				simplified_res.append(tag)
+				prev_tag = tag
+
+		return(simplified_res)
+
+	
+
+
 
 
 def containsPrefix(string, prefix):
