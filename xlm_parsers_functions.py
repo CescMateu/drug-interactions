@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET # ElementTree Library
 import os
 import pandas as pd
+import nltk
 
 def listEntitiesFromXML(file_root_xml):
 
@@ -119,8 +120,12 @@ def listDDIFromXML(file_root_xml):
 	            rel_type = relationships_types[i]
 	            rel_type_int = relationships_type_interaction[i]
 
+	            # POS Tags
+	            pos_tuples = nltk.pos_tag(nltk.word_tokenize(sentence_text))
+	            pos_tags = [tupl[1] for tupl in pos_tuples]
+
 	            # Put the data into a list of lists
-	            row = (sentence_text, e1_name, e2_name, entities_names, rel_type_int)
+	            row = (sentence_text, e1_name, e2_name, entities_names, pos_tags, rel_type_int)
 	            file_interactions.append(row)
 
 	            #row_ids = [sentence_id, sentence_text, e1_id, e1_name, e1_type, e2_id, e2_name, e2_type, entities_names, rel_type, rel_type_int]
@@ -128,6 +133,8 @@ def listDDIFromXML(file_root_xml):
 
 	# Return the result
 	return file_interactions
+
+
 
 def readTrainingData(data_dir):
 

@@ -314,18 +314,25 @@ def createPOSpath(sentence, ent1, ent2, simplified = False):
 	E.g., NP-S-VP-VP-NP is converted to NP-S-VP-NP. This technique decreased the number of paths by 24.8%.
 
 	Examples:
-	>>> createPOSpath('I like to take Ibuprofenos together with aspirins', 'Ibuprofenos', 'aspirins')
+	>>> createPOSpath('I like to take Ibuprofenos together with aspirins', 'Ibuprofenos', 'aspirins', simplified = True)
 	'RB-IN'
-
+	>>> createPOSpath('I like to take Ibuprofenos Fluimucils together with aspirins', 'I', 'aspirins', simplified = False)
+	''
+	>>> createPOSpath('I like to take Ibuprofenos Fluimucils together with aspirins', 'I', 'aspirins', simplified = True)
+	''
 	'''
 
 	# Tokenize the sentence
-	tok_sentence = tokenizeExceptEntities(sentence = sentence, entities_list = [ent1, ent2])
+	#tok_sentence = tokenizeExceptEntities(sentence = sentence, entities_list = [ent1, ent2])
+	tok_sentence = nltk.word_tokenize(sentence)
 	pos_tok_sentence = nltk.pos_tag(tok_sentence)
 
+	ent1 = nltk.word_tokenize(ent1)
+	ent2 = nltk.word_tokenize(ent2)
+
 	# Look for the indices of the pair of drugs inside the sentence
-	ent1_idx = tok_sentence.index(ent1)
-	ent2_idx = tok_sentence.index(ent2)
+	ent1_idx = tok_sentence.index(ent1[0])
+	ent2_idx = tok_sentence.index(ent2[0])
 
 	# Extract the POS tags between the two entities
 	if ent1_idx < ent2_idx:
@@ -353,6 +360,9 @@ def createPOSpath(sentence, ent1, ent2, simplified = False):
 
 	elif simplified == True:
 
+		if len(pos_tags) == 0:
+			return('')
+
 		prev_tag = pos_tags[0]
 		simplified_res = [prev_tag]
 
@@ -361,7 +371,7 @@ def createPOSpath(sentence, ent1, ent2, simplified = False):
 				simplified_res.append(tag)
 				prev_tag = tag
 
-		return(simplified_res)
+		return('-'.join(simplified_res))
 
 	
 
@@ -526,7 +536,57 @@ def computeF1(true, pred):
 	return(2*(prec*rec)/(prec+rec))
 
 
+def sentenceContainsNegation(sentence):
+	'''
 
+	Tests:
+	>>> sentenceContainsNegation("You should not drink coke")
+	1
+	>>> sentenceContainsNegation("You shouldn't drink coke")
+	1
+	>>> sentenceContainsNegation("You can drink any coke you want")
+	0
+	'''
+
+	tokens = nltk.word_tokenize(sentence)
+
+	negations = ["not", "n't"]
+
+	for token in tokens:
+		if token in negations:
+			return(int(True))
+
+	return(int(False))
+
+def keyWordsBetweenEntities(sentence, ent1, ent2):
+	'''
+	
+	>>> keyWordsBetweenEntities('Indicated that PIDIroxyne significantly reduced Neurotoxicity', 'PIDIroxyne', 'Neurotoxicity')
+	1
+	>>> keyWordsBetweenEntities('Indicated that PIDIroxyne significantly reduced Neurotoxicity', 'that', 'PIDIroxyne')
+	0
+	>>> keyWordsBetweenEntities('Indicated that PIDIroxyne significantly did nothing Neurotoxicity', 'Indicated', 'Neurotoxicity')
+	0
+	>>> keyWordsBetweenEntities('Indicated that TNF Blocking Agents significantly did nothing Neurotoxicity', 'TNF Blocking Agents', 'Neurotoxicity')
+	0
+	>>> keyWordsBetweenEntities('Indicated that TNF Blocking Agents significantly increased Neurotoxicity', 'TNF Blocking Agents', 'Neurotoxicity')
+	1
+	'''
+
+	key_words = '^increase|^reduce|^diminish|^affect'
+
+	tokens = tokenizeExceptEntities(sentence, [ent1, ent2])
+
+	idx1 = tokens.index(ent1)
+	idx2 = tokens.index(ent2)
+
+	tokens = tokens[idx1:idx2+1]
+
+	for token in tokens:
+		if re.search(key_words, token):
+			return(int(True))
+
+	return(int(False))
 
 
 if __name__ == '__main__':
