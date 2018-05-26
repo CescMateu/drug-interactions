@@ -9,14 +9,21 @@ import string
 from binary_features_functions import *
 
 # Define precision and recall function for model evaluation
+
 def compute_recall(pred_ent,true_ent):
-    if len(pred_ent) == 0 or len(true_ent) == 0: return 0
+    if len(true_ent)==0: 
+        if len(pred_ent)!=0: return 0
+        else: return -1
     else: return round(len([word for word in pred_ent if word in true_ent])/len(true_ent),2)*100
 
 
 def compute_precision(pred_ent,true_ent):
-    if len(pred_ent) == 0 or len(true_ent) == 0: return 0
-    else: return round(len([word for word in pred_ent if word in true_ent])/len(pred_ent),2)*100     
+    if len(true_ent)==0: 
+        if len(pred_ent)!=0: return 0
+        else: return -1
+    else:
+        if len(pred_ent)==0: return -1
+        else: return round(len([word for word in pred_ent if word in true_ent])/len(pred_ent),2)*100     
 
 # Orthographic features from paper
 def initCap(string):
@@ -165,11 +172,12 @@ def BIOTagger(text, drugs):
     # change the format of drugs to make them fit with a regular expression
     drugs_one_word = []
     for drug in drugs:
-        if ' ' not in drug: # we ignore those drug entities with multiple words
+        if ' ' not in drug[0]: # we ignore those drug entities with multiple words
             drugs_one_word.append(drug)
     
     # creating a list of those drug entities comprised of more than one word and, again, changing its format
-    drugs_multiple_words = [drug.split() for drug in drugs if ' ' in drug]
+    drugs_multiple_words = [(drug[0].split(),drug[1]) for drug in drugs if ' ' in drug[0]]
+    print('drugs multiples: ',drugs_multiple_words)
     # initializing some parameters and the list of tags to be returned
     tokens_to_skip = 0
     bio_tagged = []
@@ -177,13 +185,20 @@ def BIOTagger(text, drugs):
         token_tagged = False
         if tokens_to_skip !=0:
             tokens_to_skip -=1
-        else: # if token does not match with some one-word drug, let's see if it is the first word of a multi-word drug entity
-            if token in drugs_one_word: bio_tagged.append('B')
-            else:
+        else: 
+            for drug in drugs_one_word: 
+                if token == drug[0]:
+                    bio_tagged.append('B-'+drug[1]) # remember drug has the following shape: ('Ibuprofeno','drug')
+                    token_tagged = True
+                    break
+                    
+                    
+            # if token does not match with some one-word drug, let's see if it is the first word of a multi-word drug entity
+            if not token_tagged:
                 for drug in drugs_multiple_words:
-                    if token == drug[0]:
-                        bio_tagged.append('B')
-                        bio_tagged = bio_tagged + ['I']*(len(drug)-1)
+                    if token == drug[0][0]:
+                        bio_tagged.append('B-'+drug[1])
+                        bio_tagged = bio_tagged + ['I']*(len(drug[0])-1)
                         tokens_to_skip = len(drug)-1
                         token_tagged = True
                         break
@@ -191,6 +206,7 @@ def BIOTagger(text, drugs):
                     bio_tagged.append('O')
                 
     bio_tagged = list(zip(tokens,bio_tagged))
+    print(bio_tagged)
     return(bio_tagged)
 
 # -----------------------------------------------------------------
