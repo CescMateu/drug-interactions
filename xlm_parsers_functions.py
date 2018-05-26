@@ -60,6 +60,7 @@ def listDDIFromXML(file_root_xml):
 
 	# Initialise the list accumulator and the names of the final dataframe
 	file_interactions = []
+	file_interactions_ids = []
 
 	# Iterate over the 'sentence' elements in the file
 	for sentence in file_root_xml.iter('sentence'):
@@ -119,8 +120,11 @@ def listDDIFromXML(file_root_xml):
 	            rel_type_int = relationships_type_interaction[i]
 
 	            # Put the data into a list of lists
-	            row = [sentence_id, sentence_text, e1_id, e1_name, e1_type, e2_id, e2_name, e2_type, entities_names, rel_type, rel_type_int]
+	            row = (sentence_text, e1_name, e2_name, entities_names, rel_type_int)
 	            file_interactions.append(row)
+
+	            #row_ids = [sentence_id, sentence_text, e1_id, e1_name, e1_type, e2_id, e2_name, e2_type, entities_names, rel_type, rel_type_int]
+	            #file_interactions_ids.append(row_ids)
 
 	# Return the result
 	return file_interactions
