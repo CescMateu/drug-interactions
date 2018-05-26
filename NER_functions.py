@@ -4,6 +4,7 @@ import nltk,warnings,re
 import pandas as pd
 from nltk.tag import StanfordPOSTagger
 from operator import itemgetter # this will be needed when sorting a list of tuples
+import string
 
 from binary_features_functions import *
 
@@ -109,12 +110,12 @@ def num_ngrams(input_string,n):
 # -----------------------------------------------------------------
 def containsSufix(word):
     
-    '''
-    Self-implemented
-    sufixes = r'ane$|ene$|yne$|ol$|al$|amine$|cid$|ium$|ether$|ate$|afil$|asone$|bicin$|bital$|caine$|cillin$|cycline$|dazole$|dipine$|dronate$|eprazole$|fenac$|floxacin$|gliptin$|glitazone$|iramine$|lamide$|mab$|mustine$|mycin$|nacin$|nazole$|olol$|olone$|onide$|oprazole$|parin$|phylline$|pramine$|pril$|profen$|ridone$|sartan$|semide$|setron$|slatin$|tadine$|terol$|thiazide$|tinib$|trel$|tretin$|triptan$|tyline$|vir$|vudine$|zepam$|zodone$|zolam$|zosin$'
-    '''
     
-    sufixes = r'ane$|ene$|yne$|yl$|ol$|al$|oic$|one$|ate$|amine$|amide$'
+    # Self-implemented
+    sufixes = r'ane$|ene$|yne$|ol$|al$|amine$|cid$|ium$|ether$|ate$|afil$|asone$|bicin$|bital$|caine$|cillin$|cycline$|dazole$|dipine$|dronate$|eprazole$|fenac$|floxacin$|gliptin$|glitazone$|iramine$|lamide$|mab$|mustine$|mycin$|nacin$|nazole$|olol$|olone$|onide$|oprazole$|parin$|phylline$|pramine$|pril$|profen$|ridone$|sartan$|semide$|setron$|slatin$|tadine$|terol$|thiazide$|tinib$|trel$|tretin$|triptan$|tyline$|vir$|vudine$|zepam$|zodone$|zolam$|zosin$'
+    
+    
+    # sufixes = r'ane$|ene$|yne$|yl$|ol$|al$|oic$|one$|ate$|amine$|amide$'
     
     if re.search(sufixes,word): return 1
     else: return 0
@@ -148,57 +149,48 @@ def BIOTagger(text, drugs):
     
     >>> BIOTagger('Ibuprofeno is great!', ['Ibuprofeno'])
     [('Ibuprofeno', 'B'), ('is', 'O'), ('great', 'O'), ('!', 'O')]
-    >>> BIOTagger('I would like to buy calcium-rich milk', ['calcium'])
+    >>> BIOTagger('I would like to buy calcium-rich milk', ['calcium-rich'])
     [('I', 'O'), ('would', 'O'), ('like', 'O'), ('to', 'O'), ('buy', 'O'), ('calcium-rich', 'B'), ('milk', 'O')]
     >>> BIOTagger('Give me TNF antioxidants together with sodium, please', ['TNF antioxidants', 'sodium'])
     [('Give', 'O'), ('me', 'O'), ('TNF', 'B'), ('antioxidants', 'I'), ('together', 'O'), ('with', 'O'), ('sodium', 'B'), (',', 'O'), ('please', 'O')]
+    >>> BIOTagger('Give me TNF antioxidants together with sodium, please I want Iboprufeno Dalci', ['TNF antioxidants', 'sodium','Iboprufeno','Dalci'])
+    [('Give', 'O'), ('me', 'O'), ('TNF', 'B'), ('antioxidants', 'I'), ('together', 'O'), ('with', 'O'), ('sodium', 'B'), (',', 'O'), ('please', 'O'), ('I', 'O'), ('want', 'O'), ('Iboprufeno', 'B'), ('Dalci', 'B')]
+    
     '''
 
     # Preprocessing
     # Tokenize all the words and elements of the original sentence
     tokens = nltk.word_tokenize(text)
-    # Separate all the drugs into individual words
-    drugs = sum([word.split() for word in drugs],[])
-
-    # Bio Tagger
-    # Initialise the bio_tagged list that will accumulate the results and
-    # the 'prev_tag' variable
+    
+    # change the format of drugs to make them fit with a regular expression
+    drugs_one_word = []
+    for drug in drugs:
+        if ' ' not in drug: # we ignore those drug entities with multiple words
+            drugs_one_word.append(drug)
+    
+    # creating a list of those drug entities comprised of more than one word and, again, changing its format
+    drugs_multiple_words = [drug.split() for drug in drugs if ' ' in drug]
+    # initializing some parameters and the list of tags to be returned
+    tokens_to_skip = 0
     bio_tagged = []
-    prev_tag = 'O'
-
-    # For each token of the original sentence, we will check whether there is an entity contained in the token
-    # We will follow a very simple rules to tag each token with the 'BIO' system
     for token in tokens:
-        if prev_tag == 'O' : # Begin NE or continue O
-
-            # In here we contemplate two different cases: 
-            # - Case 1: The token is exactly the same as one of the drugs list
-            # - Case 2: The token has a substring equal to a drug ('calcium-rich' case)
-            if any([drug in token for drug in drugs]):
-                bio_tagged.append((token,'B'))
-                prev_tag = 'B'
+        token_tagged = False
+        if tokens_to_skip !=0:
+            tokens_to_skip -=1
+        else: # if token does not match with some one-word drug, let's see if it is the first word of a multi-word drug entity
+            if token in drugs_one_word: bio_tagged.append('B')
             else:
-                bio_tagged.append((token,'O'))
-                prev_tag = 'O'
-
-        elif prev_tag == 'B': # Inside NE
-
-            if any([drug in token for drug in drugs]):
-                bio_tagged.append((token,'I'))
-                prev_tag = 'I'
-            else: 
-                bio_tagged.append((token,'O'))
-                prev_tag = 'O'
-
-        elif  prev_tag == 'I': # Inside NE
-
-            if any([drug in token for drug in drugs]):
-                bio_tagged.append((token,'I'))
-                prev_tag = 'I'
-            else: 
-                bio_tagged.append((token,'O'))
-                prev_tag = 'O'
-        
+                for drug in drugs_multiple_words:
+                    if token == drug[0]:
+                        bio_tagged.append('B')
+                        bio_tagged = bio_tagged + ['I']*(len(drug)-1)
+                        tokens_to_skip = len(drug)-1
+                        token_tagged = True
+                        break
+                if not token_tagged:
+                    bio_tagged.append('O')
+                
+    bio_tagged = list(zip(tokens,bio_tagged))
     return(bio_tagged)
 
 # -----------------------------------------------------------------
