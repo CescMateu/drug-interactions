@@ -105,7 +105,12 @@ def sent2features(tupl, i, database):
     'first_modal_sentence': getFirstModalVerb(tok_sent),
     'POS_tags_sentence_simpl': createSimplifiedPOSPath(pos_tags),
     '2_grams_bw_entities': getNgramsBetweenEntities(tok_sent, ent1, ent2, 2),
-    '3_grams_bw_entities': getNgramsBetweenEntities(tok_sent, ent1, ent2, 3)
+    '3_grams_bw_entities': getNgramsBetweenEntities(tok_sent, ent1, ent2, 3),
+    'n_entities': numberOfEntities(ent_list),
+    'has_2_ent': has2Ent(ent_list), 
+    'has_3_ent_or_more': has3EntOrMore(ent_list), 
+    'all_ent_after_neg': allEntAfterNeg(tok_sent, ent_list), 
+    'sent_contains_but': sentenceContainsBut(tok_sent)
         
     }
 

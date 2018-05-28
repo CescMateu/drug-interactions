@@ -235,6 +235,51 @@ def countTokensBetweenEntities(sentence_tokenized, ent1, ent2):
 
 	return(abs(sentence_tokenized.index(ent1)-sentence_tokenized.index(ent2)))
 
+def numberOfEntities(entities_list):
+
+	entities_list_lower = [el.lower() for el in entities_list]
+	return(len(set(entities_list)))
+
+def has2Ent(entities_list):
+	return(numberOfEntities(entities_list) == 2)
+
+def has3EntOrMore(entities_list):
+	return(numberOfEntities(entities_list) >= 3)
+
+def allEntAfterNeg(sentence_tokenized, entities_list):
+
+	'''
+	>>> allEntAfterNeg(['My', 'name', 'is', 'not', 'Cesc'], ['Cesc'])
+	1
+	>>> allEntAfterNeg(['My', 'name', 'is', 'not', 'Cesc'], ['Cesc', 'is'])
+	0
+	>>> allEntAfterNeg(['My', 'name', 'is', 'Cesc'], ['Cesc', 'is'])
+	0
+	'''
+
+	negations = ["not", "n't"]
+	n_entities_found = 0
+
+	for token in sentence_tokenized:
+		if token in entities_list:
+			n_entities_found =+ 1
+
+		if token in negations:
+			if n_entities_found > 0:
+				return(int(False))
+			else:
+				return(int(True))
+
+	return(int(False))
+
+def sentenceContainsBut(sentence_tokenized):
+
+	for token in sentence_tokenized:
+		if token == 'but':
+			return(int(True))
+
+	return(int(False))
+
 
 
 
