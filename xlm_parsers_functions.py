@@ -3,6 +3,8 @@ import os
 import pandas as pd
 import nltk
 
+from drug_interaction_functions import *
+
 def listEntitiesFromXML(file_root_xml):
 
 	''' (xml.root.file) -> list of list of str
@@ -124,8 +126,11 @@ def listDDIFromXML(file_root_xml):
 	            pos_tuples = nltk.pos_tag(nltk.word_tokenize(sentence_text))
 	            pos_tags = [tupl[1] for tupl in pos_tuples]
 
+	            # Tokenize the sentence without the entities
+	            tokenized_sentence = tokenizeExceptEntities(sentence_text, [e1_name, e2_name])
+
 	            # Put the data into a list of lists
-	            row = (sentence_text, e1_name, e2_name, entities_names, pos_tags, rel_type_int)
+	            row = (sentence_text, e1_name, e2_name, entities_names, pos_tags, tokenized_sentence, rel_type, rel_type_int)
 	            file_interactions.append(row)
 
 	            #row_ids = [sentence_id, sentence_text, e1_id, e1_name, e1_type, e2_id, e2_name, e2_type, entities_names, rel_type, rel_type_int]
