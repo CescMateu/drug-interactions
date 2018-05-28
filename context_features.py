@@ -6,6 +6,7 @@ import pandas as pd
 # Import self-defined functions
 from drug_functions import *
 from binary_features_functions import *
+from NER_functions import *
 
 def countEntitiesBetweenEntities(sentence_tokenized, ent1, ent2, entities_list):
 	'''
@@ -82,9 +83,6 @@ def getFirstModalVerb(sentence_tokenized):
 			return(token)
 	return('none')
 
-	
-
-
 
 def countModalVerbsBetweenEntities(sentence_tokenized, ent1, ent2):
 	'''
@@ -150,7 +148,7 @@ def keyWordsBetweenEntities(sentence_tokenized, ent1, ent2):
 	'''
 
 	# Define the key words that we want to look for
-	key_words = '^increase|^reduce|^diminish|^affect'
+	key_words = '^increase|^reduce|^diminish|^affect|^inhib'
 
 	# Look for the indices of the entities, so we can iterate over the words in the middle
 	idx1 = sentence_tokenized.index(ent1)
@@ -185,13 +183,57 @@ def createSimplifiedPOSPath(pos_tags):
 	return('-'.join(simpl_pos_tag_list))
 
 
+def getNgramsBetweenEntities(sentence_tokenized, ent1, ent2, n):
+
+	'''
+
+	>>> getNgramsBetweenEntities(['Hello', 'my', 'name', 'is', 'Cesc'], 'my', 'Cesc', 3)
+	['my ', 'y n', ' na', 'nam', 'ame', 'me ', 'e i', ' is', 'is ', 's C', ' Ce', 'Ces', 'esc']
+
+	'''
+
+
+	# Get the range of the sentence in which to iterate
+	if sentence_tokenized.index(ent1) <	sentence_tokenized.index(ent2):
+	    min_idx = sentence_tokenized.index(ent1)
+	    max_idx = sentence_tokenized.index(ent2)
+	else:
+	    min_idx = sentence_tokenized.index(ent2)
+	    max_idx = sentence_tokenized.index(ent1)
+
+
+	words_to_convert = ' '.join(sentence_tokenized[min_idx:max_idx+1])
+
+	return(num_ngrams(words_to_convert, n))
 
 
 
+def countTokensBetweenEntities(sentence_tokenized, ent1, ent2):
+	'''
 
+	Description:
+	Returns an integer indicating the number of tokens between entity1 and entity2, independently from the real order in the sentence.
+	Entity1 and entity2 are also counted in the integer returned. If the entity is not in the sentence, an exception is raised.
 
+	Examples:
+	>>> countTokensBetweenEntities(['My', 'name', 'is', 'Cesc', 'Mateu'], 'My', 'Cesc')
+	3
+	>>> countTokensBetweenEntities(['My', 'name', 'is', 'Cesc', 'Mateu'], 'Cesc', 'My')
+	3
+	>>> countTokensBetweenEntities(['I', 'am', 'listening', 'to', 'music'], 'music', 'music')
+	0
+	>>> countTokensBetweenEntities(['I', 'am', 'listening', 'to', 'music'], 'to', 'music')
+	1
+	>>> countTokensBetweenEntities(['I', 'am', 'listening', 'to', 'music'], 'am', 'music')
+	3
+	'''
 
+	if ent1 not in sentence_tokenized:
+		raise ValueError(ent1, ' was not found in ', sentence_tokenized)
+	if ent2 not in sentence_tokenized:
+		raise ValueError(ent2, ' was not found in ', sentence_tokenized)
 
+	return(abs(sentence_tokenized.index(ent1)-sentence_tokenized.index(ent2)))
 
 
 

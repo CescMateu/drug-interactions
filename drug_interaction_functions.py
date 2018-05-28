@@ -143,36 +143,6 @@ def sentenceContainsNegation(sentence):
 
 	return(int(False))
 
-def keyWordsBetweenEntities(sentence, ent1, ent2):
-	'''
-	
-	>>> keyWordsBetweenEntities('Indicated that PIDIroxyne significantly reduced Neurotoxicity', 'PIDIroxyne', 'Neurotoxicity')
-	1
-	>>> keyWordsBetweenEntities('Indicated that PIDIroxyne significantly reduced Neurotoxicity', 'that', 'PIDIroxyne')
-	0
-	>>> keyWordsBetweenEntities('Indicated that PIDIroxyne significantly did nothing Neurotoxicity', 'Indicated', 'Neurotoxicity')
-	0
-	>>> keyWordsBetweenEntities('Indicated that TNF Blocking Agents significantly did nothing Neurotoxicity', 'TNF Blocking Agents', 'Neurotoxicity')
-	0
-	>>> keyWordsBetweenEntities('Indicated that TNF Blocking Agents significantly increased Neurotoxicity', 'TNF Blocking Agents', 'Neurotoxicity')
-	1
-	'''
-
-	key_words = '^increase|^reduce|^diminish|^affect'
-
-	tokens = tokenizeExceptEntities(sentence, [ent1, ent2])
-
-	idx1 = tokens.index(ent1)
-	idx2 = tokens.index(ent2)
-
-	tokens = tokens[idx1:idx2+1]
-
-	for token in tokens:
-		if re.search(key_words, token):
-			return(int(True))
-
-	return(int(False))
-
 
 if __name__ == '__main__':
     import doctest
