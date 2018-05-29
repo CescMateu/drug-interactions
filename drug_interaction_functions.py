@@ -143,6 +143,14 @@ def sentenceContainsNegation(sentence):
 
 	return(int(False))
 
+def frequency(entity1,entity2,distrFrequencies):
+    num1 = distrFrequencies[entity1]
+    num2 = distrFrequencies[entity2]
+    den = num1+num2
+    if den==0: return 0
+    else:
+        return (2*num1*num2)/den
+
 
 if __name__ == '__main__':
     import doctest
