@@ -73,6 +73,10 @@ def trainCRFAndEvaluate(X_train, y_train, X_test, y_test, labels, hyperparam_opt
         rs.fit(X_train, y_train)
         print("Hyperparameter optimization took %s seconds to complete" % round((time.time() - start_time), 2))
 
+        print('best params:', rs.best_params_)
+        print('best CV score:', rs.best_score_)
+        print('model size: {:0.2f}M'.format(rs.best_estimator_.size_ / 1000000))
+
         crf = rs.best_estimator_
 
         crf.fit(X_train, y_train)

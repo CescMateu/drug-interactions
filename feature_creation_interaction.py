@@ -139,3 +139,17 @@ def text2interaction(text):
 
 def text2interactionType(text):
     return text[-1]
+
+
+def createNewFeatureFromVector(X, new_feature_vector, new_feature_name):
+    '''
+    This functions allows us to quickly incorporate a new feature into our dataset from a vector of values.
+    '''
+    
+    if len(X) != len(new_feature_vector):
+        raise ValueError('X and new_feature_vector have different lenghts')
+    
+    for i in range(len(X)):
+        X[i][0][new_feature_name] = new_feature_vector[i]
+        
+    return(None)
