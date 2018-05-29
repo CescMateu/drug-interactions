@@ -304,6 +304,27 @@ def sentenceContainsContrastExp(sentence_tokenized):
 	return(int(False))
 
 
+def getPOSTagNeighbours(sentence_tokenized, entity, position, pos_tags):
+	'''
+
+	>>> getPOSTagNeighbours(['My', 'name', 'is', 'Cesc'], 'is', -1, ['DTE', 'NNT', 'VBP', 'NNT'])
+	'NN'
+	>>> getPOSTagNeighbours(['My', 'name', 'is', 'Cesc'], 'is', +2, ['DTE', 'NNT', 'VBP', 'NNT'])
+	''
+	>>> getPOSTagNeighbours(['My', 'name', 'is', 'Cesc'], 'is', +1, ['DTE', 'NNT', 'VBP', 'NNT'])
+	'NN'
+	'''
+
+	pos_tags_aux = [tag[0:2] for tag in pos_tags]
+
+	idx_ent = sentence_tokenized.index(entity)
+
+	if (idx_ent+position >= 0) and (idx_ent+position <= (len(pos_tags_aux)-1)):
+		return(pos_tags_aux[idx_ent+position])
+	else:
+		return('')
+
+
 
 
 

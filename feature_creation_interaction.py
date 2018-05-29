@@ -111,7 +111,19 @@ def sent2features(tupl, i, database):
     'has_3_ent_or_more': has3EntOrMore(ent_list), 
     'all_ent_after_neg': allEntAfterNeg(tok_sent, ent_list), 
     'sent_contains_but': sentenceContainsBut(tok_sent),
-    'sent_contains_contrast_expr': sentenceContainsContrastExp(tok_sent)
+    'sent_contains_contrast_expr': sentenceContainsContrastExp(tok_sent),
+    'ent1_pos_tag_prev_word3': getPOSTagNeighbours(tok_sent, ent1, -3, pos_tags),
+    'ent1_pos_tag_prev_word2': getPOSTagNeighbours(tok_sent, ent1, -2, pos_tags),
+    'ent1_pos_tag_prev_word1': getPOSTagNeighbours(tok_sent, ent1, -1, pos_tags),
+    'ent1_pos_tag_following_word1': getPOSTagNeighbours(tok_sent, ent1, +1, pos_tags),
+    'ent1_pos_tag_following_word2': getPOSTagNeighbours(tok_sent, ent1, +2, pos_tags),
+    'ent1_pos_tag_following_word3': getPOSTagNeighbours(tok_sent, ent1, +3, pos_tags),
+    'ent2_pos_tag_prev_word3': getPOSTagNeighbours(tok_sent, ent2, -3, pos_tags),
+    'ent2_pos_tag_prev_word2': getPOSTagNeighbours(tok_sent, ent2, -2, pos_tags),
+    'ent2_pos_tag_prev_word1': getPOSTagNeighbours(tok_sent, ent2, -1, pos_tags),
+    'ent2_pos_tag_following_word1': getPOSTagNeighbours(tok_sent, ent2, +1, pos_tags),
+    'ent2_pos_tag_following_word2': getPOSTagNeighbours(tok_sent, ent2, +2, pos_tags),
+    'ent2_pos_tag_following_word3': getPOSTagNeighbours(tok_sent, ent2, +3, pos_tags)
         
     }
 
