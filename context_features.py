@@ -280,6 +280,29 @@ def sentenceContainsBut(sentence_tokenized):
 
 	return(int(False))
 
+def sentenceContainsContrastExp(sentence_tokenized):
+	'''
+
+	>>> sentenceContainsContrastExp(['My', 'name', 'is', 'Cesc', 'although', 'my', 'friends', 'call', 'me', 'Kiku'])
+	1
+	>>> sentenceContainsContrastExp(['We', 'enjoyed', 'our', 'camping', 'holiday', 'in', 'spite', 'of', 'the', 'rain'])
+	1
+	>>> sentenceContainsContrastExp(['We', 'enjoyed', 'our', 'camping', 'holiday'])
+	0
+	'''
+
+	contrast_words = ['although', 'though', 'despite']
+
+	for i in range(len(sentence_tokenized)):
+
+		if sentence_tokenized[i] in contrast_words:
+			return(int(True))
+
+		if i >= 1:
+			if sentence_tokenized[i] == 'spite' and sentence_tokenized[i-1] == 'in':
+				return(int(True))
+	return(int(False))
+
 
 
 

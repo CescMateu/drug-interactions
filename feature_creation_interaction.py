@@ -110,7 +110,8 @@ def sent2features(tupl, i, database):
     'has_2_ent': has2Ent(ent_list), 
     'has_3_ent_or_more': has3EntOrMore(ent_list), 
     'all_ent_after_neg': allEntAfterNeg(tok_sent, ent_list), 
-    'sent_contains_but': sentenceContainsBut(tok_sent)
+    'sent_contains_but': sentenceContainsBut(tok_sent),
+    'sent_contains_contrast_expr': sentenceContainsContrastExp(tok_sent)
         
     }
 
