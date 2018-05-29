@@ -12,7 +12,7 @@ from NER_functions import *
 from ortographic_features import *
 from context_features import *
 
-def sent2features(tupl, i, database):
+def sent2features(tupl, i, database,freqDistribution):
     
     if len(tupl) != 8:
         raise ValueError('The introduced tuple does not have the correct length')
@@ -123,16 +123,19 @@ def sent2features(tupl, i, database):
     'ent2_pos_tag_prev_word1': getPOSTagNeighbours(tok_sent, ent2, -1, pos_tags),
     'ent2_pos_tag_following_word1': getPOSTagNeighbours(tok_sent, ent2, +1, pos_tags),
     'ent2_pos_tag_following_word2': getPOSTagNeighbours(tok_sent, ent2, +2, pos_tags),
-    'ent2_pos_tag_following_word3': getPOSTagNeighbours(tok_sent, ent2, +3, pos_tags)
+    'ent2_pos_tag_following_word3': getPOSTagNeighbours(tok_sent, ent2, +3, pos_tags) ,
+    
+    # Frequency Feature
+    'F1_frequency': frequency(ent1,ent2,freqDistribution)
         
     }
 
     return features
 
 
-def text2features(text,database):
+def text2features(text,database,database2):
     for i in range(len(text)):
-        return(sent2features(text, i, database))
+        return(sent2features(text, i, database,database2))
 
 def text2interaction(text):
     return text[6]
