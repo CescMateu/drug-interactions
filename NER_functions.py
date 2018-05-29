@@ -177,7 +177,6 @@ def BIOTagger(text, drugs):
     
     # creating a list of those drug entities comprised of more than one word and, again, changing its format
     drugs_multiple_words = [(drug[0].split(),drug[1]) for drug in drugs if ' ' in drug[0]]
-    print('drugs multiples: ',drugs_multiple_words)
     # initializing some parameters and the list of tags to be returned
     tokens_to_skip = 0
     bio_tagged = []
@@ -206,7 +205,6 @@ def BIOTagger(text, drugs):
                     bio_tagged.append('O')
                 
     bio_tagged = list(zip(tokens,bio_tagged))
-    print(bio_tagged)
     return(bio_tagged)
 
 # -----------------------------------------------------------------
@@ -284,6 +282,8 @@ def isTokenInDB(token, db_list):
 
     return(token in db_list)
 # -----------------------------------------------------------------
+def isRareWord(token,freqDistribution,rare_freq):
+    return (freqDistribution[token] in rare_freq)
 # -----------------------------------------------------------------
 
 if __name__ == '__main__':
