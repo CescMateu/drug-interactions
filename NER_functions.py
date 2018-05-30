@@ -154,15 +154,23 @@ def BIOTagger(text, drugs):
     
     Examples/Tests:
     
-    >>> BIOTagger('Ibuprofeno is great!', ['Ibuprofeno'])
-    [('Ibuprofeno', 'B'), ('is', 'O'), ('great', 'O'), ('!', 'O')]
-    >>> BIOTagger('I would like to buy calcium-rich milk', ['calcium-rich'])
-    [('I', 'O'), ('would', 'O'), ('like', 'O'), ('to', 'O'), ('buy', 'O'), ('calcium-rich', 'B'), ('milk', 'O')]
-    >>> BIOTagger('Give me TNF antioxidants together with sodium, please', ['TNF antioxidants', 'sodium'])
-    [('Give', 'O'), ('me', 'O'), ('TNF', 'B'), ('antioxidants', 'I'), ('together', 'O'), ('with', 'O'), ('sodium', 'B'), (',', 'O'), ('please', 'O')]
-    >>> BIOTagger('Give me TNF antioxidants together with sodium, please I want Iboprufeno Dalci', ['TNF antioxidants', 'sodium','Iboprufeno','Dalci'])
-    [('Give', 'O'), ('me', 'O'), ('TNF', 'B'), ('antioxidants', 'I'), ('together', 'O'), ('with', 'O'), ('sodium', 'B'), (',', 'O'), ('please', 'O'), ('I', 'O'), ('want', 'O'), ('Iboprufeno', 'B'), ('Dalci', 'B')]
     
+    >>> BIOTagger('It is unknown whether the concomitant administration of proton pump inhibitors affects duloxetine absorption.', [('proton pump inhibitors', 'group'), ('duloxetine', 'drug')])
+    [('It', 'PRP', 'O'),
+    ('is', 'VBZ', 'O'),
+    ('unknown', 'JJ', 'O'),
+    ('whether', 'IN', 'O'),
+    ('the', 'DT', 'O'),
+    ('concomitant', 'JJ', 'O'),
+    ('administration', 'NN', 'O'),
+    ('of', 'IN', 'O'),
+    ('proton', 'JJ', 'B-group'),
+    ('pump', 'NN', 'I'),
+    ('inhibitors', 'NNS', 'I'),
+    ('affects', 'VBZ', 'O'),
+    ('duloxetine', 'JJ', 'O'),
+    ('absorption', 'NN', 'B-drug'),
+    ('.', '.', 'O')]
     '''
 
     # Preprocessing
@@ -174,7 +182,7 @@ def BIOTagger(text, drugs):
     for drug in drugs:
         if ' ' not in drug[0]: # we ignore those drug entities with multiple words
             drugs_one_word.append(drug)
-    
+    # print(drugs)
     # creating a list of those drug entities comprised of more than one word and, again, changing its format
     drugs_multiple_words = [(drug[0].split(),drug[1]) for drug in drugs if ' ' in drug[0]]
     # initializing some parameters and the list of tags to be returned
@@ -182,11 +190,14 @@ def BIOTagger(text, drugs):
     bio_tagged = []
     for token in tokens:
         token_tagged = False
+        # print('token a analitzar:',token)
         if tokens_to_skip !=0:
             tokens_to_skip -=1
+            # print('es salta perque ja s\'ha etiquetat')
         else: 
             for drug in drugs_one_word: 
                 if token == drug[0]:
+                    # print('el token coincideix amb una droga')
                     bio_tagged.append('B-'+drug[1]) # remember drug has the following shape: ('Ibuprofeno','drug')
                     token_tagged = True
                     break
@@ -196,12 +207,15 @@ def BIOTagger(text, drugs):
             if not token_tagged:
                 for drug in drugs_multiple_words:
                     if token == drug[0][0]:
+                        # print('el token coincideix amb la primera paraula d\'una droga')
                         bio_tagged.append('B-'+drug[1])
                         bio_tagged = bio_tagged + ['I']*(len(drug[0])-1)
-                        tokens_to_skip = len(drug)-1
+                        tokens_to_skip = len(drug[0])-1
+                        # print('tokens a saltar-se: ',tokens_to_skip)
                         token_tagged = True
                         break
                 if not token_tagged:
+                    # print('el token no coincideix amb res i per tant no es cap droga')
                     bio_tagged.append('O')
                 
     bio_tagged = list(zip(tokens,bio_tagged))
