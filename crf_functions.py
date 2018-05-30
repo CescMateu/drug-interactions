@@ -66,7 +66,7 @@ def trainCRFAndEvaluate(X_train, y_train, X_test, y_test, labels, hyperparam_opt
                                 cv=3,
                                 verbose=1,
                                 n_jobs=-1,
-                                n_iter=20,
+                                n_iter=50,
                                 scoring=f1_scorer)
 
         start_time = time.time()
@@ -93,6 +93,32 @@ def trainCRFAndEvaluate(X_train, y_train, X_test, y_test, labels, hyperparam_opt
         ))
         
         return(crf)
+
+
+
+def joinResultsFirstSecondModel(y_test_type, y_pred_type, y_pred_int):
+
+    y_final_pred = []
+    y_pred_type_aux = list(y_pred_type)
+
+    for int_pred in y_pred_int:
+
+        if int_pred[0] == 'false':
+            y_final_pred.append(['none'])
+
+        elif int_pred[0] == 'true':
+            y_final_pred.append(y_pred_type_aux[0])
+            del y_pred_type_aux[0]
+
+        else:
+            raise ValueError('Unknown result value in the list of predictions "y_test_int": ', int_pred[0])
+
+    if len(y_pred_type_aux) != 0:
+        raise ValueError('Oops! Something went wrong')
+
+    print(metrics.flat_classification_report(
+        y_test_type, y_final_pred, labels = ['mechanism', 'advise', 'effect', 'int'], digits=3))
+        
 
 
 
