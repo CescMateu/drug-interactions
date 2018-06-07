@@ -11,7 +11,7 @@ from sklearn.grid_search import RandomizedSearchCV
 
 import time # Execution time of some blocks
 
-def trainCRFAndEvaluate(X_train, y_train, X_test, y_test, labels, hyperparam_optim = False):
+def trainCRFAndEvaluate(X_train, y_train, X_test, y_test, labels, c1 = 0.1, c2 = 0.1, hyperparam_optim = False, n_cv = 3, n_iter = 10):
 
     for i in range(len(y_train)):
             if y_train[i][0] is None:
@@ -21,8 +21,8 @@ def trainCRFAndEvaluate(X_train, y_train, X_test, y_test, labels, hyperparam_opt
 
         crf = sklearn_crfsuite.CRF(
             algorithm='lbfgs',
-            c1=0.1,
-            c2=0.1,
+            c1=c1,
+            c2=c2,
             max_iterations=100,
             all_possible_transitions=True
         )
@@ -54,8 +54,10 @@ def trainCRFAndEvaluate(X_train, y_train, X_test, y_test, labels, hyperparam_opt
 
         ## Parameter search
         # Use the same metric for evaluation
-        f1_scorer = make_scorer(metrics.flat_f1_score,
-                                average='weighted')
+        f1_scorer = make_scorer(
+            metrics.flat_f1_score,
+            labels = labels,
+            average='weighted')
 
         params_space = {
             'c1': scipy.stats.expon(scale=0.5),
@@ -63,10 +65,10 @@ def trainCRFAndEvaluate(X_train, y_train, X_test, y_test, labels, hyperparam_opt
         }
 
         rs = RandomizedSearchCV(crf, params_space,
-                                cv=3,
+                                cv=n_cv,
                                 verbose=1,
                                 n_jobs=-1,
-                                n_iter=50,
+                                n_iter=n_iter,
                                 scoring=f1_scorer)
 
         start_time = time.time()

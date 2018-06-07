@@ -42,9 +42,7 @@ def sent2features(tupl, i, database,freqDistribution):
     'ent1_single_digit' : singleDigit(ent1),
     'ent1_letter_and_num' : alphaNum(ent1),
     'ent1_many_numbers' : manyNum(ent1),
-    'ent1_contains_real_numbers' : realNum(ent1),
-    'ent1_intermediate_dash' : inDash(ent1),
-    'ent1_has_digit' : hasDigit(ent1),
+    'ent1_contains_real_numbers' : realNum(ent1),f
     'ent1_is_Dash' : isDash(ent1),
     'ent1_is_roman_letter' : roman(ent1),
     'ent1_is_end_punctuation' : endPunctuation(ent1),
